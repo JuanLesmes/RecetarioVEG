@@ -1,5 +1,6 @@
 import { useMemo, useState, type FormEvent, type KeyboardEvent } from 'react';
-import { recipes } from '@/data';
+import { recipes as catalog } from '@/data';
+import { useRecipes } from '@/store/RecipesContext';
 import { matchPantry, pantryVocabulary, STAPLES, suggestIngredients, type PantryMatch } from '@/domain/pantry';
 import type { Diet } from '@/domain/recipe';
 import { useApp } from '@/store/AppContext';
@@ -10,7 +11,7 @@ import { Icon } from '@/components/ui/Icon';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { RecipeCard } from '@/components/recipe/RecipeCard';
 
-const vocabulary = pantryVocabulary(recipes);
+const vocabulary = pantryVocabulary(catalog);
 const POPULAR = vocabulary.slice(0, 18).map((v) => v.name);
 
 function MatchFooter({ match }: { match: PantryMatch }) {
@@ -41,6 +42,7 @@ function MatchFooter({ match }: { match: PantryMatch }) {
 
 export function PantryPage() {
   useDocumentTitle('Cocina con lo que tienes');
+  const { all: recipes } = useRecipes();
   const { pantry, addPantryItem, removePantryItem, clearPantry } = useApp();
   const [input, setInput] = useState('');
   const [ignoreStaples, setIgnoreStaples] = useState(true);
@@ -53,7 +55,7 @@ export function PantryPage() {
 
   const matches = useMemo(
     () => matchPantry(recipes, pantry, { ignoreStaples, onlyComplete, diet, maxMissing }),
-    [pantry, ignoreStaples, onlyComplete, diet, maxMissing],
+    [recipes, pantry, ignoreStaples, onlyComplete, diet, maxMissing],
   );
 
   const add = (value: string) => {

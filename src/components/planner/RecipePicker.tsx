@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { recipes } from '@/data';
+import { useRecipes } from '@/store/RecipesContext';
 import { CATEGORY_LABELS, formatMinutes, recipeVisual, totalTime, type Category, type Recipe } from '@/domain/recipe';
 import { EMPTY_FILTERS, searchRecipes } from '@/domain/search';
 import { Dialog } from '@/components/ui/Dialog';
@@ -17,6 +17,7 @@ interface RecipePickerProps {
 }
 
 export function RecipePicker({ open, title, onClose, onPick, suggestedCategories = [] }: RecipePickerProps) {
+  const { all: recipes } = useRecipes();
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState<Category | null>(suggestedCategories[0] ?? null);
 
@@ -27,7 +28,7 @@ export function RecipePicker({ open, title, onClose, onPick, suggestedCategories
         query,
         categories: category ? [category] : [],
       }).slice(0, 40),
-    [query, category],
+    [recipes, query, category],
   );
 
   return (

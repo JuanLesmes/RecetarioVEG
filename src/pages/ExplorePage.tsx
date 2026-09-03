@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { recipes } from '@/data';
+import { useRecipes } from '@/store/RecipesContext';
 import { countActiveFilters, searchRecipes, SORT_OPTIONS, type SortOption } from '@/domain/search';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { useDebouncedValue } from '@/hooks/useDebouncedValue';
@@ -17,6 +17,7 @@ const PAGE_SIZE = 24;
 
 export function ExplorePage() {
   useDocumentTitle('Explorar recetas');
+  const { all: recipes } = useRecipes();
   const { filters, page, update, setPage, reset } = useUrlFilters();
   const [params] = useSearchParams();
   const [queryInput, setQueryInput] = useState(filters.query);
@@ -43,7 +44,7 @@ export function ExplorePage() {
     };
   }, [filtersOpen, isMobile]);
 
-  const results = useMemo(() => searchRecipes(recipes, filters), [filters]);
+  const results = useMemo(() => searchRecipes(recipes, filters), [recipes, filters]);
   const totalPages = Math.max(1, Math.ceil(results.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const pageItems = results.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE).map((r) => r.recipe);

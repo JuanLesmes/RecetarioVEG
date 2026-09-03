@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { getRecipeById, getRecipesByIds, recipes } from '@/data';
 import { countPlannedMeals, MEAL_SLOT_LABELS, MEAL_SLOTS, plannedRecipeIds, slotKey, WEEK_DAYS, type MealSlot, type WeekDay } from '@/domain/planner';
 import { recipeVisual, type Category, type Recipe } from '@/domain/recipe';
 import { useApp } from '@/store/AppContext';
+import { useRecipes } from '@/store/RecipesContext';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { useMediaQuery } from '@/hooks/useMediaQuery';
 import { Button } from '@/components/ui/Button';
@@ -40,15 +40,18 @@ function pickRandom(list: Recipe[], exclude: Set<string>): Recipe | undefined {
 export function PlannerPage() {
   useDocumentTitle('Planificador semanal');
   const { plan, setMeal, clearMeal, clearPlan, addRecipeToShopping, notify } = useApp();
+  const { all: recipes, byId: getRecipeById } = useRecipes();
+  const getRecipesByIds = (ids: readonly string[]) => ids.map((id) => getRecipeById(id)).filter((r): r is Recipe => r !== undefined);
   const [target, setTarget] = useState<{ day: WeekDay; slot: MealSlot } | null>(null);
   const [activeDay, setActiveDay] = useState<WeekDay>(() => todayWeekDay());
   const isMobile = useMediaQuery('(max-width: 900px)');
 
-  const planned = useMemo(() => getRecipesByIds(plannedRecipeIds(plan)), [plan]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const planned = useMemo(() => getRecipesByIds(plannedRecipeIds(plan)), [plan, getRecipeById]);
   const totalMeals = countPlannedMeals(plan);
   const totalCalories = useMemo(
     () => Object.values(plan).reduce((sum, id) => sum + (getRecipeById(id)?.nutrition.calories ?? 0), 0),
-    [plan],
+    [plan, getRecipeById],
   );
 
   const generateShopping = () => {

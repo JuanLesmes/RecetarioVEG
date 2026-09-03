@@ -136,6 +136,21 @@ ol {
   color: var(--text-muted);
 }
 
+code {
+  font-family: ui-monospace, 'Cascadia Mono', Menlo, monospace;
+  font-size: 0.88em;
+  padding: 0.1em 0.4em;
+  border-radius: 4px;
+  background: var(--bg-muted);
+  overflow-wrap: anywhere;
+}
+
+p,
+li,
+dd {
+  overflow-wrap: anywhere;
+}
+
 .eyebrow {
   font-size: 0.78rem;
   font-weight: 700;

@@ -10,6 +10,10 @@ import { PlannerPage } from '@/pages/PlannerPage';
 import { PantryPage } from '@/pages/PantryPage';
 import { AboutPage } from '@/pages/AboutPage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
+import { AccountPage } from '@/pages/AccountPage';
+import { MyRecipesPage } from '@/pages/MyRecipesPage';
+import { RecipeEditorPage } from '@/pages/RecipeEditorPage';
+import { CommunityPage } from '@/pages/CommunityPage';
 
 export function App() {
   return (
@@ -23,6 +27,11 @@ export function App() {
         <Route path="/lista-de-compras" element={<ShoppingListPage />} />
         <Route path="/planificador" element={<PlannerPage />} />
         <Route path="/despensa" element={<PantryPage />} />
+        <Route path="/comunidad" element={<CommunityPage />} />
+        <Route path="/mis-recetas" element={<MyRecipesPage />} />
+        <Route path="/mis-recetas/nueva" element={<RecipeEditorPage />} />
+        <Route path="/mis-recetas/:id/editar" element={<RecipeEditorPage />} />
+        <Route path="/cuenta" element={<AccountPage />} />
         <Route path="/acerca" element={<AboutPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>

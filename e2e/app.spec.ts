@@ -149,9 +149,53 @@ test.describe('Recetario VEG', () => {
     await expect(page).toHaveURL(/\/recetas$/);
   });
 
+  test('se puede subir una receta con el asistente y aparece en "Mis recetas"', async ({ page }) => {
+    await page.goto('/mis-recetas/nueva');
+    await page.getByTestId('title-input').fill('Arroz con coco de prueba');
+    await page.getByTestId('description-input').fill('Arroz dulce y salado al estilo de la costa, para acompañar patacones o pescado vegetal.');
+    await page.getByTestId('category-select').selectOption('plato-principal');
+    await page.getByTestId('visual-rice').click();
+
+    await page.getByTestId('wizard-next').click();
+    const rows = page.getByTestId('ingredient-rows').getByRole('listitem');
+    const fill = async (i: number, qty: string, unit: string, name: string) => {
+      await rows.nth(i).getByLabel(`Unidad del ingrediente ${i + 1}`).selectOption(unit);
+      await rows.nth(i).getByLabel(`Cantidad del ingrediente ${i + 1}`).fill(qty);
+      await rows.nth(i).getByLabel(`Nombre del ingrediente ${i + 1}`).fill(name);
+    };
+    await fill(0, '2', 'taza', 'arroz blanco');
+    await fill(1, '400', 'ml', 'leche de coco');
+    await fill(2, '2', 'cucharada', 'panela');
+
+    await page.getByTestId('wizard-next').click();
+    await page.getByTestId('step-text-0').fill('Cocina la leche de coco 15 minutos hasta que suelte el aceite.');
+    await page.getByTestId('step-text-1').fill('Agrega el arroz, la panela y dos tazas de agua; cocina 20 minutos.');
+    await page.getByTestId('step-text-2').fill('Deja reposar tapado 10 minutos y sirve.');
+
+    await page.getByTestId('wizard-next').click();
+    await page.getByTestId('tip-0').fill('Usa leche de coco de lata para más sabor.');
+    await page.getByRole('button', { name: 'tradicional', exact: true }).click();
+    await page.getByTestId('estimate-nutrition').click();
+    await expect(page.getByTestId('nutrition-calories')).not.toHaveValue('0');
+
+    await page.getByTestId('wizard-next').click();
+    await page.getByTestId('save-private').click();
+    await expect(page).toHaveURL(/\/mis-recetas$/);
+    await expect(page.getByTestId('my-recipes-count')).toContainText('1 receta');
+    await page.getByRole('link', { name: 'Arroz con coco de prueba' }).click();
+    await expect(page.getByRole('heading', { level: 1, name: 'Arroz con coco de prueba' })).toBeVisible();
+    await expect(page.getByTestId('origin-badge')).toContainText('Tu receta');
+  });
+
+  test('la página de cuenta funciona en modo local', async ({ page }) => {
+    await page.goto('/cuenta');
+    await expect(page.getByRole('heading', { level: 1, name: 'Mi espacio' })).toBeVisible();
+    await expect(page.getByTestId('sync-status')).toContainText('Guardado en este dispositivo');
+  });
+
   test('la página no tiene scroll horizontal en móvil', async ({ page }, testInfo) => {
     test.skip(testInfo.project.name !== 'mobile', 'solo aplica al viewport móvil');
-    for (const path of ['/', '/recetas', '/despensa', '/planificador', '/lista-de-compras']) {
+    for (const path of ['/', '/recetas', '/despensa', '/planificador', '/lista-de-compras', '/mis-recetas/nueva', '/cuenta', '/comunidad']) {
       await page.goto(path);
       const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
       expect(overflow, `scroll horizontal en ${path}`).toBeLessThanOrEqual(1);
