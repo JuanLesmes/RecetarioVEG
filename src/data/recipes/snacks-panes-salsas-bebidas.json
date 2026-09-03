@@ -1,0 +1,703 @@
+[
+  {
+    "id": "garbanzos-crujientes-especiados-al-horno",
+    "title": "Garbanzos crujientes especiados al horno",
+    "description": "Garbanzos secados con cuidado y horneados hasta quedar crujientes, cubiertos al final con una mezcla de paprika ahumada, comino y ajo. Un snack alto en proteína que reemplaza a las papas fritas.",
+    "visual": "snack",
+    "diet": "vegana",
+    "category": "snack",
+    "cuisine": "Medio Oriente",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "garbanzos cocidos", "quantity": 400, "unit": "g", "note": "de lata o cocinados en casa; escurridos, enjuagados y muy bien secos" },
+      { "name": "aceite de oliva", "quantity": 1.5, "unit": "cucharada" },
+      { "name": "paprika ahumada", "quantity": 1, "unit": "cucharadita", "aliases": ["pimentón ahumado", "pimentón de la Vera", "páprika ahumada"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "ajo en polvo", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "pimienta de cayena", "quantity": 1, "unit": "pizca", "note": "opcional", "aliases": ["cayena", "ají en polvo", "chile en polvo"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C. Escurre y enjuaga los garbanzos, extiéndelos sobre un paño de cocina limpio y sécalos frotando con suavidad; retira las cascaritas que se suelten.",
+      "Pasa los garbanzos secos a una bandeja con papel parafinado (papel de hornear) y mézclalos con el aceite. Distribúyelos en una sola capa, sin amontonarlos.",
+      "Hornea 20 minutos, sacude la bandeja y hornea otros 10-15 minutos hasta que estén dorados y suenen secos al moverlos.",
+      "Mientras tanto, mezcla en un tazón pequeño la paprika, el comino, el ajo en polvo, la sal y la cayena.",
+      "Saca la bandeja, espolvorea la mezcla de especias sobre los garbanzos calientes y revuelve para cubrirlos por completo.",
+      "Regresa la bandeja al horno 5 minutos más para que las especias se tuesten ligeramente sin quemarse.",
+      "Deja enfriar sobre la bandeja unos 10 minutos: al perder calor terminan de quedar crujientes. Sirve tibios o a temperatura ambiente."
+    ],
+    "tags": ["al horno", "alto en proteína", "económico", "sin gluten", "meal prep"],
+    "tips": [
+      "El secado es la clave: cualquier resto de humedad produce garbanzos blandos. Si tienes tiempo, déjalos extendidos sobre el paño 30 minutos antes de hornear.",
+      "Agrega las especias al final y no al principio; la paprika y el ajo en polvo se queman con 40 minutos de horno y amargan.",
+      "Guárdalos en un frasco sin tapar del todo (o con un papel entre el frasco y la tapa) para que no se ablanden con el vapor; se conservan crujientes 3-4 días.",
+      "En freidora de aire (airfryer) funcionan a 190 °C durante 15-18 minutos, agitando la canasta cada 5 minutos."
+    ],
+    "nutrition": { "calories": 210, "protein": 9, "carbs": 26, "fat": 8, "fiber": 7 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/garbanzos-al-horno/" },
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-aperitivos/snacks-de-garbanzos-especiados-receta-para-no-dejar-de-picotear" }
+    ]
+  },
+  {
+    "id": "energy-balls-de-datiles-y-avena",
+    "title": "Energy balls de dátiles y avena",
+    "description": "Bolitas energéticas sin horno hechas con dátiles, avena, mantequilla de maní y cacao, cubiertas con coco rallado. Se preparan en 20 minutos y duran toda la semana en la nevera.",
+    "visual": "truffles",
+    "diet": "vegana",
+    "category": "snack",
+    "cuisine": "Internacional",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "dátiles medjool sin semilla", "quantity": 200, "unit": "g", "note": "unos 12 dátiles" },
+      { "name": "avena en hojuelas", "quantity": 100, "unit": "g", "aliases": ["hojuelas de avena", "copos de avena", "avena en copos"] },
+      { "name": "mantequilla de maní", "quantity": 3, "unit": "cucharada", "note": "o de almendras", "aliases": ["mantequilla de cacahuate", "crema de cacahuate", "manteca de maní"] },
+      { "name": "cacao en polvo sin azúcar", "quantity": 2, "unit": "cucharada" },
+      { "name": "semillas de chía", "quantity": 1, "unit": "cucharada" },
+      { "name": "coco rallado", "quantity": 3, "unit": "cucharada", "note": "para cubrir las bolitas" },
+      { "name": "esencia de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["extracto de vainilla"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "agua", "quantity": 1, "unit": "cucharada", "note": "solo si la masa queda seca" }
+    ],
+    "steps": [
+      "Si los dátiles están duros, remójalos en agua caliente 10 minutos y escúrrelos muy bien.",
+      "Procesa la avena en el procesador de alimentos unos segundos hasta obtener una harina gruesa; resérvala aparte.",
+      "Procesa los dátiles con la mantequilla de maní, la vainilla y la sal hasta formar una pasta pegajosa y uniforme.",
+      "Agrega la avena, el cacao y la chía y procesa en pulsos hasta que la masa se compacte al apretarla con los dedos; si queda seca, añade la cucharada de agua.",
+      "Toma porciones de una cucharada colmada y forma 12 bolitas con las manos ligeramente húmedas.",
+      "Pasa cada bolita por el coco rallado y acomódalas en un recipiente con tapa.",
+      "Refrigera al menos 30 minutos para que tomen firmeza antes de servir."
+    ],
+    "tags": ["sin horno", "rápido", "meal prep", "sin azúcar añadida", "para niños"],
+    "tips": [
+      "Los dátiles medjool son más blandos y dulces; si usas dátiles deglet nour, remójalos siempre y quizá necesites una cucharada extra de agua.",
+      "Cambia el cacao por 2 cucharadas de coco rallado extra o por ralladura de naranja para una versión sin chocolate.",
+      "Se conservan 1 semana en la nevera y hasta 2 meses en el congelador; sácalas 10 minutos antes de comerlas."
+    ],
+    "nutrition": { "calories": 235, "protein": 6, "carbs": 34, "fat": 9, "fiber": 6 },
+    "sources": [
+      { "name": "Vitónica", "url": "https://www.vitonica.com/recetas-saludables/energy-balls-bolitas-energeticas-avena-mantequilla-cacahuete-datiles-coco-receta-snack-saludable" },
+      { "name": "Cocina con Michela", "url": "https://cocinaconmichela.com/energy-balls-basicos-4-ingredientes-sin-horno/" }
+    ]
+  },
+  {
+    "id": "chips-de-kale-con-levadura-nutricional",
+    "title": "Chips de kale con levadura nutricional",
+    "description": "Hojas de kale masajeadas con aceite y limón, espolvoreadas con levadura nutricional y horneadas a baja temperatura hasta quedar finas y crujientes, con un sabor que recuerda al queso.",
+    "visual": "snack",
+    "diet": "vegana",
+    "category": "snack",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 22,
+    "servings": 4,
+    "ingredients": [
+      { "name": "kale (col rizada)", "quantity": 1, "unit": "manojo", "note": "unos 250 g", "aliases": ["col rizada", "col crespa"] },
+      { "name": "aceite de oliva", "quantity": 1.5, "unit": "cucharada" },
+      { "name": "levadura nutricional", "quantity": 3, "unit": "cucharada", "note": "se consigue en tiendas naturistas" },
+      { "name": "ajo en polvo", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "paprika dulce", "quantity": 0.5, "unit": "cucharadita", "aliases": ["pimentón dulce", "pimentón molido", "páprika"] },
+      { "name": "sal", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["zumo de limón", "jugo de lima"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 150 °C y forra dos bandejas con papel parafinado (papel de hornear).",
+      "Lava el kale, sécalo por completo (idealmente con centrífuga de ensaladas) y retira los tallos gruesos. Parte las hojas en pedazos de unos 5 cm.",
+      "Pon las hojas en un recipiente grande con el aceite y el jugo de limón y masajéalas 1 minuto hasta que queden brillantes y algo más blandas.",
+      "Espolvorea la levadura nutricional, el ajo en polvo, la paprika y la sal, y mezcla con las manos para repartir bien el condimento.",
+      "Extiende las hojas en una sola capa en las bandejas, sin que se superpongan.",
+      "Hornea 12 minutos, voltea las hojas y hornea 8-10 minutos más hasta que estén secas y crujientes pero sin dorarse en exceso.",
+      "Deja enfriar 5 minutos en la bandeja y sirve de inmediato."
+    ],
+    "tags": ["al horno", "sin gluten", "bajo en calorías", "sin soya"],
+    "tips": [
+      "La temperatura baja deshidrata en lugar de tostar; si subes el horno, las hojas se queman en los bordes antes de secarse en el centro.",
+      "Si las hojas quedan húmedas al hornearlas, saldrán gomosas: el secado previo es tan importante como la cocción.",
+      "Pierden lo crujiente en pocas horas por la humedad, así que prepáralas para comerlas el mismo día."
+    ],
+    "nutrition": { "calories": 85, "protein": 4, "carbs": 6, "fat": 6, "fiber": 2 },
+    "sources": [
+      { "name": "Minimalist Baker", "url": "https://minimalistbaker.com/30-minute-cheesy-kale-chips/" },
+      { "name": "Carmy", "url": "https://carmyy.com/kale-chips-with-nutritional-yeast/" }
+    ]
+  },
+  {
+    "id": "barritas-de-granola-con-miel-y-mantequilla-de-mani",
+    "title": "Barritas de granola con miel y mantequilla de maní",
+    "description": "Barritas masticables sin horno que se compactan con miel y mantequilla de maní calientes, con avena tostada, almendras, arándanos y chispas de chocolate. Ideales para la lonchera o antes de entrenar.",
+    "visual": "granola",
+    "diet": "vegetariana",
+    "category": "snack",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "servings": 10,
+    "ingredients": [
+      { "name": "avena en hojuelas", "quantity": 200, "unit": "g", "aliases": ["hojuelas de avena", "copos de avena", "avena en copos"] },
+      { "name": "mantequilla de maní", "quantity": 180, "unit": "g", "note": "cremosa", "aliases": ["mantequilla de cacahuate", "crema de cacahuate", "manteca de maní"] },
+      { "name": "miel", "quantity": 120, "unit": "ml", "aliases": ["miel de abejas"] },
+      { "name": "esencia de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["extracto de vainilla"] },
+      { "name": "canela molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "almendras", "quantity": 50, "unit": "g", "note": "picadas" },
+      { "name": "arándanos deshidratados", "quantity": 50, "unit": "g", "aliases": ["cranberries", "arándanos rojos secos"] },
+      { "name": "linaza molida", "quantity": 2, "unit": "cucharada", "aliases": ["lino molido", "semillas de lino molidas"] },
+      { "name": "chispas de chocolate amargo", "quantity": 40, "unit": "g", "note": "opcional", "aliases": ["chips de chocolate", "gotas de chocolate"] }
+    ],
+    "steps": [
+      "Forra un molde cuadrado de 20 cm con papel parafinado (papel de hornear) dejando bordes que sobresalgan para desmoldar después.",
+      "Tuesta la avena y las almendras en una sartén seca a fuego medio 4-5 minutos, moviendo, hasta que huelan a tostado. Pásalas a un recipiente grande.",
+      "Añade al recipiente la linaza, la canela, la sal y los arándanos y mezcla.",
+      "Calienta en una olla pequeña a fuego bajo la mantequilla de maní con la miel, revolviendo 2-3 minutos hasta que estén fluidas y bien integradas. Retira del fuego y agrega la vainilla.",
+      "Vierte la mezcla tibia sobre los ingredientes secos y revuelve hasta que no queden partes sin cubrir; la masa debe quedar densa y pegajosa.",
+      "Cuando la mezcla esté tibia y no caliente, incorpora las chispas de chocolate, pasa todo al molde y presiona con fuerza con el fondo de un vaso para compactar.",
+      "Refrigera 1 hora, desmolda tirando del papel y corta en 10 barritas con un cuchillo grande."
+    ],
+    "tags": ["sin horno", "rápido", "meal prep", "para niños"],
+    "tips": [
+      "Presionar con fuerza es lo que evita que las barritas se desmoronen; no tengas miedo de compactar bien.",
+      "Si la mezcla se ve seca antes de moldear, añade una cucharada más de miel; si está muy húmeda, un puñado más de avena.",
+      "Guárdalas en la nevera con papel entre capas hasta 2 semanas; a temperatura ambiente se ablandan."
+    ],
+    "nutrition": { "calories": 305, "protein": 9, "carbs": 36, "fat": 15, "fiber": 4 },
+    "veganAlternative": "Sustituye la miel por la misma cantidad de miel de maple o miel de agave y usa chispas de chocolate sin leche; el resultado queda igual de compacto.",
+    "sources": [
+      { "name": "Well Plated", "url": "https://www.wellplated.com/no-bake-granola-bars/" },
+      { "name": "Bless This Mess", "url": "https://www.blessthismessplease.com/4-ingredient-peanut-butter-honey-granola-bars-no-bake/" }
+    ]
+  },
+  {
+    "id": "pan-pita-casero-esponjoso",
+    "title": "Pan pita casero esponjoso",
+    "description": "Panes planos de masa de trigo que se inflan en el horno muy caliente y forman su bolsillo característico. Suaves y flexibles, perfectos para rellenar o acompañar hummus. Incluye unas 2 horas de fermentación.",
+    "visual": "flatbread",
+    "diet": "vegana",
+    "category": "pan",
+    "cuisine": "Medio Oriente",
+    "difficulty": "media",
+    "prepTimeMinutes": 110,
+    "cookTimeMinutes": 15,
+    "servings": 8,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 400, "unit": "g", "note": "común (todo uso) o de panadería", "aliases": ["harina de fuerza", "harina todo uso"] },
+      { "name": "agua tibia", "quantity": 250, "unit": "ml" },
+      { "name": "levadura seca instantánea", "quantity": 5, "unit": "g", "note": "1 cucharadita y media", "aliases": ["levadura de panadería", "levadura instantánea"] },
+      { "name": "sal", "quantity": 8, "unit": "g" },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "azúcar", "quantity": 1, "unit": "cucharadita" }
+    ],
+    "steps": [
+      "Disuelve la levadura y el azúcar en el agua tibia y espera 5-10 minutos hasta que se forme espuma en la superficie.",
+      "Mezcla la harina con la sal en un recipiente grande, agrega el agua con levadura y el aceite, y une hasta formar una masa pegajosa.",
+      "Amasa sobre la mesa 8-10 minutos hasta que la masa esté lisa, elástica y ya no se pegue a las manos.",
+      "Forma una bola, colócala en un recipiente aceitado, tapa con un paño y deja fermentar 1 hora a 1 hora y media, hasta que duplique su volumen.",
+      "Desgasifica la masa, divídela en 8 porciones iguales y bolea cada una. Tápalas y déjalas reposar 15 minutos.",
+      "Precalienta el horno a 250 °C (o al máximo) con una bandeja o piedra dentro durante al menos 20 minutos.",
+      "Estira cada bola con rodillo sobre superficie enharinada hasta un disco de 15-18 cm y unos 5 mm de grosor, sin pellizcar ni doblar la masa.",
+      "Coloca 2-3 discos sobre la bandeja caliente y hornea 3-4 minutos: deben inflarse como un globo y apenas dorarse. Repite con el resto.",
+      "Al salir del horno, apila los panes y envuélvelos en un paño limpio para que se mantengan suaves y flexibles."
+    ],
+    "tags": ["al horno", "económico", "tradicional", "sin frutos secos", "meal prep"],
+    "tips": [
+      "La bandeja debe estar realmente caliente: el golpe de calor convierte la humedad de la masa en vapor y eso es lo que infla el pan.",
+      "Si un disco no se infla, probablemente quedó demasiado grueso o tenía un pliegue; sigue siendo delicioso como pan plano.",
+      "Sin horno, cocínalos en una sartén de hierro muy caliente 1-2 minutos por lado, tapando la sartén al voltearlos.",
+      "Se congelan muy bien ya horneados; caliéntalos directamente en el tostador."
+    ],
+    "nutrition": { "calories": 210, "protein": 6, "carbs": 39, "fat": 4, "fiber": 2 },
+    "sources": [
+      { "name": "Paula's Apron", "url": "https://paulasapron.com/pan-pita/" },
+      { "name": "El invitado de invierno", "url": "https://invitadoinvierno.com/pan-de-pita-casero/" }
+    ]
+  },
+  {
+    "id": "focaccia-de-romero-y-sal-gruesa",
+    "title": "Focaccia de romero y sal gruesa",
+    "description": "Pan italiano de miga aireada y corteza dorada, con hoyuelos llenos de aceite de oliva, romero fresco y escamas de sal. Una masa muy hidratada que casi no requiere amasado. Incluye 1 hora y media de fermentación.",
+    "visual": "flatbread",
+    "diet": "vegana",
+    "category": "pan",
+    "cuisine": "Italiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 100,
+    "cookTimeMinutes": 25,
+    "servings": 8,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 500, "unit": "g", "note": "común (todo uso) o de panadería", "aliases": ["harina de fuerza", "harina todo uso"] },
+      { "name": "agua tibia", "quantity": 350, "unit": "ml" },
+      { "name": "levadura seca instantánea", "quantity": 7, "unit": "g", "aliases": ["levadura de panadería", "levadura instantánea"] },
+      { "name": "sal", "quantity": 10, "unit": "g" },
+      { "name": "azúcar", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceite de oliva extra virgen", "quantity": 80, "unit": "ml", "note": "dividido entre la masa, la bandeja y la superficie" },
+      { "name": "romero fresco", "quantity": 3, "unit": "rama" },
+      { "name": "sal gruesa en escamas", "quantity": 1, "unit": "cucharadita", "aliases": ["sal en escamas", "sal marina gruesa"] },
+      { "name": "tomates cherry", "quantity": 10, "unit": "unidad", "note": "opcional, partidos por la mitad", "aliases": ["tomate cereza"] }
+    ],
+    "steps": [
+      "Mezcla en un recipiente grande la harina, la levadura, el azúcar y la sal. Agrega el agua tibia y 2 cucharadas del aceite y revuelve con una cuchara hasta no ver harina seca; la masa quedará blanda y pegajosa.",
+      "Amasa dentro del recipiente o sobre la mesa aceitada 5 minutos, estirando y plegando la masa sobre sí misma, hasta que esté elástica. No agregues más harina.",
+      "Tapa el recipiente con un paño y deja fermentar 1 hora en un lugar tibio hasta que duplique su tamaño.",
+      "Engrasa generosamente con 2 cucharadas de aceite una bandeja de unos 30 x 20 cm. Pasa la masa a la bandeja y estírala con los dedos aceitados hasta cubrirla por completo.",
+      "Deja reposar destapada 25-30 minutos mientras precalientas el horno a 220 °C.",
+      "Hunde los dedos en toda la superficie para formar los típicos hoyuelos. Riega con el aceite restante mezclado con 1 cucharada de agua.",
+      "Reparte las hojas de romero, la sal gruesa y los tomates cherry si los usas, presionándolos ligeramente en la masa.",
+      "Hornea 20-25 minutos en la parte media del horno hasta que la superficie esté dorada y el fondo suene hueco al golpearlo.",
+      "Deja enfriar 10 minutos en la bandeja, corta en cuadrados y sirve tibia."
+    ],
+    "tags": ["al horno", "tradicional", "para fiestas", "económico", "sin frutos secos"],
+    "tips": [
+      "Una masa pegajosa es normal y deseable: la alta hidratación produce la miga abierta; trabaja con las manos aceitadas en lugar de enharinadas.",
+      "Para más sabor, deja la primera fermentación en la nevera toda la noche y continúa al día siguiente desde el paso 4.",
+      "Sustituye el romero por aceitunas negras, cebolla cabezona roja en julianas o tomates secos, siempre presionándolos en la masa para que no se caigan."
+    ],
+    "nutrition": { "calories": 315, "protein": 8, "carbs": 48, "fat": 10, "fiber": 2 },
+    "sources": [
+      { "name": "Directo al Paladar México", "url": "https://www.directoalpaladar.com.mx/ingredientes-y-alimentos/como-preparar-focaccia-casera-2-horas-clasica-receta-italiana-romero-aceite-oliva" },
+      { "name": "Gastronomía & Cía", "url": "https://www.gastronomiaycia.com/receta-de-focaccia-de-romero-y-ajo-muy-facil-de-hacer-y-verdaderamente-deliciosa/" }
+    ]
+  },
+  {
+    "id": "arepas-de-maiz-venezolanas",
+    "title": "Arepas de maíz venezolanas",
+    "description": "Discos de masa de harina de maíz precocida cocinados en plancha hasta formar una costra dorada y un interior tierno. Solo tres ingredientes y sin gluten, listas para abrir y rellenar.",
+    "visual": "arepa",
+    "diet": "vegana",
+    "category": "pan",
+    "cuisine": "Venezolana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 6,
+    "ingredients": [
+      { "name": "harina de maíz precocida (masa para arepas)", "quantity": 300, "unit": "g", "note": "blanca o amarilla, tipo P.A.N. o Doñarepa", "aliases": ["harina P.A.N.", "masarepa", "harina de maíz para arepas"] },
+      { "name": "agua tibia", "quantity": 550, "unit": "ml" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceite vegetal", "quantity": 1, "unit": "cucharada", "note": "para la plancha" },
+      { "name": "aguacate", "quantity": 1, "unit": "unidad", "note": "opcional, para rellenar", "aliases": ["palta"] }
+    ],
+    "steps": [
+      "Pon el agua tibia en un recipiente grande y disuelve la sal.",
+      "Agrega la harina de maíz en forma de lluvia mientras mezclas con la mano o con una cuchara para evitar grumos.",
+      "Amasa 2-3 minutos hasta obtener una masa suave y húmeda que no se pegue a las manos; déjala reposar 5 minutos para que se hidrate por completo. Si se agrieta al moldear, añade un chorrito más de agua.",
+      "Divide en 6 porciones, forma bolas y aplánalas entre las palmas hasta discos de unos 10 cm y 1,5 cm de grosor, alisando los bordes con los dedos.",
+      "Calienta una plancha o sartén antiadherente a fuego medio y úntala con muy poco aceite.",
+      "Cocina las arepas 6-7 minutos por lado hasta que formen una costra dorada con puntos tostados y suenen huecas al golpearlas.",
+      "Ábrelas por un costado con un cuchillo y rellénalas con aguacate o lo que prefieras. Sírvelas calientes."
+    ],
+    "tags": ["sin gluten", "tradicional", "económico", "para niños", "sin frutos secos"],
+    "tips": [
+      "La masa debe sentirse como plastilina húmeda; si está seca se agrieta y si está muy blanda se deforma. Corrige con agua o harina de a poco.",
+      "Para un interior más esponjoso, termina las arepas 10 minutos en el horno a 180 °C después de dorarlas en la plancha.",
+      "La masa cruda se conserva tapada en la nevera hasta 2 días; amásala de nuevo con unas gotas de agua antes de usarla.",
+      "Usa siempre harina de maíz precocida: la harina de maíz cruda o la polenta no forman masa."
+    ],
+    "nutrition": { "calories": 195, "protein": 4, "carbs": 40, "fat": 3, "fiber": 4 },
+    "sources": [
+      { "name": "Bizcochos y Sancochos", "url": "https://www.bizcochosysancochos.com/2019/06/como-hacer-arepas.html" },
+      { "name": "Centro de Estudios en Nutrición", "url": "https://nutritionstudies.org/es/recipes/platos-de-acompanamiento/arepas-de-maiz-venezolanas/" }
+    ]
+  },
+  {
+    "id": "pan-de-maiz-cornbread-en-sarten",
+    "title": "Pan de maíz (cornbread) en sartén",
+    "description": "Pan rápido del sur de Estados Unidos con harina de maíz, suero de leche (buttermilk) y mantequilla dorada, horneado en sartén de hierro caliente para lograr una corteza crujiente y una miga húmeda.",
+    "visual": "bread",
+    "diet": "vegetariana",
+    "category": "pan",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 8,
+    "ingredients": [
+      { "name": "harina de maíz fina (cornmeal)", "quantity": 160, "unit": "g", "note": "amarilla y cruda, sin precocer; no sirve la de arepas", "aliases": ["polenta fina", "sémola de maíz", "harina de maíz cruda"] },
+      { "name": "harina de trigo", "quantity": 125, "unit": "g", "aliases": ["harina de fuerza", "harina todo uso"] },
+      { "name": "azúcar", "quantity": 2, "unit": "cucharada" },
+      { "name": "polvo de hornear", "quantity": 2, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "levadura en polvo"] },
+      { "name": "bicarbonato de sodio", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "huevos", "quantity": 2, "unit": "unidad" },
+      { "name": "suero de leche (buttermilk)", "quantity": 300, "unit": "ml", "note": "o 300 ml de leche con 1 cucharada de vinagre, reposada 5 minutos; no es el suero costeño", "aliases": ["leche agria", "leche cortada", "suero de mantequilla"] },
+      { "name": "mantequilla", "quantity": 60, "unit": "g" },
+      { "name": "miel", "quantity": 1, "unit": "cucharada", "note": "opcional", "aliases": ["miel de abejas"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C con una sartén de hierro de 22-25 cm (o un molde redondo) dentro.",
+      "Mezcla en un recipiente la harina de maíz, la harina de trigo, el azúcar, el polvo de hornear, el bicarbonato y la sal.",
+      "En otro recipiente bate los huevos con el suero de leche y la miel.",
+      "Saca la sartén caliente con cuidado, agrega la mantequilla y muévela hasta que se derrita y cubra el fondo; vierte casi toda en la mezcla líquida y deja el resto en la sartén.",
+      "Une los líquidos con los secos revolviendo lo justo para humedecer; unos grumos son normales, no batas de más.",
+      "Vierte la masa en la sartén caliente: debe chisporrotear al contacto, y ese golpe de calor forma la corteza dorada.",
+      "Hornea 20-25 minutos hasta que los bordes se despeguen de la sartén y un palillo salga limpio del centro.",
+      "Deja reposar 10 minutos y corta en 8 porciones. Sirve tibio con mantequilla o miel."
+    ],
+    "tags": ["al horno", "tradicional", "reconfortante", "económico", "sin frutos secos"],
+    "tips": [
+      "Si la mantequilla se dora un poco en la sartén caliente, mejor: aporta un aroma a nuez que combina muy bien con el maíz.",
+      "Para una versión salada, omite la miel y agrega 100 g de granos de mazorca (maíz tierno) y un jalapeño o ají picado a la masa.",
+      "Se conserva 2 días envuelto a temperatura ambiente; recaliéntalo en el tostador o en sartén con un poco de mantequilla."
+    ],
+    "nutrition": { "calories": 235, "protein": 6, "carbs": 32, "fat": 9, "fiber": 2 },
+    "veganAlternative": "Reemplaza cada huevo por 1 cucharada de linaza molida mezclada con 3 cucharadas de agua (reposa 5 minutos), usa 300 ml de leche vegetal con 1 cucharada de vinagre de manzana en lugar del suero, mantequilla vegana (margarina vegetal) o aceite de coco en vez de mantequilla, y miel de maple en lugar de miel.",
+    "sources": [
+      { "name": "Sunset", "url": "https://www.sunset.com/recipe/buttermilk-skillet-cornbread" },
+      { "name": "Rainbow Plant Life", "url": "https://rainbowplantlife.com/the-best-vegan-cornbread-youll-ever-eat/" }
+    ]
+  },
+  {
+    "id": "hummus-clasico-cremoso",
+    "title": "Hummus clásico cremoso",
+    "description": "La crema de garbanzos de Medio Oriente con tahini (pasta de ajonjolí), limón, ajo y comino, procesada con agua helada hasta quedar sedosa. El truco de hervir los garbanzos con bicarbonato la vuelve extra suave.",
+    "visual": "dip",
+    "diet": "vegana",
+    "category": "salsa",
+    "cuisine": "Medio Oriente",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 6,
+    "ingredients": [
+      { "name": "garbanzos cocidos", "quantity": 400, "unit": "g", "note": "de lata o cocinados en casa; escurridos y enjuagados" },
+      { "name": "tahini (pasta de ajonjolí)", "quantity": 80, "unit": "g", "note": "bien revuelto; se consigue en tiendas naturistas o de productos árabes", "aliases": ["tahín", "tahina", "pasta de sésamo", "crema de ajonjolí"] },
+      { "name": "jugo de limón", "quantity": 60, "unit": "ml", "note": "recién exprimido", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 0.75, "unit": "cucharadita" },
+      { "name": "agua helada", "quantity": 60, "unit": "ml" },
+      { "name": "bicarbonato de sodio", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "aceite de oliva extra virgen", "quantity": 2, "unit": "cucharada", "note": "para servir" },
+      { "name": "paprika dulce", "quantity": 1, "unit": "pizca", "note": "para servir", "aliases": ["pimentón dulce", "pimentón molido", "páprika"] }
+    ],
+    "steps": [
+      "Pon los garbanzos en una olla con agua que los cubra y el bicarbonato. Hierve a fuego medio 10 minutos hasta que estén muy blandos y algunas cascaritas floten; escurre y enjuaga.",
+      "Procesa el tahini con el jugo de limón, el ajo y la sal durante 1 minuto hasta obtener una crema pálida y espesa.",
+      "Agrega los garbanzos tibios y el comino y procesa 2 minutos, raspando las paredes del vaso.",
+      "Con el procesador en marcha, añade el agua helada en un hilo y sigue procesando 2-3 minutos más hasta que el hummus esté sedoso.",
+      "Prueba y ajusta sal, limón o comino. Si lo quieres más ligero, agrega otra cucharada de agua.",
+      "Sirve en un plato hondo, haz un surco con el dorso de una cuchara y riega con el aceite de oliva.",
+      "Espolvorea la paprika y acompaña con pan pita o bastones de verduras."
+    ],
+    "tags": ["rápido", "sin gluten", "alto en proteína", "económico", "meal prep"],
+    "tips": [
+      "Procesar primero el tahini con el limón lo emulsiona y evita que la crema quede grumosa o amarga.",
+      "El agua debe estar muy fría: ayuda a que la mezcla se aclare y quede aireada en lugar de pesada.",
+      "Con garbanzos secos, remoja 250 g toda la noche y cocínalos 1 hora con media cucharadita de bicarbonato; el sabor es aún mejor.",
+      "Se conserva 5 días en la nevera; cúbrelo con una capa fina de aceite para que no se reseque."
+    ],
+    "nutrition": { "calories": 230, "protein": 9, "carbs": 20, "fat": 13, "fiber": 6 },
+    "sources": [
+      { "name": "Hule y Mantel", "url": "https://www.huleymantel.com/receta/hummus-casero-principio-fin_87_117.html" },
+      { "name": "Veganuary", "url": "https://veganuary.com/es/recetas/hummus-con-tahini-casero/" }
+    ]
+  },
+  {
+    "id": "guacamole-clasico-al-molcajete",
+    "title": "Guacamole clásico al molcajete",
+    "description": "Aguacate machacado sobre una pasta de cebolla, ají y cilantro, con tomate en cubos y jugo de limón. La versión de siempre, con textura rústica y lista en 15 minutos.",
+    "visual": "dip",
+    "diet": "vegana",
+    "category": "salsa",
+    "cuisine": "Mexicana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "aguacates maduros", "quantity": 3, "unit": "unidad", "note": "tipo Hass", "aliases": ["palta"] },
+      { "name": "cebolla cabezona blanca", "quantity": 0.25, "unit": "unidad", "note": "picada muy fina", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "tomate chonto", "quantity": 1, "unit": "unidad", "note": "sin semillas, en cubitos", "aliases": ["tomate", "jitomate"] },
+      { "name": "ají verde picante", "quantity": 1, "unit": "unidad", "note": "tipo serrano o jalapeño; sin semillas, picado fino", "aliases": ["chile serrano", "jalapeño", "chile verde", "chile"] },
+      { "name": "cilantro fresco", "quantity": 3, "unit": "cucharada", "note": "picado" },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "note": "su jugo", "aliases": ["lima", "limón verde"] },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" }
+    ],
+    "steps": [
+      "Pica finamente la cebolla, el ají y el cilantro. Corta el tomate en cubos pequeños después de retirarle las semillas.",
+      "Machaca en un molcajete o mortero la cebolla, el ají, la mitad del cilantro y la sal hasta formar una pasta; así liberan todo su aroma.",
+      "Corta los aguacates por la mitad, retira la pepa y saca la pulpa con una cuchara sobre la pasta.",
+      "Aplasta con un tenedor o con la mano del mortero hasta obtener una textura cremosa con algunos pedazos.",
+      "Agrega el jugo de limón, el tomate y el resto del cilantro; mezcla con suavidad para no deshacer el tomate.",
+      "Prueba, ajusta la sal y sirve de inmediato con nachos (totopos) o bastones de verduras."
+    ],
+    "tags": ["rápido", "sin gluten", "crudo", "tradicional", "para fiestas"],
+    "tips": [
+      "Un aguacate está listo cuando cede ligeramente al presionarlo cerca del tallo; si está duro, déjalo 1-2 días junto a un banano.",
+      "Si necesitas prepararlo con antelación, cúbrelo con papel vinipel (plástico transparente) pegado a la superficie para retrasar la oxidación.",
+      "Deja el ají con semillas si te gusta picante, o cámbialo por una pizca de ají en polvo si no tienes fresco."
+    ],
+    "nutrition": { "calories": 190, "protein": 2, "carbs": 10, "fat": 17, "fiber": 8 },
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-vegetarianas/como-hacer-guacamole-en-casa-receta" },
+      { "name": "Mamá Latina Tips", "url": "https://www.mamalatinatips.com/es/2012/03/rico-guacamole.html" }
+    ]
+  },
+  {
+    "id": "pesto-de-albahaca-con-parmesano",
+    "title": "Pesto de albahaca con parmesano",
+    "description": "Salsa cruda genovesa de albahaca fresca, piñones tostados, ajo, parmesano y aceite de oliva, procesada hasta quedar espesa y aromática. Sirve para pasta, focaccia o vegetales asados.",
+    "visual": "sauce",
+    "diet": "vegetariana",
+    "category": "salsa",
+    "cuisine": "Italiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 3,
+    "servings": 6,
+    "ingredients": [
+      { "name": "albahaca fresca", "quantity": 60, "unit": "g", "note": "solo hojas, unas 2 tazas apretadas" },
+      { "name": "piñones", "quantity": 40, "unit": "g", "note": "o marañones" },
+      { "name": "queso parmesano", "quantity": 50, "unit": "g", "note": "rallado fino; busca uno elaborado con cuajo vegetal" },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "aceite de oliva extra virgen", "quantity": 100, "unit": "ml" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "sal", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Tuesta los piñones en una sartén seca a fuego medio 2-3 minutos, moviendo constantemente, hasta que estén dorados. Deja enfriar.",
+      "Lava las hojas de albahaca y sécalas muy bien con un paño; el exceso de agua diluye la salsa y acelera su oxidación.",
+      "Procesa los piñones con el ajo y la sal en pulsos hasta que queden en pedazos pequeños.",
+      "Añade la albahaca y el jugo de limón y pulsa varias veces, raspando las paredes, hasta picarla gruesa.",
+      "Con el motor a velocidad baja, agrega el aceite en un hilo fino hasta lograr una salsa espesa pero fluida.",
+      "Pasa a un recipiente, incorpora el parmesano y la pimienta con una cuchara y ajusta la sal. Guarda cubierto con una capa fina de aceite."
+    ],
+    "tags": ["rápido", "sin gluten", "tradicional", "sin soya", "meal prep"],
+    "tips": [
+      "Procesa en pulsos cortos: el calor del motor oscurece la albahaca y le da un sabor herbáceo amargo.",
+      "El parmesano se agrega a mano al final para que la salsa no quede pastosa ni pierda textura.",
+      "Congela el pesto en cubetas de hielo; luego pasa los cubos a una bolsa y úsalos directamente sobre pasta caliente.",
+      "El parmesano tradicional lleva cuajo animal; si sigues una dieta vegetariana estricta, elige un queso duro con cuajo microbiano o vegetal."
+    ],
+    "nutrition": { "calories": 215, "protein": 5, "carbs": 2, "fat": 22, "fiber": 1 },
+    "veganAlternative": "Sustituye el parmesano por 3 cucharadas de levadura nutricional y una pizca extra de sal; si quieres más cuerpo, añade 1 cucharada adicional de piñones o marañones.",
+    "sources": [
+      { "name": "The Mediterranean Dish", "url": "https://www.themediterraneandish.com/basil-pesto-recipe/" },
+      { "name": "The Clever Carrot", "url": "https://www.theclevercarrot.com/2022/05/classic-italian-basil-pesto-pesto-alla-genovese/" }
+    ]
+  },
+  {
+    "id": "tzatziki-griego-de-yogur-y-pepino",
+    "title": "Tzatziki griego de yogur y pepino",
+    "description": "Salsa fría griega de yogur espeso con pepino cohombro rallado y bien escurrido, ajo, aceite de oliva y eneldo. Fresca, ligera y perfecta para pan pita, verduras o bowls.",
+    "visual": "dip",
+    "diet": "vegetariana",
+    "category": "salsa",
+    "cuisine": "Griega",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "yogur griego natural", "quantity": 400, "unit": "g", "note": "entero, sin azúcar", "aliases": ["yogurt griego"] },
+      { "name": "pepino cohombro", "quantity": 1, "unit": "unidad", "note": "grande", "aliases": ["pepino"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "aceite de oliva extra virgen", "quantity": 2, "unit": "cucharada" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharada", "note": "o vinagre de vino blanco", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "eneldo fresco", "quantity": 2, "unit": "cucharada", "note": "picado; o 1 cucharada de hierbabuena" },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Ralla el pepino cohombro con la parte gruesa del rallador; no hace falta pelarlo si la piel es fina.",
+      "Mezcla el pepino rallado con una pizca de la sal y déjalo 10 minutos en un colador para que suelte líquido.",
+      "Envuelve el pepino en un paño limpio y exprímelo con fuerza hasta que quede lo más seco posible.",
+      "Ralla o machaca el ajo con el resto de la sal hasta formar una pasta fina.",
+      "En un recipiente combina el yogur, el pepino escurrido, el ajo, el aceite, el jugo de limón y el eneldo. Mezcla bien.",
+      "Prueba, corrige de sal y pimienta y refrigera al menos 30 minutos para que los sabores se integren.",
+      "Sirve frío con un hilo de aceite por encima, acompañado de pan pita o verduras crudas."
+    ],
+    "tags": ["rápido", "sin gluten", "bajo en calorías", "verano", "tradicional"],
+    "tips": [
+      "Escurrir el pepino a conciencia es lo que separa un tzatziki cremoso de uno aguado; no te saltes el paso del paño.",
+      "Si solo tienes yogur natural normal, cuélalo 2 horas en un colador con un lienzo (gasa) para espesarlo.",
+      "El sabor del ajo se intensifica con las horas; si lo preparas el día anterior, usa un solo diente."
+    ],
+    "nutrition": { "calories": 110, "protein": 6, "carbs": 4, "fat": 8, "fiber": 0 },
+    "veganAlternative": "Usa 400 g de yogur vegetal natural espeso, de soya o de coco, sin azúcar; si queda muy líquido, escúrrelo 1 hora en un colador con un lienzo (gasa) antes de mezclarlo.",
+    "sources": [
+      { "name": "Hogarmania", "url": "https://www.hogarmania.com/cocina/recetas/salsas/salsa-tzatziki.html" },
+      { "name": "Divina Cocina", "url": "https://www.divinacocina.es/tzatziki/" }
+    ]
+  },
+  {
+    "id": "horchata-de-arroz-con-canela",
+    "title": "Horchata de arroz con canela",
+    "description": "Agua fresca mexicana de arroz remojado con canela, licuado, colado y endulzado, con un toque de vainilla y leche de almendras para más cuerpo. Requiere al menos 4 horas de remojo.",
+    "visual": "drink",
+    "diet": "vegana",
+    "category": "bebida",
+    "cuisine": "Mexicana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "arroz blanco de grano largo", "quantity": 200, "unit": "g" },
+      { "name": "canela en astilla", "quantity": 1, "unit": "rama", "note": "preferiblemente canela mexicana o de Ceilán", "aliases": ["canela en rama", "canela en raja"] },
+      { "name": "agua", "quantity": 1.5, "unit": "l", "note": "dividida" },
+      { "name": "leche de almendras sin azúcar", "quantity": 250, "unit": "ml", "note": "opcional, para más cremosidad", "aliases": ["bebida de almendras"] },
+      { "name": "azúcar", "quantity": 100, "unit": "g", "note": "o al gusto" },
+      { "name": "esencia de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["extracto de vainilla"] },
+      { "name": "canela molida", "quantity": 1, "unit": "pizca", "note": "para servir" },
+      { "name": "hielo", "quantity": 2, "unit": "taza" }
+    ],
+    "steps": [
+      "Enjuaga el arroz bajo la llave hasta que el agua salga clara. Ponlo en un recipiente con la astilla de canela partida en pedazos y 750 ml de agua caliente.",
+      "Tapa y deja remojar al menos 4 horas o toda la noche en la nevera para que el grano se ablande.",
+      "Licúa el arroz con su agua de remojo y la canela a máxima potencia 2-3 minutos hasta obtener un líquido lechoso y muy fino.",
+      "Cuela con un colador fino o una bolsa de tela sobre una jarra, presionando para extraer todo el líquido; desecha el residuo.",
+      "Agrega los 750 ml de agua restantes, la leche de almendras, el azúcar y la vainilla y revuelve hasta disolver el azúcar.",
+      "Prueba y ajusta el dulzor. Refrigera al menos 1 hora.",
+      "Sirve en vasos con hielo y una pizca de canela molida por encima; revuelve antes de servir porque el almidón se asienta en el fondo."
+    ],
+    "tags": ["sin gluten", "tradicional", "verano", "económico", "sin soya"],
+    "tips": [
+      "Cuanto más tiempo remoje el arroz, más suave se licúa y menos arenosa queda la bebida; toda la noche es lo ideal.",
+      "Si no tienes bolsa de tela, cuela dos veces por un colador fino forrado con un lienzo o un paño limpio.",
+      "Para una versión más rica, sustituye 250 ml de agua por leche de coco de lata.",
+      "Se conserva 3 días en la nevera; agítala bien antes de servir."
+    ],
+    "nutrition": { "calories": 125, "protein": 1, "carbs": 29, "fat": 1, "fiber": 0 },
+    "sources": [
+      { "name": "Pati Jinich", "url": "https://patijinich.com/es/horchata-agua-de-arroz-y-canela/" },
+      { "name": "México en mi Cocina", "url": "https://www.mexicoenmicocina.com/agua-fresca-de-horchata/" }
+    ]
+  },
+  {
+    "id": "limonada-de-coco-colombiana",
+    "title": "Limonada de coco colombiana",
+    "description": "Bebida cremosa y helada de la costa caribe colombiana: crema de coco, leche de coco, jugo de limón y hielo licuados hasta quedar como un granizado espumoso.",
+    "visual": "drink",
+    "diet": "vegana",
+    "category": "bebida",
+    "cuisine": "Colombiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "crema de coco", "quantity": 150, "unit": "ml", "note": "o la parte sólida de una lata de leche de coco refrigerada" },
+      { "name": "leche de coco", "quantity": 250, "unit": "ml" },
+      { "name": "limones", "quantity": 4, "unit": "unidad", "note": "su jugo, unos 120 ml", "aliases": ["limas", "limón verde"] },
+      { "name": "azúcar", "quantity": 4, "unit": "cucharada", "note": "o panela rallada, al gusto" },
+      { "name": "hielo", "quantity": 4, "unit": "taza" },
+      { "name": "ralladura de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["ralladura de lima"] },
+      { "name": "hojas de hierbabuena", "quantity": 4, "unit": "hoja", "note": "para decorar, opcional", "aliases": ["menta", "hojas de menta"] }
+    ],
+    "steps": [
+      "Exprime los limones y cuela el jugo para retirar las semillas.",
+      "Pon en la licuadora la crema de coco, la leche de coco, el jugo de limón, la ralladura y el azúcar.",
+      "Licúa 30 segundos para disolver el azúcar y unir bien las dos cremas de coco.",
+      "Agrega el hielo y licúa 1 minuto más hasta obtener una bebida espesa y espumosa, tipo granizado.",
+      "Prueba y ajusta: más limón si la quieres ácida, más azúcar si la prefieres dulce.",
+      "Sirve de inmediato en vasos altos con una hoja de hierbabuena."
+    ],
+    "tags": ["rápido", "sin gluten", "verano", "tradicional", "sin soya"],
+    "tips": [
+      "Refrigera la lata de leche de coco desde la noche anterior: la parte sólida que se separa es la crema de coco que da cuerpo a la bebida.",
+      "Una licuadora potente muele el hielo más fino y la textura queda más cremosa; si la tuya es sencilla, usa hielo picado.",
+      "Sírvela apenas la licúes; al reposar el hielo se derrite y se separa."
+    ],
+    "nutrition": { "calories": 300, "protein": 2, "carbs": 16, "fat": 25, "fiber": 1 },
+    "sources": [
+      { "name": "My Colombian Recipes", "url": "https://www.mycolombianrecipes.com/es/limonada-de-coco/" },
+      { "name": "Cocina Republic", "url": "https://cocinarepublic.com/limonada-de-coco/" }
+    ]
+  },
+  {
+    "id": "lassi-de-mango-con-cardamomo",
+    "title": "Lassi de mango con cardamomo",
+    "description": "Batido indio de mango maduro y yogur natural, perfumado con cardamomo y endulzado con miel. Espeso, frío y listo en 10 minutos.",
+    "visual": "drink",
+    "diet": "vegetariana",
+    "category": "bebida",
+    "cuisine": "India",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      { "name": "mango maduro", "quantity": 2, "unit": "unidad", "note": "unos 300 g de pulpa, bien fríos" },
+      { "name": "yogur natural entero", "quantity": 200, "unit": "g", "note": "frío", "aliases": ["yogurt natural"] },
+      { "name": "leche fría", "quantity": 120, "unit": "ml" },
+      { "name": "miel", "quantity": 1, "unit": "cucharada", "note": "o azúcar, al gusto", "aliases": ["miel de abejas"] },
+      { "name": "cardamomo molido", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "hielo", "quantity": 4, "unit": "unidad", "note": "cubos, opcional" },
+      { "name": "pistachos", "quantity": 1, "unit": "cucharada", "note": "picados, para decorar" }
+    ],
+    "steps": [
+      "Pela los mangos y corta la pulpa en cubos alrededor de la pepa.",
+      "Licúa el mango con la leche, la miel y el cardamomo hasta obtener un puré completamente liso, sin fibras.",
+      "Agrega el yogur y el hielo y licúa solo unos 15 segundos, lo justo para integrar; licuar de más vuelve la textura gomosa.",
+      "Prueba y ajusta el dulzor, o añade un poco más de leche si lo prefieres más ligero.",
+      "Sirve en vasos fríos con los pistachos picados por encima."
+    ],
+    "tags": ["rápido", "sin gluten", "verano", "tradicional", "para niños"],
+    "tips": [
+      "Los mangos muy dulces y poco fibrosos (Tommy maduro, mango de azúcar o Kent) dan el mejor resultado; con mango congelado no necesitarás hielo.",
+      "Si usas yogur griego, agrega 50 ml más de leche porque es más espeso y ácido.",
+      "Una pizca de hebras de azafrán remojadas en una cucharada de leche caliente convierte el lassi en una versión de fiesta."
+    ],
+    "nutrition": { "calories": 250, "protein": 8, "carbs": 42, "fat": 7, "fiber": 3 },
+    "veganAlternative": "Cambia el yogur por yogur de coco o de soya sin azúcar, la leche por leche de avena o de almendras y la miel por miel de agave.",
+    "sources": [
+      { "name": "Swasthi's Recipes", "url": "https://www.indianhealthyrecipes.com/mango-lassi-recipe/" },
+      { "name": "Cook With Manali", "url": "https://www.cookwithmanali.com/mango-lassi/" }
+    ]
+  },
+  {
+    "id": "chai-latte-especiado-casero",
+    "title": "Chai latte especiado casero",
+    "description": "Té negro hervido con jengibre, canela, cardamomo, clavo y pimienta, terminado con leche y miel al estilo del masala chai indio. Cremoso, aromático y reconfortante.",
+    "visual": "hotdrink",
+    "diet": "vegetariana",
+    "category": "bebida",
+    "cuisine": "India",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 20,
+    "servings": 2,
+    "ingredients": [
+      { "name": "agua", "quantity": 400, "unit": "ml" },
+      { "name": "leche entera", "quantity": 300, "unit": "ml" },
+      { "name": "té negro", "quantity": 2, "unit": "cucharadita", "note": "hojas sueltas tipo Assam, o 2 bolsitas" },
+      { "name": "jengibre fresco", "quantity": 2, "unit": "rebanada", "note": "tajadas gruesas, ligeramente machacadas" },
+      { "name": "canela en astilla", "quantity": 1, "unit": "rama", "aliases": ["canela en rama", "canela en raja"] },
+      { "name": "vainas de cardamomo verde", "quantity": 4, "unit": "unidad", "note": "abiertas con el mango de un cuchillo" },
+      { "name": "clavos de olor", "quantity": 3, "unit": "unidad" },
+      { "name": "pimienta negra en grano", "quantity": 4, "unit": "unidad" },
+      { "name": "anís estrellado", "quantity": 1, "unit": "unidad", "note": "opcional" },
+      { "name": "miel", "quantity": 2, "unit": "cucharadita", "note": "o azúcar morena o panela rallada, al gusto", "aliases": ["miel de abejas"] }
+    ],
+    "steps": [
+      "Machaca ligeramente el cardamomo, los clavos y la pimienta en un mortero para que liberen su aroma.",
+      "Tuéstalos con la canela y el anís en una olla pequeña a fuego medio 1 minuto, hasta que huelan intensamente.",
+      "Agrega el agua y el jengibre, lleva a ebullición y cocina a fuego bajo 5 minutos.",
+      "Incorpora el té negro y deja hervir suavemente 3 minutos hasta que el líquido tome un color rojizo oscuro.",
+      "Añade la leche y la miel, sube el fuego y, cuando suelte el hervor, baja y cocina 4-5 minutos más vigilando que no se derrame.",
+      "Para una textura más cremosa, levanta el chai con un cucharón y viértelo de vuelta en la olla varias veces desde cierta altura.",
+      "Cuela en dos tazas, ajusta el dulzor y sirve muy caliente."
+    ],
+    "tags": ["rápido", "sin gluten", "reconfortante", "invierno", "tradicional"],
+    "tips": [
+      "Las especias enteras dan un sabor limpio y equilibrado; las molidas enturbian la bebida y dejan sedimento.",
+      "Un té negro fuerte (Assam o un English Breakfast) resiste bien la leche; los tés delicados se pierden.",
+      "Prepara el doble de concentrado sin leche y guárdalo 3 días en la nevera: luego solo caliéntalo con leche.",
+      "Para una versión helada, enfría el chai colado y sírvelo sobre hielo con un chorrito de leche extra."
+    ],
+    "nutrition": { "calories": 115, "protein": 5, "carbs": 12, "fat": 5, "fiber": 0 },
+    "veganAlternative": "Usa 300 ml de leche de avena tipo barista o leche de soya (espuman bien y no se cortan con el té) y endulza con miel de maple o azúcar en lugar de miel.",
+    "sources": [
+      { "name": "Tea for Turmeric", "url": "https://www.teaforturmeric.com/masala-chai-recipe/" },
+      { "name": "The Kitchn", "url": "https://www.thekitchn.com/how-to-make-a-chai-tea-latte-242520" }
+    ]
+  }
+]

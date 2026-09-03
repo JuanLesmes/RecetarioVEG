@@ -1,0 +1,782 @@
+[
+  {
+    "id": "risotto-cremoso-de-champinones",
+    "title": "Risotto cremoso de champiñones",
+    "description": "Arroz arborio cocinado lentamente con caldo caliente, champiñones dorados y un final de levadura nutricional que aporta cremosidad sin lácteos. Un clásico italiano reconfortante y elegante.",
+    "visual": "rice",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Italiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "arroz arborio", "quantity": 320, "unit": "g", "note": "o arroz carnaroli; se consigue en supermercados grandes o tiendas de productos importados; no lo laves", "aliases": ["arroz para risotto", "arroz carnaroli"] },
+      { "name": "champiñones", "quantity": 400, "unit": "g", "note": "en láminas", "aliases": ["hongos", "setas", "champiñón"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "pequeña, picada fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "apio", "quantity": 1, "unit": "rama", "note": "picado fino" },
+      { "name": "vino blanco seco", "quantity": 100, "unit": "ml" },
+      { "name": "caldo de verduras", "quantity": 1.2, "unit": "l", "note": "caliente", "aliases": ["caldo de vegetales"] },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "levadura nutricional", "quantity": 3, "unit": "cucharada", "note": "se consigue en tiendas naturistas" },
+      { "name": "margarina vegetal", "quantity": 1, "unit": "cucharada", "note": "para dar cremosidad al final" },
+      { "name": "tomillo fresco", "quantity": 2, "unit": "rama", "note": "o 1 cucharadita de tomillo seco" },
+      { "name": "perejil fresco", "quantity": 2, "unit": "cucharada", "note": "picado" },
+      { "name": "sal y pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta el caldo en una olla y mantenlo a fuego mínimo durante toda la receta; añadirlo caliente evita que el arroz se corte en la cocción.",
+      "Saltea los champiñones en láminas con 1 cucharada de aceite en una sartén amplia a fuego alto durante 6-8 minutos, moviéndolos poco para que doren bien. Sazona con sal y pimienta y reserva.",
+      "En la misma sartén sofríe la cebolla, el apio y el ajo con el aceite restante a fuego medio unos 5 minutos, hasta que estén transparentes.",
+      "Agrega el arroz y tuéstalo 2 minutos sin dejar de revolver, hasta que los granos se vean nacarados. Vierte el vino y deja que se evapore por completo.",
+      "Añade un cucharón de caldo caliente y revuelve con frecuencia; cuando el arroz lo haya absorbido casi del todo, agrega el siguiente. Repite este proceso durante 18-20 minutos.",
+      "A falta de 5 minutos incorpora dos tercios de los champiñones y el tomillo. Prueba el grano: debe quedar tierno con un ligero punto al dente.",
+      "Retira del fuego, añade la margarina y la levadura nutricional y revuelve enérgicamente durante 1 minuto para que quede cremoso. Tapa y deja reposar 2 minutos.",
+      "Sirve de inmediato con los champiñones reservados y el perejil espolvoreado por encima."
+    ],
+    "tags": ["reconfortante", "sin gluten", "sin frutos secos", "sin soya"],
+    "tips": [
+      "Si el risotto queda muy espeso, corrígelo con un chorrito de caldo caliente justo antes de servir: debe fluir suavemente en el plato.",
+      "Mezcla champiñones con portobello, shiitake u orellanas (setas ostra) para un sabor más profundo.",
+      "No laves el arroz: su almidón es justamente lo que aporta la cremosidad."
+    ],
+    "nutrition": { "calories": 420, "protein": 12, "carbs": 70, "fat": 10, "fiber": 4 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/risotto-vegano-champinones/" },
+      { "name": "ProVeg España", "url": "https://proveg.org/es/recetas/risotto-champinones-vegano/" }
+    ]
+  },
+  {
+    "id": "paella-de-verduras",
+    "title": "Paella de verduras",
+    "description": "La versión vegetal del arroz más famoso de España: sofrito de tomate y pimentón, azafrán, alcachofas, habichuelas y arvejas sobre un arroz suelto con socarrat. Ideal para compartir en mesa.",
+    "visual": "rice",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Española",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "arroz bomba", "quantity": 320, "unit": "g", "note": "o arroz redondo de grano corto; se consigue en tiendas de productos españoles o importados", "aliases": ["arroz para paella", "arroz redondo", "arroz de grano corto"] },
+      { "name": "caldo de verduras", "quantity": 1, "unit": "l", "note": "caliente", "aliases": ["caldo de vegetales"] },
+      { "name": "azafrán", "quantity": 1, "unit": "pizca", "note": "unas hebras; en tiendas de productos importados o supermercados grandes" },
+      { "name": "aceite de oliva", "quantity": 4, "unit": "cucharada" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento rojo", "morrón"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "tomate chonto", "quantity": 2, "unit": "unidad", "note": "maduros, rallados", "aliases": ["tomate", "jitomate"] },
+      { "name": "paprika dulce", "quantity": 1, "unit": "cucharadita", "note": "pimentón dulce en polvo", "aliases": ["pimentón dulce", "pimentón en polvo", "páprika"] },
+      { "name": "habichuelas", "quantity": 150, "unit": "g", "note": "en trozos", "aliases": ["judías verdes", "ejotes", "vainitas", "chauchas"] },
+      { "name": "corazones de alcachofa", "quantity": 4, "unit": "unidad", "note": "frescos o en lata (conserva), partidos por la mitad" },
+      { "name": "arvejas", "quantity": 100, "unit": "g", "note": "frescas o congeladas", "aliases": ["guisantes", "chícharos"] },
+      { "name": "romero fresco", "quantity": 1, "unit": "rama" },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "note": "en gajos para servir", "aliases": ["lima"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta el caldo con las hebras de azafrán y mantenlo caliente a fuego mínimo.",
+      "En una paellera o sartén ancha de unos 30 cm, calienta el aceite y sofríe el pimentón y las habichuelas 5 minutos a fuego medio-alto. Apártalos hacia los bordes.",
+      "Añade la cebolla y el ajo en el centro y cocina 4 minutos. Incorpora el tomate rallado y sofríe 5-8 minutos, hasta que se oscurezca y pierda su agua.",
+      "Agrega la paprika, revuelve 20 segundos para que no se queme y enseguida añade el arroz. Sofríelo 2 minutos y repártelo en toda la superficie.",
+      "Vierte el caldo caliente, añade el romero y agrega sal. Cocina a fuego alto 8 minutos sin revolver.",
+      "Reparte por encima las alcachofas y las arvejas, baja a fuego medio-bajo y cocina 10-12 minutos más, hasta que el arroz absorba todo el caldo.",
+      "Sube el fuego al máximo 1 minuto al final para formar el socarrat; escucharás un crepitar en la base. Retira, cubre con un paño limpio y deja reposar 5 minutos.",
+      "Sirve directamente en la paellera con los gajos de limón."
+    ],
+    "tags": ["tradicional", "sin gluten", "para fiestas", "sin soya", "sin frutos secos"],
+    "tips": [
+      "La capa de arroz no debe superar los 2 cm; si tu sartén es pequeña, reduce las cantidades a la mitad en lugar de apilar.",
+      "No revuelvas el arroz después de añadir el caldo: así queda suelto y no cremoso.",
+      "Cambia las alcachofas por champiñones, coliflor o habas según la temporada.",
+      "Sin azafrán, usa media cucharadita de cúrcuma para conseguir el color dorado."
+    ],
+    "nutrition": { "calories": 450, "protein": 11, "carbs": 78, "fat": 12, "fiber": 7 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/paella-vegana/" },
+      { "name": "Recetas Veganas", "url": "https://recetasveganas.net/recipes/paella-verduras-tradicional-vegana" }
+    ]
+  },
+  {
+    "id": "moussaka-de-lentejas",
+    "title": "Moussaka de lentejas",
+    "description": "Capas de berenjena y papa asadas con un ragú de lentejas al tomate y canela, cubiertas por una bechamel vegetal gratinada. Un plato griego de domingo que alimenta a toda la mesa.",
+    "visual": "casserole",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Griega",
+    "difficulty": "difícil",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 90,
+    "servings": 6,
+    "ingredients": [
+      { "name": "berenjena", "quantity": 3, "unit": "unidad", "note": "grandes, en tajadas de 1 cm" },
+      { "name": "papa", "quantity": 3, "unit": "unidad", "note": "medianas, en tajadas finas", "aliases": ["patata"] },
+      { "name": "lentejas", "quantity": 250, "unit": "g", "note": "las comunes (pardas), secas", "aliases": ["lentejas pardas", "lentejas marrones"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "tomate triturado", "quantity": 400, "unit": "g", "note": "en lata", "aliases": ["passata", "puré de tomate", "tomate en lata"] },
+      { "name": "canela molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceite de oliva", "quantity": 5, "unit": "cucharada" },
+      { "name": "leche de soya sin azúcar", "quantity": 500, "unit": "ml", "note": "o leche de avena", "aliases": ["leche de soja", "bebida de soya"] },
+      { "name": "harina de trigo", "quantity": 50, "unit": "g" },
+      { "name": "margarina vegetal", "quantity": 50, "unit": "g" },
+      { "name": "levadura nutricional", "quantity": 3, "unit": "cucharada", "note": "se consigue en tiendas naturistas" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Corta las berenjenas en tajadas de 1 cm, espolvoréalas con sal y déjalas 20 minutos en un colador para que suelten agua; sécalas con papel de cocina. Precalienta el horno a 200 °C.",
+      "Pincela las berenjenas y las tajadas de papa con 3 cucharadas de aceite, extiéndelas en bandejas y hornea 20-25 minutos hasta que estén tiernas y doradas.",
+      "Cocina las lentejas en agua con sal durante 20-25 minutos, hasta que estén tiernas pero enteras; escúrrelas.",
+      "Sofríe la cebolla y el ajo con 2 cucharadas de aceite 6 minutos. Añade el tomate, la canela, el orégano, las lentejas y sal; cocina a fuego medio 15 minutos hasta obtener un ragú espeso.",
+      "Para la bechamel, derrite la margarina en una olla pequeña, añade la harina y cocina 1 minuto. Vierte la leche de soya poco a poco batiendo y cocina 5-7 minutos hasta que espese. Retira e incorpora la levadura nutricional, la nuez moscada y sal.",
+      "Arma en una refractaria de 30x20 cm: una capa de papas, la mitad de las berenjenas, todo el ragú de lentejas, el resto de berenjenas y la bechamel por encima.",
+      "Hornea a 180 °C durante 35-40 minutos hasta que la superficie esté dorada. Deja reposar 15 minutos antes de cortar para que las capas se asienten."
+    ],
+    "tags": ["al horno", "reconfortante", "alto en proteína", "para fiestas", "meal prep"],
+    "tips": [
+      "Si la bechamel forma grumos, lícuala unos segundos o pásale la batidora de mano.",
+      "La moussaka gana al día siguiente: se corta mejor y los sabores se integran.",
+      "Puedes reemplazar una de las berenjenas por 2 calabacines para variar."
+    ],
+    "nutrition": { "calories": 380, "protein": 15, "carbs": 52, "fat": 13, "fiber": 12 },
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/moussaka-vegetariana-lentejas-calabaza-receta-para-conquistar" },
+      { "name": "Hola Cocina", "url": "https://www.hola.com/cocina/recetas/20200518168088/moussaka-vegetariana-lentejas/" }
+    ]
+  },
+  {
+    "id": "falafel-con-pita-y-ensalada",
+    "title": "Falafel con pita y ensalada",
+    "description": "Croquetas de garbanzo crudo remojado, hierbas frescas y comino, fritas hasta quedar crujientes por fuera y verdes por dentro. Servidas en pan pita con ensalada fresca y salsa de tahini.",
+    "visual": "falafel",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Medio Oriente",
+    "difficulty": "media",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "garbanzos secos", "quantity": 250, "unit": "g", "note": "remojados 12-24 horas; nunca cocinados" },
+      { "name": "cebolla cabezona", "quantity": 0.5, "unit": "unidad", "note": "en trozos", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente" },
+      { "name": "perejil fresco", "quantity": 1, "unit": "manojo" },
+      { "name": "cilantro fresco", "quantity": 0.5, "unit": "manojo", "aliases": ["culantro"] },
+      { "name": "comino molido", "quantity": 1.5, "unit": "cucharadita" },
+      { "name": "cilantro molido", "quantity": 1, "unit": "cucharadita", "note": "semillas de cilantro molidas", "aliases": ["coriandro molido", "semillas de cilantro"] },
+      { "name": "bicarbonato de sodio", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "harina de garbanzo", "quantity": 2, "unit": "cucharada", "note": "o harina de trigo" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceite vegetal", "quantity": 500, "unit": "ml", "note": "para fritar" },
+      { "name": "pan pita", "quantity": 4, "unit": "unidad", "note": "en panaderías y supermercados", "aliases": ["pan árabe", "pita"] },
+      { "name": "tomate", "quantity": 2, "unit": "unidad", "note": "en cubos", "aliases": ["jitomate"] },
+      { "name": "pepino cohombro", "quantity": 1, "unit": "unidad", "note": "en cubos", "aliases": ["pepino"] },
+      { "name": "lechuga", "quantity": 4, "unit": "hoja", "note": "en tiras" },
+      { "name": "tahini", "quantity": 4, "unit": "cucharada", "note": "pasta de ajonjolí; en tiendas naturistas o de productos árabes; para la salsa, con jugo de limón y agua", "aliases": ["tahina", "pasta de ajonjolí", "pasta de sésamo"] }
+    ],
+    "steps": [
+      "Escurre muy bien los garbanzos remojados y sécalos con un paño; el exceso de agua es la causa principal de que los falafel se deshagan.",
+      "Procesa en un procesador de alimentos los garbanzos con la cebolla, el ajo, el perejil, el cilantro fresco, el comino, el cilantro molido y la sal hasta obtener una textura granulada parecida al cuscús, no un puré.",
+      "Añade la harina de garbanzo y el bicarbonato, mezcla bien y lleva la masa tapada a la nevera durante 1 hora.",
+      "Forma bolas o discos de 3-4 cm con las manos húmedas o con una cuchara de helado.",
+      "Calienta el aceite a 175 °C en una olla profunda y frita los falafel por tandas 3-4 minutos, hasta que estén dorados y crujientes. Escúrrelos sobre papel absorbente.",
+      "Mientras tanto, mezcla el tomate, el pepino y la lechuga con una pizca de sal y un chorrito de limón. Bate el tahini con 2 cucharadas de jugo de limón y agua fría hasta obtener una salsa cremosa.",
+      "Calienta las pitas, ábrelas y rellénalas con ensalada, 4 falafel por persona y un buen chorro de salsa de tahini."
+    ],
+    "tags": ["alto en proteína", "tradicional", "económico", "sin soya", "sin frutos secos"],
+    "tips": [
+      "Versión al horno: pincela los falafel con aceite y hornea a 200 °C 25 minutos, girándolos a mitad de tiempo.",
+      "Si la masa no compacta, añade 1 cucharada más de harina; si se rompen en el aceite, comprueba que esté bien caliente antes de fritar.",
+      "La masa cruda aguanta 24 horas en la nevera y se puede congelar ya formada."
+    ],
+    "nutrition": { "calories": 520, "protein": 18, "carbs": 68, "fat": 20, "fiber": 13 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/falafel/" },
+      { "name": "Divina Cocina", "url": "https://www.divinacocina.es/falafel-de-garbanzos/" }
+    ]
+  },
+  {
+    "id": "tajin-de-garbanzos-con-ciruelas",
+    "title": "Tajín de garbanzos con ciruelas",
+    "description": "Guiso marroquí de garbanzos, ahuyama y zanahoria perfumado con ras el hanout, canela y jengibre, con el dulzor de las ciruelas pasas y el crujiente de almendras tostadas. Se sirve sobre cuscús.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Marroquí",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "servings": 4,
+    "ingredients": [
+      { "name": "garbanzos cocinados", "quantity": 500, "unit": "g", "note": "escurridos; equivalen a 2 latas", "aliases": ["garbanzos cocidos", "garbanzos en lata"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "grande, en juliana", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "zanahoria", "quantity": 2, "unit": "unidad", "note": "en bastones" },
+      { "name": "ahuyama", "quantity": 300, "unit": "g", "note": "en cubos", "aliases": ["calabaza", "zapallo", "auyama"] },
+      { "name": "ciruelas pasas", "quantity": 100, "unit": "g", "note": "sin semilla", "aliases": ["ciruelas secas"] },
+      { "name": "tomate chonto", "quantity": 2, "unit": "unidad", "note": "maduros, rallados", "aliases": ["tomate", "jitomate"] },
+      { "name": "caldo de verduras", "quantity": 400, "unit": "ml", "aliases": ["caldo de vegetales"] },
+      { "name": "ras el hanout", "quantity": 2, "unit": "cucharada", "note": "mezcla de especias marroquí; en tiendas de productos importados o prepárala con comino, cilantro molido, canela, cúrcuma, jengibre y pimienta" },
+      { "name": "canela molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "jengibre molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "almendras laminadas", "quantity": 30, "unit": "g", "note": "o fileteadas" },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "picado", "aliases": ["culantro"] },
+      { "name": "cuscús", "quantity": 250, "unit": "g", "note": "en supermercados grandes o tiendas naturistas", "aliases": ["couscous"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Sofríe la cebolla en el aceite a fuego medio 8 minutos, hasta que esté dorada. Añade el ajo, el ras el hanout, la canela y el jengibre y fríe 1 minuto para despertar las especias.",
+      "Incorpora la zanahoria, la ahuyama y el tomate rallado; cocina 5 minutos revolviendo de vez en cuando.",
+      "Añade los garbanzos, las ciruelas y el caldo. Agrega sal, tapa y cocina a fuego bajo 30 minutos, hasta que la ahuyama esté tierna y la salsa haya espesado. Si se seca demasiado, agrega un poco de agua.",
+      "Mientras, coloca el cuscús en un recipiente con 1 cucharadita de aceite y sal, cúbrelo con 300 ml de agua hirviendo, tapa y espera 5 minutos. Suéltalo con un tenedor.",
+      "Tuesta las almendras en una sartén seca 2-3 minutos, moviéndolas para que no se quemen.",
+      "Sirve el tajín sobre el cuscús con las almendras y el cilantro fresco por encima."
+    ],
+    "tags": ["una olla", "meal prep", "reconfortante", "sin soya", "tradicional"],
+    "tips": [
+      "Cocínalo en una olla de fondo grueso con tapa para imitar el tajín de barro: el vapor que retorna es lo que ablanda las verduras sin resecarlas.",
+      "Cambia las ciruelas por duraznos secos (orejones) o dátiles según lo que tengas en la despensa.",
+      "Prepáralo el día anterior: gana sabor y se recalienta muy bien."
+    ],
+    "nutrition": { "calories": 560, "protein": 18, "carbs": 92, "fat": 14, "fiber": 16 },
+    "sources": [
+      { "name": "Legumbres Luengo", "url": "https://legumbresluengo.com/recetas/tajin-de-garbanzos-marroqui/" },
+      { "name": "Fundación Dieta Mediterránea", "url": "https://dietamediterranea.com/en/recipes/prune-tagine/" },
+      { "name": "El Invitado de Invierno", "url": "https://invitadoinvierno.com/tajine-marroqui-vegetariano-patatas-garbanzos/" }
+    ]
+  },
+  {
+    "id": "koshari-egipcio",
+    "title": "Koshari egipcio",
+    "description": "El plato callejero nacional de Egipto: capas de arroz, lentejas, coditos y garbanzos bañadas en salsa de tomate especiada con comino y vinagre, coronadas con una montaña de cebolla frita crujiente.",
+    "visual": "rice",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Medio Oriente",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 60,
+    "servings": 6,
+    "ingredients": [
+      { "name": "arroz de grano largo", "quantity": 250, "unit": "g" },
+      { "name": "lentejas", "quantity": 200, "unit": "g", "note": "las comunes (pardas), secas", "aliases": ["lentejas pardas", "lentejas marrones"] },
+      { "name": "coditos", "quantity": 200, "unit": "g", "note": "o macarrones cortos tipo ditalini", "aliases": ["macarrones cortos", "ditalini", "pasta corta"] },
+      { "name": "garbanzos cocinados", "quantity": 250, "unit": "g", "note": "escurridos", "aliases": ["garbanzos cocidos", "garbanzos en lata"] },
+      { "name": "cebolla cabezona", "quantity": 3, "unit": "unidad", "note": "grandes, en juliana muy fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "harina de trigo", "quantity": 2, "unit": "cucharada", "note": "para apanar la cebolla" },
+      { "name": "aceite vegetal", "quantity": 150, "unit": "ml", "note": "para fritar la cebolla" },
+      { "name": "tomate triturado", "quantity": 800, "unit": "g", "note": "2 latas", "aliases": ["passata", "puré de tomate", "tomate en lata"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "picados" },
+      { "name": "comino molido", "quantity": 2, "unit": "cucharadita" },
+      { "name": "cilantro molido", "quantity": 1, "unit": "cucharadita", "note": "semillas de cilantro molidas", "aliases": ["coriandro molido", "semillas de cilantro"] },
+      { "name": "vinagre blanco", "quantity": 2, "unit": "cucharada" },
+      { "name": "ají en hojuelas", "quantity": 0.5, "unit": "cucharadita", "note": "opcional, para picante", "aliases": ["chile en hojuelas", "ají seco molido", "pimienta de cayena"] },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Mezcla la cebolla en juliana con la harina y una pizca de sal. Frítala en el aceite vegetal a fuego medio, por tandas, 8-10 minutos hasta que esté dorada y crujiente. Escurre sobre papel absorbente y reserva el aceite de la fritura.",
+      "Cocina las lentejas en agua con sal 20-25 minutos, hasta que estén tiernas pero enteras; escúrrelas.",
+      "Sofríe el arroz con 2 cucharadas del aceite de la cebolla durante 2 minutos, añade 500 ml de agua, sal y 1 cucharadita de comino. Tapa y cocina a fuego bajo 15 minutos; deja reposar 5 minutos.",
+      "Cocina la pasta en abundante agua con sal según el tiempo del paquete y escúrrela.",
+      "Para la salsa, sofríe el ajo en el aceite de oliva 1 minuto, añade el tomate, el comino restante, el cilantro molido, el ají, sal y pimienta. Cocina a fuego medio-bajo 20 minutos y termina con el vinagre.",
+      "Calienta los garbanzos 2 minutos en un par de cucharadas de salsa.",
+      "Sirve en capas: arroz, lentejas, pasta, salsa de tomate, garbanzos y una generosa montaña de cebolla crujiente por encima."
+    ],
+    "tags": ["económico", "alto en proteína", "meal prep", "tradicional", "sin soya"],
+    "tips": [
+      "Todos los componentes se pueden cocinar el día anterior; solo arma y recalienta al momento de servir.",
+      "Para la salsa de ajo tradicional (dakka), licúa 2 dientes de ajo con 3 cucharadas de vinagre, 1 cucharadita de comino y un poco de agua y sírvela aparte.",
+      "Frita la cebolla a fuego medio, no alto, para que se deshidrate lentamente y quede crujiente sin quemarse."
+    ],
+    "nutrition": { "calories": 610, "protein": 22, "carbs": 105, "fat": 12, "fiber": 15 },
+    "sources": [
+      { "name": "196 flavors", "url": "https://www.196flavors.com/es/egipto-koshari/" },
+      { "name": "Las Recetas de MJ", "url": "https://www.lasrecetasdemj.com/2026/04/koshari-el-plato-nacional-de-egipto.html" }
+    ]
+  },
+  {
+    "id": "imam-bayildi",
+    "title": "Imam bayildi (berenjenas rellenas turcas)",
+    "description": "Berenjenas enteras rellenas de un sofrito lento de cebolla, tomate, ajo y hierbas, horneadas en aceite de oliva hasta quedar muy tiernas y melosas. Un clásico turco que se sirve tibio o a temperatura ambiente.",
+    "visual": "stuffed",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Turca",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 70,
+    "servings": 4,
+    "ingredients": [
+      { "name": "berenjena", "quantity": 4, "unit": "unidad", "note": "medianas y alargadas" },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "en juliana fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "maduros, pelados y picados", "aliases": ["tomate", "jitomate"] },
+      { "name": "pimentón verde", "quantity": 1, "unit": "unidad", "note": "picado fino", "aliases": ["pimiento verde", "morrón verde"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "en láminas" },
+      { "name": "aceite de oliva", "quantity": 120, "unit": "ml" },
+      { "name": "perejil fresco", "quantity": 1, "unit": "manojo", "note": "picado" },
+      { "name": "hierbabuena fresca", "quantity": 2, "unit": "cucharada", "note": "picada", "aliases": ["menta", "yerbabuena"] },
+      { "name": "azúcar", "quantity": 1, "unit": "cucharadita" },
+      { "name": "pasta de tomate", "quantity": 1, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "jugo de limón", "quantity": 2, "unit": "cucharada", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "agua", "quantity": 200, "unit": "ml" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Pela las berenjenas en franjas alternas (efecto cebra), pínchalas con un tenedor y frítalas en 4 cucharadas de aceite a fuego medio, girándolas, unos 10 minutos hasta que estén blandas. Como alternativa, hornéalas a 200 °C durante 30 minutos.",
+      "En la misma sartén sofríe la cebolla con 3 cucharadas de aceite a fuego medio-bajo 10 minutos, hasta que esté muy tierna y dulce.",
+      "Añade el ajo y el pimentón y cocina 3 minutos; incorpora el tomate, el azúcar, sal y pimienta y cocina 8 minutos hasta que espese. Retira del fuego y mezcla con el perejil y la hierbabuena.",
+      "Precalienta el horno a 180 °C. Abre cada berenjena a lo largo sin llegar a los extremos y separa la pulpa con una cuchara para crear un hueco.",
+      "Rellena las berenjenas generosamente con el sofrito y acomódalas apretadas en una refractaria.",
+      "Mezcla el agua con la pasta de tomate, el jugo de limón y el aceite restante y viértelo alrededor de las berenjenas.",
+      "Cubre con papel aluminio y hornea 30 minutos; destapa y hornea 10-15 minutos más hasta que la salsa reduzca y las berenjenas estén muy tiernas.",
+      "Deja enfriar y sírvelas tibias o a temperatura ambiente con pan crujiente."
+    ],
+    "tags": ["al horno", "tradicional", "sin gluten", "verano", "sin soya"],
+    "tips": [
+      "Pertenece a la familia de platos turcos con aceite de oliva (zeytinyağlı) que tradicionalmente se sirven fríos; el sabor mejora al día siguiente.",
+      "Elige berenjenas firmes y de tamaño uniforme para que se cocinen parejo.",
+      "Acompáñalo con arroz pilaf o bulgur para convertirlo en un plato más contundente."
+    ],
+    "nutrition": { "calories": 340, "protein": 5, "carbs": 28, "fat": 25, "fiber": 11 },
+    "sources": [
+      { "name": "Give Recipe", "url": "https://www.giverecipe.com/imam-bayildi/" },
+      { "name": "Cooking Gorgeous", "url": "https://cookingorgeous.com/blog/imam-bayildi-turkish-stuffed-eggplant/" }
+    ]
+  },
+  {
+    "id": "misir-wot-etiope",
+    "title": "Misir wot etíope",
+    "description": "Guiso espeso de lentejas rojas cocinado sobre una base de cebolla muy sofrita, ajo, jengibre y berbere, la mezcla de especias picante de Etiopía. Se come tradicionalmente con injera.",
+    "visual": "curry",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Etíope",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      { "name": "lentejas rojas", "quantity": 300, "unit": "g", "note": "en tiendas naturistas o supermercados grandes", "aliases": ["lentejas naranjas", "masoor dal"] },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "grandes, picadas muy finas", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "picados" },
+      { "name": "jengibre fresco", "quantity": 1, "unit": "cucharada", "note": "rallado" },
+      { "name": "berbere", "quantity": 2, "unit": "cucharada", "note": "mezcla de especias etíope; en tiendas de productos importados o prepárala con la mezcla del consejo; ajusta según lo picante que la quieras" },
+      { "name": "pasta de tomate", "quantity": 2, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "tomate", "quantity": 1, "unit": "unidad", "note": "picado", "aliases": ["jitomate"] },
+      { "name": "aceite vegetal", "quantity": 4, "unit": "cucharada", "note": "o niter kibbeh vegano (mantequilla especiada etíope)" },
+      { "name": "agua", "quantity": 800, "unit": "ml" },
+      { "name": "paprika dulce", "quantity": 1, "unit": "cucharadita", "note": "pimentón dulce en polvo; para intensificar el color", "aliases": ["pimentón dulce", "pimentón en polvo", "páprika"] },
+      { "name": "cardamomo molido", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "injera", "quantity": 4, "unit": "unidad", "note": "pan plano etíope; o arroz cocinado para acompañar" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Cocina la cebolla en una olla sin aceite a fuego medio 5 minutos, revolviendo, hasta que suelte su agua; después añade el aceite y sigue cocinando 10 minutos más hasta que esté muy blanda y dorada. Esta base lenta es el secreto del sabor.",
+      "Incorpora el ajo, el jengibre y el berbere; fríe 2 minutos añadiendo 2 cucharadas de agua para que las especias no se quemen.",
+      "Añade la pasta de tomate y el tomate picado y cocina 5 minutos hasta que oscurezca.",
+      "Enjuaga las lentejas en varias aguas hasta que salgan claras y añádelas a la olla con el agua, la paprika y sal. Deja que hierva.",
+      "Baja el fuego, tapa parcialmente y cocina 25-30 minutos revolviendo con frecuencia, hasta que las lentejas se deshagan en un guiso espeso. Agrega un poco de agua si se seca.",
+      "Ajusta la sal, añade el cardamomo y cocina 2 minutos más. Sirve sobre injera o acompañado de arroz."
+    ],
+    "tags": ["picante", "sin gluten", "alto en proteína", "económico", "una olla"],
+    "tips": [
+      "Si no encuentras berbere, mezcla 1 cucharada de paprika, 1 cucharadita de ají en polvo, media de comino, media de cilantro molido y un cuarto de jengibre, canela y cardamomo.",
+      "El guiso espesa al enfriarse; recaliéntalo con un chorrito de agua.",
+      "Acompáñalo con verduras salteadas o ensalada fresca para equilibrar el picante."
+    ],
+    "nutrition": { "calories": 390, "protein": 20, "carbs": 52, "fat": 12, "fiber": 14 },
+    "sources": [
+      { "name": "Holy Cow Vegan", "url": "https://holycowvegan.net/misir-wot-ethiopian-red-lentils/" },
+      { "name": "The Vegan Society", "url": "https://www.vegansociety.com/lifestyle/recipes/ethiopian-misir-wot-spicy-red-lentil-stew" }
+    ]
+  },
+  {
+    "id": "goulash-de-setas",
+    "title": "Goulash de champiñones",
+    "description": "Guiso centroeuropeo de champiñones dorados, papa, zanahoria y pimentón en una salsa de paprika dulce y ahumada con un toque de alcaravea. Contundente, aromático y perfecto para el frío.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Europea",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "champiñones variados", "quantity": 600, "unit": "g", "note": "champiñón blanco, portobello, orellanas", "aliases": ["setas variadas", "setas", "hongos"] },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "picadas", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en cubos", "aliases": ["pimiento rojo", "morrón"] },
+      { "name": "zanahoria", "quantity": 2, "unit": "unidad", "note": "en rodajas" },
+      { "name": "papa", "quantity": 2, "unit": "unidad", "note": "medianas, en cubos", "aliases": ["patata"] },
+      { "name": "paprika dulce", "quantity": 2, "unit": "cucharada", "note": "pimentón dulce en polvo", "aliases": ["pimentón dulce", "pimentón en polvo", "páprika"] },
+      { "name": "paprika ahumada", "quantity": 1, "unit": "cucharadita", "note": "pimentón ahumado en polvo", "aliases": ["pimentón ahumado", "pimentón de la Vera"] },
+      { "name": "semillas de alcaravea", "quantity": 1, "unit": "cucharadita", "note": "opcional; en tiendas de productos importados", "aliases": ["carvi", "comino de prado", "alcaravea"] },
+      { "name": "pasta de tomate", "quantity": 2, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "vino tinto", "quantity": 100, "unit": "ml", "note": "opcional; reemplázalo por caldo" },
+      { "name": "caldo de verduras", "quantity": 500, "unit": "ml", "aliases": ["caldo de vegetales"] },
+      { "name": "salsa de soya", "quantity": 1, "unit": "cucharada", "aliases": ["salsa de soja", "salsa china"] },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "perejil fresco", "quantity": 2, "unit": "cucharada", "note": "picado" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Limpia los champiñones con un paño y córtalos en trozos grandes. Dóralos con 1 cucharada de aceite a fuego alto 6-8 minutos, por tandas y sin amontonar; reserva.",
+      "En la misma olla sofríe la cebolla con el aceite restante 8 minutos a fuego medio hasta que dore. Añade el ajo, el pimentón y la zanahoria y cocina 4 minutos.",
+      "Retira la olla del fuego, agrega las dos paprikas y la alcaravea y revuelve 30 segundos; fuera del fuego la paprika no amarga.",
+      "Vuelve al fuego, añade la pasta de tomate y el vino y deja evaporar 2 minutos.",
+      "Incorpora las papas, el caldo, la salsa de soya, sal y pimienta. Tapa y cocina a fuego bajo 20 minutos, hasta que la papa esté tierna.",
+      "Añade los champiñones dorados y cocina destapado 5 minutos más para que la salsa espese.",
+      "Sirve espolvoreado con perejil, acompañado de pan rústico, spätzle o puré de papa."
+    ],
+    "tags": ["una olla", "invierno", "reconfortante", "económico", "sin frutos secos"],
+    "tips": [
+      "Para más cuerpo, añade 1 cucharada de harina junto con la paprika o licúa unas cucharadas del guiso y devuélvelas a la olla.",
+      "Una cucharada de yogur vegetal o crema de marañón al servir suaviza la paprika y lo hace más cremoso.",
+      "Se congela sin problema hasta 3 meses."
+    ],
+    "nutrition": { "calories": 260, "protein": 8, "carbs": 34, "fat": 11, "fiber": 7 },
+    "sources": [
+      { "name": "Inspirations for All", "url": "https://www.inspirationsforall.com/en/mushroom-goulash-vegan-recipe/" },
+      { "name": "Foodohfood", "url": "https://foodohfood.it/en/second-course/vegetables/825-vegan-mushroom-goulash" }
+    ]
+  },
+  {
+    "id": "shepherds-pie-de-lentejas",
+    "title": "Shepherd's pie de lentejas",
+    "description": "Pastel británico de lentejas guisadas con zanahoria, champiñones y hierbas, cubierto por un puré de papa cremoso y gratinado al horno. Comida casera que reconforta en cualquier época.",
+    "visual": "pie",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Británica",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 70,
+    "servings": 6,
+    "ingredients": [
+      { "name": "lentejas", "quantity": 300, "unit": "g", "note": "secas; las comunes (pardas) o las verdes", "aliases": ["lentejas pardas", "lentejas verdes"] },
+      { "name": "papa", "quantity": 1, "unit": "kg", "note": "harinosas (pastusa), peladas", "aliases": ["patata"] },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "picadas", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "picados" },
+      { "name": "zanahoria", "quantity": 2, "unit": "unidad", "note": "en cubitos" },
+      { "name": "champiñones", "quantity": 200, "unit": "g", "note": "picados", "aliases": ["hongos", "setas"] },
+      { "name": "pasta de tomate", "quantity": 2, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "caldo de verduras", "quantity": 750, "unit": "ml", "aliases": ["caldo de vegetales"] },
+      { "name": "salsa de soya", "quantity": 1, "unit": "cucharada", "aliases": ["salsa de soja", "salsa china"] },
+      { "name": "tomillo seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "romero seco", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "arvejas congeladas", "quantity": 150, "unit": "g", "aliases": ["guisantes", "chícharos"] },
+      { "name": "margarina vegetal", "quantity": 50, "unit": "g" },
+      { "name": "leche vegetal sin azúcar", "quantity": 100, "unit": "ml", "note": "de almendras, avena o soya", "aliases": ["bebida vegetal"] },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Corta las papas en trozos y cocínalas en agua con sal 20 minutos hasta que estén muy tiernas. Escúrrelas, déjalas evaporar 1 minuto y aplástalas con la margarina y la leche vegetal. Sazona con sal y pimienta.",
+      "Mientras tanto, sofríe la cebolla, la zanahoria y el ajo en el aceite 8 minutos. Añade los champiñones y cocina 5 minutos más hasta que doren.",
+      "Agrega la pasta de tomate, el tomillo y el romero y cocina 1 minuto. Incorpora las lentejas, el caldo y la salsa de soya.",
+      "Cocina tapado a fuego bajo 30 minutos, hasta que las lentejas estén tiernas y el líquido casi absorbido. Añade las arvejas y ajusta la sal; el relleno debe quedar jugoso, no líquido.",
+      "Precalienta el horno a 200 °C. Vierte el relleno en una refractaria de 30x20 cm y cúbrelo con el puré, extendiéndolo desde los bordes hacia el centro. Marca surcos con un tenedor.",
+      "Hornea 20-25 minutos hasta que la superficie esté dorada. Déjalo reposar 10 minutos antes de servir."
+    ],
+    "tags": ["al horno", "reconfortante", "alto en proteína", "meal prep", "invierno"],
+    "tips": [
+      "Gratina 2-3 minutos al final para un dorado más intenso en los surcos del puré.",
+      "Un chorrito de vino tinto o de vinagre balsámico en el relleno realza mucho el sabor.",
+      "Se congela muy bien ya armado y sin hornear; hornéalo directamente desde congelado añadiendo 20 minutos."
+    ],
+    "nutrition": { "calories": 430, "protein": 18, "carbs": 70, "fat": 9, "fiber": 15 },
+    "sources": [
+      { "name": "Rainbow Plant Life", "url": "https://rainbowplantlife.com/healthy-vegan-lentil-shepherds-pie/" },
+      { "name": "Minimalist Baker", "url": "https://minimalistbaker.com/1-hour-vegan-shepherds-pie/" }
+    ]
+  },
+  {
+    "id": "tortilla-espanola-de-papas",
+    "title": "Tortilla española de papas",
+    "description": "Papas y cebolla confitadas lentamente en aceite de oliva, mezcladas con huevo batido y cuajadas en la sartén hasta quedar doradas por fuera y jugosas por dentro. El plato más emblemático de España.",
+    "visual": "tortilla",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Española",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "papa", "quantity": 700, "unit": "g", "note": "peladas", "aliases": ["patata"] },
+      { "name": "huevo", "quantity": 6, "unit": "unidad", "note": "grandes" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "opcional, en juliana fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "aceite de oliva", "quantity": 400, "unit": "ml", "note": "para confitar; se recupera casi todo" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" }
+    ],
+    "steps": [
+      "Corta las papas en tajadas de unos 3 mm y la cebolla en juliana fina.",
+      "Calienta el aceite en una sartén honda a fuego medio-bajo y confita las papas y la cebolla 20-25 minutos, revolviendo de vez en cuando, hasta que estén tiernas sin dorarse en exceso.",
+      "Escúrrelas bien en un colador y reserva el aceite.",
+      "Bate los huevos con la sal en un recipiente grande, añade las papas todavía calientes, mezcla y deja reposar 10 minutos para que se empapen.",
+      "Calienta 1 cucharada del aceite reservado en una sartén antiadherente de 24 cm a fuego medio; vierte la mezcla y cocina 3-4 minutos moviendo la sartén para que no se pegue.",
+      "Cubre con un plato grande, voltéala con decisión y desliza la tortilla de nuevo a la sartén. Cocina 2-3 minutos más si la quieres jugosa, o 5 si la prefieres bien cuajada.",
+      "Deja reposar 5 minutos y sirve tibia o a temperatura ambiente."
+    ],
+    "tags": ["tradicional", "sin gluten", "económico", "sin soya", "sin frutos secos"],
+    "tips": [
+      "Proporción de referencia: 1 huevo grande por cada 100-120 g de papa pelada.",
+      "El aceite sobrante se cuela y sirve para otras frituras.",
+      "Para voltearla sin miedo, usa un plato de diámetro mayor que la sartén y hazlo sobre el lavaplatos."
+    ],
+    "nutrition": { "calories": 440, "protein": 14, "carbs": 34, "fat": 28, "fiber": 4 },
+    "veganAlternative": "Sustituye los 6 huevos por una mezcla de 120 g de harina de garbanzo, 220 ml de agua, 1 cucharada de maicena, media cucharadita de sal negra kala namak y un cuarto de cúrcuma. Deja reposar 10 minutos con las papas y cuaja a fuego medio-bajo con la sartén tapada 6-7 minutos por lado.",
+    "sources": [
+      { "name": "Bon Viveur", "url": "https://bonviveur.com/es/recetas/tortilla-patatas" },
+      { "name": "El Cocinero Casero", "url": "https://elcocinerocasero.com/receta/tortilla-de-patata/" }
+    ]
+  },
+  {
+    "id": "spanakopita-griega",
+    "title": "Spanakopita griega",
+    "description": "Pastel griego de espinacas, queso feta, eneldo y cebolla larga envuelto en finas capas de masa filo pinceladas con aceite de oliva y horneadas hasta quedar doradas y crujientes.",
+    "visual": "empanada",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Griega",
+    "difficulty": "difícil",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 50,
+    "servings": 8,
+    "ingredients": [
+      { "name": "masa filo", "quantity": 400, "unit": "g", "note": "12-14 láminas, descongelada en la nevera; en supermercados grandes o tiendas de productos árabes", "aliases": ["masa phyllo", "pasta filo", "hojaldre filo"] },
+      { "name": "espinaca fresca", "quantity": 1, "unit": "kg", "note": "o 500 g de espinaca congelada bien escurrida" },
+      { "name": "queso feta", "quantity": 300, "unit": "g", "note": "desmenuzado; en supermercados grandes; puedes reemplazarlo por queso costeño" },
+      { "name": "huevo", "quantity": 3, "unit": "unidad" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "cebolla larga", "quantity": 4, "unit": "unidad", "note": "picada", "aliases": ["cebollín", "cebolleta", "cebolla de verdeo", "cebolla junca"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "eneldo fresco", "quantity": 3, "unit": "cucharada", "note": "picado; o 1 cucharada de eneldo seco" },
+      { "name": "perejil fresco", "quantity": 0.5, "unit": "manojo", "note": "picado" },
+      { "name": "aceite de oliva", "quantity": 150, "unit": "ml", "note": "para el sofrito y para pincelar" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Lava las espinacas y saltéalas por tandas en una sartén sin aceite 3-4 minutos hasta que reduzcan. Déjalas enfriar y exprímelas con las manos hasta sacar toda el agua posible; pícalas.",
+      "Sofríe la cebolla cabezona, la cebolla larga y el ajo con 2 cucharadas de aceite 6 minutos. Mezcla en un recipiente con las espinacas, el feta, el eneldo, el perejil, los huevos batidos, la nuez moscada y pimienta. Agrega sal con cuidado porque el feta ya aporta sal.",
+      "Precalienta el horno a 180 °C y engrasa una refractaria de 30x22 cm.",
+      "Extiende la masa filo y cúbrela con un paño húmedo para que no se seque. Coloca 7 láminas en la refractaria pincelando cada una con aceite y dejando que sobresalgan por los bordes.",
+      "Reparte el relleno de forma uniforme y cubre con las láminas restantes, pincelando una a una. Dobla los bordes hacia adentro y pincela la superficie con aceite.",
+      "Con un cuchillo afilado marca las porciones cortando solo las capas superiores y salpica la superficie con unas gotas de agua.",
+      "Hornea 45-50 minutos hasta que esté dorada y crujiente. Deja reposar 15 minutos antes de cortar."
+    ],
+    "tags": ["al horno", "tradicional", "para fiestas", "sin soya", "sin frutos secos"],
+    "tips": [
+      "Si las láminas de filo se rompen, no pasa nada: colócalas superpuestas y reserva las mejores para la capa superior.",
+      "Con espinaca congelada, descongélala completamente y exprímela muy bien: el agua es el enemigo del filo crujiente.",
+      "Recalienta las sobras en el horno y no en microondas para recuperar el crujiente."
+    ],
+    "nutrition": { "calories": 370, "protein": 13, "carbs": 30, "fat": 23, "fiber": 3 },
+    "veganAlternative": "Cambia el feta por 250 g de tofu firme desmenuzado y macerado 30 minutos con 2 cucharadas de jugo de limón, 1 cucharada de miso blanco, 1 cucharadita de orégano y 3 cucharadas de levadura nutricional. Omite los huevos y liga el relleno con 2 cucharadas de harina de garbanzo. Revisa que la masa filo no contenga mantequilla.",
+    "sources": [
+      { "name": "The Mediterranean Dish", "url": "https://www.themediterraneandish.com/spanakopita-recipe-greek-spinach-pie/" },
+      { "name": "My Greek Dish", "url": "https://www.mygreekdish.com/recipe/traditional-greek-spinach-pie-spanakopita-recipe-with-homemade-phyllo/" }
+    ]
+  },
+  {
+    "id": "pizza-margarita-casera",
+    "title": "Pizza margarita casera",
+    "description": "Masa de fermentación lenta estirada a mano, salsa de tomate sin cocinar, mozzarella fresca y albahaca: los tres colores de la bandera italiana en la pizza más sencilla y querida.",
+    "visual": "pizza",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Italiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 500, "unit": "g", "note": "de fuerza o panadera (000) si la consigues; también sirve la harina de trigo común", "aliases": ["harina de fuerza", "harina panadera", "harina 000"] },
+      { "name": "agua tibia", "quantity": 320, "unit": "ml" },
+      { "name": "levadura seca instantánea", "quantity": 5, "unit": "g", "note": "o 15 g de levadura fresca", "aliases": ["levadura de panadería", "levadura seca"] },
+      { "name": "sal", "quantity": 10, "unit": "g" },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada", "note": "más un hilo para terminar" },
+      { "name": "azúcar", "quantity": 1, "unit": "cucharadita" },
+      { "name": "tomate triturado", "quantity": 400, "unit": "g", "note": "o tomates pelados en lata tipo San Marzano", "aliases": ["passata", "puré de tomate", "tomate en lata"] },
+      { "name": "queso mozzarella fresca", "quantity": 300, "unit": "g", "note": "la de bola en agua, escurrida y en trozos; también sirve mozzarella en bloque rallada", "aliases": ["mozzarella de búfala", "mozzarella fior di latte"] },
+      { "name": "albahaca fresca", "quantity": 12, "unit": "hoja" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita", "note": "opcional" },
+      { "name": "ajo", "quantity": 1, "unit": "diente", "note": "opcional, para la salsa" }
+    ],
+    "steps": [
+      "Disuelve la levadura y el azúcar en el agua tibia y espera 5 minutos hasta que espume. Mezcla con la harina, añade la sal y el aceite y amasa 10 minutos hasta obtener una masa lisa y elástica.",
+      "Forma una bola, tápala y déjala leudar 1-2 horas en un lugar tibio hasta que duplique su volumen; para más sabor, déjala en la nevera 24 horas.",
+      "Licúa el tomate con una pizca de sal, el ajo y el orégano sin cocinarlo, así conserva su frescura. Corta la mozzarella y déjala escurrir 20 minutos sobre papel absorbente.",
+      "Precalienta el horno a la máxima temperatura (250-280 °C) con una bandeja o piedra dentro durante 30 minutos.",
+      "Divide la masa en 4 bolas, deja reposar 15 minutos y estira cada una con los dedos desde el centro hacia afuera sobre una superficie enharinada, dejando el borde algo más grueso.",
+      "Extiende 3-4 cucharadas de salsa por pizza dejando 2 cm de borde libre y reparte la mozzarella.",
+      "Hornea sobre la bandeja caliente 8-10 minutos, hasta que el borde esté dorado y el queso burbujee. Termina con albahaca fresca y un hilo de aceite de oliva."
+    ],
+    "tags": ["tradicional", "para niños", "al horno", "sin frutos secos", "sin soya"],
+    "tips": [
+      "Una piedra o bandeja de acero muy caliente da el golpe de calor que vuelve la base crujiente.",
+      "No cargues la pizza de ingredientes: la margarita destaca por su sencillez.",
+      "Las bolas de masa ya leudadas se congelan bien; descongélalas en la nevera la noche anterior."
+    ],
+    "nutrition": { "calories": 620, "protein": 26, "carbs": 92, "fat": 17, "fiber": 5 },
+    "veganAlternative": "Usa una mozzarella vegana que funda bien (a base de marañón o de almidón) o reparte cucharadas de crema de marañón sobre la salsa; añade la albahaca y un hilo de aceite justo al salir del horno.",
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-panes/receta-pizza-margarita-casera-italiana-facil-que-existe" },
+      { "name": "Bon Viveur", "url": "https://www.bonviveur.es/recetas/pizza-margarita-casera" }
+    ]
+  },
+  {
+    "id": "quiche-de-espinaca-y-queso",
+    "title": "Quiche de espinaca y queso",
+    "description": "Tarta salada francesa con base de masa quebrada, espinacas salteadas y un relleno cremoso de huevo, crema de leche y queso gruyer horneado hasta cuajar. Se disfruta tibia o fría con ensalada.",
+    "visual": "pie",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Francesa",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "masa quebrada", "quantity": 1, "unit": "unidad", "note": "lámina lista (de la nevera del supermercado) o casera; para molde de 24 cm", "aliases": ["masa brisa", "masa brisé", "pasta brisa", "masa para tarta"] },
+      { "name": "espinaca fresca", "quantity": 400, "unit": "g" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente", "note": "picado" },
+      { "name": "huevo", "quantity": 3, "unit": "unidad" },
+      { "name": "crema de leche", "quantity": 200, "unit": "ml", "aliases": ["nata", "crema para batir"] },
+      { "name": "leche", "quantity": 100, "unit": "ml" },
+      { "name": "queso gruyer", "quantity": 120, "unit": "g", "note": "rallado; o emmental; en supermercados grandes", "aliases": ["gruyère", "queso suizo"] },
+      { "name": "aceite de oliva", "quantity": 1, "unit": "cucharada" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Precalienta el horno a 180 °C. Forra un molde de 24 cm con la masa, pincha la base con un tenedor, cúbrela con papel parafinado y fríjoles o garbanzos secos (para que no se infle) y hornea 12 minutos; retira el peso y hornea 5 minutos más.",
+      "Sofríe la cebolla y el ajo en el aceite 5 minutos. Añade las espinacas y cocina 3-4 minutos hasta que reduzcan. Escurre y exprime el exceso de líquido.",
+      "Bate los huevos con la crema de leche, la leche, la nuez moscada, sal y pimienta.",
+      "Reparte las espinacas sobre la base prehorneada, esparce el queso y vierte la mezcla de huevo por encima.",
+      "Hornea 30-35 minutos hasta que el centro esté cuajado y la superficie dorada.",
+      "Deja reposar 10 minutos antes de desmoldar y cortar. Sirve tibia con una ensalada verde."
+    ],
+    "tags": ["al horno", "meal prep", "para niños", "sin soya", "sin frutos secos"],
+    "tips": [
+      "Exprimir bien las espinacas evita que la quiche quede aguada y la base se humedezca.",
+      "Puedes prepararla con un día de anticipación y recalentarla a 160 °C durante 10 minutos.",
+      "Variante: añade champiñones salteados o cambia el gruyer por queso de cabra."
+    ],
+    "nutrition": { "calories": 390, "protein": 14, "carbs": 24, "fat": 27, "fiber": 3 },
+    "veganAlternative": "Reemplaza huevos, crema de leche y leche por 300 g de tofu sedoso licuado con 3 cucharadas de levadura nutricional, 2 cucharadas de maicena, media cucharadita de sal negra kala namak y 100 ml de leche vegetal; usa queso vegano rallado y una masa quebrada hecha con aceite o margarina en lugar de mantequilla.",
+    "sources": [
+      { "name": "Bon Viveur", "url": "https://bonviveur.com/es/recetas/quiche-de-espinacas-y-queso" },
+      { "name": "Cocinatis", "url": "https://www.cocinatis.com/receta/quiche-de-espinacas_23_1144604.html" }
+    ]
+  },
+  {
+    "id": "noquis-de-calabaza-con-mantequilla-de-salvia",
+    "title": "Ñoquis de ahuyama con mantequilla de salvia",
+    "description": "Ñoquis caseros de ahuyama asada y papa, ligeros y de color dorado, salteados en mantequilla avellanada con hojas de salvia crujientes y parmesano. Un plato italiano de otoño lleno de aroma.",
+    "visual": "pasta",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Italiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 15,
+    "servings": 4,
+    "ingredients": [
+      { "name": "ahuyama", "quantity": 1, "unit": "kg", "note": "con piel; también sirve la calabaza butternut", "aliases": ["calabaza", "zapallo", "auyama", "butternut"] },
+      { "name": "papa", "quantity": 300, "unit": "g", "note": "harinosa (pastusa)", "aliases": ["patata"] },
+      { "name": "harina de trigo", "quantity": 250, "unit": "g", "note": "más extra para la mesa" },
+      { "name": "huevo", "quantity": 1, "unit": "unidad" },
+      { "name": "queso parmesano", "quantity": 60, "unit": "g", "note": "rallado" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "mantequilla", "quantity": 80, "unit": "g" },
+      { "name": "salvia fresca", "quantity": 16, "unit": "hoja", "note": "en supermercados grandes, plazas de mercado o viveros" },
+      { "name": "nueces", "quantity": 40, "unit": "g", "note": "picadas y tostadas; opcional", "aliases": ["nuez de Castilla", "nueces de nogal"] },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C. Corta la ahuyama por la mitad, retira las semillas y hornéala boca abajo 40 minutos hasta que esté muy tierna. Cocina la papa con piel en agua con sal 25 minutos.",
+      "Saca la pulpa de la ahuyama, pásala por un prensapuré o aplástala con tenedor y déjala escurrir en un colador 15 minutos. Pela y aplasta la papa.",
+      "Mezcla en un recipiente los purés tibios con el huevo, la mitad del parmesano, la nuez moscada y sal. Incorpora la harina poco a poco hasta que la masa se despegue de las manos; no la amases de más.",
+      "Divide la masa en porciones y forma cilindros de 2 cm de grosor sobre la mesa enharinada; corta trozos de 2 cm y márcalos con un tenedor si quieres.",
+      "Cocina los ñoquis en abundante agua hirviendo con sal, por tandas; retíralos con una espumadera 1 minuto después de que floten.",
+      "En una sartén grande derrite la mantequilla a fuego medio con la salvia; cocina 3-4 minutos hasta que espume, huela a avellana y las hojas estén crujientes.",
+      "Saltea los ñoquis en la mantequilla 1 minuto y sirve con el resto del parmesano, las nueces y pimienta recién molida."
+    ],
+    "tags": ["reconfortante", "tradicional", "invierno", "sin soya"],
+    "tips": [
+      "Asar la ahuyama en lugar de hervirla es clave: menos agua, menos harina y más sabor.",
+      "Si la masa está muy húmeda, añade harina de cucharada en cucharada; el exceso los vuelve duros.",
+      "Congela los ñoquis crudos extendidos en una bandeja y luego pásalos a una bolsa; cocínalos sin descongelar."
+    ],
+    "nutrition": { "calories": 520, "protein": 13, "carbs": 68, "fat": 24, "fiber": 6 },
+    "veganAlternative": "Omite el huevo (la masa liga igual con un poco más de harina), reemplaza el parmesano por 3 cucharadas de levadura nutricional y dora la salvia en mantequilla vegana o aceite de oliva.",
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-vegetarianas/noquis-calabaza-receta-para-variar-mesa" },
+      { "name": "Hola Cocina", "url": "https://www.hola.com/cocina/recetas/20190530142950/gnocchi-calabaza-mantequilla-salvia/" }
+    ]
+  },
+  {
+    "id": "lasana-de-verduras-asadas",
+    "title": "Lasaña de verduras asadas",
+    "description": "Capas de pasta con berenjena, calabacín y pimentón asados, salsa de tomate con albahaca, bechamel casera y queso gratinado. Una lasaña vegetariana generosa para reunir a la familia.",
+    "visual": "casserole",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Italiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 75,
+    "servings": 6,
+    "ingredients": [
+      { "name": "láminas de lasaña", "quantity": 12, "unit": "unidad", "note": "precocinadas (no necesitan hervirse)", "aliases": ["pasta para lasaña", "hojas de lasaña", "placas de lasaña"] },
+      { "name": "berenjena", "quantity": 1, "unit": "unidad", "note": "grande, en tajadas de 1 cm" },
+      { "name": "calabacín", "quantity": 2, "unit": "unidad", "note": "en tajadas de 1 cm", "aliases": ["zucchini", "calabacita"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento rojo", "morrón"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "tomate triturado", "quantity": 600, "unit": "g", "aliases": ["passata", "puré de tomate", "tomate en lata"] },
+      { "name": "albahaca fresca", "quantity": 10, "unit": "hoja" },
+      { "name": "aceite de oliva", "quantity": 4, "unit": "cucharada" },
+      { "name": "mantequilla", "quantity": 50, "unit": "g" },
+      { "name": "harina de trigo", "quantity": 50, "unit": "g" },
+      { "name": "leche", "quantity": 600, "unit": "ml", "note": "caliente" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "queso mozzarella", "quantity": 200, "unit": "g", "note": "rallado" },
+      { "name": "queso parmesano", "quantity": 50, "unit": "g", "note": "rallado" },
+      { "name": "sal y pimienta", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C. Mezcla la berenjena, el calabacín y el pimentón con 3 cucharadas de aceite y sal, extiéndelos en bandejas y ásalos 25 minutos hasta que doren.",
+      "Sofríe la cebolla y el ajo con el aceite restante 5 minutos. Añade el tomate, sal y pimienta y cocina 15 minutos hasta obtener una salsa espesa; termina con la albahaca en trozos.",
+      "Para la bechamel, derrite la mantequilla, añade la harina y cocina 1 minuto. Vierte la leche caliente poco a poco batiendo y cocina 5-7 minutos hasta que espese. Sazona con sal y nuez moscada.",
+      "Baja el horno a 180 °C. En una refractaria de 30x20 cm extiende una capa fina de salsa de tomate y coloca 3 láminas de pasta.",
+      "Alterna capas de verduras asadas, salsa de tomate, un poco de bechamel y mozzarella; repite hasta terminar con pasta, el resto de la bechamel y el parmesano por encima.",
+      "Cubre con papel aluminio y hornea 25 minutos; destapa y hornea 15 minutos más hasta que gratine.",
+      "Déjala reposar 15 minutos antes de cortar para que las capas se asienten."
+    ],
+    "tags": ["al horno", "reconfortante", "para fiestas", "meal prep", "sin frutos secos"],
+    "tips": [
+      "Salar la berenjena 20 minutos antes de asarla reduce su amargor y el exceso de agua.",
+      "Si usas láminas que requieren cocción previa, hiérvelas 2 minutos menos de lo indicado: terminan de hacerse en el horno.",
+      "Arma la lasaña el día anterior y hornéala al día siguiente; queda incluso mejor."
+    ],
+    "nutrition": { "calories": 470, "protein": 19, "carbs": 50, "fat": 22, "fiber": 7 },
+    "veganAlternative": "Prepara la bechamel con margarina vegetal y leche de soya o avena sin azúcar, añade 2 cucharadas de levadura nutricional, y reemplaza los quesos por mozzarella vegana rallada o por una crema de 150 g de marañón remojado licuado con 100 ml de agua, jugo de limón y sal.",
+    "sources": [
+      { "name": "Bon Viveur", "url": "https://bonviveur.com/es/recetas/lasana-verduras" },
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-pasta/verduras-sabrosas-deliciosas-para-hacer-mejor-lasana-vegetariana-receta-video-incluido" }
+    ]
+  }
+]

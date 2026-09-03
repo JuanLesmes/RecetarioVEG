@@ -1,0 +1,648 @@
+[
+  {
+    "id": "brownies-veganos-de-chocolate",
+    "title": "Brownies veganos de chocolate",
+    "description": "Brownies densos y húmedos con borde ligeramente crujiente, hechos con huevo de linaza y aceite de coco. Nadie notará que no llevan huevo ni mantequilla.",
+    "visual": "brownie",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 12,
+    "ingredients": [
+      { "name": "linaza molida", "quantity": 2, "unit": "cucharada", "aliases": ["lino molido", "semillas de lino molidas", "harina de linaza"] },
+      { "name": "agua", "quantity": 6, "unit": "cucharada", "note": "para el huevo de linaza" },
+      { "name": "aceite de coco", "quantity": 100, "unit": "ml", "note": "derretido" },
+      { "name": "azúcar morena", "quantity": 180, "unit": "g", "aliases": ["azúcar mascabado", "azúcar rubia", "azúcar moreno"] },
+      { "name": "leche vegetal", "quantity": 120, "unit": "ml", "note": "sin azúcar; de almendras, avena o soya", "aliases": ["bebida vegetal"] },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "harina de trigo", "quantity": 150, "unit": "g", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "cacao en polvo sin azúcar", "quantity": 60, "unit": "g", "aliases": ["cocoa", "cacao amargo en polvo"] },
+      { "name": "polvo de hornear", "quantity": 0.5, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "levadura en polvo", "royal"] },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "chips de chocolate amargo", "quantity": 100, "unit": "g", "aliases": ["chispas de chocolate", "gotas de chocolate", "pepitas de chocolate"] },
+      { "name": "nueces", "quantity": 50, "unit": "g", "note": "picadas, opcional", "aliases": ["nuez de Castilla", "nueces de nogal"] }
+    ],
+    "steps": [
+      "Mezcla la linaza molida con el agua y déjala reposar 10 minutos hasta que tome textura de gel. Mientras tanto, precalienta el horno a 180 °C y forra un molde cuadrado de 20 cm con papel parafinado (papel de hornear).",
+      "Bate en un tazón grande el aceite de coco derretido con el azúcar morena, la leche vegetal, la vainilla y el gel de linaza hasta obtener una mezcla uniforme y brillante.",
+      "Tamiza encima la harina, el cacao, el polvo de hornear y la sal. Integra con una espátula solo hasta que desaparezca la harina; la masa debe quedar espesa.",
+      "Agrega la mitad de los chips de chocolate y las nueces picadas, y mezcla con dos o tres movimientos envolventes.",
+      "Vierte la masa en el molde, alísala con la espátula y reparte por encima los chips restantes.",
+      "Hornea de 25 a 30 minutos. Un palillo insertado en el centro debe salir con migas húmedas, no limpio; así quedan jugosos.",
+      "Deja enfriar por completo dentro del molde, desmolda con ayuda del papel y corta en 12 cuadrados."
+    ],
+    "tags": ["al horno", "para fiestas", "reconfortante", "económico"],
+    "tips": [
+      "Si prefieres un brownie más fudgy, saca el molde del horno a los 25 minutos aunque el centro parezca poco hecho; termina de cuajar al enfriarse.",
+      "Refrigéralos una hora antes de cortarlos para obtener bordes limpios y una textura más densa.",
+      "Puedes cambiar 50 g de harina por harina de avena para un resultado más tierno.",
+      "Se conservan 4 días en un recipiente hermético y se pueden congelar en porciones individuales."
+    ],
+    "nutrition": { "calories": 265, "protein": 4, "carbs": 33, "fat": 14, "fiber": 3 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/brownie-vegano/" },
+      { "name": "Recetas Gratis", "url": "https://www.recetasgratis.net/receta-de-brownie-vegano-75051.html" }
+    ]
+  },
+  {
+    "id": "mousse-de-chocolate-con-aguacate",
+    "title": "Mousse de chocolate con aguacate",
+    "description": "Mousse cremosa e intensa que usa aguacate maduro como base en lugar de crema de leche o huevo. Se prepara en minutos con una licuadora y sorprende a cualquiera.",
+    "visual": "pudding",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Internacional",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "aguacate maduro", "quantity": 2, "unit": "unidad", "note": "grandes", "aliases": ["palta"] },
+      { "name": "chocolate amargo", "quantity": 60, "unit": "g", "note": "70 % cacao", "aliases": ["chocolate negro", "chocolate oscuro"] },
+      { "name": "cacao en polvo sin azúcar", "quantity": 4, "unit": "cucharada", "aliases": ["cocoa", "cacao amargo en polvo"] },
+      { "name": "miel de agave", "quantity": 4, "unit": "cucharada", "note": "o miel de maple", "aliases": ["sirope de agave", "jarabe de agave", "néctar de agave"] },
+      { "name": "leche de coco", "quantity": 60, "unit": "ml" },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "frambuesas", "quantity": 1, "unit": "puñado", "note": "para decorar; también sirven moras o fresas" }
+    ],
+    "steps": [
+      "Derrite el chocolate amargo en el microondas en tandas de 20 segundos, revolviendo entre cada una, y déjalo entibiar.",
+      "Corta los aguacates, retira la pepa y coloca la pulpa en la licuadora o procesador junto con el cacao, la miel de agave, la leche de coco, la vainilla y la sal.",
+      "Añade el chocolate derretido y licúa a velocidad alta durante 1 o 2 minutos, raspando las paredes, hasta que no quede ningún trocito de aguacate.",
+      "Prueba y ajusta: si quieres más dulzor agrega otra cucharada de miel de agave; si está muy espesa, un chorrito más de leche de coco.",
+      "Reparte en 4 vasitos y refrigera al menos 30 minutos para que tome cuerpo.",
+      "Sirve fría decorada con frambuesas y, si quieres, un poco de cacao espolvoreado."
+    ],
+    "tags": ["rápido", "sin horno", "sin gluten", "sin soya"],
+    "tips": [
+      "Usa aguacates bien maduros pero sin partes oscuras; un aguacate verde deja un sabor herbal que el cacao no logra tapar.",
+      "El chocolate derretido no es imprescindible, pero aporta una textura más firme y un sabor mucho más profundo.",
+      "Consúmela el mismo día o al siguiente como máximo, bien tapada, para evitar que el aguacate se oxide."
+    ],
+    "nutrition": { "calories": 290, "protein": 4, "carbs": 26, "fat": 21, "fiber": 8 },
+    "sources": [
+      { "name": "Idea Vegana", "url": "https://ideavegana.com/mousse-de-aguacate-y-chocolate/" },
+      { "name": "El Invitado de Invierno", "url": "https://invitadoinvierno.com/mousse-chocolate-aguacate/" }
+    ]
+  },
+  {
+    "id": "arroz-con-leche-de-coco",
+    "title": "Arroz con leche de coco",
+    "description": "Versión sin lácteos del clásico latinoamericano: arroz de grano corto cocinado lentamente en leche de coco con canela y cáscara de limón. Cremoso, perfumado y perfecto frío o tibio.",
+    "visual": "pudding",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Latinoamericana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "arroz de grano corto", "quantity": 150, "unit": "g", "aliases": ["arroz redondo", "arroz bomba"] },
+      { "name": "agua", "quantity": 500, "unit": "ml" },
+      { "name": "leche de coco en lata", "quantity": 400, "unit": "ml" },
+      { "name": "leche de coco de cartón", "quantity": 500, "unit": "ml", "note": "la ligera, para beber; o cualquier leche vegetal", "aliases": ["bebida de coco", "bebida vegetal de coco"] },
+      { "name": "azúcar", "quantity": 100, "unit": "g" },
+      { "name": "canela en rama", "quantity": 1, "unit": "rama", "aliases": ["canela en astilla", "canela en rajas"] },
+      { "name": "cáscara de limón", "quantity": 1, "unit": "unidad", "note": "una tira ancha, sin la parte blanca", "aliases": ["piel de limón", "corteza de limón"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "pasas", "quantity": 40, "unit": "g", "note": "opcional", "aliases": ["uvas pasas", "pasitas"] },
+      { "name": "coco rallado", "quantity": 2, "unit": "cucharada", "note": "tostado, para servir", "aliases": ["coco deshidratado"] },
+      { "name": "canela en polvo", "quantity": null, "unit": null, "note": "al gusto", "aliases": ["canela molida"] }
+    ],
+    "steps": [
+      "Enjuaga el arroz bajo la llave hasta que el agua salga casi transparente. Ponlo en una olla con el agua, la canela en rama y la cáscara de limón, y cocina a fuego medio 10 minutos, hasta que absorba casi todo el líquido.",
+      "Agrega la leche de coco de lata, la leche de coco de cartón y la pizca de sal. Baja el fuego al mínimo y cocina 20 minutos revolviendo cada 3 o 4 minutos para que no se pegue.",
+      "Incorpora el azúcar y las pasas, y cocina 8 minutos más sin dejar de revolver; el arroz debe estar tierno y la mezcla todavía algo líquida.",
+      "Retira del fuego cuando aún se vea un poco caldoso: al enfriarse espesa bastante.",
+      "Desecha la canela y la cáscara de limón, y reparte en 6 recipientes.",
+      "Sirve tibio o refrigera al menos 2 horas. Termina con coco rallado tostado y canela en polvo al gusto."
+    ],
+    "tags": ["sin gluten", "sin soya", "reconfortante", "tradicional", "económico"],
+    "tips": [
+      "Usa la leche de coco de lata completa, incluida la parte sólida; es la que da la cremosidad.",
+      "Si el arroz quedó demasiado espeso al día siguiente, revívelo con un chorrito de leche vegetal caliente y revuelve.",
+      "Para una versión más aromática, cambia la cáscara de limón por cáscara de naranja y añade una vaina de cardamomo."
+    ],
+    "nutrition": { "calories": 320, "protein": 4, "carbs": 49, "fat": 13, "fiber": 2 },
+    "sources": [
+      { "name": "Recetas sin Lactosa", "url": "https://www.recetassinlactosa.com/arroz-con-leche-de-coco/" },
+      { "name": "El Español (Cocinillas)", "url": "https://www.elespanol.com/cocinillas/recetas/postres/20190916/arroz-leche-receta-postre-facil-sin-lactosa/1001678882096_30.html" }
+    ]
+  },
+  {
+    "id": "cheesecake-vegano-de-anacardos-y-limon",
+    "title": "Cheesecake vegano de marañón y limón",
+    "description": "Torta fría sin horno con base de dátiles y almendras y un relleno sedoso de marañón, coco y limón. Se cuaja en el congelador y se sirve con frutos rojos.",
+    "visual": "cake",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Estadounidense",
+    "difficulty": "media",
+    "prepTimeMinutes": 35,
+    "cookTimeMinutes": 0,
+    "servings": 12,
+    "ingredients": [
+      { "name": "marañones crudos", "quantity": 300, "unit": "g", "note": "remojados toda la noche", "aliases": ["anacardos", "cajú", "castañas de cajú", "nuez de la India", "merey"] },
+      { "name": "dátiles sin semilla", "quantity": 150, "unit": "g", "aliases": ["dátiles sin hueso", "dátiles deshuesados"] },
+      { "name": "almendras", "quantity": 120, "unit": "g" },
+      { "name": "coco rallado", "quantity": 40, "unit": "g", "aliases": ["coco deshidratado"] },
+      { "name": "leche de coco en lata", "quantity": 150, "unit": "ml" },
+      { "name": "aceite de coco", "quantity": 80, "unit": "ml", "note": "derretido" },
+      { "name": "miel de maple", "quantity": 120, "unit": "ml", "aliases": ["sirope de arce", "jarabe de arce", "maple syrup"] },
+      { "name": "jugo de limón", "quantity": 60, "unit": "ml", "aliases": ["zumo de limón"] },
+      { "name": "ralladura de limón", "quantity": 1, "unit": "cucharada", "aliases": ["cáscara de limón rallada", "zest de limón"] },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "frutos rojos", "quantity": 150, "unit": "g", "note": "fresas, moras o arándanos, para decorar", "aliases": ["frutas del bosque", "berries"] }
+    ],
+    "steps": [
+      "Escurre y enjuaga los marañones remojados. Si olvidaste remojarlos, cúbrelos con agua hirviendo durante 1 hora.",
+      "Procesa en el procesador las almendras, los dátiles y el coco rallado con una pizca de sal hasta obtener una masa arenosa que se compacte al apretarla.",
+      "Presiona esa masa con el dorso de una cuchara en el fondo de un molde desmontable de 20 cm forrado con papel parafinado. Lleva al congelador mientras preparas el relleno.",
+      "Licúa los marañones con la leche de coco, el aceite de coco, la miel de maple, el jugo y la ralladura de limón, la vainilla y la sal durante 2 o 3 minutos, hasta que la crema quede totalmente lisa.",
+      "Vierte el relleno sobre la base, golpea suavemente el molde contra la mesa para eliminar burbujas y alisa la superficie.",
+      "Congela de 4 a 6 horas hasta que esté firme.",
+      "Pasa la torta a la nevera 30 minutos antes de servir, desmolda y cubre con los frutos rojos.",
+      "Corta en 12 porciones con un cuchillo pasado por agua caliente para obtener cortes limpios."
+    ],
+    "tags": ["sin horno", "sin gluten", "para fiestas", "sin soya"],
+    "tips": [
+      "Una licuadora potente marca la diferencia: si la tuya es básica, licúa en dos tandas y más tiempo del que crees necesario.",
+      "Guárdala en el congelador hasta 1 mes y descongela solo las porciones que vayas a comer.",
+      "Cambia el limón por limón mandarino o maracuyá para variar el sabor sin tocar las proporciones."
+    ],
+    "nutrition": { "calories": 335, "protein": 7, "carbs": 28, "fat": 23, "fiber": 3 },
+    "sources": [
+      { "name": "Loving It Vegan", "url": "https://lovingitvegan.com/vegan-cheesecake/" },
+      { "name": "Lazy Cat Kitchen", "url": "https://www.lazycatkitchen.com/perfect-no-bake-vegan-cheesecake/" }
+    ]
+  },
+  {
+    "id": "banana-bread-vegano-con-nueces",
+    "title": "Banana bread vegano con nueces",
+    "description": "Pan dulce de banano bien húmedo, aromatizado con canela y lleno de nueces crocantes. Se hace en un solo tazón y aprovecha esos bananos demasiado maduros.",
+    "visual": "bread",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 55,
+    "servings": 10,
+    "ingredients": [
+      { "name": "bananos muy maduros", "quantity": 3, "unit": "unidad", "note": "con la cáscara manchada", "aliases": ["bananas", "plátanos", "guineos", "cambures"] },
+      { "name": "linaza molida", "quantity": 1, "unit": "cucharada", "aliases": ["lino molido", "semillas de lino molidas", "harina de linaza"] },
+      { "name": "agua", "quantity": 3, "unit": "cucharada" },
+      { "name": "azúcar morena", "quantity": 120, "unit": "g", "aliases": ["azúcar mascabado", "azúcar rubia", "azúcar moreno"] },
+      { "name": "aceite vegetal", "quantity": 80, "unit": "ml" },
+      { "name": "leche vegetal", "quantity": 60, "unit": "ml", "aliases": ["bebida vegetal"] },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "harina de trigo", "quantity": 250, "unit": "g", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "bicarbonato de sodio", "quantity": 1, "unit": "cucharadita", "aliases": ["bicarbonato", "bicarbonato sódico"] },
+      { "name": "polvo de hornear", "quantity": 0.5, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "levadura en polvo", "royal"] },
+      { "name": "canela en polvo", "quantity": 1, "unit": "cucharadita", "aliases": ["canela molida"] },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "nueces", "quantity": 80, "unit": "g", "note": "picadas", "aliases": ["nuez de Castilla", "nueces de nogal"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 175 °C y engrasa un molde de pan de 22 x 11 cm; forra la base con papel parafinado (papel de hornear). Mezcla la linaza con el agua y reserva 5 minutos.",
+      "Pela los bananos y aplástalos con un tenedor en un tazón grande hasta obtener un puré con algunos grumos.",
+      "Añade el azúcar morena, el aceite, la leche vegetal, la vainilla y el gel de linaza, y bate con un batidor de mano hasta integrar.",
+      "Incorpora la harina, el bicarbonato, el polvo de hornear, la canela y la sal. Mezcla con espátula solo hasta que no se vea harina seca.",
+      "Agrega dos tercios de las nueces y vierte la masa en el molde. Reparte encima las nueces restantes.",
+      "Hornea de 50 a 55 minutos, hasta que la superficie esté dorada y un palillo salga limpio. Si se dora demasiado rápido, cúbrelo con papel aluminio a los 35 minutos.",
+      "Deja reposar 15 minutos en el molde, desmolda y enfría sobre una rejilla al menos 30 minutos antes de cortar en 10 tajadas."
+    ],
+    "tags": ["al horno", "económico", "para niños", "meal prep"],
+    "tips": [
+      "Cuanto más maduros los bananos, más dulce y húmedo el resultado; si están amarillos, hornéalos con cáscara 15 minutos a 180 °C para madurarlos rápido.",
+      "No batas de más una vez añadida la harina; el exceso de mezcla da un pan gomoso.",
+      "Sustituye las nueces por chips de chocolate para una versión que encanta a los niños.",
+      "Envuelto en papel vinipel aguanta 3 días a temperatura ambiente y hasta 3 meses congelado en tajadas."
+    ],
+    "nutrition": { "calories": 275, "protein": 4, "carbs": 39, "fat": 12, "fiber": 3 },
+    "sources": [
+      { "name": "Nora Cooks", "url": "https://www.noracooks.com/banana-bread/" },
+      { "name": "Loving It Vegan", "url": "https://lovingitvegan.com/vegan-banana-bread/" }
+    ]
+  },
+  {
+    "id": "crumble-de-manzana-y-avena",
+    "title": "Crumble de manzana y avena",
+    "description": "Clásico británico de manzanas especiadas bajo una capa crujiente de avena, harina y mantequilla vegana. Se sirve caliente y pide a gritos una bola de helado.",
+    "visual": "pie",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Británica",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "manzanas", "quantity": 5, "unit": "unidad", "note": "de variedad firme, unos 900 g" },
+      { "name": "azúcar", "quantity": 40, "unit": "g" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharada", "aliases": ["zumo de limón"] },
+      { "name": "maicena", "quantity": 1, "unit": "cucharada", "aliases": ["fécula de maíz", "almidón de maíz"] },
+      { "name": "canela en polvo", "quantity": 1.5, "unit": "cucharadita", "aliases": ["canela molida"] },
+      { "name": "nuez moscada", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "avena en hojuelas", "quantity": 100, "unit": "g", "aliases": ["copos de avena", "avena en copos", "avena tradicional"] },
+      { "name": "harina de trigo", "quantity": 100, "unit": "g", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "azúcar morena", "quantity": 80, "unit": "g", "aliases": ["azúcar mascabado", "azúcar rubia", "azúcar moreno"] },
+      { "name": "mantequilla vegana", "quantity": 100, "unit": "g", "note": "fría, en cubos", "aliases": ["margarina vegetal", "mantequilla vegetal"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Precalienta el horno a 180 °C. Pela las manzanas, retira el corazón y córtalas en cubos de 2 cm.",
+      "Mezcla las manzanas en un tazón con el azúcar, el jugo de limón, la maicena, 1 cucharadita de canela y la nuez moscada. Pásalas a una refractaria de unos 20 x 25 cm.",
+      "En otro tazón combina la avena, la harina, el azúcar morena, la canela restante y la sal.",
+      "Añade la mantequilla vegana fría y frótala con la punta de los dedos hasta formar grumos gruesos del tamaño de una arveja.",
+      "Reparte la cobertura sobre las manzanas sin apretarla para que quede aireada y crujiente.",
+      "Hornea de 35 a 40 minutos, hasta que la superficie esté dorada y el jugo de las manzanas burbujee por los bordes.",
+      "Deja reposar 10 minutos antes de servir, idealmente con helado vegano de vainilla."
+    ],
+    "tags": ["al horno", "reconfortante", "invierno", "económico"],
+    "tips": [
+      "Mezcla manzanas ácidas y dulces para un relleno con más contraste de sabor.",
+      "Si la cobertura se dora antes de que las manzanas estén tiernas, cubre la refractaria con papel aluminio los últimos minutos.",
+      "Puedes armar el crumble sin hornear, taparlo y guardarlo en la nevera hasta 24 horas; hornéalo justo antes de servir.",
+      "Funciona igual de bien con peras, duraznos o una mezcla de manzana y frutos rojos."
+    ],
+    "nutrition": { "calories": 345, "protein": 4, "carbs": 56, "fat": 13, "fiber": 5 },
+    "sources": [
+      { "name": "It Doesn't Taste Like Chicken", "url": "https://itdoesnttastelikechicken.com/easy-vegan-apple-crumble/" },
+      { "name": "Bianca Zapatka", "url": "https://biancazapatka.com/en/vegan-apple-crumble/" }
+    ]
+  },
+  {
+    "id": "panna-cotta-de-coco-con-frutos-rojos",
+    "title": "Panna cotta de coco con frutos rojos",
+    "description": "Postre italiano reinventado con leche de coco y agar agar en lugar de crema de leche y gelatina. Queda tembloroso y suave, y se corona con un coulis rápido de frutos rojos.",
+    "visual": "pudding",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Italiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "leche de coco en lata", "quantity": 400, "unit": "ml" },
+      { "name": "leche de almendras", "quantity": 100, "unit": "ml", "note": "o de avena", "aliases": ["bebida de almendras", "bebida vegetal de almendras"] },
+      { "name": "azúcar", "quantity": 50, "unit": "g" },
+      { "name": "agar agar en polvo", "quantity": 1, "unit": "cucharadita", "note": "gelificante vegetal; se consigue en tiendas naturistas o de repostería", "aliases": ["agar", "agar-agar"] },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "frutos rojos congelados", "quantity": 200, "unit": "g", "note": "fresas, moras o arándanos", "aliases": ["frutas del bosque", "berries"] },
+      { "name": "azúcar", "quantity": 2, "unit": "cucharada", "note": "para el coulis" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["zumo de limón"] }
+    ],
+    "steps": [
+      "Vierte en una olla la leche de coco, la leche de almendras, los 50 g de azúcar, la sal y el agar agar. Bate en frío hasta que el agar quede bien disperso.",
+      "Lleva a fuego medio revolviendo con frecuencia. Cuando rompa a hervir, cuenta 2 minutos de ebullición suave sin dejar de revolver para activar el agar.",
+      "Retira del fuego, añade la vainilla y reparte la mezcla en 4 moldes o vasitos engrasados con unas gotas de aceite.",
+      "Deja entibiar 15 minutos a temperatura ambiente y refrigera al menos 3 horas hasta que cuaje.",
+      "Prepara el coulis: cocina los frutos rojos con las 2 cucharadas de azúcar y el jugo de limón durante 5 minutos, aplástalos con un tenedor y deja enfriar.",
+      "Para desmoldar, pasa un cuchillo fino por el borde y voltea sobre el plato; si usaste vasitos, sírvela directamente.",
+      "Cubre cada panna cotta con el coulis justo antes de servir."
+    ],
+    "tags": ["sin gluten", "sin soya", "para fiestas", "verano"],
+    "tips": [
+      "El agar agar necesita hervir para gelificar; si solo lo calientas, la panna cotta no cuajará.",
+      "Para una textura más cremosa y menos firme, reduce el agar a 3/4 de cucharadita y sírvela en vaso.",
+      "Puedes infusionar la leche con cáscara de limón o una rama de canela antes de añadir el agar; cuélala antes de repartir."
+    ],
+    "nutrition": { "calories": 265, "protein": 3, "carbs": 28, "fat": 17, "fiber": 3 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/panna-cotta-vegana/" },
+      { "name": "Cocinatis", "url": "https://www.cocinatis.com/receta/panna-cotta-vegana.html" }
+    ]
+  },
+  {
+    "id": "churros-veganos-con-salsa-de-chocolate",
+    "title": "Churros veganos con salsa de chocolate",
+    "description": "Churros crujientes por fuera y tiernos por dentro, hechos con la masa tradicional de agua, harina y sal, que de por sí no lleva huevo ni lácteos. Van cubiertos de azúcar con canela y acompañados de un chocolate espeso.",
+    "visual": "churros",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Española",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "agua", "quantity": 250, "unit": "ml" },
+      { "name": "harina de trigo", "quantity": 160, "unit": "g", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "aceite de oliva suave", "quantity": 1, "unit": "cucharada" },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "aceite de girasol", "quantity": 500, "unit": "ml", "note": "para fritar" },
+      { "name": "azúcar", "quantity": 80, "unit": "g", "note": "para cubrir los churros" },
+      { "name": "canela en polvo", "quantity": 1, "unit": "cucharadita", "aliases": ["canela molida"] },
+      { "name": "chocolate amargo", "quantity": 100, "unit": "g", "aliases": ["chocolate negro", "chocolate oscuro"] },
+      { "name": "leche vegetal", "quantity": 200, "unit": "ml", "aliases": ["bebida vegetal"] },
+      { "name": "maicena", "quantity": 1, "unit": "cucharadita", "aliases": ["fécula de maíz", "almidón de maíz"] },
+      { "name": "azúcar", "quantity": 1, "unit": "cucharada", "note": "para la salsa" }
+    ],
+    "steps": [
+      "Calienta el agua con la cucharada de aceite de oliva y la sal hasta que hierva con fuerza.",
+      "Retira del fuego, agrega la harina de golpe y revuelve con una cuchara de madera hasta obtener una masa compacta, sin grumos, que se despegue de la olla. Déjala reposar 5 minutos.",
+      "Pasa la masa aún tibia a una manga pastelera con boquilla de estrella grande; la boquilla estriada es la que evita que el churro estalle al fritarse.",
+      "Calienta el aceite de girasol en una sartén honda a 180 °C. Forma tiras de 12 cm directamente sobre el aceite cortándolas con unas tijeras.",
+      "Frita de 3 a 4 churros a la vez durante 3 o 4 minutos, girándolos a mitad de cocción, hasta que estén dorados y crujientes. Escúrrelos sobre papel absorbente.",
+      "Mezcla el azúcar con la canela en un plato y pasa los churros por la mezcla mientras están calientes.",
+      "Para la salsa, disuelve la maicena en la leche vegetal fría, caliéntala con la cucharada de azúcar y, cuando esté a punto de hervir, retira y añade el chocolate picado. Revuelve hasta que quede brillante y espeso.",
+      "Sirve los churros recién hechos con el chocolate caliente para mojar."
+    ],
+    "tags": ["tradicional", "para fiestas", "invierno", "económico"],
+    "tips": [
+      "No añadas más agua de la indicada: una masa demasiado blanda forma burbujas de vapor que pueden salpicar aceite caliente.",
+      "Si no tienes termómetro, echa un trocito de masa; debe subir a la superficie rodeado de burbujas pequeñas en pocos segundos.",
+      "Para una versión más ligera, cocínalos en airfryer a 190 °C durante 10 minutos rociados con un poco de aceite; quedan menos crujientes pero muy sabrosos."
+    ],
+    "nutrition": { "calories": 430, "protein": 6, "carbs": 62, "fat": 18, "fiber": 4 },
+    "sources": [
+      { "name": "Hazlo Vegan", "url": "https://hazlovegan.com/recetas/churros-veganos-extra-faciles/" },
+      { "name": "Bueno y Vegano", "url": "https://www.buenoyvegano.com/2017/10/02/churros-veganos-chocolate-naranja/" }
+    ]
+  },
+  {
+    "id": "trufas-de-datiles-tahini-y-cacao",
+    "title": "Trufas de dátiles, tahini y cacao",
+    "description": "Bocados de chocolate sin azúcar añadida, con dátiles como único endulzante, tahini para la cremosidad y un toque de cardamomo. Se hacen en el procesador y no necesitan cocción.",
+    "visual": "truffles",
+    "diet": "vegana",
+    "category": "postre",
+    "cuisine": "Medio Oriente",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "dátiles medjool sin semilla", "quantity": 200, "unit": "g", "aliases": ["dátiles sin hueso", "dátiles deshuesados"] },
+      { "name": "nueces", "quantity": 100, "unit": "g", "aliases": ["nuez de Castilla", "nueces de nogal"] },
+      { "name": "cacao en polvo sin azúcar", "quantity": 3, "unit": "cucharada", "aliases": ["cocoa", "cacao amargo en polvo"] },
+      { "name": "tahini", "quantity": 2, "unit": "cucharada", "note": "pasta de ajonjolí; se consigue en tiendas naturistas o de productos árabes", "aliases": ["tahín", "pasta de ajonjolí", "pasta de sésamo"] },
+      { "name": "cardamomo molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "coco rallado", "quantity": 3, "unit": "cucharada", "note": "para cubrir", "aliases": ["coco deshidratado"] },
+      { "name": "cacao en polvo sin azúcar", "quantity": 1, "unit": "cucharada", "note": "para cubrir", "aliases": ["cocoa", "cacao amargo en polvo"] }
+    ],
+    "steps": [
+      "Si tus dátiles están secos, remójalos en agua caliente 10 minutos y escúrrelos bien.",
+      "Procesa las nueces en el procesador con pulsaciones cortas hasta obtener una arena gruesa; no las conviertas en mantequilla.",
+      "Agrega los dátiles, las 3 cucharadas de cacao, el tahini, el cardamomo y la sal. Procesa 1 o 2 minutos hasta que la masa se pegue y forme una bola.",
+      "Refrigera la masa 15 minutos para que sea más fácil de manejar.",
+      "Con las manos ligeramente húmedas forma unas 18 bolitas del tamaño de una nuez.",
+      "Pasa la mitad por coco rallado y la otra mitad por cacao. Guárdalas en un recipiente hermético en la nevera hasta el momento de servir."
+    ],
+    "tags": ["rápido", "sin horno", "sin gluten", "sin azúcar añadida", "crudo"],
+    "tips": [
+      "Si la masa no se compacta, añade un dátil más; si está demasiado pegajosa, un puñado extra de nueces.",
+      "Cambia las nueces por almendras o avellanas y el cardamomo por canela o ralladura de naranja para variar.",
+      "Se conservan 1 semana en la nevera y 2 meses en el congelador; sácalas 10 minutos antes de comer."
+    ],
+    "nutrition": { "calories": 265, "protein": 5, "carbs": 31, "fat": 15, "fiber": 5 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/trufas-crudiveganas-de-cacao/" },
+      { "name": "Recetas Gratis", "url": "https://www.recetasgratis.net/receta-de-trufas-veganas-de-datiles-70305.html" }
+    ]
+  },
+  {
+    "id": "flan-de-vainilla-casero",
+    "title": "Flan de vainilla casero",
+    "description": "El flan de toda la vida: huevos, leche, azúcar y vainilla cuajados suavemente al baño maría sobre un caramelo dorado. Cremoso, sin burbujas y con el temblor justo.",
+    "visual": "pudding",
+    "diet": "vegetariana",
+    "category": "postre",
+    "cuisine": "Española",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 50,
+    "servings": 6,
+    "ingredients": [
+      { "name": "huevos", "quantity": 4, "unit": "unidad", "note": "grandes" },
+      { "name": "leche entera", "quantity": 500, "unit": "ml" },
+      { "name": "azúcar", "quantity": 100, "unit": "g", "note": "para el flan" },
+      { "name": "azúcar", "quantity": 100, "unit": "g", "note": "para el caramelo" },
+      { "name": "agua", "quantity": 2, "unit": "cucharada" },
+      { "name": "vaina de vainilla", "quantity": 1, "unit": "unidad", "note": "o 1 cucharadita de extracto o esencia de vainilla" },
+      { "name": "sal", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Precalienta el horno a 160 °C. Pon en una olla pequeña los 100 g de azúcar del caramelo con el agua y cocina a fuego medio sin revolver hasta que tome un color ámbar; vierte de inmediato en un molde de 18 cm y gíralo para cubrir el fondo.",
+      "Abre la vaina de vainilla a lo largo, raspa las semillas y caliéntalas junto con la vaina y la leche hasta que humee; no debe hervir. Deja infusionar 10 minutos y retira la vaina.",
+      "Bate los huevos con los otros 100 g de azúcar y la sal con un tenedor o batidor de mano, solo hasta unir; evita incorporar aire para que el flan no quede con agujeros.",
+      "Vierte la leche tibia en hilo sobre los huevos mientras mezclas, y cuela la preparación directamente sobre el caramelo del molde.",
+      "Coloca el molde dentro de una refractaria honda y llena con agua caliente hasta la mitad de la altura del flan. Cubre el molde con papel aluminio.",
+      "Hornea de 45 a 50 minutos, hasta que los bordes estén firmes y el centro tiemble ligeramente al mover la refractaria.",
+      "Saca del baño maría, deja enfriar a temperatura ambiente y refrigera al menos 4 horas o toda la noche.",
+      "Para desmoldar, pasa un cuchillo fino por el borde, coloca un plato hondo encima y voltea con decisión para que el caramelo bañe el flan."
+    ],
+    "tags": ["tradicional", "al horno", "sin gluten", "económico"],
+    "tips": [
+      "Un horno demasiado caliente cuaja el flan por fuera y lo llena de burbujas; si tu horno es fuerte, baja a 150 °C y alarga el tiempo.",
+      "Cuela siempre la mezcla: elimina las chalazas del huevo y garantiza una textura lisa.",
+      "El flan mejora al día siguiente, cuando el caramelo se ha licuado por completo."
+    ],
+    "veganAlternative": "Sustituye los huevos y la leche por 500 ml de leche de coco en lata o leche de soya mezclada en frío con 30 g de maicena, 80 g de azúcar, 1 cucharadita rasa de agar agar en polvo y una pizca de cúrcuma para el color. Hierve 3 minutos revolviendo, vierte sobre el caramelo y cuaja en la nevera 4 horas; no necesita horno.",
+    "nutrition": { "calories": 245, "protein": 7, "carbs": 39, "fat": 6, "fiber": 0 },
+    "sources": [
+      { "name": "Paulina Cocina", "url": "https://www.paulinacocina.net/flan-casero-clasico/13997" },
+      { "name": "Bon Viveur", "url": "https://www.bonviveur.es/recetas/flan-vainilla" }
+    ]
+  },
+  {
+    "id": "pastel-tres-leches-clasico",
+    "title": "Torta tres leches clásica",
+    "description": "Ponqué esponjoso empapado en una mezcla de leche condensada, leche evaporada y crema de leche, y cubierto con crema batida. El postre de fiesta por excelencia en México y buena parte de Latinoamérica.",
+    "visual": "cake",
+    "diet": "vegetariana",
+    "category": "postre",
+    "cuisine": "Mexicana",
+    "difficulty": "media",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 30,
+    "servings": 12,
+    "ingredients": [
+      { "name": "huevos", "quantity": 5, "unit": "unidad", "note": "a temperatura ambiente" },
+      { "name": "azúcar", "quantity": 150, "unit": "g" },
+      { "name": "harina de trigo", "quantity": 150, "unit": "g", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "polvo de hornear", "quantity": 1, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "levadura en polvo", "royal"] },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "leche condensada", "quantity": 1, "unit": "lata", "note": "395 g" },
+      { "name": "leche evaporada", "quantity": 1, "unit": "lata", "note": "360 ml" },
+      { "name": "crema de leche", "quantity": 200, "unit": "ml", "note": "para el remojo", "aliases": ["nata", "nata líquida"] },
+      { "name": "crema de leche para batir", "quantity": 300, "unit": "ml", "note": "muy fría, para cubrir", "aliases": ["crema para batir", "nata para montar", "crema chantilly"] },
+      { "name": "azúcar pulverizada", "quantity": 2, "unit": "cucharada", "aliases": ["azúcar glas", "azúcar impalpable", "azúcar en polvo", "azúcar glacé"] },
+      { "name": "canela en polvo", "quantity": null, "unit": null, "note": "al gusto", "aliases": ["canela molida"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 180 °C y engrasa una refractaria de vidrio de 23 x 33 cm; no uses molde desmontable porque la leche se escaparía.",
+      "Separa las claras de las yemas. Bate las claras con la sal hasta que espumen, añade el azúcar en tres tandas y sigue batiendo hasta lograr picos firmes y brillantes.",
+      "Incorpora las yemas una por una y la vainilla, batiendo a velocidad baja solo hasta integrar.",
+      "Tamiza la harina con el polvo de hornear sobre la mezcla en dos partes e intégrala con movimientos envolventes para no perder el aire.",
+      "Vierte en la refractaria, alisa y hornea de 25 a 30 minutos, hasta que esté dorado y un palillo salga limpio. Deja enfriar por completo.",
+      "Mezcla la leche condensada, la leche evaporada y los 200 ml de crema de leche. Pincha todo el ponqué con un tenedor y vierte la mezcla poco a poco, esperando a que se absorba entre cada tanda.",
+      "Tapa y refrigera al menos 4 horas, mejor toda la noche.",
+      "Bate la crema de leche para batir bien fría con el azúcar pulverizada hasta que forme picos suaves y extiéndela sobre la torta.",
+      "Espolvorea canela al gusto y corta en 12 porciones directamente en la refractaria."
+    ],
+    "tags": ["tradicional", "para fiestas", "al horno", "reconfortante"],
+    "tips": [
+      "El ponqué debe estar totalmente frío antes de remojarlo; si está tibio se deshace.",
+      "Si sobra mezcla de leches, guárdala y añádela al servir cada porción.",
+      "Para una versión con más carácter, agrega 2 cucharadas de ron o de licor de café a las tres leches.",
+      "Decora con fresas o duraznos en almíbar para un toque de color."
+    ],
+    "veganAlternative": "Hornea un ponqué vegano de vainilla (250 g de harina, 150 g de azúcar, 1 cucharadita de bicarbonato de sodio, 240 ml de leche vegetal, 80 ml de aceite y 1 cucharada de vinagre) y remójalo con 400 ml de leche de coco en lata, 1 lata de leche condensada de coco y 200 ml de leche de avena. Cubre con crema de coco batida bien fría o con crema vegetal para batir.",
+    "nutrition": { "calories": 425, "protein": 10, "carbs": 55, "fat": 18, "fiber": 0 },
+    "sources": [
+      { "name": "Paulina Cocina", "url": "https://www.paulinacocina.net/pastel-tres-leches/42149" },
+      { "name": "Larousse Cocina", "url": "https://laroussecocina.mx/receta/pastel-tres-leches/" },
+      { "name": "Mama Latina Tips", "url": "https://www.mamalatinatips.com/2009/06/pastel-de-tres-lechesthree-milk-cake.html" }
+    ]
+  },
+  {
+    "id": "natilla-colombiana-de-panela",
+    "title": "Natilla colombiana de panela",
+    "description": "El postre navideño de Colombia: una crema firme de leche, panela y maicena perfumada con canela, que se corta en cuadros y se sirve fría. Sin huevo y lista en media hora.",
+    "visual": "pudding",
+    "diet": "vegetariana",
+    "category": "postre",
+    "cuisine": "Colombiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "servings": 8,
+    "ingredients": [
+      { "name": "leche entera", "quantity": 1, "unit": "l" },
+      { "name": "panela", "quantity": 200, "unit": "g", "note": "rallada o en trozos pequeños", "aliases": ["piloncillo", "papelón", "chancaca", "rapadura"] },
+      { "name": "maicena", "quantity": 90, "unit": "g", "aliases": ["fécula de maíz", "almidón de maíz"] },
+      { "name": "canela en rama", "quantity": 2, "unit": "rama", "aliases": ["canela en astilla", "canela en rajas"] },
+      { "name": "clavo de olor", "quantity": 2, "unit": "unidad", "note": "opcional" },
+      { "name": "mantequilla", "quantity": 1, "unit": "cucharada" },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "coco rallado", "quantity": 3, "unit": "cucharada", "note": "opcional", "aliases": ["coco deshidratado"] },
+      { "name": "canela en polvo", "quantity": null, "unit": null, "note": "al gusto", "aliases": ["canela molida"] }
+    ],
+    "steps": [
+      "Separa 250 ml de la leche fría y disuelve en ella la maicena hasta que no queden grumos. Reserva.",
+      "Calienta el resto de la leche en una olla con la panela, la canela en rama, los clavos y la sal a fuego medio, revolviendo hasta que la panela se disuelva por completo; no dejes que hierva.",
+      "Retira la canela y los clavos. Vierte la leche con maicena en hilo mientras bates con un batidor de mano.",
+      "Cocina a fuego medio-bajo sin dejar de revolver y raspando el fondo durante 10 a 12 minutos; la mezcla espesará y empezará a despegarse de las paredes.",
+      "Añade la mantequilla y el coco rallado, y cocina 2 minutos más hasta que la natilla esté brillante y muy espesa.",
+      "Vierte de inmediato en un molde rectangular humedecido con agua y alisa la superficie.",
+      "Deja enfriar 1 hora a temperatura ambiente y luego refrigera 2 horas. Espolvorea canela en polvo y corta en 8 cuadros."
+    ],
+    "tags": ["tradicional", "sin gluten", "invierno", "para fiestas"],
+    "tips": [
+      "Revuelve sin parar desde que agregas la maicena; si te descuidas se forman grumos y se pega al fondo.",
+      "Si te quedaste sin panela, usa 180 g de azúcar morena; el sabor cambia un poco pero funciona.",
+      "En Colombia se acompaña con buñuelos; también queda deliciosa con arequipe o con uvas pasas añadidas al final."
+    ],
+    "veganAlternative": "Cambia la leche entera por 500 ml de leche de coco en lata más 500 ml de leche de almendras o de avena, y la mantequilla por 1 cucharada de aceite de coco. El procedimiento y los tiempos son los mismos.",
+    "nutrition": { "calories": 235, "protein": 5, "carbs": 41, "fat": 6, "fiber": 0 },
+    "sources": [
+      { "name": "My Colombian Recipes", "url": "https://www.mycolombianrecipes.com/es/natilla-con-panela/" },
+      { "name": "Sweet y Salado", "url": "https://sweetysalado.com/natilla-colombiana-con-panela/" }
+    ]
+  },
+  {
+    "id": "alfajores-de-maicena-con-dulce-de-leche",
+    "title": "Alfajores de maicena con arequipe",
+    "description": "Galletas argentinas que se deshacen en la boca, unidas con abundante arequipe y bordeadas con coco rallado. La maicena es la clave de su textura arenosa y delicada.",
+    "visual": "cookie",
+    "diet": "vegetariana",
+    "category": "postre",
+    "cuisine": "Argentina",
+    "difficulty": "media",
+    "prepTimeMinutes": 35,
+    "cookTimeMinutes": 12,
+    "servings": 12,
+    "ingredients": [
+      { "name": "mantequilla", "quantity": 120, "unit": "g", "note": "a temperatura ambiente" },
+      { "name": "azúcar pulverizada", "quantity": 100, "unit": "g", "aliases": ["azúcar glas", "azúcar impalpable", "azúcar en polvo", "azúcar glacé"] },
+      { "name": "yemas de huevo", "quantity": 3, "unit": "unidad" },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "ralladura de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["cáscara de limón rallada", "zest de limón"] },
+      { "name": "maicena", "quantity": 200, "unit": "g", "aliases": ["fécula de maíz", "almidón de maíz"] },
+      { "name": "harina de trigo", "quantity": 100, "unit": "g", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "polvo de hornear", "quantity": 1, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "levadura en polvo", "royal"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "arequipe", "quantity": 300, "unit": "g", "note": "repostero o espeso", "aliases": ["dulce de leche", "manjar", "cajeta", "manjar blanco"] },
+      { "name": "coco rallado", "quantity": 60, "unit": "g", "aliases": ["coco deshidratado"] }
+    ],
+    "steps": [
+      "Bate la mantequilla con el azúcar pulverizada hasta obtener una crema pálida. Añade las yemas de una en una, la vainilla y la ralladura de limón.",
+      "Tamiza juntas la maicena, la harina, el polvo de hornear y la sal, e incorpóralas a la crema con una espátula hasta formar una masa suave; no la amases.",
+      "Envuelve la masa en papel vinipel y refrigérala 20 minutos para que sea manejable.",
+      "Precalienta el horno a 180 °C. Estira la masa entre dos hojas de papel parafinado hasta 5 mm de grosor y corta 24 discos de 5 cm; reúne y vuelve a estirar los recortes.",
+      "Coloca los discos en una bandeja con papel parafinado, separados 2 cm, y hornea de 10 a 12 minutos. Deben quedar pálidos, apenas dorados por la base.",
+      "Déjalos enfriar en la bandeja 5 minutos y luego sobre una rejilla; en caliente son muy frágiles.",
+      "Pon una cucharada generosa de arequipe sobre la mitad de los discos y tapa con el resto, presionando con suavidad hasta que el relleno asome por el borde.",
+      "Rueda el borde de cada alfajor sobre el coco rallado para que se adhiera al arequipe."
+    ],
+    "tags": ["tradicional", "al horno", "para fiestas", "para niños"],
+    "tips": [
+      "Si sacas las galletas doradas, pierden la textura arenosa característica; vigílalas desde el minuto 9.",
+      "Usa arequipe repostero; el común es más fluido y se escurre por los lados.",
+      "Los alfajores están mejor al día siguiente, cuando la galleta se humedece ligeramente con el relleno. Guárdalos en recipiente hermético hasta 5 días."
+    ],
+    "veganAlternative": "Reemplaza la mantequilla por 120 g de margarina vegetal y las yemas por 3 cucharadas de leche vegetal (agrega una cucharada más si la masa no une). Rellena con arequipe de coco o con crema de dátiles y cacao.",
+    "nutrition": { "calories": 335, "protein": 4, "carbs": 48, "fat": 14, "fiber": 1 },
+    "sources": [
+      { "name": "Hogarmania", "url": "https://www.hogarmania.com/cocina/recetas/postres/alfajores-de-maicena.html" },
+      { "name": "La Nación", "url": "https://www.lanacion.com.ar/recetas/dulces/alfajores-de-maicena-nid26092016/" }
+    ]
+  },
+  {
+    "id": "tiramisu-clasico-italiano",
+    "title": "Tiramisú clásico italiano",
+    "description": "Capas de galletas de soletilla mojadas en café y crema de mascarpone aireada con huevos, terminadas con cacao amargo. Sin horno, solo requiere paciencia en la nevera.",
+    "visual": "cake",
+    "diet": "vegetariana",
+    "category": "postre",
+    "cuisine": "Italiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 0,
+    "servings": 8,
+    "ingredients": [
+      { "name": "huevos", "quantity": 3, "unit": "unidad", "note": "muy frescos o pasteurizados" },
+      { "name": "azúcar", "quantity": 100, "unit": "g" },
+      { "name": "queso mascarpone", "quantity": 500, "unit": "g", "note": "frío; se consigue en supermercados grandes o se reemplaza por queso crema batido con un poco de crema de leche" },
+      { "name": "galletas de soletilla (savoiardi)", "quantity": 200, "unit": "g", "note": "unos 24; se consiguen en tiendas de repostería o supermercados grandes", "aliases": ["bizcochos de soletilla", "vainillas", "lady fingers", "plantillas"] },
+      { "name": "café espresso", "quantity": 250, "unit": "ml", "note": "frío", "aliases": ["café expreso", "tinto cargado"] },
+      { "name": "licor amaretto", "quantity": 2, "unit": "cucharada", "note": "o marsala, opcional" },
+      { "name": "cacao en polvo sin azúcar", "quantity": 2, "unit": "cucharada", "aliases": ["cocoa", "cacao amargo en polvo"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Prepara el café, mézclalo con el licor si lo usas y déjalo enfriar por completo en un plato hondo.",
+      "Separa las claras de las yemas. Bate las yemas con 70 g de azúcar durante 4 o 5 minutos, hasta que estén pálidas y espesas.",
+      "Agrega el mascarpone frío en dos tandas y bate a velocidad baja solo hasta integrar; si bates de más, la crema se corta.",
+      "Bate las claras con la sal y, cuando empiecen a espumar, añade los 30 g de azúcar restantes. Bate hasta obtener picos firmes.",
+      "Incorpora las claras a la crema de mascarpone en tres partes con movimientos envolventes, de abajo hacia arriba.",
+      "Moja cada galleta en el café 1 segundo por cada lado y acomoda una capa en una refractaria de 20 x 28 cm. Cubre con la mitad de la crema.",
+      "Repite con otra capa de galletas mojadas y termina con el resto de la crema, alisando la superficie.",
+      "Tapa con papel vinipel y refrigera al menos 4 horas, idealmente toda la noche. Espolvorea el cacao con un colador justo antes de servir."
+    ],
+    "tags": ["sin horno", "tradicional", "para fiestas", "reconfortante"],
+    "tips": [
+      "Como los huevos van crudos, usa huevos pasteurizados o muy frescos y mantén el tiramisú siempre refrigerado; consúmelo en 48 horas.",
+      "Un remojo demasiado largo deja las galletas empapadas y el postre se desarma; un toque rápido es suficiente.",
+      "Puedes armarlo en 8 vasos individuales para servir con más facilidad en una cena."
+    ],
+    "veganAlternative": "Sustituye la crema por 400 g de queso crema vegano batido con 200 ml de crema de coco muy fría y 80 g de azúcar pulverizada hasta que quede esponjosa, y usa galletas de soletilla veganas o tiras de ponqué vegano de vainilla. El armado y el reposo son idénticos.",
+    "nutrition": { "calories": 435, "protein": 9, "carbs": 35, "fat": 29, "fiber": 1 },
+    "sources": [
+      { "name": "Una Italiana en la Cocina", "url": "https://unaitalianaenlacocina.es/tiramisu-clasico/" },
+      { "name": "Directo al Paladar México", "url": "https://www.directoalpaladar.com.mx/postres/tiramisu-clasico-receta-de-postre" }
+    ]
+  }
+]

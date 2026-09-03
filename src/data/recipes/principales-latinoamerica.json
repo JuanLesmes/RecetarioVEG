@@ -1,0 +1,814 @@
+[
+  {
+    "id": "tacos-de-coliflor-al-pastor",
+    "title": "Tacos de coliflor al pastor",
+    "description": "Floretes de coliflor marinados en un adobo de chile guajillo, achiote y piña, dorados en la sartén hasta caramelizar. Se sirven en tortilla de maíz con cebolla, cilantro y limón, como en la taquería.",
+    "visual": "taco",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Mexicana",
+    "difficulty": "media",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      { "name": "coliflor", "quantity": 1, "unit": "unidad", "note": "grande, cortada en floretes pequeños" },
+      { "name": "chile guajillo", "quantity": 3, "unit": "unidad", "note": "sin semillas ni venas; chile seco mexicano: se consigue en tiendas de productos importados o se reemplaza por ají seco suave", "aliases": ["guajillo"] },
+      { "name": "chile chipotle seco o morita", "quantity": 1, "unit": "unidad", "note": "sin semillas; chile seco mexicano ahumado, de tiendas de productos importados; reemplázalo por ají seco y una pizca de pimentón ahumado en polvo", "aliases": ["chipotle", "morita", "chipotle meco"] },
+      { "name": "pasta de achiote", "quantity": 1, "unit": "cucharada", "note": "se consigue en tiendas de productos mexicanos; o 1 cucharadita de achiote en polvo (color)", "aliases": ["achiote", "annatto", "onoto", "bija"] },
+      { "name": "jugo de naranja", "quantity": 120, "unit": "ml", "note": "recién exprimido", "aliases": ["zumo de naranja"] },
+      { "name": "vinagre de manzana", "quantity": 1, "unit": "cucharada" },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "cebolla cabezona blanca", "quantity": 1, "unit": "unidad", "note": "la mitad para el adobo y la otra mitad picada fina para servir", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "piña fresca", "quantity": 200, "unit": "g", "note": "en cubos pequeños", "aliases": ["ananá"] },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceite vegetal", "quantity": 2, "unit": "cucharada" },
+      { "name": "tortillas de maíz", "quantity": 12, "unit": "unidad" },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "manojo", "note": "picado" },
+      { "name": "limón", "quantity": 2, "unit": "unidad", "note": "en cuartos", "aliases": ["lima", "limón verde"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Tuesta los chiles guajillo y chipotle en una sartén seca a fuego medio unos 30 segundos por lado, sin que se quemen, y remójalos en agua caliente durante 15 minutos.",
+      "Licúa los chiles escurridos con el achiote, el jugo de naranja, el vinagre, el ajo, media cebolla, 100 g de piña, el comino, el orégano y una cucharadita de sal hasta obtener un adobo liso. Cuélalo si quieres una textura más fina.",
+      "Blanquea los floretes de coliflor 3 minutos en agua hirviendo con sal, escúrrelos bien y sécalos con un paño.",
+      "Mezcla la coliflor con el adobo en un recipiente grande y deja marinar al menos 20 minutos, o toda la noche en la nevera para más sabor.",
+      "Calienta el aceite en una sartén amplia a fuego medio-alto. Extiende la coliflor en una sola capa y cocínala 10 a 12 minutos, volteando de vez en cuando, hasta que se dore y el adobo se caramelice en los bordes.",
+      "Añade el resto de la piña en cubos en los últimos 3 minutos para que se tueste ligeramente junto con la coliflor.",
+      "Calienta las tortillas en una sartén seca o plancha a fuego alto unos 30 segundos por lado y guárdalas envueltas en un paño para que no se enfríen.",
+      "Arma los tacos con la coliflor al pastor, cebolla picada, cilantro y un chorrito de limón. Sirve de inmediato."
+    ],
+    "tags": ["sin gluten", "tradicional", "para fiestas", "económico", "sin soya"],
+    "tips": [
+      "Si prefieres una textura más carnosa, corta la coliflor en tajadas de 1 cm en lugar de floretes: se doran mejor y absorben más adobo.",
+      "El adobo se conserva una semana en la nevera; prepara el doble y úsalo con champiñones o tofu.",
+      "Para un toque ahumado extra, termina la coliflor bajo el gratinador (grill) del horno 3 minutos a 220 °C."
+    ],
+    "nutrition": { "calories": 290, "protein": 8, "carbs": 50, "fat": 8, "fiber": 9 },
+    "sources": [
+      { "name": "Directo al Paladar México", "url": "https://www.directoalpaladar.com.mx/cocina-popular-mexicana/como-hacer-tacos-coliflor-adobada-estilo-al-pastor-llevan-achiote-jugo-naranja-quedan-jugositos-llenos-sabor" },
+      { "name": "Love Veg México", "url": "https://loveveg.mx/receta/tacos-al-pastor-de-coliflor/" }
+    ]
+  },
+  {
+    "id": "tinga-de-champinones-y-setas",
+    "title": "Tinga de champiñones y orellanas",
+    "description": "Champiñones y orellanas desmechados, guisados en una salsa de tomate asado con chipotle y cebolla en julianas, con la textura jugosa de la tinga clásica. Ideal sobre tostadas de maíz con aguacate y lechuga.",
+    "visual": "skillet",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Mexicana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "champiñones", "quantity": 500, "unit": "g", "note": "tajados finos", "aliases": ["hongos", "setas"] },
+      { "name": "orellanas", "quantity": 250, "unit": "g", "note": "setas ostra, desmechadas con las manos", "aliases": ["setas ostra", "hongos ostra", "gírgolas", "pleurotus"] },
+      { "name": "cebolla cabezona blanca", "quantity": 2, "unit": "unidad", "note": "en julianas finas", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "tomate", "quantity": 4, "unit": "unidad", "note": "chonto, maduros", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "chile chipotle en adobo", "quantity": 2, "unit": "unidad", "note": "más 1 cucharada del adobo de la lata; se consigue en tiendas de productos mexicanos o importados, o reemplázalo por ají seco ahumado remojado", "aliases": ["chipotles adobados", "chipotle en lata"] },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "hoja de laurel", "quantity": 1, "unit": "hoja" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "tostadas de maíz", "quantity": 8, "unit": "unidad", "note": "tortillas de maíz fritas u horneadas hasta quedar crujientes", "aliases": ["tortillas de maíz tostadas"] },
+      { "name": "aguacate", "quantity": 1, "unit": "unidad", "note": "en tajadas", "aliases": ["palta"] },
+      { "name": "lechuga", "quantity": 1, "unit": "taza", "note": "en tiras finas" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Asa los tomates en una sartén seca o plancha a fuego medio-alto durante 8 a 10 minutos, girándolos, hasta que la piel se ampolle y se manche de negro.",
+      "Licúa los tomates con los chipotles, el adobo, el ajo y un cuarto de taza de agua hasta obtener una salsa lisa.",
+      "Calienta 2 cucharadas de aceite en una sartén grande a fuego alto. Saltea los champiñones y las orellanas en dos tandas 5 a 6 minutos cada una, sin mover demasiado, hasta que suelten su agua, se evapore y se doren. Resérvalos.",
+      "En la misma sartén, con la cucharada de aceite restante, sofríe la cebolla a fuego medio 6 a 7 minutos hasta que esté suave y translúcida, sin que llegue a dorarse.",
+      "Vierte la salsa de tomate, añade el laurel, el orégano y el comino, y cocina 5 minutos removiendo para que la salsa pierda el sabor a crudo.",
+      "Regresa los hongos a la sartén, mezcla bien y cocina a fuego bajo 8 a 10 minutos, hasta que la salsa espese y se adhiera a los hongos. Ajusta la sal.",
+      "Sirve la tinga caliente sobre las tostadas, con lechuga y tajadas de aguacate."
+    ],
+    "tags": ["sin gluten", "picante", "económico", "meal prep", "sin soya"],
+    "tips": [
+      "No laves los hongos bajo el chorro de agua; límpialos con un paño húmedo para que se doren en lugar de hervirse.",
+      "La tinga mejora al día siguiente: guárdala en la nevera hasta 4 días y úsala en tacos, sánduches o para rellenar quesadillas.",
+      "Si quieres menos picante, usa un solo chipotle y retira sus semillas antes de licuar."
+    ],
+    "nutrition": { "calories": 250, "protein": 8, "carbs": 31, "fat": 12, "fiber": 7 },
+    "sources": [
+      { "name": "Diario de Gastronomía", "url": "https://diariodegastronomia.com/tinga-vegana/" },
+      { "name": "Cocina Delirante", "url": "https://www.cocinadelirante.com/recetas/prepara-tinga-vegetarianacon-champinones" }
+    ]
+  },
+  {
+    "id": "bandeja-paisa-vegana",
+    "title": "Bandeja paisa vegana",
+    "description": "La versión vegetal del plato más generoso de Antioquia: fríjoles con hogao, arroz blanco, carne molida de soya, chicharrón crujiente de tofu, tajadas de plátano maduro, arepa y aguacate. Un festín completo en un solo plato.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Colombiana",
+    "difficulty": "difícil",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 90,
+    "servings": 4,
+    "ingredients": [
+      { "name": "fríjol rojo o cargamanto", "quantity": 300, "unit": "g", "note": "remojado desde la noche anterior", "aliases": ["frijol rojo", "frijoles", "alubia roja", "poroto", "judía roja"] },
+      { "name": "cebolla larga", "quantity": 3, "unit": "rama", "note": "picada fina", "aliases": ["cebolla junca", "cebollín", "cebolla de verdeo", "cebolleta"] },
+      { "name": "tomate", "quantity": 3, "unit": "unidad", "note": "chontos, picados en cubos", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "soya texturizada fina", "quantity": 120, "unit": "g", "aliases": ["proteína de soya texturizada", "carne de soya", "soja texturizada"] },
+      { "name": "salsa de soya", "quantity": 3, "unit": "cucharada", "aliases": ["salsa de soja", "shoyu"] },
+      { "name": "tofu firme", "quantity": 300, "unit": "g", "note": "bien escurrido" },
+      { "name": "pimentón ahumado", "quantity": 1, "unit": "cucharadita", "note": "en polvo (paprika ahumada)", "aliases": ["paprika ahumada", "pimentón de la Vera"] },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "plátano maduro", "quantity": 2, "unit": "unidad", "aliases": ["plátano macho maduro", "maduro"] },
+      { "name": "aguacate", "quantity": 2, "unit": "unidad", "aliases": ["palta"] },
+      { "name": "arepas", "quantity": 4, "unit": "unidad", "note": "precocidas o caseras" },
+      { "name": "aceite vegetal", "quantity": 5, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Escurre los fríjoles remojados, ponlos en una olla con 1,5 litros de agua y una rama de cebolla larga entera. Cocina 60 minutos en olla a presión o 90 minutos en olla normal, hasta que estén muy suaves.",
+      "Prepara el hogao: sofríe en 1 cucharada de aceite el resto de la cebolla larga, 2 tomates, 1 diente de ajo y media cucharadita de comino a fuego medio durante 10 minutos, hasta obtener una salsa espesa. Añade la mitad del hogao a los fríjoles, sala y cocina 10 minutos más destapado para que el caldo espese.",
+      "Cocina el arroz: sofríe el arroz en 1 cucharadita de aceite 1 minuto, agrega 2,5 tazas de agua y sal, y cocina tapado a fuego bajo 18 minutos. Deja reposar 5 minutos.",
+      "Hidrata la soya texturizada 10 minutos en agua caliente con 2 cucharadas de salsa de soya; escúrrela y exprímela. Sofríela con 1 cucharada de aceite, el tomate y el ajo restantes, el resto del hogao y el comino durante 8 minutos, hasta que quede seca y sabrosa.",
+      "Para el chicharrón de tofu, seca el bloque con papel, córtalo en bastones gruesos y mézclalo con el pimentón ahumado, 1 cucharada de salsa de soya y sal. Fríelo en 2 cucharadas de aceite a fuego medio-alto 4 minutos por lado, hasta que quede dorado y crujiente.",
+      "Corta los plátanos maduros en tajadas diagonales de 1 cm y fríelas en el aceite restante 2 a 3 minutos por lado, hasta que estén doradas.",
+      "Calienta las arepas en una plancha o sartén a fuego medio 3 minutos por lado.",
+      "Arma cada bandeja con arroz, un cucharón de fríjoles, carne molida de soya, chicharrón de tofu, tajadas, una arepa y medio aguacate en tajadas."
+    ],
+    "tags": ["tradicional", "alto en proteína", "para fiestas", "reconfortante"],
+    "tips": [
+      "Puedes cocinar los fríjoles y el hogao un día antes; el sabor mejora y el montaje final toma solo 30 minutos.",
+      "Para que el tofu quede más crujiente, prénsalo 20 minutos entre dos platos con peso encima antes de cortarlo.",
+      "Si consigues plátano bien maduro, con la cáscara casi negra, las tajadas quedarán dulces y caramelizadas."
+    ],
+    "nutrition": { "calories": 790, "protein": 34, "carbs": 112, "fat": 25, "fiber": 23 },
+    "sources": [
+      { "name": "Cookpad", "url": "https://cookpad.com/es/recetas/12883539-bandeja-paisa-vegana" },
+      { "name": "El Tiempo", "url": "https://www.eltiempo.com/cultura/gastronomia/bandeja-paisa-vegana-conozca-sobre-su-sabor-y-su-preparacion-182296" }
+    ]
+  },
+  {
+    "id": "lentejas-guisadas-a-la-colombiana-con-arroz",
+    "title": "Lentejas guisadas a la colombiana con arroz y tajadas",
+    "description": "Lentejas espesas y cremosas cocinadas con papa, zanahoria y un hogao de tomate y cebolla larga, servidas con arroz blanco y tajadas de plátano maduro. El almuerzo casero de toda la semana.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Colombiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 50,
+    "servings": 4,
+    "ingredients": [
+      { "name": "lentejas secas", "quantity": 400, "unit": "g", "note": "enjuagadas" },
+      { "name": "cebolla cabezona blanca", "quantity": 1, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "cebolla larga", "quantity": 2, "unit": "rama", "note": "picada fina", "aliases": ["cebolla junca", "cebollín", "cebolla de verdeo", "cebolleta"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "tomate", "quantity": 3, "unit": "unidad", "note": "chontos, maduros, picados", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad", "note": "en cubos pequeños" },
+      { "name": "papa", "quantity": 2, "unit": "unidad", "note": "peladas y en cubos", "aliases": ["patata"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "achiote en polvo", "quantity": 0.5, "unit": "cucharadita", "note": "o color", "aliases": ["color", "onoto", "bija", "annatto"] },
+      { "name": "hoja de laurel", "quantity": 1, "unit": "hoja" },
+      { "name": "aceite vegetal", "quantity": 4, "unit": "cucharada" },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "plátano maduro", "quantity": 2, "unit": "unidad", "aliases": ["plátano macho maduro", "maduro"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "picado" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Pon las lentejas en una olla con 1,2 litros de agua fría y el laurel. Lleva a ebullición, baja a fuego medio y cocina 20 minutos con la olla semitapada.",
+      "Mientras tanto, prepara el hogao: calienta 2 cucharadas de aceite y sofríe la cebolla cabezona, la cebolla larga y el ajo 5 minutos. Añade el tomate, el comino y el achiote y cocina 10 minutos más, hasta que se forme una salsa espesa.",
+      "Agrega la papa y la zanahoria a las lentejas y cocina otros 15 minutos, hasta que las verduras estén tiernas.",
+      "Incorpora el hogao a la olla, sala y cocina 10 minutos a fuego bajo, removiendo de vez en cuando, hasta que las lentejas queden cremosas y el guiso espese. Si se seca demasiado, añade un poco de agua caliente.",
+      "Prepara el arroz: sofríelo en 1 cucharadita de aceite, añade 2,5 tazas de agua y sal, y cocina tapado a fuego bajo 18 minutos.",
+      "Corta los plátanos en tajadas diagonales y fríelas en el aceite restante a fuego medio 2 a 3 minutos por lado, hasta que estén doradas.",
+      "Sirve las lentejas con arroz blanco, las tajadas y cilantro picado por encima."
+    ],
+    "tags": ["económico", "alto en proteína", "sin gluten", "reconfortante", "sin soya"],
+    "tips": [
+      "Machaca unas cucharadas de lentejas contra la pared de la olla al final para conseguir un guiso más cremoso sin añadir nada.",
+      "Las lentejas se conservan 4 días en la nevera y se congelan muy bien; espesan al enfriarse, así que recaliéntalas con un chorrito de agua.",
+      "Sala solo al final: la sal al inicio endurece la piel de las lentejas y alarga la cocción."
+    ],
+    "nutrition": { "calories": 640, "protein": 27, "carbs": 114, "fat": 10, "fiber": 21 },
+    "sources": [
+      { "name": "Infobae Colombia", "url": "https://www.infobae.com/colombia/2024/07/26/receta-de-lentejas-guisadas-conozca-el-paso-a-paso-para-esta-deliciosa-preparacion/" },
+      { "name": "Bon Viveur", "url": "https://www.bonviveur.es/recetas/lentejas-con-arroz-y-verduras" }
+    ]
+  },
+  {
+    "id": "lomo-saltado-de-champinones",
+    "title": "Lomo saltado de champiñones",
+    "description": "Tiras de portobello salteadas al wok a fuego muy alto con cebolla cabezona roja, tomate, ají amarillo y salsa de soya, mezcladas con papas fritas y servidas con arroz. Todo el carácter del clásico chifa peruano, sin carne.",
+    "visual": "skillet",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Peruana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      { "name": "champiñones portobello", "quantity": 500, "unit": "g", "note": "en tiras gruesas de 1,5 cm", "aliases": ["portobello", "hongos portobello"] },
+      { "name": "cebolla cabezona roja", "quantity": 2, "unit": "unidad", "note": "en gajos gruesos", "aliases": ["cebolla morada", "cebolla roja"] },
+      { "name": "tomate", "quantity": 3, "unit": "unidad", "note": "chontos, en gajos, sin semillas", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "ají amarillo", "quantity": 1, "unit": "unidad", "note": "sin venas, en tiras; o 1 cucharada de pasta de ají amarillo. Es el ají peruano: se consigue en pasta o congelado en tiendas de productos peruanos; reemplázalo por pimentón amarillo con un poco de ají picante", "aliases": ["ají amarillo peruano", "ají escabeche"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "salsa de soya", "quantity": 3, "unit": "cucharada", "aliases": ["salsa de soja", "shoyu", "sillao"] },
+      { "name": "vinagre de vino tinto", "quantity": 2, "unit": "cucharada" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "pimienta negra molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "picado grueso" },
+      { "name": "papa", "quantity": 4, "unit": "unidad", "note": "en bastones", "aliases": ["patata"] },
+      { "name": "aceite vegetal", "quantity": 300, "unit": "ml", "note": "para fritar las papas, más 3 cucharadas para el salteado" },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Cocina el arroz: lávalo, sofríelo 1 minuto con una cucharadita de aceite y un diente de ajo, añade 2,5 tazas de agua y sal, y cocina tapado a fuego bajo 18 minutos.",
+      "Seca bien los bastones de papa y frítalos en el aceite a 180 °C durante 6 a 8 minutos, hasta que estén dorados. Escúrrelos sobre papel y sálalos. Si usas freidora de aire, cocínalos 18 minutos a 200 °C con una cucharada de aceite.",
+      "Sazona las tiras de portobello con sal, pimienta y comino.",
+      "Calienta un wok o sartén grande con 2 cucharadas de aceite a fuego máximo hasta que empiece a humear. Saltea los hongos en dos tandas, 3 a 4 minutos cada una, moviendo poco para que se doren bien. Resérvalos.",
+      "Añade la cucharada de aceite restante, la cebolla y el ají amarillo, y saltea 2 minutos. Agrega el ajo y cocina 30 segundos; incorpora el tomate y saltea 1 minuto más, sin que se deshaga.",
+      "Regresa los hongos al wok. Vierte la salsa de soya y el vinagre por los bordes calientes para que evaporen y perfumen el salteado, y mezcla durante 1 minuto.",
+      "Apaga el fuego, añade la mitad de las papas fritas y el cilantro, y revuelve con cuidado.",
+      "Sirve de inmediato con el arroz y el resto de las papas fritas al lado."
+    ],
+    "tags": ["tradicional", "fusión", "sin frutos secos", "reconfortante"],
+    "tips": [
+      "El secreto está en el fuego muy alto y en no llenar el wok: si pones demasiados hongos a la vez se cocinan en su jugo en lugar de dorarse.",
+      "Corta las verduras en gajos grandes para que queden crocantes; en el lomo saltado el tomate y la cebolla deben mantener su forma.",
+      "Puedes reemplazar los portobellos por orellanas o por seitán en tiras si quieres más proteína."
+    ],
+    "nutrition": { "calories": 540, "protein": 12, "carbs": 84, "fat": 17, "fiber": 8 },
+    "sources": [
+      { "name": "Hazlo Vegan", "url": "https://hazlovegan.com/recetas/lomo-saltado-vegano-de-seitan/" },
+      { "name": "Veggienoob", "url": "https://veggienoob.com/lomo-saltado-vegano/" },
+      { "name": "Viviendo el Perú", "url": "https://viviendoelperu.es/lomo-saltado-vegetariano-receta-original-adaptada/" }
+    ]
+  },
+  {
+    "id": "aji-de-gallina-de-garbanzos",
+    "title": "Ají de gallina de garbanzos",
+    "description": "Garbanzos desmenuzados y orellanas desmechadas envueltos en la cremosa salsa de ají amarillo, pan y nueces pecanas del clásico limeño. Se sirve sobre tajadas de papa con arroz blanco y aceitunas de botija.",
+    "visual": "curry",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Peruana",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "garbanzos cocidos", "quantity": 400, "unit": "g", "note": "escurridos" },
+      { "name": "orellanas", "quantity": 200, "unit": "g", "note": "setas ostra, desmechadas en tiras finas", "aliases": ["setas ostra", "hongos ostra", "gírgolas", "pleurotus"] },
+      { "name": "pan tajado blanco", "quantity": 4, "unit": "rebanada", "note": "sin corteza", "aliases": ["pan de molde", "pan lactal", "pan de caja", "pan blanco"] },
+      { "name": "leche vegetal sin azúcar", "quantity": 250, "unit": "ml", "note": "de almendras, avena o soya", "aliases": ["bebida vegetal"] },
+      { "name": "caldo de verduras", "quantity": 250, "unit": "ml" },
+      { "name": "pasta de ají amarillo", "quantity": 4, "unit": "cucharada", "note": "ají peruano en frasco; se consigue en tiendas de productos peruanos o importados, o licúa ajíes amarillos frescos sin venas con un chorrito de aceite", "aliases": ["ají amarillo molido", "pasta de ají escabeche"] },
+      { "name": "cebolla cabezona roja", "quantity": 1, "unit": "unidad", "note": "picada muy fina", "aliases": ["cebolla morada", "cebolla roja"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "nueces pecanas", "quantity": 40, "unit": "g", "note": "o nueces comunes", "aliases": ["pecanas", "nuez pecán", "nuez pacana"] },
+      { "name": "levadura nutricional", "quantity": 2, "unit": "cucharada" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "papa", "quantity": 4, "unit": "unidad", "note": "pastusa o criolla grande, de pulpa amarilla y harinosa", "aliases": ["papa amarilla", "patata"] },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "aceitunas de botija", "quantity": 8, "unit": "unidad", "note": "aceitunas negras peruanas; o aceitunas negras comunes", "aliases": ["aceitunas negras"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Remoja el pan en la leche vegetal 10 minutos. Licúalo con las pecanas y la levadura nutricional hasta obtener una crema espesa y homogénea.",
+      "Cocina las papas con piel en agua con sal 20 minutos, hasta que estén tiernas; pélalas y córtalas en tajadas gruesas. Prepara el arroz blanco con 2,5 tazas de agua, tapado a fuego bajo 18 minutos.",
+      "Machaca los garbanzos con un tenedor o con pulsos cortos del procesador hasta que queden desmenuzados, sin llegar a puré.",
+      "Calienta el aceite en una olla ancha y sofríe la cebolla y el ajo a fuego medio 8 minutos, hasta que estén muy suaves y apenas dorados. Añade la pasta de ají amarillo y el comino y cocina 3 minutos removiendo.",
+      "Incorpora las orellanas desmechadas y cocina 5 minutos, hasta que pierdan su agua.",
+      "Vierte la crema de pan y cocina a fuego bajo 5 minutos sin dejar de remover. Añade el caldo poco a poco hasta lograr una salsa cremosa que cubra la cuchara.",
+      "Agrega los garbanzos desmenuzados, sala y cocina 8 minutos más a fuego bajo para que absorban el sabor de la salsa.",
+      "Sirve el ají de gallina sobre las tajadas de papa, con arroz blanco al lado y un par de aceitunas por plato."
+    ],
+    "tags": ["tradicional", "alto en proteína", "reconfortante", "sin soya"],
+    "tips": [
+      "Si la salsa espesa demasiado al reposar, aflójala con un poco más de caldo caliente justo antes de servir.",
+      "La pasta de ají amarillo aporta color y un picor suave; si solo consigues ajíes frescos, licúa 3 sin venas ni semillas con un chorrito de aceite.",
+      "Para una versión sin frutos secos, cambia las pecanas por 2 cucharadas de semillas de girasol tostadas."
+    ],
+    "nutrition": { "calories": 650, "protein": 22, "carbs": 96, "fat": 21, "fiber": 14 },
+    "sources": [
+      { "name": "Cookpad", "url": "https://cookpad.com/es/recetas/16698626-aji-de-gallina-vegano" },
+      { "name": "Gourmet.cl", "url": "https://www.gourmet.cl/recetas/aji-de-gallina/" }
+    ]
+  },
+  {
+    "id": "pabellon-criollo-vegano",
+    "title": "Pabellón criollo vegano",
+    "description": "El plato nacional venezolano con carne desmechada de berenjena asada, caraotas (fríjoles negros) cremosas, arroz blanco y tajadas de plátano maduro. Cuatro componentes sencillos que juntos forman un plato completo y lleno de sabor.",
+    "visual": "rice",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Venezolana",
+    "difficulty": "media",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 60,
+    "servings": 4,
+    "ingredients": [
+      { "name": "berenjena", "quantity": 3, "unit": "unidad", "note": "grandes" },
+      { "name": "fríjoles negros cocidos", "quantity": 500, "unit": "g", "note": "caraotas, con un poco de su caldo", "aliases": ["caraotas", "frijoles negros", "porotos negros", "alubias negras"] },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "picadas finas", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en cubos pequeños", "aliases": ["pimiento rojo", "morrón rojo", "chile dulce"] },
+      { "name": "ají dulce", "quantity": 3, "unit": "unidad", "note": "picados; o medio pimentón rojo adicional", "aliases": ["ají cachucha", "ajicito dulce"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "picados" },
+      { "name": "tomate", "quantity": 3, "unit": "unidad", "note": "chontos, picados", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "pasta de tomate", "quantity": 1, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "salsa de soya", "quantity": 1, "unit": "cucharada", "aliases": ["salsa de soja", "shoyu"] },
+      { "name": "hoja de laurel", "quantity": 1, "unit": "hoja" },
+      { "name": "panela rallada", "quantity": 1, "unit": "cucharadita", "aliases": ["papelón", "piloncillo", "chancaca", "raspadura"] },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "plátano maduro", "quantity": 2, "unit": "unidad", "aliases": ["plátano macho maduro", "maduro"] },
+      { "name": "aceite vegetal", "quantity": 4, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Precalienta el horno a 220 °C. Pincha las berenjenas con un tenedor y ásalas enteras sobre una bandeja durante 35 a 40 minutos, hasta que la piel se arrugue y la pulpa ceda al tocarla. Déjalas entibiar, retira la piel y desmecha la pulpa en hebras largas con un tenedor.",
+      "Sofríe en 2 cucharadas de aceite una cebolla, el pimentón, el ají dulce y 2 dientes de ajo a fuego medio 8 minutos. Añade el tomate, la pasta de tomate, media cucharadita de comino y el laurel, y cocina 5 minutos más.",
+      "Agrega la berenjena desmechada y la salsa de soya, y cocina a fuego medio-bajo 15 minutos removiendo de vez en cuando, hasta que la carne desmechada quede jugosa y bien impregnada del guiso. Sala.",
+      "Para las caraotas, sofríe la otra cebolla y el ajo restante en 1 cucharada de aceite 5 minutos. Añade los fríjoles con su caldo, el resto del comino, la panela y sal, y cocina 15 minutos a fuego bajo hasta que espesen; machaca unos cuantos con la cuchara para dar cremosidad.",
+      "Cocina el arroz con 2,5 tazas de agua y sal, tapado a fuego bajo, durante 18 minutos.",
+      "Corta los plátanos en tajadas largas y frítalas en la cucharada de aceite restante a fuego medio 3 minutos por lado, hasta que estén doradas y caramelizadas.",
+      "Sirve en cada plato una porción de arroz, caraotas, carne desmechada de berenjena y tajadas dispuestas a un lado."
+    ],
+    "tags": ["tradicional", "al horno", "alto en proteína", "económico"],
+    "tips": [
+      "Si tienes prisa, asa las berenjenas cortadas a la mitad y boca abajo: estarán listas en 25 minutos.",
+      "La carne desmechada de berenjena queda aún mejor recalentada; prepárala con un día de anticipación.",
+      "Para un pabellón 'a caballo' vegano, añade una tajada de tofu dorado con cúrcuma en lugar del huevo frito."
+    ],
+    "nutrition": { "calories": 660, "protein": 20, "carbs": 120, "fat": 13, "fiber": 23 },
+    "sources": [
+      { "name": "Hazlo Vegan", "url": "https://hazlovegan.com/recetas/pabellon-venezolano-vegano/" },
+      { "name": "196 flavors", "url": "https://www.196flavors.com/es/pabellon-criollo/" }
+    ]
+  },
+  {
+    "id": "moqueca-de-palmito",
+    "title": "Moqueca de palmito",
+    "description": "Guiso bahiano de palmito en capas con cebolla, pimentones y tomate, cocinado en leche de coco con aceite de dendé y cilantro. Cremoso, aromático y listo en menos de una hora para servir con arroz.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Brasileña",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "palmito en conserva", "quantity": 400, "unit": "g", "note": "peso escurrido, en trozos de 3 cm", "aliases": ["palmitos", "corazón de palma"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "en aros finos", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento rojo", "morrón rojo"] },
+      { "name": "pimentón amarillo", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento amarillo", "morrón amarillo"] },
+      { "name": "tomate", "quantity": 3, "unit": "unidad", "note": "en tajadas", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "leche de coco", "quantity": 400, "unit": "ml" },
+      { "name": "aceite de dendé", "quantity": 2, "unit": "cucharada", "note": "aceite de palma rojo brasileño, de tiendas de productos importados; o aceite de oliva con 1 cucharadita de pimentón dulce en polvo", "aliases": ["aceite de palma rojo", "azeite de dendê"] },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "aliases": ["lima", "limón verde"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "manojo", "note": "picado" },
+      { "name": "ají fresco", "quantity": 1, "unit": "unidad", "note": "o chile malagueta; picado fino, opcional", "aliases": ["chile", "ají picante", "malagueta"] },
+      { "name": "pimentón dulce", "quantity": 1, "unit": "cucharadita", "note": "en polvo (paprika dulce)", "aliases": ["paprika dulce", "pimentón en polvo"] },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Cocina el arroz con 2,5 tazas de agua y sal, tapado a fuego bajo, durante 18 minutos.",
+      "Escurre y enjuaga el palmito, córtalo en trozos de 3 cm y rocíalo con el jugo de medio limón y una pizca de sal.",
+      "Calienta el aceite de oliva en una olla ancha y sofríe la cebolla y el ajo a fuego medio 4 minutos. Añade los pimentones y cocina 4 minutos más, hasta que empiecen a ablandarse.",
+      "Acomoda los trozos de palmito sobre las verduras en una sola capa. Cubre con las tajadas de tomate, el ají y el pimentón dulce, y vierte la leche de coco por encima.",
+      "Tapa y cocina a fuego medio-bajo 12 minutos, moviendo la olla en círculos en lugar de revolver, para que el palmito no se deshaga.",
+      "Añade el aceite de dendé y la mitad del cilantro, y cocina 3 minutos más destapado, hasta que el caldo espese ligeramente.",
+      "Ajusta la sal y el jugo de limón. Sirve la moqueca caliente con arroz blanco y el resto del cilantro por encima."
+    ],
+    "tags": ["sin gluten", "sin soya", "reconfortante", "tradicional"],
+    "tips": [
+      "Usa palmito pupunha si lo consigues: es más firme y aguanta mejor la cocción que el palmito común.",
+      "El dendé tiene un sabor intenso; si no estás acostumbrado, empieza con una cucharada y ajusta al final.",
+      "Sobra caldo delicioso: acompaña con farofa o con pan de yuca para no dejar nada en el plato."
+    ],
+    "nutrition": { "calories": 540, "protein": 9, "carbs": 72, "fat": 25, "fiber": 8 },
+    "sources": [
+      { "name": "TudoGostoso", "url": "https://www.tudogostoso.com.br/receita/176735-moqueca-de-palmito-vegana.html" },
+      { "name": "Receiteria", "url": "https://www.receiteria.com.br/receita/moqueca-de-palmito/" }
+    ]
+  },
+  {
+    "id": "feijoada-vegana",
+    "title": "Feijoada vegana",
+    "description": "Fríjoles negros cocinados lentamente con laurel, tofu ahumado, champiñones y un sofrito especiado hasta lograr un guiso espeso y profundo. Se sirve al estilo brasileño con arroz, kale salteado, farofa y naranja.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Brasileña",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 100,
+    "servings": 6,
+    "ingredients": [
+      { "name": "fríjoles negros secos", "quantity": 500, "unit": "g", "note": "remojados 8 horas", "aliases": ["frijoles negros", "caraotas", "porotos negros", "feijão preto"] },
+      { "name": "tofu ahumado", "quantity": 200, "unit": "g", "note": "en cubos; o tofu firme con 1 cucharadita extra de pimentón ahumado en polvo" },
+      { "name": "champiñones", "quantity": 250, "unit": "g", "note": "en cuartos", "aliases": ["hongos", "setas"] },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "picadas finas", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 5, "unit": "diente", "note": "picados" },
+      { "name": "hoja de laurel", "quantity": 3, "unit": "hoja" },
+      { "name": "pimentón ahumado", "quantity": 2, "unit": "cucharadita", "note": "en polvo (paprika ahumada)", "aliases": ["paprika ahumada", "pimentón de la Vera"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "salsa de soya", "quantity": 2, "unit": "cucharada", "aliases": ["salsa de soja", "shoyu"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad", "note": "en cubos pequeños" },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "arroz blanco", "quantity": 2, "unit": "taza" },
+      { "name": "kale (col rizada)", "quantity": 300, "unit": "g", "note": "o acelga; en tiras muy finas", "aliases": ["col rizada", "berza", "couve", "acelga"] },
+      { "name": "harina de yuca", "quantity": 1, "unit": "taza", "note": "para la farofa; harina de mandioca brasileña, de tiendas de productos importados", "aliases": ["harina de mandioca", "farinha de mandioca"] },
+      { "name": "naranja", "quantity": 2, "unit": "unidad", "note": "en gajos, para servir" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Escurre los fríjoles remojados y ponlos en una olla grande con 2 litros de agua y el laurel. Lleva a ebullición, retira la espuma y cocina a fuego bajo 60 minutos con la olla semitapada, o 25 minutos en olla a presión.",
+      "Calienta 2 cucharadas de aceite en una sartén y sofríe la cebolla y 4 dientes de ajo a fuego medio 8 minutos, hasta que estén dorados. Añade el pimentón ahumado y el comino y remueve 1 minuto.",
+      "Incorpora los champiñones y la zanahoria al sofrito y cocina 6 minutos, hasta que los champiñones se doren.",
+      "Pasa el sofrito a la olla de los fríjoles junto con el tofu ahumado y la salsa de soya. Cocina destapado a fuego bajo 30 minutos, hasta que el caldo espese. Machaca un cucharón de fríjoles y devuélvelo a la olla para dar cremosidad. Ajusta la sal.",
+      "Prepara el arroz con 3,5 tazas de agua y sal, tapado a fuego bajo, durante 18 minutos.",
+      "Saltea el kale en la cucharada de aceite restante con el diente de ajo que queda a fuego alto 3 minutos, hasta que esté brillante y apenas tierno. Sala.",
+      "Para la farofa, tuesta la harina de yuca en una sartén seca a fuego medio 5 minutos con una pizca de sal, removiendo hasta que tome color dorado.",
+      "Sirve la feijoada en platos hondos con arroz, kale salteado, farofa y gajos de naranja."
+    ],
+    "tags": ["tradicional", "alto en proteína", "reconfortante", "para fiestas", "meal prep"],
+    "tips": [
+      "Como toda feijoada, esta sabe mejor al día siguiente; guárdala hasta 4 días en la nevera o congélala en porciones.",
+      "Si no encuentras tofu ahumado, dora tofu firme en cubos con una cucharadita de pimentón ahumado en polvo y unas gotas de humo líquido.",
+      "La naranja no es decoración: su acidez corta la untuosidad del guiso y ayuda a digerirlo."
+    ],
+    "nutrition": { "calories": 580, "protein": 28, "carbs": 92, "fat": 12, "fiber": 22 },
+    "sources": [
+      { "name": "The Fiery Vegetarian", "url": "https://www.thefieryvegetarian.com/brazilian-black-beans-feijoada/" },
+      { "name": "Veganuary", "url": "https://veganuary.com/en-us/recipes/vegan-feijoada/" }
+    ]
+  },
+  {
+    "id": "ropa-vieja-de-yaca",
+    "title": "Ropa vieja de yaca",
+    "description": "Yaca verde desmenuzada y dorada, guisada con sofrito de pimentones, tomate, comino y aceitunas hasta que queda tierna y jugosa como la carne desmechada del clásico cubano. Perfecta con arroz blanco y tajadas de plátano maduro.",
+    "visual": "skillet",
+    "diet": "vegana",
+    "category": "plato-principal",
+    "cuisine": "Cubana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "yaca verde en conserva", "quantity": 2, "unit": "lata", "note": "de 400 g cada una, en salmuera o agua, escurridas", "aliases": ["jackfruit", "jaca", "yaca en salmuera"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "en julianas", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento rojo", "morrón rojo"] },
+      { "name": "pimentón verde", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento verde", "morrón verde"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "picados" },
+      { "name": "tomate triturado", "quantity": 400, "unit": "g", "aliases": ["passata", "puré de tomate", "tomate natural triturado"] },
+      { "name": "pasta de tomate", "quantity": 1, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "vino blanco seco", "quantity": 60, "unit": "ml", "note": "o caldo de verduras" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "pimentón ahumado", "quantity": 1, "unit": "cucharadita", "note": "en polvo (paprika ahumada)", "aliases": ["paprika ahumada", "pimentón de la Vera"] },
+      { "name": "hoja de laurel", "quantity": 2, "unit": "hoja" },
+      { "name": "aceitunas verdes", "quantity": 60, "unit": "g", "note": "en rodajas" },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "arroz blanco", "quantity": 1.5, "unit": "taza" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Escurre y enjuaga la yaca. Retira las partes duras del corazón y las semillas, y desmenuza los trozos con las manos o con dos tenedores hasta obtener hebras.",
+      "Calienta 2 cucharadas de aceite en una sartén grande a fuego medio-alto y dora la yaca 6 a 8 minutos, sin mover demasiado, hasta que los bordes se tuesten. Resérvala.",
+      "En la misma sartén, con la cucharada de aceite restante, sofríe la cebolla y los pimentones 6 minutos a fuego medio. Añade el ajo, el comino, el orégano y el pimentón ahumado y cocina 1 minuto más.",
+      "Vierte el vino y deja que reduzca 2 minutos raspando el fondo de la sartén.",
+      "Agrega el tomate triturado, la pasta de tomate, el laurel, la yaca dorada y media taza de agua. Tapa y cocina a fuego bajo 20 minutos, removiendo de vez en cuando, hasta que la yaca se ablande y absorba la salsa.",
+      "Incorpora las aceitunas y cocina 3 minutos destapado. Ajusta la sal.",
+      "Cocina el arroz con 2,5 tazas de agua y sal, tapado a fuego bajo, durante 18 minutos. Sirve la ropa vieja sobre el arroz, idealmente con tajadas de plátano maduro o fríjoles negros."
+    ],
+    "tags": ["sin gluten", "sin soya", "meal prep", "tradicional"],
+    "tips": [
+      "Compra yaca verde en salmuera o en agua, nunca en almíbar: la versión dulce no sirve para platos salados.",
+      "Para una textura más parecida a la carne, aplasta las hebras de yaca con el dorso de un tenedor antes de dorarlas.",
+      "Un chorrito de vinagre de vino tinto al final realza el sabor del guiso."
+    ],
+    "nutrition": { "calories": 430, "protein": 8, "carbs": 80, "fat": 11, "fiber": 9 },
+    "sources": [
+      { "name": "Connoisseurus Veg", "url": "https://www.connoisseurusveg.com/vegan-ropa-vieja/" },
+      { "name": "Receta Cubana", "url": "https://recetacubana.com/ropa-vieja/" }
+    ]
+  },
+  {
+    "id": "chiles-rellenos-de-queso-capeados",
+    "title": "Chiles rellenos de queso capeados",
+    "description": "Chiles poblanos asados y pelados, rellenos de queso Oaxaca, envueltos en un capeado (rebozado) esponjoso de huevo y fritos hasta dorar. Se bañan en un caldillo ligero de tomate, como manda la tradición.",
+    "visual": "stuffed",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Mexicana",
+    "difficulty": "difícil",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 35,
+    "servings": 6,
+    "ingredients": [
+      { "name": "chile poblano", "quantity": 6, "unit": "unidad", "note": "grandes y firmes; chile fresco mexicano, se consigue en tiendas de productos importados o supermercados grandes; en su lugar usa pimentones verdes alargados", "aliases": ["poblano", "pimiento poblano"] },
+      { "name": "queso oaxaca", "quantity": 350, "unit": "g", "note": "en tiras; queso mexicano de hebra: reemplázalo por quesillo, queso doble crema o mozzarella", "aliases": ["quesillo", "queso de hebra", "queso asadero"] },
+      { "name": "huevo", "quantity": 4, "unit": "unidad", "note": "a temperatura ambiente" },
+      { "name": "harina de trigo", "quantity": 0.5, "unit": "taza" },
+      { "name": "aceite vegetal", "quantity": 400, "unit": "ml", "note": "para fritar" },
+      { "name": "tomate", "quantity": 6, "unit": "unidad", "note": "chontos, maduros", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "cebolla cabezona blanca", "quantity": 0.5, "unit": "unidad", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "caldo de verduras", "quantity": 250, "unit": "ml" },
+      { "name": "orégano seco", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "hoja de laurel", "quantity": 1, "unit": "hoja" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Asa los chiles directamente sobre la llama de la estufa o en una sartén seca a fuego alto 8 a 10 minutos, girándolos, hasta que la piel se ampolle y se ennegrezca por todos lados. Mételos en una bolsa cerrada o tápalos 10 minutos para que suden.",
+      "Pela los chiles frotando la piel con los dedos. Haz un corte lateral, retira semillas y venas sin desprender el tallo y sécalos con papel.",
+      "Prepara el caldillo: hierve los tomates 8 minutos, licúalos con la cebolla y el ajo y cuela. Fríe la salsa en 1 cucharada de aceite 5 minutos, añade el caldo, el laurel, el orégano y sal, y cocina a fuego bajo 10 minutos.",
+      "Rellena cada chile con unos 60 g de queso y cierra la abertura con un palillo.",
+      "Pasa los chiles por la harina, cubriéndolos por completo, y sacude el exceso.",
+      "Bate las claras a punto de nieve, hasta que formen picos firmes. Incorpora las yemas una a una y una pizca de sal con movimientos envolventes para que el capeado no pierda aire.",
+      "Calienta el aceite en una sartén honda a 180 °C. Sumerge cada chile en el capeado sosteniéndolo por el tallo, colócalo en el aceite y fríe 2 minutos por lado, bañándolo con aceite caliente, hasta que esté dorado. Escurre sobre papel absorbente.",
+      "Sirve los chiles calientes bañados con el caldillo de tomate, acompañados de arroz blanco o fríjoles."
+    ],
+    "tags": ["tradicional", "reconfortante", "para fiestas"],
+    "tips": [
+      "Los chiles deben estar completamente secos antes de enharinarlos; de lo contrario el capeado se despega al freír.",
+      "Bate las claras justo antes de freír: el capeado pierde volumen si espera más de 10 minutos.",
+      "Puedes asar, pelar y rellenar los chiles con un día de anticipación y capearlos al momento de servir."
+    ],
+    "nutrition": { "calories": 440, "protein": 21, "carbs": 19, "fat": 31, "fiber": 4 },
+    "veganAlternative": "Rellena los chiles con queso vegano que funda o con una mezcla de papa cocinada y machacada, granos de mazorca y cilantro. Para el capeado, mezcla 1 taza de harina de garbanzo con 1 cucharadita de polvo de hornear y 3/4 de taza de agua fría con gas hasta obtener una masa espesa, y fríe los chiles igual.",
+    "sources": [
+      { "name": "Pati Jinich", "url": "https://patijinich.com/es/chile-relleno-de-queso/" },
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-vegetarianas/chiles-rellenos-de-queso-receta-mexicana" }
+    ]
+  },
+  {
+    "id": "enchiladas-verdes-de-frijol-y-queso",
+    "title": "Enchiladas verdes de fríjol y queso",
+    "description": "Tortillas de maíz rellenas de fríjoles negros refritos y queso, bañadas en salsa verde de tomatillo con chile serrano y cilantro, gratinadas al horno y terminadas con crema de leche y queso campesino.",
+    "visual": "wrap",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Mexicana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tomatillo", "quantity": 600, "unit": "g", "note": "tomate verde mexicano, sin cáscara; se consigue en lata en tiendas de productos importados, o usa tomates verdes sin madurar con un chorrito de limón", "aliases": ["tomate verde", "tomate de cáscara", "miltomate"] },
+      { "name": "chile serrano", "quantity": 2, "unit": "unidad", "note": "chile fresco mexicano; reemplázalo por ají picante fresco o jalapeño", "aliases": ["serrano", "ají serrano"] },
+      { "name": "cebolla cabezona blanca", "quantity": 1, "unit": "unidad", "note": "la mitad para la salsa y la otra mitad en aros para servir", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "manojo" },
+      { "name": "caldo de verduras", "quantity": 250, "unit": "ml" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "tortillas de maíz", "quantity": 12, "unit": "unidad" },
+      { "name": "fríjoles negros refritos", "quantity": 2, "unit": "taza", "aliases": ["frijoles refritos", "caraotas refritas"] },
+      { "name": "queso oaxaca", "quantity": 200, "unit": "g", "note": "desmechado; queso mexicano de hebra, reemplázalo por quesillo o mozzarella", "aliases": ["quesillo", "queso de hebra", "queso asadero"] },
+      { "name": "crema de leche", "quantity": 120, "unit": "ml", "note": "o crema agria", "aliases": ["crema ácida", "crema agria", "nata", "sour cream"] },
+      { "name": "queso campesino", "quantity": 80, "unit": "g", "note": "desmenuzado", "aliases": ["queso fresco", "queso costeño", "queso cotija"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Hierve los tomatillos y los serranos en agua durante 8 minutos, hasta que cambien a un verde oliva. Licúalos con media cebolla, el ajo, la mitad del cilantro y sal.",
+      "Calienta 1 cucharada de aceite en una olla a fuego medio-alto y fríe la salsa 5 minutos. Añade el caldo y cocina a fuego bajo 10 minutos, hasta que espese ligeramente.",
+      "Calienta los fríjoles refritos con un chorrito de agua para que queden untables.",
+      "Precalienta el horno a 180 °C. Pasa las tortillas por el aceite restante caliente 10 segundos por lado para que se suavicen y no se rompan al enrollar.",
+      "Rellena cada tortilla con 2 cucharadas de fríjoles y un poco de queso Oaxaca, enróllala y acomódala en una refractaria con la unión hacia abajo.",
+      "Baña las enchiladas con la salsa verde, cubre con el queso Oaxaca restante y hornea 15 minutos, hasta que el queso se funda y gratine.",
+      "Sirve con crema de leche, queso campesino, aros de cebolla y el resto del cilantro picado."
+    ],
+    "tags": ["sin gluten", "económico", "para niños", "reconfortante"],
+    "tips": [
+      "Si la salsa queda muy ácida, añade una pizca de azúcar o un chorrito más de caldo.",
+      "Para una versión sin horno, baña las tortillas en la salsa caliente, rellena, enrolla y sirve de inmediato con el queso por encima.",
+      "Sustituye los fríjoles por calabacín y mazorca salteados para variar el relleno."
+    ],
+    "nutrition": { "calories": 570, "protein": 23, "carbs": 68, "fat": 24, "fiber": 12 },
+    "veganAlternative": "Cambia el queso Oaxaca por queso vegano rallado que funda y sustituye la crema de leche y el queso campesino por una crema de marañones (100 g remojados y licuados con 80 ml de agua, jugo de medio limón y sal). La salsa verde y los fríjoles ya son veganos.",
+    "sources": [
+      { "name": "Cocina Fácil", "url": "https://www.cocinafacil.com.mx/recetarios/enchiladas-verdes-4-formas-super-faciles-de-hacerlas" },
+      { "name": "Girl With The Iron Cast", "url": "https://girlwiththeironcast.com/vegetarian-verde-enchiladas/" }
+    ]
+  },
+  {
+    "id": "milanesas-de-berenjena-a-la-napolitana",
+    "title": "Milanesas de berenjena a la napolitana",
+    "description": "Tajadas de berenjena apanadas y horneadas hasta quedar crujientes, cubiertas con salsa de tomate, mozzarella y orégano, y gratinadas. Un clásico de bodegón argentino en versión vegetariana.",
+    "visual": "tempura",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Argentina",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "berenjena", "quantity": 2, "unit": "unidad", "note": "grandes" },
+      { "name": "huevo", "quantity": 3, "unit": "unidad" },
+      { "name": "miga de pan", "quantity": 200, "unit": "g", "note": "pan rallado", "aliases": ["pan rallado", "pan molido", "panko"] },
+      { "name": "harina de trigo", "quantity": 50, "unit": "g" },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados muy finos" },
+      { "name": "perejil fresco", "quantity": 1, "unit": "puñado", "note": "picado" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "salsa de tomate napolitana", "quantity": 250, "unit": "ml", "note": "casera o de frasco, para pasta; no la salsa de tomate tipo kétchup", "aliases": ["salsa napolitana", "salsa pomodoro", "salsa de tomate para pasta"] },
+      { "name": "queso mozzarella", "quantity": 250, "unit": "g", "note": "en tajadas", "aliases": ["muzzarella", "muzza"] },
+      { "name": "tomate", "quantity": 2, "unit": "unidad", "note": "en tajadas finas", "aliases": ["jitomate", "tomate chonto"] },
+      { "name": "aceite de oliva", "quantity": 4, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra molida", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Corta las berenjenas a lo largo en tajadas de 1 cm de grosor. Espolvoréalas con sal y déjalas escurrir en un colador 15 minutos; enjuágalas y sécalas bien.",
+      "Bate los huevos con el ajo, el perejil, sal y pimienta.",
+      "Pasa cada tajada primero por harina, luego por el huevo batido y por último por la miga de pan, presionando para que se adhiera bien.",
+      "Precalienta el horno a 200 °C. Acomoda las milanesas en una bandeja aceitada, rocíalas con aceite de oliva y hornea 12 minutos; voltéalas y hornea 8 minutos más, hasta que estén doradas y crujientes.",
+      "Cubre cada milanesa con una capa de salsa de tomate, una tajada de tomate, mozzarella y una pizca de orégano.",
+      "Sube el horno a 220 °C y gratina 5 a 7 minutos, hasta que el queso burbujee y empiece a dorarse.",
+      "Sirve de inmediato con puré de papa o una ensalada verde."
+    ],
+    "tags": ["al horno", "para niños", "económico", "reconfortante"],
+    "tips": [
+      "Si prefieres fritarlas, usa aceite a 175 °C y 2 minutos por lado; escúrrelas sobre papel antes de cubrirlas.",
+      "Mezcla la miga de pan con un puñado de queso rallado o de hojuelas de maíz trituradas para un apanado más crocante.",
+      "Las milanesas apanadas se congelan crudas en capas separadas por papel parafinado; hornéalas directamente desde el congelador añadiendo 5 minutos."
+    ],
+    "nutrition": { "calories": 490, "protein": 25, "carbs": 49, "fat": 22, "fiber": 8 },
+    "veganAlternative": "Reemplaza los huevos por una mezcla de 4 cucharadas de harina de garbanzo con 6 cucharadas de agua (o leche vegetal con una cucharadita de mostaza) para adherir el apanado, y usa mozzarella vegana o tajadas de tomate con levadura nutricional y un hilo de aceite de oliva para gratinar.",
+    "sources": [
+      { "name": "LM Neuquén", "url": "https://www.lmneuquen.com/el-comedor/receta-milanesa-berenjena-la-napolitana-n942252" },
+      { "name": "Cookpad", "url": "https://cookpad.com/ar/recetas/660235-milanesas-de-berenjena-a-la-napolitana-al-horno-sin-freir" }
+    ]
+  },
+  {
+    "id": "pastel-de-papa-con-lentejas",
+    "title": "Pastel de papa con lentejas",
+    "description": "Un guiso sabroso de lentejas, champiñones y verduras con huevo duro y aceitunas, cubierto con puré de papa cremoso y gratinado con queso. La versión vegetariana del pastel de papa que se hace en toda Argentina.",
+    "visual": "pie",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Argentina",
+    "difficulty": "media",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 55,
+    "servings": 6,
+    "ingredients": [
+      { "name": "papa", "quantity": 1.2, "unit": "kg", "note": "peladas y en trozos", "aliases": ["patata"] },
+      { "name": "lentejas cocidas", "quantity": 500, "unit": "g", "note": "escurridas; unos 250 g en seco" },
+      { "name": "cebolla cabezona", "quantity": 2, "unit": "unidad", "note": "picadas finas", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en cubos pequeños", "aliases": ["pimiento rojo", "morrón rojo"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad", "note": "rallada" },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "champiñones", "quantity": 200, "unit": "g", "note": "picados", "aliases": ["hongos", "setas"] },
+      { "name": "tomate triturado", "quantity": 200, "unit": "ml", "aliases": ["puré de tomate", "passata"] },
+      { "name": "pimentón dulce", "quantity": 1, "unit": "cucharadita", "note": "en polvo (paprika dulce)", "aliases": ["paprika dulce", "pimentón en polvo"] },
+      { "name": "aceitunas verdes", "quantity": 12, "unit": "unidad", "note": "sin pepa, picadas" },
+      { "name": "huevo", "quantity": 2, "unit": "unidad" },
+      { "name": "mantequilla", "quantity": 50, "unit": "g", "aliases": ["manteca"] },
+      { "name": "leche", "quantity": 150, "unit": "ml", "note": "caliente" },
+      { "name": "queso rallado", "quantity": 80, "unit": "g", "note": "parmesano o sardo" },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Hierve las papas en agua con sal 20 minutos, hasta que estén muy tiernas. Escúrrelas, machácalas en caliente con la mantequilla y la leche y sala. El puré debe quedar cremoso pero firme.",
+      "Cocina los huevos en agua hirviendo 10 minutos, enfríalos, pélalos y pícalos.",
+      "Calienta el aceite en una sartén grande y sofríe la cebolla, el pimentón, la zanahoria y el ajo a fuego medio 8 minutos, hasta que estén blandos.",
+      "Añade los champiñones y cocina 5 minutos más. Incorpora las lentejas, el tomate triturado y el pimentón dulce, sala y cocina a fuego bajo 10 minutos, hasta que el relleno espese.",
+      "Retira del fuego y mezcla el huevo picado y las aceitunas.",
+      "Precalienta el horno a 200 °C. Extiende el relleno en una refractaria engrasada, cúbrelo con el puré alisando la superficie y marca surcos con un tenedor. Espolvorea el queso rallado.",
+      "Hornea 25 minutos, hasta que la superficie esté dorada y el relleno burbujee en los bordes.",
+      "Deja reposar 10 minutos antes de cortar para que las porciones mantengan su forma."
+    ],
+    "tags": ["al horno", "reconfortante", "económico", "alto en proteína", "invierno"],
+    "tips": [
+      "Machaca las papas en caliente con un prensapapas o pasapurés; la licuadora las vuelve gomosas.",
+      "Si el relleno queda muy líquido, cocínalo unos minutos más destapado antes de armar el pastel.",
+      "Un puñado de pasas en el relleno le da el toque agridulce típico de la cocina argentina."
+    ],
+    "nutrition": { "calories": 530, "protein": 22, "carbs": 73, "fat": 17, "fiber": 14 },
+    "veganAlternative": "Omite los huevos duros o reemplázalos por 100 g de tofu firme desmenuzado con una pizca de sal negra kala namak, haz el puré con aceite de oliva y leche vegetal en lugar de mantequilla y leche, y gratina con miga de pan mezclada con 2 cucharadas de levadura nutricional en vez de queso.",
+    "sources": [
+      { "name": "Cocineros Argentinos", "url": "https://cocinerosargentinos.com/vegetariano/pastel-de-papa-vegetariano" },
+      { "name": "Recetas Nestlé Argentina", "url": "https://www.recetasnestle.com.ar/recetas/pastel-de-papa-con-vegetales-y-lentejas" }
+    ]
+  },
+  {
+    "id": "pastel-de-choclo-vegetariano",
+    "title": "Pastel de choclo vegetariano",
+    "description": "Pino de champiñones y cebolla con comino, pasas y aceitunas, cubierto con una pastelera cremosa de mazorca y albahaca que se dora al horno con una capa de azúcar. El plato de verano chileno por excelencia, sin carne.",
+    "visual": "pie",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Chilena",
+    "difficulty": "media",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 50,
+    "servings": 6,
+    "ingredients": [
+      { "name": "mazorca desgranada", "quantity": 1, "unit": "kg", "note": "maíz tierno fresco o congelado, unas 8 mazorcas", "aliases": ["choclo", "elote", "maíz tierno", "maíz dulce"] },
+      { "name": "albahaca fresca", "quantity": 10, "unit": "hoja" },
+      { "name": "mantequilla", "quantity": 30, "unit": "g", "aliases": ["manteca"] },
+      { "name": "leche", "quantity": 200, "unit": "ml" },
+      { "name": "champiñones", "quantity": 500, "unit": "g", "note": "picados", "aliases": ["hongos", "setas"] },
+      { "name": "cebolla cabezona", "quantity": 3, "unit": "unidad", "note": "picadas finas", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "pimentón dulce", "quantity": 1, "unit": "cucharadita", "note": "en polvo (paprika dulce); en Chile se llama ají de color", "aliases": ["ají de color", "paprika dulce", "pimentón en polvo"] },
+      { "name": "pasas", "quantity": 40, "unit": "g", "aliases": ["uvas pasas", "pasas de uva"] },
+      { "name": "aceitunas negras", "quantity": 6, "unit": "unidad" },
+      { "name": "huevo", "quantity": 3, "unit": "unidad" },
+      { "name": "azúcar", "quantity": 2, "unit": "cucharada" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Cocina los huevos en agua hirviendo 10 minutos, enfríalos, pélalos y córtalos por la mitad.",
+      "Prepara el pino: sofríe la cebolla en el aceite a fuego medio 12 minutos, hasta que esté muy blanda y dorada. Añade el ajo, el comino, el orégano y el pimentón dulce y remueve 1 minuto.",
+      "Agrega los champiñones y cocina a fuego alto 8 minutos, hasta que suelten su líquido y este se evapore. Incorpora las pasas, sala y reserva.",
+      "Para la pastelera, procesa los granos de mazorca con la albahaca y la leche hasta obtener una pasta gruesa.",
+      "Derrite la mantequilla en una olla, vierte la pasta de mazorca y cocina a fuego medio-bajo 15 minutos removiendo sin parar, hasta que espese como una polenta. Sala.",
+      "Precalienta el horno a 200 °C. Reparte el pino en 6 cazuelas de barro o en una refractaria, coloca encima medio huevo y una aceituna por porción, y cubre con la pastelera.",
+      "Espolvorea el azúcar sobre la superficie y hornea 25 a 30 minutos, hasta que la pastelera esté dorada; si quieres más color, gratina 3 minutos al final.",
+      "Deja reposar 10 minutos antes de servir, acompañado de ensalada chilena de tomate y cebolla."
+    ],
+    "tags": ["al horno", "tradicional", "reconfortante", "verano"],
+    "tips": [
+      "Si usas mazorca desgranada congelada, descongélala y escúrrela bien para que la pastelera no quede aguada.",
+      "Las cazuelas de barro retienen el calor y dan el toque tradicional, pero una refractaria de vidrio funciona igual de bien.",
+      "Puedes reemplazar la mitad de los champiñones por soya texturizada hidratada para un pino más contundente."
+    ],
+    "nutrition": { "calories": 390, "protein": 13, "carbs": 54, "fat": 15, "fiber": 7 },
+    "veganAlternative": "Cambia la mantequilla por aceite de oliva o margarina vegetal, la leche por leche de avena sin azúcar, y omite los huevos duros o sustitúyelos por cubos de tofu firme dorados en sartén. La pastelera se dora igual gracias al azúcar.",
+    "sources": [
+      { "name": "Gourmet.cl", "url": "https://www.gourmet.cl/recetas/pastel-de-choclo-vegetariano/" },
+      { "name": "Hazlo Vegan", "url": "https://hazlovegan.com/recetas/pastel-de-choclo-vegano-chileno/" }
+    ]
+  },
+  {
+    "id": "pupusas-de-frijol-con-queso",
+    "title": "Pupusas de fríjol con queso",
+    "description": "Tortillas gruesas de masa de maíz rellenas de fríjoles refritos y queso derretido, asadas en plancha hasta dorarse. Se sirven con curtido de repollo avinagrado y salsa de tomate, como en cualquier pupusería salvadoreña.",
+    "visual": "arepa",
+    "diet": "vegetariana",
+    "category": "plato-principal",
+    "cuisine": "Latinoamericana",
+    "difficulty": "media",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "harina de maíz nixtamalizado", "quantity": 3, "unit": "taza", "note": "tipo masa harina, de tiendas de productos mexicanos; o harina de maíz precocida para arepas", "aliases": ["masa harina", "harina para tortillas", "harina de maíz precocida"] },
+      { "name": "agua tibia", "quantity": 2.5, "unit": "taza" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" },
+      { "name": "fríjoles rojos cocidos", "quantity": 400, "unit": "g", "note": "con un poco de su caldo", "aliases": ["frijoles rojos", "porotos", "alubias rojas", "judías rojas"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "la mitad para los fríjoles y la otra mitad en julianas para el curtido", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "queso mozzarella", "quantity": 250, "unit": "g", "note": "rallado; o quesillo", "aliases": ["quesillo", "queso de hebra"] },
+      { "name": "repollo", "quantity": 0.5, "unit": "unidad", "note": "blanco, en tiras muy finas", "aliases": ["col", "col blanca"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad", "note": "rallada" },
+      { "name": "vinagre blanco", "quantity": 120, "unit": "ml" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "tomate", "quantity": 4, "unit": "unidad", "note": "chontos, para la salsa", "aliases": ["jitomate", "tomate chonto"] }
+    ],
+    "steps": [
+      "Prepara el curtido: mezcla el repollo, la zanahoria y media cebolla en julianas con el vinagre, media taza de agua caliente, el orégano y una pizca de sal. Deja reposar al menos 1 hora, o toda la noche en la nevera.",
+      "Para la salsa, licúa los tomates con un cuarto de cebolla y medio diente de ajo, y cocina a fuego medio 10 minutos con sal hasta que espese un poco.",
+      "Licúa los fríjoles con un poco de su caldo. Sofríe el resto de la cebolla y el ajo picados en 2 cucharadas de aceite 3 minutos, añade los fríjoles y cocina 8 a 10 minutos removiendo, hasta obtener una pasta espesa que se despegue de la sartén. Déjala enfriar.",
+      "Mezcla la harina de maíz con la sal y el agua tibia y amasa 3 minutos hasta obtener una masa suave que no se agriete al presionarla. Tápala y déjala reposar 15 minutos.",
+      "Combina los fríjoles fríos con el queso rallado para formar el relleno.",
+      "Con las manos humedecidas con agua y un poco de aceite, toma una bola de masa del tamaño de un huevo grande, ahuécala con el pulgar formando una taza y pon 1 cucharada y media de relleno dentro. Cierra la masa sobre el relleno y aplana con las palmas hasta lograr un disco de 10 a 12 cm y 1 cm de grosor.",
+      "Cocina las pupusas en una plancha o sartén apenas aceitada a fuego medio 3 a 4 minutos por lado, hasta que tengan manchas doradas y se inflen ligeramente.",
+      "Sirve calientes con abundante curtido y salsa de tomate por encima."
+    ],
+    "tags": ["sin gluten", "tradicional", "económico", "para niños"],
+    "tips": [
+      "Si la masa se agrieta al formar las pupusas, añade agua tibia cucharada a cucharada; si se pega demasiado, un poco más de harina.",
+      "Mantén un recipiente con agua y aceite a mano para humedecerte las manos entre pupusa y pupusa.",
+      "Las pupusas armadas y sin cocinar se congelan bien separadas por papel parafinado; cocínalas directamente desde el congelador a fuego medio-bajo."
+    ],
+    "nutrition": { "calories": 530, "protein": 22, "carbs": 78, "fat": 16, "fiber": 12 },
+    "veganAlternative": "Sustituye la mozzarella por queso vegano rallado que funda o por 150 g de tofu firme rallado mezclado con 2 cucharadas de levadura nutricional y una pizca de sal; también puedes rellenarlas solo con fríjoles y loroco o calabacín picado muy fino.",
+    "sources": [
+      { "name": "Two Dollar Eats", "url": "https://twodollareats.com/recipe/pupusas-de-frijol-con-queso/" },
+      { "name": "Cocina Vital", "url": "https://www.cocinavital.mx/recetas/comida-rapida/receta-de-pupusas-de-frijol-y-queso-con-6-ingredientes/2024/01/" }
+    ]
+  }
+]

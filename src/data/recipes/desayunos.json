@@ -1,0 +1,709 @@
+[
+  {
+    "id": "tofu-revuelto-a-la-mexicana",
+    "title": "Tofu revuelto a la mexicana",
+    "description": "Tofu desmenuzado y dorado con tomate, cebolla y ají, sazonado con cúrcuma y levadura nutricional para lograr un revuelto con sabor a huevo pero 100 % vegetal.",
+    "visual": "eggs",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Mexicana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "ingredients": [
+      { "name": "tofu firme", "quantity": 400, "unit": "g", "note": "escurrido" },
+      { "name": "aceite de oliva", "quantity": 1, "unit": "cucharada" },
+      { "name": "cebolla cabezona blanca", "quantity": 0.5, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ají picante", "quantity": 1, "unit": "unidad", "note": "fresco, tipo serrano o jalapeño; sin semillas, picado", "aliases": ["chile serrano", "chile verde", "chile"] },
+      { "name": "tomate", "quantity": 2, "unit": "unidad", "note": "en cubos", "aliases": ["jitomate"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente", "note": "picado" },
+      { "name": "cúrcuma en polvo", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "levadura nutricional", "quantity": 2, "unit": "cucharada", "note": "en tiendas naturistas o en línea; si no la consigues, omítela y sube un poco la sal" },
+      { "name": "sal negra kala namak", "quantity": 0.25, "unit": "cucharadita", "note": "opcional, aporta sabor a huevo; en tiendas de productos indios o en línea", "aliases": ["sal negra del Himalaya", "sal negra india"] },
+      { "name": "leche de soya sin azúcar", "quantity": 60, "unit": "ml", "aliases": ["leche de soja"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "picado" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "tortillas de maíz", "quantity": 6, "unit": "unidad", "note": "para servir; en supermercados grandes, o cámbialas por arepas delgadas" }
+    ],
+    "steps": [
+      "Escurre el tofu, envuélvelo en un paño limpio y presiónalo 5 minutos para sacar el exceso de agua. Desmenúzalo con las manos en trozos irregulares, algunos grandes y otros pequeños.",
+      "Mezcla en un tazón pequeño la leche de soya, la levadura nutricional, la cúrcuma, el comino y la sal negra. Reserva.",
+      "Calienta el aceite en un sartén grande a fuego medio-alto. Sofríe la cebolla 3 minutos hasta que esté transparente; agrega el ajo y el ají y cocina 1 minuto más.",
+      "Incorpora el tomate y cocina 3 minutos, hasta que suelte su jugo y empiece a deshacerse.",
+      "Añade el tofu desmenuzado y extiéndelo en el sartén. Déjalo sin mover 3 minutos para que dore un poco por debajo.",
+      "Baja el fuego a medio, vierte la mezcla de leche y especias y revuelve 2 minutos hasta que el tofu tome un color amarillo uniforme y el líquido se absorba.",
+      "Prueba, ajusta la sal y apaga. Espolvorea el cilantro y sirve caliente con tortillas de maíz tibias."
+    ],
+    "tags": ["rápido", "alto en proteína", "sin gluten", "económico"],
+    "tips": [
+      "No desmenuces el tofu demasiado fino: los trozos grandes se doran mejor y dan una textura más parecida al huevo revuelto.",
+      "La sal negra kala namak se consigue en tiendas de productos indios o en línea; agrégala al final porque su aroma se pierde con el calor prolongado.",
+      "Guarda las sobras en un recipiente hermético en la nevera hasta 3 días y recaliéntalas en el sartén con un chorrito de agua."
+    ],
+    "nutrition": { "calories": 260, "protein": 18, "carbs": 20, "fat": 12, "fiber": 5 },
+    "sources": [
+      { "name": "Love and Lemons", "url": "https://www.loveandlemons.com/tofu-scramble/" },
+      { "name": "Nora Cooks", "url": "https://www.noracooks.com/tofu-scramble/" },
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/tacos-veganos-desayuno/" }
+    ]
+  },
+  {
+    "id": "chilaquiles-rojos-veganos",
+    "title": "Chilaquiles rojos veganos",
+    "description": "Totopos (triángulos de tortilla fritos) crujientes bañados en una salsa roja de chiles guajillo y ancho con tomate asado, servidos con fríjoles, aguacate y cebolla morada. Un clásico del desayuno mexicano sin ingredientes de origen animal.",
+    "visual": "skillet",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Mexicana",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tortillas de maíz", "quantity": 12, "unit": "unidad", "note": "del día anterior; en supermercados grandes" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "maduros", "aliases": ["tomate", "jitomate", "tomate rojo"] },
+      { "name": "chile guajillo", "quantity": 3, "unit": "unidad", "note": "sin semillas ni venas; chile seco mexicano, en tiendas de productos importados o reemplázalo por ají seco" },
+      { "name": "chile ancho", "quantity": 1, "unit": "unidad", "note": "sin semillas ni venas; chile seco mexicano, en tiendas de productos importados o reemplázalo por ají seco" },
+      { "name": "cebolla cabezona blanca", "quantity": 0.5, "unit": "unidad", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "caldo de verduras", "quantity": 250, "unit": "ml" },
+      { "name": "orégano seco", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "fríjoles negros refritos", "quantity": 1, "unit": "taza", "note": "para servir", "aliases": ["frijoles refritos", "caraotas", "porotos negros", "alubias negras"] },
+      { "name": "aguacate", "quantity": 1, "unit": "unidad", "note": "en tajadas", "aliases": ["palta"] },
+      { "name": "cebolla morada", "quantity": 0.25, "unit": "unidad", "note": "en julianas finas", "aliases": ["cebolla roja", "cebolla cabezona roja"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado" },
+      { "name": "crema vegetal", "quantity": 4, "unit": "cucharada", "note": "opcional", "aliases": ["crema de leche vegetal", "nata vegetal"] }
+    ],
+    "steps": [
+      "Corta las tortillas en triángulos. Frítalos por tandas en 2 cucharadas de aceite a fuego medio-alto, 2-3 minutos por lado, hasta que estén dorados y crujientes. Escúrrelos sobre papel absorbente.",
+      "Tuesta los chiles guajillo y ancho en un sartén seco a fuego medio 30 segundos por lado, sin dejar que se quemen. Pásalos a un tazón con agua caliente y remójalos 15 minutos.",
+      "Mientras tanto, asa los tomates, la media cebolla y los dientes de ajo en el mismo sartén a fuego alto unos 8 minutos, girándolos hasta que la piel se chamusque por partes.",
+      "Licúa los chiles escurridos con los tomates, la cebolla, el ajo, el orégano y el caldo hasta obtener una salsa lisa. Cuélala si prefieres una textura más fina.",
+      "Calienta la cucharada de aceite restante en una olla mediana y vierte la salsa. Cocina a fuego medio 8-10 minutos, hasta que espese y tome un rojo más oscuro. Sazona con sal.",
+      "Calienta los fríjoles refritos aparte con un chorrito de agua para que queden untables.",
+      "Justo antes de servir, agrega los totopos a la salsa caliente y mézclalos con cuidado durante 1 minuto, para que se impregnen sin ablandarse del todo.",
+      "Sirve de inmediato con los fríjoles, el aguacate, la cebolla morada, el cilantro y un hilo de crema vegetal."
+    ],
+    "tags": ["tradicional", "económico", "picante", "reconfortante"],
+    "tips": [
+      "Si quieres una versión más ligera, hornea los triángulos de tortilla a 200 °C durante 12 minutos, volteándolos a la mitad.",
+      "Para un picante más intenso agrega un chile de árbol (o un ají seco picante) a la salsa; para suavizarla, sustituye uno de los guajillos por medio pimentón rojo asado.",
+      "La salsa se puede preparar con 2 días de anticipación y guardar en la nevera; solo caliéntala antes de mezclar con los totopos.",
+      "Añade los totopos en el último momento: si esperan en la salsa se convierten en una papilla."
+    ],
+    "nutrition": { "calories": 420, "protein": 11, "carbs": 62, "fat": 16, "fiber": 12 },
+    "sources": [
+      { "name": "Soymart", "url": "https://soymart.mx/recetas/chilaquiles-rojos-veganos/" },
+      { "name": "Piloncillo y Vainilla", "url": "https://www.piloncilloyvainilla.com/chilaquiles-veganos-con-salsa-roja/" }
+    ]
+  },
+  {
+    "id": "arepas-rellenas-de-frijoles-negros-y-aguacate",
+    "title": "Arepas rellenas de fríjoles negros y aguacate",
+    "description": "Arepas doradas de harina de maíz precocida, abiertas y rellenas con fríjoles negros especiados, tajadas de plátano maduro doradas y aguacate machacado. Un desayuno venezolano contundente y sin gluten.",
+    "visual": "arepa",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Venezolana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      { "name": "harina de maíz precocida", "quantity": 2, "unit": "taza", "note": "blanca o amarilla", "aliases": ["harina de arepas", "harina PAN", "masarepa"] },
+      { "name": "agua tibia", "quantity": 2.5, "unit": "taza" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceite vegetal", "quantity": 2, "unit": "cucharada", "note": "1 para la masa y 1 para cocinar" },
+      { "name": "fríjoles negros cocidos", "quantity": 2, "unit": "taza", "note": "escurridos", "aliases": ["frijoles negros", "caraotas", "porotos negros", "alubias negras"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "ajo en polvo", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "plátano maduro", "quantity": 1, "unit": "unidad", "aliases": ["plátano macho maduro", "maduro"] },
+      { "name": "aguacate", "quantity": 2, "unit": "unidad", "aliases": ["palta"] },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharada", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "cebolla morada", "quantity": 0.25, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla roja", "cebolla cabezona roja"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "picado" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Mezcla en un tazón el agua tibia con la sal y 1 cucharada de aceite. Agrega la harina de maíz poco a poco mientras amasas con la mano hasta lograr una masa suave que no se pegue. Déjala reposar 5 minutos.",
+      "Divide la masa en 4 porciones, forma bolas y aplánalas en discos de unos 10 cm de diámetro y 1,5 cm de grosor. Alisa los bordes con los dedos humedecidos.",
+      "Calienta una plancha o sartén con una capa fina de aceite a fuego medio. Cocina las arepas 6-7 minutos por lado, hasta que tengan una costra dorada y suenen huecas al golpearlas.",
+      "Mientras tanto, corta el plátano en tajadas diagonales y dóralas en otro sartén con unas gotas de aceite, 3 minutos por lado.",
+      "Calienta los fríjoles con el comino, el ajo en polvo, sal y pimienta a fuego medio durante 5 minutos, aplastando algunos con la cuchara para que espesen.",
+      "Machaca el aguacate con el jugo de limón y una pizca de sal hasta obtener una pasta rústica.",
+      "Abre cada arepa por un costado con un cuchillo, sin llegar al otro extremo, para formar un bolsillo.",
+      "Rellena con el aguacate, los fríjoles y las tajadas de plátano; termina con cebolla morada y cilantro. Sirve calientes."
+    ],
+    "tags": ["sin gluten", "tradicional", "económico", "sin soya"],
+    "tips": [
+      "Si la masa se agrieta al formar los discos, le falta agua: humedece tus manos y vuelve a amasar unos segundos.",
+      "Para arepas más ligeras, dóralas 3 minutos por lado en el sartén y termínalas en el horno a 200 °C durante 15 minutos.",
+      "Puedes preparar las arepas el día anterior y recalentarlas en tostadora o sartén seco; los rellenos se guardan por separado en la nevera hasta 3 días."
+    ],
+    "nutrition": { "calories": 480, "protein": 13, "carbs": 78, "fat": 15, "fiber": 15 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/arepas-veganas/" },
+      { "name": "Hazlo Vegan", "url": "https://hazlovegan.com/recetas/arepas-veganas-3-rellenos-venezolanos/" }
+    ]
+  },
+  {
+    "id": "avena-nocturna-bircher-con-manzana-y-canela",
+    "title": "Avena nocturna Bircher con manzana y canela",
+    "description": "La versión original de la avena nocturna, nacida en Suiza: hojuelas remojadas toda la noche con manzana rallada, yogur vegetal, pasas y canela. Se prepara en 10 minutos y amanece lista.",
+    "visual": "porridge",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Europea",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      { "name": "hojuelas de avena", "quantity": 1, "unit": "taza", "aliases": ["copos de avena", "avena en hojuelas", "avena tradicional"] },
+      { "name": "leche de almendras sin azúcar", "quantity": 1, "unit": "taza", "aliases": ["bebida de almendras"] },
+      { "name": "yogur vegetal natural", "quantity": 0.5, "unit": "taza", "aliases": ["yogurt vegetal"] },
+      { "name": "manzana", "quantity": 2, "unit": "unidad", "note": "una para rallar y otra para servir" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "pasas", "quantity": 2, "unit": "cucharada", "aliases": ["uvas pasas", "pasitas"] },
+      { "name": "canela molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "semillas de chía", "quantity": 1, "unit": "cucharada" },
+      { "name": "almendras", "quantity": 3, "unit": "cucharada", "note": "picadas" },
+      { "name": "sal", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Mezcla en un frasco o tazón la avena, las semillas de chía, la canela, la sal y las pasas.",
+      "Ralla una manzana con cáscara por el lado grueso del rallador y rocíala enseguida con el jugo de limón para que no se oxide.",
+      "Agrega la manzana rallada, la leche de almendras y el yogur a la avena. Revuelve hasta que no queden partes secas.",
+      "Tapa y refrigera al menos 4 horas, idealmente toda la noche, para que la avena se hidrate y tome una textura cremosa.",
+      "Al día siguiente revuelve y ajusta la consistencia con un chorrito más de leche si quedó muy espesa.",
+      "Corta la segunda manzana en cubos y repártela sobre cada porción junto con las almendras picadas. Sirve frío."
+    ],
+    "tags": ["rápido", "sin horno", "meal prep", "sin azúcar añadida"],
+    "tips": [
+      "Usa hojuelas de avena tradicionales, no instantáneas: las instantáneas se deshacen y la mezcla queda pastosa.",
+      "Prepara varios frascos el domingo; se conservan bien tapados en la nevera hasta 4 días.",
+      "Si te gusta más dulce, añade una cucharadita de miel de maple o un dátil picado antes de refrigerar."
+    ],
+    "nutrition": { "calories": 340, "protein": 9, "carbs": 56, "fat": 10, "fiber": 10 },
+    "sources": [
+      { "name": "Cookie and Kate", "url": "https://cookieandkate.com/homemade-bircher-muesli-recipe/" },
+      { "name": "Alphafoodie", "url": "https://www.alphafoodie.com/bircher-muesli/" },
+      { "name": "The Plant Based School", "url": "https://theplantbasedschool.com/bircher-muesli/" }
+    ]
+  },
+  {
+    "id": "pancakes-veganos-esponjosos",
+    "title": "Pancakes veganos esponjosos",
+    "description": "Pancakes altos y aireados hechos con leche de soya cortada con vinagre, que reemplaza al suero de leche y reacciona con el polvo de hornear. Sin huevo ni lácteos y listos en media hora.",
+    "visual": "pancakes",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 1.5, "unit": "taza", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "polvo de hornear", "quantity": 1, "unit": "cucharada", "aliases": ["polvo para hornear", "levadura química", "royal"] },
+      { "name": "azúcar", "quantity": 2, "unit": "cucharada" },
+      { "name": "sal", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "leche de soya sin azúcar", "quantity": 320, "unit": "ml", "aliases": ["leche de soja"] },
+      { "name": "vinagre de manzana", "quantity": 1, "unit": "cucharada", "aliases": ["vinagre de sidra"] },
+      { "name": "extracto de vainilla", "quantity": 2, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "aceite vegetal", "quantity": 1, "unit": "cucharada", "note": "para engrasar el sartén" },
+      { "name": "frutos rojos", "quantity": 1, "unit": "taza", "note": "para servir", "aliases": ["frutas rojas", "frutos del bosque", "berries"] },
+      { "name": "miel de maple", "quantity": null, "unit": null, "note": "al gusto; o melao de panela", "aliases": ["jarabe de arce", "sirope de arce", "maple syrup"] }
+    ],
+    "steps": [
+      "Mezcla la leche de soya con el vinagre en una taza y déjala reposar 5 minutos hasta que se corte ligeramente; será tu suero vegetal.",
+      "Tamiza la harina y el polvo de hornear en un tazón grande; agrega el azúcar y la sal y mezcla.",
+      "Vierte la leche cortada y la vainilla sobre los ingredientes secos. Revuelve con una espátula solo hasta integrar; deben quedar grumos pequeños. Deja reposar la masa 3-5 minutos.",
+      "Calienta un sartén antiadherente a fuego medio y engrásalo apenas con aceite usando una servilleta.",
+      "Vierte 1/4 de taza de masa por pancake. Cocina 2 minutos, hasta que aparezcan burbujas en la superficie y los bordes se vean secos.",
+      "Voltea y cocina 1-2 minutos más hasta dorar. Repite con el resto de la masa, engrasando el sartén entre tandas.",
+      "Sirve apilados con frutos rojos y miel de maple."
+    ],
+    "tags": ["rápido", "para niños", "económico", "sin frutos secos"],
+    "tips": [
+      "No mezcles de más: cuanto menos trabajes la masa, más esponjosos quedan. Los grumos desaparecen al cocinar.",
+      "Si el primer pancake sale pálido o se quema, ajusta el fuego antes de seguir; el sartén debe estar caliente pero no humeante.",
+      "Los pancakes fríos se congelan hasta 2 meses separados por papel parafinado; recaliéntalos en la tostadora.",
+      "Para una versión integral, reemplaza la mitad de la harina por harina integral y añade 2 cucharadas más de leche."
+    ],
+    "nutrition": { "calories": 300, "protein": 8, "carbs": 55, "fat": 5, "fiber": 3 },
+    "sources": [
+      { "name": "Pick Up Limes", "url": "https://www.pickuplimes.com/recipe/fluffy-vegan-pancakes-841" },
+      { "name": "Rainbow Plant Life", "url": "https://rainbowplantlife.com/vegan-pancakes/" },
+      { "name": "Nora Cooks", "url": "https://www.noracooks.com/vegan-pancakes/" }
+    ]
+  },
+  {
+    "id": "pudin-de-chia-con-mango-y-coco",
+    "title": "Pudín de chía con mango y coco",
+    "description": "Semillas de chía hidratadas en leche de coco hasta formar un pudín cremoso, servido en capas con puré y cubos de mango fresco y coco tostado. Se arma la noche anterior y se sirve frío.",
+    "visual": "parfait",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Internacional",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 3,
+    "servings": 2,
+    "ingredients": [
+      { "name": "semillas de chía", "quantity": 5, "unit": "cucharada" },
+      { "name": "leche de coco", "quantity": 200, "unit": "ml", "note": "de lata", "aliases": ["crema de coco"] },
+      { "name": "leche vegetal", "quantity": 150, "unit": "ml", "note": "de almendras o avena", "aliases": ["bebida vegetal"] },
+      { "name": "miel de maple", "quantity": 1, "unit": "cucharada", "note": "o melao de panela", "aliases": ["jarabe de arce", "sirope de arce", "maple syrup"] },
+      { "name": "extracto de vainilla", "quantity": 0.5, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "mango maduro", "quantity": 1, "unit": "unidad", "note": "grande" },
+      { "name": "jugo de limón", "quantity": 1, "unit": "cucharadita", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "coco rallado sin azúcar", "quantity": 2, "unit": "cucharada", "aliases": ["coco deshidratado"] }
+    ],
+    "steps": [
+      "Bate en un frasco la leche de coco, la leche vegetal, la miel de maple, la vainilla y la sal hasta que la mezcla quede homogénea.",
+      "Agrega las semillas de chía y revuelve bien. Espera 5 minutos y vuelve a revolver para deshacer los grumos que se forman en el fondo.",
+      "Tapa y refrigera mínimo 3 horas o toda la noche, hasta que tenga textura de pudín.",
+      "Pela el mango y corta la mitad en cubos pequeños. Licúa la otra mitad con el jugo de limón hasta obtener un puré liso.",
+      "Tuesta el coco rallado en un sartén seco a fuego medio 2-3 minutos, moviendo sin parar, hasta que dore.",
+      "Sirve en vasos alternando capas de pudín y puré de mango. Termina con los cubos de mango y el coco tostado."
+    ],
+    "tags": ["sin gluten", "sin horno", "meal prep", "sin soya"],
+    "tips": [
+      "La proporción base es 1/4 de taza de chía por cada taza de líquido; si al día siguiente quedó líquido, añade una cucharada más de semillas y espera 1 hora.",
+      "Agita la leche de coco de lata antes de abrirla para integrar la crema que se separa arriba.",
+      "El pudín sin frutas se conserva 4 días en la nevera; agrega el mango al momento de servir para que no se oxide."
+    ],
+    "nutrition": { "calories": 380, "protein": 8, "carbs": 40, "fat": 22, "fiber": 14 },
+    "sources": [
+      { "name": "Kath Eats", "url": "https://www.katheats.com/easy-chia-pudding-recipes" },
+      { "name": "A Beautiful Plate", "url": "https://www.abeautifulplate.com/overnight-chia-pudding-recipe/" }
+    ]
+  },
+  {
+    "id": "granola-casera-de-avena-y-frutos-secos",
+    "title": "Granola casera de avena y frutos secos",
+    "description": "Avena, nueces, almendras y semillas horneadas con aceite de coco y miel de maple hasta formar racimos crujientes, terminados con coco tostado y arándanos secos. Rinde para varias semanas de desayunos.",
+    "visual": "granola",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Internacional",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 25,
+    "servings": 12,
+    "ingredients": [
+      { "name": "hojuelas de avena", "quantity": 3, "unit": "taza", "aliases": ["copos de avena", "avena en hojuelas", "avena tradicional"] },
+      { "name": "nueces", "quantity": 0.5, "unit": "taza", "note": "picadas gruesas", "aliases": ["nuez de Castilla", "nueces de nogal"] },
+      { "name": "almendras", "quantity": 0.5, "unit": "taza", "note": "laminadas" },
+      { "name": "semillas de ahuyama", "quantity": 0.25, "unit": "taza", "aliases": ["semillas de calabaza", "pepitas", "semillas de zapallo"] },
+      { "name": "coco rallado sin azúcar", "quantity": 0.5, "unit": "taza", "aliases": ["coco deshidratado"] },
+      { "name": "aceite de coco", "quantity": 80, "unit": "ml", "note": "derretido" },
+      { "name": "miel de maple", "quantity": 100, "unit": "ml", "note": "o melao de panela", "aliases": ["jarabe de arce", "sirope de arce", "maple syrup"] },
+      { "name": "extracto de vainilla", "quantity": 1, "unit": "cucharadita", "aliases": ["esencia de vainilla"] },
+      { "name": "canela molida", "quantity": 1, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "arándanos deshidratados", "quantity": 0.5, "unit": "taza", "aliases": ["arándanos secos", "cranberries"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 160 °C y forra una bandeja grande con papel parafinado (papel de hornear).",
+      "Mezcla en un tazón la avena, las nueces, las almendras, las semillas de ahuyama, la canela y la sal.",
+      "Bate aparte el aceite de coco derretido con la miel de maple y la vainilla. Viértelo sobre los secos y revuelve hasta que toda la avena quede humedecida.",
+      "Extiende la mezcla en la bandeja en una capa uniforme y presiónala con una espátula para que se formen racimos.",
+      "Hornea 12 minutos, saca la bandeja, agrega el coco rallado y revuelve con cuidado. Vuelve a presionar y hornea 10-12 minutos más, hasta que tome un dorado claro.",
+      "Deja enfriar por completo en la bandeja sin moverla, unos 30 minutos: al enfriarse es cuando queda crujiente.",
+      "Rompe en trozos, mezcla con los arándanos y guarda en un frasco hermético hasta 3 semanas."
+    ],
+    "tags": ["al horno", "meal prep", "sin soya", "económico"],
+    "tips": [
+      "Sácala del horno cuando apenas empiece a dorar; sigue cocinándose con el calor residual y si se pasa amarga.",
+      "Para racimos grandes no revuelvas al final del horneado y deja que enfríe intacta antes de romperla.",
+      "Cambia los frutos secos por los que tengas: maní, avellanas o semillas de girasol funcionan igual de bien."
+    ],
+    "nutrition": { "calories": 280, "protein": 6, "carbs": 32, "fat": 15, "fiber": 5 },
+    "sources": [
+      { "name": "Cookie and Kate", "url": "https://cookieandkate.com/healthy-granola-recipe/" },
+      { "name": "I Heart Naptime", "url": "https://www.iheartnaptime.net/homemade-granola/" }
+    ]
+  },
+  {
+    "id": "smoothie-bowl-de-acai",
+    "title": "Smoothie bowl de açaí",
+    "description": "El clásico tazón brasileño de pulpa de açaí congelada licuada con banano y frutos rojos hasta lograr una crema espesa como helado, coronada con fruta fresca, granola y coco.",
+    "visual": "parfait",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "Brasileña",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 0,
+    "servings": 2,
+    "ingredients": [
+      { "name": "pulpa de açaí congelada", "quantity": 200, "unit": "g", "note": "sin azúcar; en tiendas naturistas o en línea, o mira el reemplazo en los consejos", "aliases": ["asaí", "acai"] },
+      { "name": "banano congelado", "quantity": 2, "unit": "unidad", "note": "en tajadas", "aliases": ["banana", "plátano", "guineo", "cambur"] },
+      { "name": "frutos rojos congelados", "quantity": 0.5, "unit": "taza", "aliases": ["frutas rojas", "frutos del bosque", "berries"] },
+      { "name": "leche vegetal", "quantity": 80, "unit": "ml", "aliases": ["bebida vegetal"] },
+      { "name": "mantequilla de maní", "quantity": 1, "unit": "cucharada", "aliases": ["crema de maní", "mantequilla de cacahuate", "crema de cacahuete"] },
+      { "name": "granola", "quantity": 0.5, "unit": "taza" },
+      { "name": "banano", "quantity": 1, "unit": "unidad", "note": "fresco, en tajadas", "aliases": ["banana", "plátano", "guineo", "cambur"] },
+      { "name": "fresas", "quantity": 6, "unit": "unidad", "note": "en mitades", "aliases": ["frutillas"] },
+      { "name": "coco rallado", "quantity": 1, "unit": "cucharada", "aliases": ["coco deshidratado"] },
+      { "name": "semillas de chía", "quantity": 1, "unit": "cucharadita" }
+    ],
+    "steps": [
+      "Saca la pulpa de açaí del congelador 5 minutos antes y rómpela en trozos golpeando el paquete con suavidad contra la mesa.",
+      "Coloca en la licuadora el açaí, el banano congelado, los frutos rojos, la mantequilla de maní y solo 80 ml de leche vegetal.",
+      "Licúa a velocidad baja, deteniendo y empujando la mezcla hacia las cuchillas con una espátula, hasta obtener una crema espesa como helado. Añade leche de cucharada en cucharada únicamente si la licuadora no avanza.",
+      "Reparte la mezcla en dos tazones previamente enfriados en el congelador.",
+      "Decora con el banano fresco, las fresas, la granola, el coco rallado y las semillas de chía acomodados en hileras.",
+      "Sirve de inmediato, antes de que empiece a derretirse."
+    ],
+    "tags": ["rápido", "sin horno", "verano", "para niños"],
+    "tips": [
+      "El secreto de la textura es usar toda la fruta congelada y la menor cantidad de líquido posible.",
+      "Pela y corta los bananos maduros antes de congelarlos en una bolsa; así siempre tendrás base lista.",
+      "Si no consigues açaí, reemplázalo por 1 taza de moras o arándanos congelados más 1 cucharada de cacao en polvo."
+    ],
+    "nutrition": { "calories": 390, "protein": 8, "carbs": 62, "fat": 14, "fiber": 11 },
+    "sources": [
+      { "name": "Bakerita", "url": "https://www.bakerita.com/acai-bowl/" },
+      { "name": "The Forked Spoon", "url": "https://theforkedspoon.com/acai-bowl/" }
+    ]
+  },
+  {
+    "id": "chilla-de-harina-de-garbanzo-con-verduras",
+    "title": "Chilla de harina de garbanzo con verduras",
+    "description": "El omelette vegano del norte de la India: una masa fina de harina de garbanzo con cebolla, tomate, ají verde y cúrcuma que se cocina en sartén hasta quedar dorada y con bordes crujientes.",
+    "visual": "pancakes",
+    "diet": "vegana",
+    "category": "desayuno",
+    "cuisine": "India",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "harina de garbanzo", "quantity": 1.5, "unit": "taza", "note": "en tiendas naturistas o de productos indios", "aliases": ["besan", "harina de garbanzos"] },
+      { "name": "agua", "quantity": 1.5, "unit": "taza", "note": "aproximadamente" },
+      { "name": "cebolla morada", "quantity": 0.5, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla roja", "cebolla cabezona roja"] },
+      { "name": "tomate", "quantity": 1, "unit": "unidad", "note": "sin semillas, en cubos pequeños", "aliases": ["jitomate"] },
+      { "name": "ají verde", "quantity": 1, "unit": "unidad", "note": "picante, picado fino", "aliases": ["chile verde", "chile serrano", "chile"] },
+      { "name": "jengibre fresco", "quantity": 1, "unit": "cucharadita", "note": "rallado" },
+      { "name": "cúrcuma en polvo", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "semillas de ajwain", "quantity": 0.25, "unit": "cucharadita", "note": "opcional; en tiendas de productos indios, o reemplázalas por semillas de comino" },
+      { "name": "cilantro fresco", "quantity": 3, "unit": "cucharada", "note": "picado" },
+      { "name": "sal", "quantity": 0.75, "unit": "cucharadita" },
+      { "name": "aceite vegetal", "quantity": 2, "unit": "cucharada" }
+    ],
+    "steps": [
+      "Coloca la harina de garbanzo en un tazón y agrega 1 taza de agua batiendo con un batidor de globo hasta que no queden grumos. Añade el resto del agua poco a poco hasta lograr una masa fluida, parecida a la de crepes.",
+      "Incorpora la cúrcuma, el comino, el ajwain, la sal y el jengibre. Deja reposar 10 minutos para que la harina se hidrate.",
+      "Agrega la cebolla, el tomate, el ají y el cilantro y mezcla.",
+      "Calienta un sartén antiadherente a fuego medio y úntalo con unas gotas de aceite.",
+      "Vierte un cucharón de masa (unos 80 ml) y extiéndelo en círculos con el dorso del cucharón hasta formar un disco delgado de 15-18 cm. Rocía unas gotas de aceite en los bordes.",
+      "Cocina 3-4 minutos hasta que los bordes se despeguen y la base esté dorada; voltea y cocina 2 minutos más.",
+      "Repite con el resto de la masa y sirve las chillas calientes con chutney de cilantro o yogur vegetal."
+    ],
+    "tags": ["rápido", "sin gluten", "alto en proteína", "sin soya", "económico"],
+    "tips": [
+      "Una masa más líquida da chillas delgadas y crujientes; una más espesa da chillas suaves tipo omelette. Ajusta el agua a tu gusto.",
+      "No voltees antes de tiempo: cuando los bordes se levantan solos es la señal de que la base ya cuajó.",
+      "Añade 1/2 taza de calabacín o espinaca picada a la masa para sumar verduras sin cambiar el método."
+    ],
+    "nutrition": { "calories": 250, "protein": 12, "carbs": 30, "fat": 10, "fiber": 7 },
+    "sources": [
+      { "name": "Vegan Richa", "url": "https://www.veganricha.com/vegan-chickpea-flour-pancakes/" },
+      { "name": "Whisk Affair", "url": "https://www.whiskaffair.com/besan-chilla-recipe/" }
+    ]
+  },
+  {
+    "id": "shakshuka-de-verduras-con-feta",
+    "title": "Shakshuka de verduras con feta",
+    "description": "Huevos escalfados directamente sobre una salsa espesa de tomate, pimentón, comino y paprika, terminados con queso feta y perejil. Un brunch de Medio Oriente que se cocina en un solo sartén.",
+    "visual": "eggs",
+    "diet": "vegetariana",
+    "category": "desayuno",
+    "cuisine": "Medio Oriente",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "servings": 4,
+    "ingredients": [
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento rojo", "morrón rojo", "chile dulce"] },
+      { "name": "pimentón verde", "quantity": 1, "unit": "unidad", "note": "en tiras", "aliases": ["pimiento verde", "morrón verde"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picado" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "paprika dulce", "quantity": 1, "unit": "cucharadita", "aliases": ["pimentón dulce", "pimentón en polvo", "paprika"] },
+      { "name": "hojuelas de ají", "quantity": 0.5, "unit": "cucharadita", "aliases": ["hojuelas de chile", "chile en escamas", "ají en polvo"] },
+      { "name": "tomate triturado", "quantity": 1, "unit": "lata", "note": "de 800 g", "aliases": ["passata", "puré de tomate", "tomate en lata"] },
+      { "name": "huevos", "quantity": 4, "unit": "unidad" },
+      { "name": "queso feta", "quantity": 80, "unit": "g", "note": "desmenuzado" },
+      { "name": "perejil fresco", "quantity": 1, "unit": "puñado", "note": "picado" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pan pita", "quantity": 4, "unit": "unidad", "note": "para servir", "aliases": ["pan árabe", "pita"] }
+    ],
+    "steps": [
+      "Calienta el aceite en un sartén amplio y profundo a fuego medio. Sofríe la cebolla y los pimentones con una pizca de sal durante 8 minutos, hasta que estén blandos.",
+      "Agrega el ajo, el comino, la paprika y las hojuelas de ají; cocina 1 minuto revolviendo para que las especias suelten aroma.",
+      "Vierte el tomate triturado, sazona con sal y pimienta y cocina a fuego medio-bajo 15 minutos con la tapa entreabierta, hasta que la salsa espese.",
+      "Con una cuchara forma 4 huecos en la salsa y rompe un huevo dentro de cada uno. Sala ligeramente las yemas.",
+      "Tapa y cocina a fuego bajo 6-8 minutos: las claras deben cuajar y las yemas quedar cremosas.",
+      "Espolvorea el queso feta y el perejil por encima.",
+      "Calienta las pitas en un sartén seco 1 minuto por lado.",
+      "Lleva el sartén a la mesa y sirve con el pan para mojar en la salsa."
+    ],
+    "tags": ["una olla", "alto en proteína", "tradicional", "reconfortante"],
+    "tips": [
+      "La salsa debe estar espesa antes de agregar los huevos; si está aguada, las claras se dispersan y no se escalfan bien.",
+      "Rompe cada huevo primero en una taza y deslízalo al hueco: así controlas que no se rompa la yema.",
+      "Prepara la salsa hasta con 2 días de anticipación, guárdala en la nevera y termina con los huevos al momento de servir.",
+      "Para una versión más sustanciosa agrega 1 taza de garbanzos cocidos junto con el tomate."
+    ],
+    "nutrition": { "calories": 340, "protein": 15, "carbs": 32, "fat": 18, "fiber": 6 },
+    "veganAlternative": "Sustituye los huevos por 300 g de tofu firme desmenuzado y sazonado con 1/4 cucharadita de cúrcuma y una pizca de sal negra (kala namak), repartido en los huecos de la salsa y tapado 5 minutos, o por 1 taza de garbanzos cocidos; cambia el feta por queso vegano o por 2 cucharadas de levadura nutricional.",
+    "sources": [
+      { "name": "The Mediterranean Dish", "url": "https://www.themediterraneandish.com/shakshuka-recipe/" },
+      { "name": "Downshiftology", "url": "https://downshiftology.com/recipes/shakshuka/" }
+    ]
+  },
+  {
+    "id": "huevos-rancheros-vegetarianos",
+    "title": "Huevos rancheros vegetarianos",
+    "description": "Tortillas de maíz suavizadas en aceite, untadas con fríjoles refritos y coronadas con huevo frito, salsa ranchera de tomate asado, queso campesino y aguacate. El desayuno de rancho mexicano en versión sin carne.",
+    "visual": "eggs",
+    "diet": "vegetariana",
+    "category": "desayuno",
+    "cuisine": "Mexicana",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "maduros", "aliases": ["tomate", "jitomate", "tomate rojo"] },
+      { "name": "ají picante", "quantity": 1, "unit": "unidad", "note": "fresco, tipo serrano o jalapeño", "aliases": ["chile serrano", "chile verde", "chile"] },
+      { "name": "cebolla cabezona blanca", "quantity": 0.5, "unit": "unidad", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "aceite vegetal", "quantity": 3, "unit": "cucharada" },
+      { "name": "fríjoles refritos", "quantity": 1.5, "unit": "taza", "aliases": ["frijoles refritos", "frijoles molidos", "porotos refritos"] },
+      { "name": "tortillas de maíz", "quantity": 4, "unit": "unidad", "note": "en supermercados grandes" },
+      { "name": "huevos", "quantity": 4, "unit": "unidad" },
+      { "name": "queso campesino", "quantity": 60, "unit": "g", "note": "desmenuzado", "aliases": ["queso fresco", "queso blanco"] },
+      { "name": "aguacate", "quantity": 1, "unit": "unidad", "note": "en tajadas", "aliases": ["palta"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Asa los tomates, el ají, la cebolla y el ajo en un sartén seco a fuego alto 8 minutos, girándolos hasta que la piel se chamusque por partes.",
+      "Licúa las verduras asadas con sal hasta obtener una salsa con algo de textura.",
+      "Calienta 1 cucharada de aceite en una olla pequeña y vierte la salsa; cocina a fuego medio 5 minutos hasta que espese y cambie a un rojo más profundo. Mantén caliente.",
+      "Calienta los fríjoles refritos en otro sartén con un chorrito de agua para que queden untables.",
+      "Pasa cada tortilla por un poco de aceite caliente 30 segundos por lado, solo hasta que se ablande y dore ligeramente sin volverse crujiente. Escurre sobre papel absorbente.",
+      "En el mismo sartén fríe los huevos a fuego medio 3 minutos, hasta que las claras cuajen y las yemas sigan líquidas.",
+      "Unta cada tortilla con fríjoles, coloca un huevo encima y baña con la salsa ranchera caliente.",
+      "Termina con el queso campesino, las tajadas de aguacate y el cilantro. Sirve de inmediato."
+    ],
+    "tags": ["tradicional", "sin gluten", "alto en proteína", "económico"],
+    "tips": [
+      "Asar las verduras antes de licuarlas es lo que da a la salsa ranchera su sabor ahumado; no te saltes ese paso.",
+      "Si prefieres las yemas cocidas, tapa el sartén el último minuto para que el vapor las cuaje sin voltear los huevos.",
+      "La salsa y los fríjoles se pueden hacer el día anterior y guardar en la nevera; por la mañana solo tendrás que freír huevos y tortillas."
+    ],
+    "nutrition": { "calories": 390, "protein": 17, "carbs": 35, "fat": 21, "fiber": 10 },
+    "veganAlternative": "Cambia los huevos por tajadas gruesas de tofu firme doradas en el sartén 3 minutos por lado y espolvoreadas con cúrcuma y sal negra (kala namak); reemplaza el queso campesino por queso vegano o por más aguacate.",
+    "sources": [
+      { "name": "Cookie and Kate", "url": "https://cookieandkate.com/huevos-rancheros-recipe/" },
+      { "name": "Love and Lemons", "url": "https://www.loveandlemons.com/huevos-rancheros/" }
+    ]
+  },
+  {
+    "id": "huevos-pericos-colombianos",
+    "title": "Huevos pericos colombianos",
+    "description": "Huevos revueltos con un sofrito jugoso de tomate y cebolla larga, el desayuno más popular de Colombia. Se sirven con arepa y, si es posible, con chocolate caliente.",
+    "visual": "eggs",
+    "diet": "vegetariana",
+    "category": "desayuno",
+    "cuisine": "Colombiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 10,
+    "servings": 2,
+    "ingredients": [
+      { "name": "huevos", "quantity": 4, "unit": "unidad" },
+      { "name": "tomate chonto", "quantity": 2, "unit": "unidad", "note": "maduros, en cubos pequeños", "aliases": ["tomate", "jitomate", "tomate rojo"] },
+      { "name": "cebolla larga", "quantity": 2, "unit": "rama", "note": "picada", "aliases": ["cebolla junca", "cebollín", "cebolla de verdeo", "cebolleta", "cebolla china"] },
+      { "name": "mantequilla", "quantity": 1, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "arepas", "quantity": 2, "unit": "unidad", "note": "para acompañar, o pan tostado" }
+    ],
+    "steps": [
+      "Bate los huevos con sal y pimienta en un tazón hasta integrar claras y yemas.",
+      "Derrite la mantequilla en un sartén antiadherente a fuego medio y sofríe la cebolla larga 1 minuto.",
+      "Agrega el tomate y cocina 4-5 minutos, hasta que suelte su jugo y se forme un sofrito jugoso.",
+      "Vierte los huevos batidos sobre el sofrito y espera 30 segundos sin mover, hasta que empiecen a cuajar por los bordes.",
+      "Revuelve con suavidad con una espátula formando pliegues grandes durante 2 minutos; apaga cuando todavía se vean húmedos, porque terminan de cocinarse con el calor del sartén.",
+      "Sirve de inmediato con la arepa caliente."
+    ],
+    "tags": ["rápido", "tradicional", "sin gluten", "económico", "alto en proteína"],
+    "tips": [
+      "Usa tomates bien maduros: son los que aportan el jugo que hace esponjosos a los pericos.",
+      "Si el sofrito suelta demasiado líquido, deja que evapore 1 minuto antes de agregar los huevos para que no queden aguados.",
+      "Un chorrito de leche en los huevos batidos los hace más suaves; una pizca de comino les da el toque de algunas regiones."
+    ],
+    "nutrition": { "calories": 330, "protein": 16, "carbs": 24, "fat": 19, "fiber": 3 },
+    "veganAlternative": "Reemplaza los huevos por 250 g de tofu firme desmenuzado y mezclado con 1/4 cucharadita de cúrcuma y una pizca de sal negra (kala namak); usa aceite vegetal en lugar de mantequilla y cocina el tofu sobre el sofrito 5 minutos.",
+    "sources": [
+      { "name": "My Colombian Recipes", "url": "https://www.mycolombianrecipes.com/es/huevos-pericos/" },
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/huevos-pericos-receta-huevos-revueltos-al-estilo-sudamericano-que-se-prepara-santiamen" }
+    ]
+  },
+  {
+    "id": "omelette-de-champinones-y-espinaca",
+    "title": "Omelette de champiñones y espinaca",
+    "description": "Omelette a la francesa, tierno por dentro y apenas dorado por fuera, relleno de champiñones salteados, espinaca marchita y queso gruyer. Una técnica sencilla que vale la pena dominar.",
+    "visual": "eggs",
+    "diet": "vegetariana",
+    "category": "desayuno",
+    "cuisine": "Francesa",
+    "difficulty": "media",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 10,
+    "servings": 1,
+    "ingredients": [
+      { "name": "huevos", "quantity": 3, "unit": "unidad" },
+      { "name": "mantequilla", "quantity": 1, "unit": "cucharada" },
+      { "name": "champiñones", "quantity": 100, "unit": "g", "note": "en láminas", "aliases": ["hongos", "setas", "champiñón"] },
+      { "name": "espinaca fresca", "quantity": 1, "unit": "puñado", "note": "grande" },
+      { "name": "ajo", "quantity": 1, "unit": "diente", "note": "picado" },
+      { "name": "queso gruyer", "quantity": 30, "unit": "g", "note": "rallado, o cheddar", "aliases": ["gruyère", "queso suizo"] },
+      { "name": "cebolla larga", "quantity": 1, "unit": "cucharada", "note": "solo la parte verde, picada fina", "aliases": ["cebollín", "cebolleta", "ciboulette", "cebolla de verdeo"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta la mitad de la mantequilla en un sartén antiadherente de 20 cm a fuego medio-alto. Saltea los champiñones 4 minutos moviéndolos poco, hasta que doren.",
+      "Añade el ajo y la espinaca y cocina 1 minuto, hasta que las hojas se marchiten. Sazona con sal y pimienta y pasa el relleno a un plato.",
+      "Bate los huevos en un tazón con una pizca de sal y pimienta durante 30 segundos, hasta que queden espumosos.",
+      "Limpia el sartén, baja el fuego a medio y derrite el resto de la mantequilla hasta que burbujee.",
+      "Vierte los huevos y, con una espátula, arrastra los bordes cuajados hacia el centro mientras inclinas el sartén para que el huevo líquido llene los huecos, 1-2 minutos.",
+      "Cuando la superficie esté casi cuajada pero aún brillante, distribuye el relleno y el queso sobre una mitad.",
+      "Dobla la otra mitad encima, cocina 30 segundos más y desliza el omelette al plato. Espolvorea la cebolla larga y sirve."
+    ],
+    "tags": ["rápido", "sin gluten", "alto en proteína", "sin soya"],
+    "tips": [
+      "El sartén no debe estar demasiado caliente: si los huevos chisporrotean fuerte al caer, el omelette quedará seco y oscuro.",
+      "Escurre bien el relleno antes de agregarlo; el líquido de los champiñones y la espinaca puede humedecer el huevo.",
+      "Con 2 huevos sale un omelette más delgado y elegante; con 3 queda más grueso y sustancioso."
+    ],
+    "nutrition": { "calories": 380, "protein": 26, "carbs": 5, "fat": 29, "fiber": 2 },
+    "veganAlternative": "Prepara una masa con 1/2 taza de harina de garbanzo, 1/2 taza de agua, 1 cucharada de levadura nutricional, 1/4 cucharadita de cúrcuma y una pizca de sal negra; cocínala en el sartén como un crepe grueso 3 minutos por lado y rellénala con las verduras y queso vegano.",
+    "sources": [
+      { "name": "Easy Peasy Foodie", "url": "https://www.easypeasyfoodie.com/spinach-and-mushroom-omelette/" },
+      { "name": "The Chunky Chef", "url": "https://www.thechunkychef.com/cheesy-mushroom-spinach-omelet/" }
+    ]
+  },
+  {
+    "id": "muffins-salados-de-calabacin-y-queso-feta",
+    "title": "Muffins salados de calabacín y queso feta",
+    "description": "Muffins esponjosos y salados con calabacín rallado, feta desmenuzado, yogur griego y hierbas frescas. Perfectos para preparar el fin de semana y desayunar durante varios días.",
+    "visual": "muffin",
+    "diet": "vegetariana",
+    "category": "desayuno",
+    "cuisine": "Internacional",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 6,
+    "ingredients": [
+      { "name": "calabacín", "quantity": 2, "unit": "unidad", "note": "medianos, rallados", "aliases": ["zucchini", "calabacita", "zapallito"] },
+      { "name": "harina de trigo", "quantity": 1.5, "unit": "taza", "aliases": ["harina de todo uso", "harina común"] },
+      { "name": "polvo de hornear", "quantity": 2, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "royal"] },
+      { "name": "bicarbonato de sodio", "quantity": 0.25, "unit": "cucharadita", "aliases": ["bicarbonato"] },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "pimienta negra", "quantity": 0.25, "unit": "cucharadita" },
+      { "name": "huevos", "quantity": 2, "unit": "unidad" },
+      { "name": "yogur griego natural", "quantity": 0.75, "unit": "taza", "aliases": ["yogurt griego"] },
+      { "name": "aceite de oliva", "quantity": 80, "unit": "ml" },
+      { "name": "queso feta", "quantity": 120, "unit": "g", "note": "desmenuzado" },
+      { "name": "cebolla larga", "quantity": 3, "unit": "cucharada", "note": "solo la parte verde, picada fina", "aliases": ["cebollín", "cebolleta", "ciboulette", "cebolla de verdeo"] },
+      { "name": "eneldo fresco", "quantity": 2, "unit": "cucharada", "note": "picado, o hierbabuena" },
+      { "name": "ajonjolí", "quantity": 1, "unit": "cucharada", "note": "para decorar", "aliases": ["sésamo", "semillas de sésamo"] }
+    ],
+    "steps": [
+      "Precalienta el horno a 190 °C y engrasa o forra con capacillos un molde para 12 muffins.",
+      "Ralla los calabacines, mézclalos con una pizca de sal y déjalos reposar 10 minutos en un colador. Exprímelos con las manos o con un paño hasta sacar la mayor cantidad de líquido posible.",
+      "Mezcla en un tazón la harina, el polvo de hornear, el bicarbonato, la sal y la pimienta.",
+      "Bate en otro tazón los huevos con el yogur y el aceite de oliva hasta integrar.",
+      "Vierte los líquidos sobre los secos y mezcla con una espátula solo hasta que desaparezca la harina; no batas de más.",
+      "Incorpora el calabacín exprimido, el feta, la cebolla larga y el eneldo con movimientos envolventes.",
+      "Reparte la masa en los moldes llenándolos hasta tres cuartos y espolvorea el ajonjolí por encima.",
+      "Hornea 22-25 minutos, hasta que estén dorados y un palillo salga limpio. Deja enfriar 5 minutos en el molde y luego sobre una rejilla."
+    ],
+    "tags": ["al horno", "meal prep", "para niños", "sin frutos secos"],
+    "tips": [
+      "Exprimir bien el calabacín es el paso clave: si queda agua, los muffins salen húmedos y se hunden en el centro.",
+      "Se conservan 3 días a temperatura ambiente en un recipiente cerrado o hasta 2 meses congelados; recaliéntalos 10 minutos a 160 °C.",
+      "Cambia el feta por queso cheddar o parmesano y las hierbas por albahaca si quieres otra versión."
+    ],
+    "nutrition": { "calories": 330, "protein": 12, "carbs": 30, "fat": 18, "fiber": 2 },
+    "veganAlternative": "Sustituye cada huevo por 1 cucharada de linaza molida mezclada con 3 cucharadas de agua (reposada 5 minutos), usa yogur vegetal sin azúcar en lugar del griego y cambia el feta por 120 g de tofu firme desmenuzado con 1 cucharada de jugo de limón, 1 cucharadita de orégano y sal.",
+    "sources": [
+      { "name": "Olive Tomato", "url": "https://www.olivetomato.com/savory-greek-style-zucchini-and-feta-muffins-with-greek-yogurt-dip/" },
+      { "name": "Running to the Kitchen", "url": "https://www.runningtothekitchen.com/zucchini-feta-olive-oil-muffins/" }
+    ]
+  },
+  {
+    "id": "porridge-cremoso-de-avena-con-miel-y-nueces",
+    "title": "Porridge cremoso de avena con miel y nueces",
+    "description": "El porridge británico de toda la vida: avena cocinada despacio en leche y agua hasta quedar cremosa, servida con banano, nueces tostadas y un hilo de miel. Reconfortante y listo en menos de 20 minutos.",
+    "visual": "porridge",
+    "diet": "vegetariana",
+    "category": "desayuno",
+    "cuisine": "Británica",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 5,
+    "cookTimeMinutes": 12,
+    "servings": 2,
+    "ingredients": [
+      { "name": "hojuelas de avena", "quantity": 1, "unit": "taza", "aliases": ["copos de avena", "avena en hojuelas", "avena tradicional"] },
+      { "name": "leche entera", "quantity": 1.5, "unit": "taza" },
+      { "name": "agua", "quantity": 1, "unit": "taza" },
+      { "name": "sal", "quantity": 1, "unit": "pizca" },
+      { "name": "canela molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "miel de abejas", "quantity": 2, "unit": "cucharada", "aliases": ["miel"] },
+      { "name": "nueces", "quantity": 3, "unit": "cucharada", "note": "picadas", "aliases": ["nuez de Castilla", "nueces de nogal"] },
+      { "name": "banano", "quantity": 1, "unit": "unidad", "note": "en tajadas", "aliases": ["banana", "plátano", "guineo", "cambur"] },
+      { "name": "mantequilla", "quantity": 1, "unit": "cucharadita", "note": "opcional" }
+    ],
+    "steps": [
+      "Coloca la avena, el agua, 1 taza de leche y la sal en una olla pequeña. Lleva a ebullición a fuego medio-alto.",
+      "Baja el fuego a medio-bajo y cocina 8-10 minutos revolviendo con frecuencia con una cuchara de madera, para que el almidón se libere y la mezcla se vuelva cremosa.",
+      "Cuando la avena esté tierna y espesa, agrega la media taza de leche restante y la canela; cocina 1 minuto más y apaga.",
+      "Tapa la olla y deja reposar 2 minutos: así termina de espesar sin secarse.",
+      "Tuesta las nueces en un sartén seco a fuego medio 2-3 minutos, moviéndolas, hasta que huelan a tostado.",
+      "Sirve en tazones, agrega la mantequilla si la usas y corona con el banano, las nueces y un hilo de miel."
+    ],
+    "tags": ["rápido", "reconfortante", "invierno", "económico", "una olla"],
+    "tips": [
+      "La pizca de sal no se nota como salada, pero realza el sabor de la avena; no la omitas.",
+      "Revolver con frecuencia es lo que da la cremosidad; si lo dejas quieto se pega al fondo y queda grumoso.",
+      "Si sobra, guárdalo en la nevera y recaliéntalo con un chorrito de leche para devolverle la textura."
+    ],
+    "nutrition": { "calories": 420, "protein": 13, "carbs": 62, "fat": 15, "fiber": 7 },
+    "veganAlternative": "Usa leche de avena o de soya en lugar de la leche entera, miel de maple o de agave en lugar de la miel de abejas y omite la mantequilla o cámbiala por una cucharadita de mantequilla de maní.",
+    "sources": [
+      { "name": "Bianca Zapatka", "url": "https://biancazapatka.com/en/oatmeal-porridge-recipe/" },
+      { "name": "Family Friends Food", "url": "https://family-friends-food.com/extra-creamy-oatmeal-porridge/" },
+      { "name": "The Kitchn", "url": "https://www.thekitchn.com/porridge-recipe-23301074" }
+    ]
+  }
+]

@@ -1,0 +1,677 @@
+[
+  {
+    "id": "tabule-libanes-de-perejil-y-menta",
+    "title": "Tabulé libanés de perejil y hierbabuena",
+    "description": "La versión auténtica del Líbano: una ensalada de hierbas frescas con apenas un poco de bulgur, tomate y mucho limón. Ligera, ácida y perfecta para el calor.",
+    "visual": "salad",
+    "diet": "vegana",
+    "category": "ensalada",
+    "cuisine": "Medio Oriente",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "perejil liso", "quantity": 3, "unit": "manojo", "note": "solo las hojas" },
+      { "name": "hierbabuena fresca", "quantity": 1, "unit": "manojo", "aliases": ["menta", "menta fresca", "yerbabuena"] },
+      { "name": "bulgur fino", "quantity": 60, "unit": "g", "note": "trigo partido; se consigue en tiendas árabes o naturistas", "aliases": ["trigo bulgur", "burgol"] },
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "maduros pero firmes", "aliases": ["tomate", "tomate rojo", "jitomate"] },
+      { "name": "cebolla larga", "quantity": 4, "unit": "unidad", "note": "con su tallo verde", "aliases": ["cebolleta", "cebollín", "cebolla de verdeo", "cebolla china"] },
+      { "name": "jugo de limón", "quantity": 80, "unit": "ml", "note": "unos 2 limones", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "aceite de oliva extra virgen", "quantity": 4, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" },
+      { "name": "hojas de lechuga romana", "quantity": 8, "unit": "hoja", "note": "para servir" }
+    ],
+    "steps": [
+      "Coloca el bulgur en un bol y cúbrelo con agua tibia. Déjalo remojar 15 minutos, escúrrelo y apriétalo con las manos para retirar toda el agua.",
+      "Lava y seca muy bien el perejil y la hierbabuena. Desecha los tallos gruesos y pica las hojas finamente con un cuchillo bien afilado.",
+      "Corta los tomates en cubos pequeños, retirando parte de las semillas, y corta la cebolla larga en rodajas finas.",
+      "Reúne en una ensaladera el perejil, la hierbabuena, el tomate, la cebolla y el bulgur escurrido.",
+      "Mezcla en un vaso el jugo de limón, el aceite de oliva, la sal y la pimienta. Vierte el aderezo sobre la ensalada y revuelve con suavidad.",
+      "Deja reposar 10 minutos en la nevera para que el bulgur termine de absorber el jugo y los sabores se integren.",
+      "Sirve frío, con hojas de lechuga romana alrededor para usarlas a modo de cuchara."
+    ],
+    "tags": ["rápido", "sin frutos secos", "sin soya", "verano", "tradicional"],
+    "tips": [
+      "Pica las hierbas a cuchillo y nunca en procesador ni licuadora: trituradas se oxidan y amargan.",
+      "El tabulé es una ensalada de hierbas con algo de trigo, no al revés; si dudas, pon menos bulgur.",
+      "Para una versión sin gluten, cambia el bulgur por quinua cocinada y bien fría.",
+      "Prepara las hierbas y el tomate con anticipación, pero adereza solo al momento de servir para que no se aguade."
+    ],
+    "nutrition": { "calories": 165, "protein": 4, "carbs": 18, "fat": 10, "fiber": 4 },
+    "sources": [
+      { "name": "196 flavors", "url": "https://www.196flavors.com/es/tabule/" },
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-ensaladas/tabule-la-clasica-ensalada-libanesa-que-siempre-triunfa" }
+    ]
+  },
+  {
+    "id": "ensalada-griega-horiatiki-con-feta",
+    "title": "Ensalada griega horiatiki con feta",
+    "description": "La ensalada campesina griega de siempre: tomate, pepino cohombro, cebolla morada, aceitunas kalamata y un buen bloque de feta con orégano y aceite de oliva.",
+    "visual": "salad",
+    "diet": "vegetariana",
+    "category": "ensalada",
+    "cuisine": "Griega",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "maduros", "aliases": ["tomate", "tomate rojo", "jitomate"] },
+      { "name": "pepino cohombro", "quantity": 1, "unit": "unidad", "note": "grande", "aliases": ["pepino"] },
+      { "name": "pimentón verde", "quantity": 1, "unit": "unidad", "aliases": ["pimiento verde", "morrón verde", "chile dulce verde"] },
+      { "name": "cebolla cabezona roja", "quantity": 1, "unit": "unidad", "aliases": ["cebolla morada", "cebolla roja"] },
+      { "name": "aceitunas kalamata", "quantity": 100, "unit": "g", "note": "con pepa, al estilo tradicional; si no las consigues, usa aceitunas negras", "aliases": ["aceitunas negras griegas"] },
+      { "name": "queso feta", "quantity": 200, "unit": "g", "note": "en bloque; lo venden en supermercados grandes y tiendas de delicatessen" },
+      { "name": "aceite de oliva extra virgen", "quantity": 60, "unit": "ml" },
+      { "name": "vinagre de vino tinto", "quantity": 1, "unit": "cucharada" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Corta la cebolla en medias lunas finas y déjala 10 minutos en agua fría para suavizar su picante. Escúrrela bien.",
+      "Corta los tomates en gajos irregulares de bocado y el pepino cohombro en medias rodajas gruesas, con o sin cáscara según prefieras.",
+      "Retira las semillas del pimentón verde y córtalo en aros delgados.",
+      "Reúne en un platón amplio el tomate, el pepino, el pimentón, la cebolla y las aceitunas.",
+      "Bate el aceite con el vinagre, el orégano, la sal y la pimienta, y riega las verduras. Mezcla con las manos, sin aplastar.",
+      "Coloca el bloque de feta entero encima, espolvorea un poco más de orégano y añade un chorrito de aceite. Sirve con pan para mojar los jugos."
+    ],
+    "tags": ["rápido", "sin gluten", "sin soya", "verano", "tradicional"],
+    "tips": [
+      "Los griegos sirven el feta en un solo trozo sobre la ensalada; cada comensal lo rompe con el tenedor.",
+      "No uses lechuga: la horiatiki auténtica no la lleva y así aguanta mejor el aderezo.",
+      "Sala los tomates unos minutos antes para que suelten jugo y formen una salsa natural en el fondo."
+    ],
+    "nutrition": { "calories": 265, "protein": 8, "carbs": 12, "fat": 22, "fiber": 3 },
+    "veganAlternative": "Cambia el feta por tofu firme en cubos marinado 30 minutos con jugo de limón, aceite de oliva, orégano y una pizca de sal, o usa un feta vegano comercial en bloque.",
+    "sources": [
+      { "name": "Paulina Cocina", "url": "https://www.paulinacocina.net/ensalada-griega/36425" },
+      { "name": "Recetas de Escándalo", "url": "https://www.recetasdeescandalo.com/ensalada-griega-queso-feta-la-receta-original-comi-santorini/" }
+    ]
+  },
+  {
+    "id": "ensalada-caprese-con-reduccion-de-balsamico",
+    "title": "Ensalada caprese con reducción de balsámico",
+    "description": "Tomate, mozzarella fresca y albahaca en capas, coronados con un jarabe casero de vinagre balsámico. Un clásico italiano de cinco ingredientes.",
+    "visual": "salad",
+    "diet": "vegetariana",
+    "category": "ensalada",
+    "cuisine": "Italiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "grandes y maduros, idealmente de distintos colores", "aliases": ["tomate", "tomate riñón", "jitomate"] },
+      { "name": "mozzarella fresca", "quantity": 250, "unit": "g", "note": "dos bolas de 125 g; se consigue en supermercados grandes o tiendas de quesos", "aliases": ["mozzarella de búfala", "queso mozzarella fresco"] },
+      { "name": "albahaca fresca", "quantity": 1, "unit": "manojo" },
+      { "name": "vinagre balsámico", "quantity": 100, "unit": "ml" },
+      { "name": "aceite de oliva extra virgen", "quantity": 3, "unit": "cucharada" },
+      { "name": "sal en escamas", "quantity": null, "unit": null, "note": "al gusto", "aliases": ["sal gruesa", "sal Maldon"] },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" },
+      { "name": "orégano seco", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Vierte el vinagre balsámico en una olla pequeña y cocínalo a fuego bajo 8-10 minutos, hasta que se reduzca a un tercio y cubra el dorso de la cuchara. Déjalo enfriar; espesará más.",
+      "Escurre la mozzarella y sécala con papel absorbente. Córtala en tajadas de medio centímetro.",
+      "Lava los tomates y córtalos en tajadas del mismo grosor que el queso.",
+      "Alterna en un platón tajadas de tomate y mozzarella, ligeramente superpuestas, intercalando hojas de albahaca entre ellas.",
+      "Espolvorea sal en escamas, pimienta y orégano, y riega con el aceite de oliva.",
+      "Dibuja hilos de reducción de balsámico por encima y sirve a temperatura ambiente."
+    ],
+    "tags": ["rápido", "sin gluten", "sin frutos secos", "sin soya", "verano"],
+    "tips": [
+      "Saca el tomate y la mozzarella de la nevera 20 minutos antes: fríos pierden aroma.",
+      "La reducción se conserva semanas en un frasco; si se endurece, entíbiala unos segundos.",
+      "Con tomates cherry partidos y bocconcini se convierte en una ensalada de tenedor ideal para picnic."
+    ],
+    "nutrition": { "calories": 245, "protein": 12, "carbs": 11, "fat": 17, "fiber": 2 },
+    "veganAlternative": "Usa mozzarella vegana en bloque (de marañón o almidón de tapioca) cortada en tajadas, o reemplázala por tajadas gruesas de aguacate con una pizca de sal.",
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetario/ensalada-caprese" },
+      { "name": "Laylita", "url": "https://www.laylita.com/recetas/ensalada-caprese-de-tomate-y-mozzarella/" }
+    ]
+  },
+  {
+    "id": "buddha-bowl-de-camote-y-garbanzos-especiados",
+    "title": "Buddha bowl de batata y garbanzos especiados",
+    "description": "Un bowl completo con quinua, batata y brócoli asados, kale masajeado y garbanzos crujientes con comino, todo bañado en salsa cremosa de tahini y limón.",
+    "visual": "bowl",
+    "diet": "vegana",
+    "category": "ensalada",
+    "cuisine": "Internacional",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 3,
+    "ingredients": [
+      { "name": "batata", "quantity": 2, "unit": "unidad", "note": "medianas", "aliases": ["camote", "boniato", "papa dulce"] },
+      { "name": "garbanzos cocinados", "quantity": 400, "unit": "g", "note": "una lata, escurridos", "aliases": ["garbanzos cocidos", "garbanzos de lata"] },
+      { "name": "brócoli", "quantity": 300, "unit": "g", "note": "en floretes" },
+      { "name": "kale (col rizada)", "quantity": 100, "unit": "g", "note": "sin tallos", "aliases": ["col rizada", "col crespa"] },
+      { "name": "cebolla cabezona roja", "quantity": 0.5, "unit": "unidad", "aliases": ["cebolla morada", "cebolla roja"] },
+      { "name": "quinua", "quantity": 150, "unit": "g", "aliases": ["quinoa"] },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "paprika ahumada", "quantity": 1, "unit": "cucharadita", "aliases": ["pimentón ahumado", "pimentón en polvo ahumado", "paprika"] },
+      { "name": "ajo en polvo", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "tahini", "quantity": 4, "unit": "cucharada", "note": "pasta de ajonjolí; en tiendas naturistas o árabes", "aliases": ["tahina", "pasta de ajonjolí", "pasta de sésamo"] },
+      { "name": "jugo de limón", "quantity": 2, "unit": "cucharada", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "miel de maple", "quantity": 1, "unit": "cucharada", "aliases": ["jarabe de arce", "sirope de arce", "miel de arce", "maple syrup"] },
+      { "name": "agua caliente", "quantity": 3, "unit": "cucharada" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C. Pela la batata y córtala en cubos de 2 cm; corta la cebolla en gajos y el brócoli en floretes.",
+      "Enjuaga la quinua, ponla en una olla con 300 ml de agua y una pizca de sal, y cocínala tapada a fuego bajo 15 minutos hasta que absorba el líquido. Déjala reposar tapada.",
+      "Mezcla la batata y la cebolla con 1 cucharada de aceite y sal, y hornéalas 15 minutos en una bandeja. Añade el brócoli con otra cucharada de aceite y hornea 12 minutos más.",
+      "Seca los garbanzos con papel absorbente y mézclalos con la cucharada de aceite restante, el comino, la paprika y el ajo en polvo. Dóralos en una sartén a fuego medio-alto 8-10 minutos, moviendo hasta que queden crujientes.",
+      "Frota el kale con unas gotas de aceite y sal durante 1 minuto para ablandarlo.",
+      "Bate el tahini con el jugo de limón, la miel de maple y una pizca de sal; agrega el agua caliente cucharada a cucharada hasta lograr una salsa cremosa y fluida.",
+      "Reparte la quinua en tres bowls y acomoda encima, por secciones, la batata, el brócoli, la cebolla, el kale y los garbanzos.",
+      "Baña con la salsa de tahini justo antes de servir."
+    ],
+    "tags": ["alto en proteína", "al horno", "meal prep", "sin gluten", "sin soya"],
+    "tips": [
+      "Los garbanzos quedan más crujientes cuanto más secos estén antes de ir a la sartén.",
+      "Guarda los componentes por separado hasta 4 días y arma el bowl al momento; la salsa se espesa en frío, dilúyela con unas gotas de agua.",
+      "Cambia las verduras según la temporada: coliflor, ahuyama o pimentón funcionan igual de bien."
+    ],
+    "nutrition": { "calories": 560, "protein": 19, "carbs": 78, "fat": 20, "fiber": 16 },
+    "sources": [
+      { "name": "Minimalist Baker", "url": "https://minimalistbaker.com/sweet-potato-chickpea-buddha-bowl/" },
+      { "name": "Choosing Chia", "url": "https://choosingchia.com/nourishing-buddha-bowl-maple-roasted-chickpeas/" }
+    ]
+  },
+  {
+    "id": "ensalada-de-kale-masajeado-con-manzana-y-nueces",
+    "title": "Ensalada de kale masajeado con manzana y nueces",
+    "description": "Hojas de kale ablandadas a mano, manzana verde crujiente, nueces tostadas y arándanos, ligadas con un aderezo cremoso de tahini y limón.",
+    "visual": "salad",
+    "diet": "vegana",
+    "category": "ensalada",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "ingredients": [
+      { "name": "kale (col rizada)", "quantity": 1, "unit": "manojo", "note": "unos 250 g", "aliases": ["col rizada", "col crespa", "kale rizado"] },
+      { "name": "manzana verde", "quantity": 1, "unit": "unidad" },
+      { "name": "nueces", "quantity": 60, "unit": "g", "aliases": ["nuez de Castilla", "nueces de nogal"] },
+      { "name": "arándanos deshidratados", "quantity": 40, "unit": "g", "aliases": ["arándanos secos", "cranberries"] },
+      { "name": "cebolla cabezona roja", "quantity": 0.5, "unit": "unidad", "note": "pequeña", "aliases": ["cebolla morada", "cebolla roja"] },
+      { "name": "tahini", "quantity": 4, "unit": "cucharada", "note": "pasta de ajonjolí; en tiendas naturistas o árabes", "aliases": ["tahina", "pasta de ajonjolí", "pasta de sésamo"] },
+      { "name": "jugo de limón", "quantity": 3, "unit": "cucharada", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "miel de maple", "quantity": 1, "unit": "cucharadita", "aliases": ["jarabe de arce", "sirope de arce", "miel de arce", "maple syrup"] },
+      { "name": "agua", "quantity": 60, "unit": "ml" },
+      { "name": "aceite de oliva", "quantity": 1, "unit": "cucharada" },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" }
+    ],
+    "steps": [
+      "Tuesta las nueces en una sartén seca a fuego medio 4-5 minutos, moviéndolas hasta que huelan; déjalas enfriar y pícalas en trozos.",
+      "Retira los tallos duros del kale, lava las hojas, sécalas bien y córtalas en tiras finas.",
+      "Pon el kale en un bol grande con el aceite de oliva y una pizca de sal. Masajea con las manos 1-2 minutos, apretando las hojas, hasta que se ablanden y tomen un verde brillante.",
+      "Bate el tahini con el jugo de limón, el ajo rallado, la miel de maple y la sal; añade el agua poco a poco hasta obtener un aderezo cremoso pero fluido.",
+      "Corta la manzana en cubos pequeños sin pelar y la cebolla en juliana muy fina.",
+      "Agrega al kale la manzana, la cebolla, los arándanos y las nueces, vierte el aderezo y mezcla bien.",
+      "Sirve enseguida o deja reposar 10 minutos para que el kale se impregne."
+    ],
+    "tags": ["rápido", "sin gluten", "sin soya", "meal prep", "invierno"],
+    "tips": [
+      "Cuanto más fino cortes el kale, más agradable será de comer; el masaje rompe sus fibras y elimina el amargor.",
+      "A diferencia de la lechuga, esta ensalada aguanta aderezada hasta el día siguiente.",
+      "Rocía la manzana con unas gotas de limón si no la vas a servir de inmediato para que no se oxide."
+    ],
+    "nutrition": { "calories": 265, "protein": 7, "carbs": 23, "fat": 18, "fiber": 6 },
+    "sources": [
+      { "name": "The New Baguette", "url": "https://thenewbaguette.com/massaged-kale-tahini-salad/" },
+      { "name": "The Lemon Bowl", "url": "https://thelemonbowl.com/kale-salad-with-apples-and-walnuts/" }
+    ]
+  },
+  {
+    "id": "ensalada-de-fideos-soba-con-edamame",
+    "title": "Ensalada de fideos soba con edamame",
+    "description": "Fideos de trigo sarraceno fríos con edamame, pepino cohombro, zanahoria y repollo morado, aderezados con salsa de soya, vinagre de arroz, jengibre y aceite de ajonjolí tostado.",
+    "visual": "bowl",
+    "diet": "vegana",
+    "category": "ensalada",
+    "cuisine": "Japonesa",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "fideos soba", "quantity": 250, "unit": "g", "note": "fideos japoneses de trigo sarraceno; en tiendas asiáticas o supermercados grandes", "aliases": ["soba", "fideos de trigo sarraceno"] },
+      { "name": "edamame desgranado", "quantity": 150, "unit": "g", "note": "congelado; en tiendas asiáticas o supermercados grandes", "aliases": ["soya verde", "fríjol de soya tierno"] },
+      { "name": "pepino cohombro", "quantity": 1, "unit": "unidad", "aliases": ["pepino"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad" },
+      { "name": "repollo morado", "quantity": 100, "unit": "g", "aliases": ["col morada", "col lombarda", "repollo lombardo"] },
+      { "name": "cebolla larga", "quantity": 2, "unit": "unidad", "aliases": ["cebolleta", "cebollín", "cebolla de verdeo", "cebolla china"] },
+      { "name": "ajonjolí tostado", "quantity": 2, "unit": "cucharada", "aliases": ["sésamo tostado", "semillas de sésamo", "semillas de ajonjolí"] },
+      { "name": "salsa de soya", "quantity": 3, "unit": "cucharada", "aliases": ["salsa de soja", "salsa china", "soya"] },
+      { "name": "vinagre de arroz", "quantity": 3, "unit": "cucharada", "note": "en tiendas asiáticas; puedes usar vinagre de manzana" },
+      { "name": "aceite de ajonjolí tostado", "quantity": 1, "unit": "cucharada", "note": "en tiendas asiáticas o supermercados grandes", "aliases": ["aceite de sésamo", "aceite de sésamo tostado"] },
+      { "name": "jengibre fresco rallado", "quantity": 1, "unit": "cucharadita", "aliases": ["kion"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "miel de maple", "quantity": 1, "unit": "cucharadita", "aliases": ["jarabe de arce", "sirope de arce", "miel de arce", "maple syrup"] },
+      { "name": "hojuelas de ají", "quantity": 1, "unit": "pizca", "note": "opcional", "aliases": ["hojuelas de chile", "chile en escamas", "ají en escamas", "pimienta roja triturada"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado" }
+    ],
+    "steps": [
+      "Cocina el edamame en agua hirviendo 3-4 minutos, escúrrelo y pásalo por agua fría.",
+      "En la misma olla, cocina los fideos soba sin sal según el paquete (unos 4-5 minutos). Escúrrelos y enjuágalos bajo el chorro de agua fría frotándolos con las manos para retirar el almidón.",
+      "Mezcla en un frasco la salsa de soya, el vinagre de arroz, el aceite de ajonjolí, el jengibre, el ajo rallado, la miel de maple y las hojuelas de ají. Agita bien.",
+      "Corta el pepino cohombro y la zanahoria en bastones finos, el repollo morado en tiras delgadas y la cebolla larga en rodajas.",
+      "Une en un bol grande los fideos con las verduras y el edamame. Vierte el aderezo y mezcla con pinzas para que todo se impregne.",
+      "Reparte en platos, espolvorea el ajonjolí y el cilantro, y sirve frío o a temperatura ambiente."
+    ],
+    "tags": ["rápido", "alto en proteína", "verano", "meal prep", "sin frutos secos"],
+    "tips": [
+      "El enjuague en agua fría es clave: sin él los soba se pegan en una masa gomosa.",
+      "Vigila el tiempo de cocción; los soba pasan de al dente a blandos en menos de un minuto.",
+      "Para una versión sin gluten, elige soba 100 % trigo sarraceno y tamari en lugar de salsa de soya.",
+      "Añade tofu dorado en cubos o mango en tiras para convertirla en plato principal."
+    ],
+    "nutrition": { "calories": 385, "protein": 16, "carbs": 62, "fat": 8, "fiber": 7 },
+    "sources": [
+      { "name": "Love and Lemons", "url": "https://www.loveandlemons.com/sesame-soba-noodles/" },
+      { "name": "Just One Cookbook", "url": "https://www.justonecookbook.com/soba-salad/" }
+    ]
+  },
+  {
+    "id": "ensalada-de-quinoa-con-mango-y-frijoles-negros",
+    "title": "Ensalada de quinua con mango y fríjoles negros",
+    "description": "Una ensalada tropical llena de proteína: quinua esponjosa, fríjoles negros, mango dulce, aguacate y cilantro con una vinagreta de limón y comino.",
+    "visual": "bowl",
+    "diet": "vegana",
+    "category": "ensalada",
+    "cuisine": "Latinoamericana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 15,
+    "servings": 5,
+    "ingredients": [
+      { "name": "quinua", "quantity": 200, "unit": "g", "aliases": ["quinoa"] },
+      { "name": "agua", "quantity": 400, "unit": "ml" },
+      { "name": "fríjoles negros cocinados", "quantity": 400, "unit": "g", "note": "una lata, escurridos y enjuagados", "aliases": ["frijoles negros", "caraotas negras", "porotos negros", "alubias negras"] },
+      { "name": "mango maduro", "quantity": 1, "unit": "unidad", "note": "grande" },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "aliases": ["pimiento rojo", "morrón rojo", "chile dulce rojo"] },
+      { "name": "aguacate", "quantity": 1, "unit": "unidad", "aliases": ["palta"] },
+      { "name": "cebolla cabezona roja", "quantity": 0.5, "unit": "unidad", "aliases": ["cebolla morada", "cebolla roja"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado" },
+      { "name": "ají jalapeño", "quantity": 1, "unit": "unidad", "note": "opcional, sin semillas; sirve cualquier ají verde fresco", "aliases": ["chile jalapeño", "jalapeño"] },
+      { "name": "jugo de limón", "quantity": 3, "unit": "cucharada", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Enjuaga la quinua bajo la llave en un colador fino durante 1 minuto para quitarle el amargor.",
+      "Ponla en una olla con el agua y una pizca de sal, lleva a ebullición, tapa y cocina a fuego bajo 15 minutos hasta que absorba el líquido. Apaga y deja reposar 5 minutos tapada.",
+      "Extiende la quinua en una bandeja para que se enfríe rápido y quede suelta.",
+      "Pela el mango y córtalo en cubos; pica el pimentón, la cebolla, el jalapeño y el cilantro.",
+      "Bate el jugo de limón con el aceite, el comino, la sal y la pimienta.",
+      "Mezcla en un bol grande la quinua fría, los fríjoles, el mango, el pimentón, la cebolla, el jalapeño y el cilantro. Vierte la vinagreta y revuelve.",
+      "Deja en la nevera 30 minutos y, justo antes de servir, agrega el aguacate en cubos y rectifica de sal."
+    ],
+    "tags": ["sin gluten", "alto en proteína", "meal prep", "sin soya", "verano"],
+    "tips": [
+      "Enfriar la quinua extendida evita que se apelmace y absorba demasiada vinagreta.",
+      "Sin el aguacate, la ensalada dura 3 días en la nevera; añádelo siempre al momento.",
+      "Si el mango no está muy dulce, suma media cucharadita de miel de agave o de panela rallada a la vinagreta."
+    ],
+    "nutrition": { "calories": 370, "protein": 12, "carbs": 52, "fat": 14, "fiber": 11 },
+    "sources": [
+      { "name": "Sweet y Salado", "url": "https://sweetysalado.com/ensalada-de-quinua-frijoles-negros/" },
+      { "name": "Unite for HER", "url": "https://uniteforher.org/2024/01/ensalada-de-quinoa-frijoles-negros-y-mango/" }
+    ]
+  },
+  {
+    "id": "bruschetta-de-tomate-y-albahaca",
+    "title": "Bruschetta de tomate y albahaca",
+    "description": "Pan rústico tostado, frotado con ajo y cubierto de tomate fresco, albahaca y aceite de oliva. El aperitivo italiano más sencillo y siempre bienvenido.",
+    "visual": "toast",
+    "diet": "vegana",
+    "category": "entrada",
+    "cuisine": "Italiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 5,
+    "servings": 4,
+    "ingredients": [
+      { "name": "pan rústico o chapata", "quantity": 8, "unit": "rebanada", "note": "de 1,5 cm de grosor", "aliases": ["ciabatta", "pan campesino", "pan artesanal"] },
+      { "name": "tomate chonto", "quantity": 4, "unit": "unidad", "note": "maduros", "aliases": ["tomate", "tomate rojo", "jitomate"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "albahaca fresca", "quantity": 12, "unit": "hoja" },
+      { "name": "aceite de oliva extra virgen", "quantity": 4, "unit": "cucharada" },
+      { "name": "vinagre balsámico", "quantity": 1, "unit": "cucharadita", "note": "opcional" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Corta los tomates por la mitad, retira las semillas y pícalos en cubos pequeños. Déjalos 10 minutos en un colador con una pizca de sal para que suelten agua.",
+      "Pasa el tomate a un bol y añade la albahaca cortada a mano, 2 cucharadas de aceite, pimienta y el vinagre. Mezcla y deja reposar mientras preparas el pan.",
+      "Pincela las tajadas con el aceite restante y tuéstalas en una sartén, parrilla o en el horno a 220 °C durante 3-4 minutos por lado, hasta que estén doradas y crujientes por fuera.",
+      "Frota cada tajada aún caliente con un diente de ajo partido por la mitad.",
+      "Reparte la mezcla de tomate sobre el pan justo antes de servir para que no se humedezca.",
+      "Termina con un chorrito de aceite y unas hojas de albahaca enteras."
+    ],
+    "tags": ["rápido", "sin soya", "sin frutos secos", "para fiestas", "económico"],
+    "tips": [
+      "Escurrir el tomate evita que el pan se empape; el jugo sobrante sirve para aderezar una ensalada.",
+      "Un pan de miga densa, como chapata o masa madre, sostiene mejor la cobertura que un pan tajado.",
+      "Para un buffet, deja el pan tostado y el tomate listos por separado y monta las bruschettas al momento."
+    ],
+    "nutrition": { "calories": 220, "protein": 5, "carbs": 26, "fat": 11, "fiber": 3 },
+    "sources": [
+      { "name": "Cocinatis", "url": "https://www.cocinatis.com/receta/bruschetta_23_1002451.html" },
+      { "name": "Público", "url": "https://www.publico.es/culturas/recetas/receta-bruschetta-tostada-italiana-ajo-tomate-albahaca.html" }
+    ]
+  },
+  {
+    "id": "rollitos-primavera-frescos-con-tofu-y-salsa-de-mani",
+    "title": "Rollitos primavera frescos con tofu y salsa de maní",
+    "description": "Rollos vietnamitas de papel de arroz sin fritar, rellenos de tofu dorado, fideos de arroz, vegetales crujientes y hierbas, con una salsa cremosa de maní para mojar.",
+    "visual": "wrap",
+    "diet": "vegana",
+    "category": "entrada",
+    "cuisine": "Vietnamita",
+    "difficulty": "media",
+    "prepTimeMinutes": 40,
+    "cookTimeMinutes": 10,
+    "servings": 4,
+    "ingredients": [
+      { "name": "papel de arroz", "quantity": 8, "unit": "unidad", "note": "láminas de 22 cm; en tiendas asiáticas o supermercados grandes", "aliases": ["obleas de arroz", "hojas de arroz", "láminas de arroz"] },
+      { "name": "tofu firme", "quantity": 200, "unit": "g", "note": "en tiendas naturistas o supermercados grandes" },
+      { "name": "fideos de arroz finos", "quantity": 100, "unit": "g", "note": "tipo vermicelli; en tiendas asiáticas", "aliases": ["vermicelli de arroz", "fideos de arroz vermicelli"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad" },
+      { "name": "pepino cohombro", "quantity": 1, "unit": "unidad", "aliases": ["pepino"] },
+      { "name": "lechuga", "quantity": 4, "unit": "hoja" },
+      { "name": "hierbabuena fresca", "quantity": 1, "unit": "puñado", "aliases": ["menta", "menta fresca", "yerbabuena"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado" },
+      { "name": "salsa de soya", "quantity": 3, "unit": "cucharada", "aliases": ["salsa de soja", "salsa china", "soya"] },
+      { "name": "mantequilla de maní", "quantity": 3, "unit": "cucharada", "aliases": ["crema de maní", "mantequilla de cacahuate", "crema de cacahuete", "peanut butter"] },
+      { "name": "miel de maple", "quantity": 1, "unit": "cucharada", "aliases": ["jarabe de arce", "sirope de arce", "miel de arce", "maple syrup"] },
+      { "name": "jugo de limón", "quantity": 2, "unit": "cucharadita", "aliases": ["zumo de limón", "jugo de lima"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente" },
+      { "name": "agua", "quantity": 60, "unit": "ml" },
+      { "name": "sriracha", "quantity": 1, "unit": "cucharadita", "note": "opcional; salsa picante tailandesa, puedes usar otra salsa de ají", "aliases": ["salsa sriracha", "salsa picante"] }
+    ],
+    "steps": [
+      "Presiona el tofu 10 minutos entre papel absorbente con un peso encima, córtalo en bastones y mézclalo con 1 cucharada de salsa de soya. Dóralo en una sartén con unas gotas de aceite 3-4 minutos por lado.",
+      "Cocina los fideos de arroz según el paquete (2-3 minutos en agua hirviendo), escúrrelos y enfríalos bajo la llave.",
+      "Prepara la salsa: bate la mantequilla de maní con las 2 cucharadas restantes de salsa de soya, la miel de maple, el jugo de limón, el ajo rallado y la sriracha; añade agua poco a poco hasta que quede untuosa.",
+      "Corta la zanahoria y el pepino cohombro en juliana fina y deshoja las hierbas.",
+      "Llena un plato hondo con agua tibia. Sumerge una lámina de papel de arroz 10-15 segundos, hasta que esté flexible pero no blanda, y extiéndela sobre una tabla húmeda.",
+      "Coloca en el tercio inferior media hoja de lechuga, un poco de fideos, dos bastones de tofu, zanahoria, pepino y hierbas, sin sobrecargar.",
+      "Dobla el borde inferior sobre el relleno, pliega los laterales hacia adentro y enrolla apretando con firmeza. Repite con el resto.",
+      "Sirve los rollitos enteros o cortados por la mitad, con la salsa de maní para mojar."
+    ],
+    "tags": ["sin horno", "verano", "para fiestas", "alto en proteína"],
+    "tips": [
+      "El papel de arroz sigue ablandándose fuera del agua: sácalo cuando aún esté algo rígido.",
+      "Separa los rollitos ya hechos entre sí; si se tocan, se pegan y se rompen al despegarlos.",
+      "Cúbrelos con un paño húmedo si no los sirves de inmediato; aguantan bien 2-3 horas en la nevera.",
+      "Si no tienes maní, la salsa funciona igual con mantequilla de almendra o tahini."
+    ],
+    "nutrition": { "calories": 300, "protein": 13, "carbs": 36, "fat": 12, "fiber": 4 },
+    "sources": [
+      { "name": "Vegan Richa", "url": "https://www.veganricha.com/vegan-fresh-spring-rolls-with-peanut-sauce/" },
+      { "name": "Feasting at Home", "url": "https://www.feastingathome.com/spring-rolls/" }
+    ]
+  },
+  {
+    "id": "champinones-rellenos-de-espinaca-y-queso-crema",
+    "title": "Champiñones rellenos de espinaca y queso crema",
+    "description": "Sombreros de champiñón horneados con un relleno cremoso de espinaca, ajo y queso, gratinados con parmesano y miga de pan. Un bocado clásico de fiesta.",
+    "visual": "stuffed",
+    "diet": "vegetariana",
+    "category": "entrada",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 25,
+    "servings": 4,
+    "ingredients": [
+      { "name": "champiñones grandes", "quantity": 12, "unit": "unidad", "aliases": ["hongos", "setas", "champiñones blancos"] },
+      { "name": "espinaca fresca", "quantity": 150, "unit": "g" },
+      { "name": "queso crema", "quantity": 150, "unit": "g" },
+      { "name": "queso parmesano rallado", "quantity": 40, "unit": "g" },
+      { "name": "chalote", "quantity": 1, "unit": "unidad", "note": "o media cebolla cabezona pequeña", "aliases": ["echalote", "escalonia", "chalota"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "miga de pan", "quantity": 3, "unit": "cucharada", "aliases": ["pan rallado", "pan molido"] },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Precalienta el horno a 180 °C. Limpia los champiñones con un paño húmedo, desprende los tallos con cuidado y pícalos finamente.",
+      "Acomoda los sombreros boca arriba en una bandeja, rocíalos con 1 cucharada de aceite y sal, y hornéalos 8 minutos para que suelten parte de su agua. Escurre el líquido.",
+      "Sofríe el chalote y el ajo picados con el aceite restante 3 minutos. Agrega los tallos picados y cocina 3 minutos más.",
+      "Incorpora la espinaca y saltea 2 minutos hasta que se reduzca. Retira del fuego, escurre el exceso de líquido y deja entibiar.",
+      "Mezcla la espinaca con el queso crema, la mitad del parmesano, la nuez moscada, sal y pimienta.",
+      "Rellena cada champiñón con una cucharada colmada de la mezcla y espolvorea el parmesano restante mezclado con la miga de pan.",
+      "Hornea 15 minutos hasta que la superficie esté dorada. Sirve calientes."
+    ],
+    "tags": ["al horno", "para fiestas", "sin soya", "sin frutos secos", "bajo en calorías"],
+    "tips": [
+      "El horneado previo de los sombreros evita que el relleno nade en líquido.",
+      "Puedes dejarlos rellenos en la nevera desde la mañana y hornearlos al llegar los invitados.",
+      "Con champiñones portobello grandes se convierten en un plato principal ligero."
+    ],
+    "nutrition": { "calories": 210, "protein": 9, "carbs": 9, "fat": 16, "fiber": 2 },
+    "veganAlternative": "Usa queso crema vegano (de marañón o comercial) y reemplaza el parmesano por 3 cucharadas de levadura nutricional mezclada con la miga de pan.",
+    "sources": [
+      { "name": "Cocina Fácil", "url": "https://www.cocinafacil.com.mx/recetas/champinones-rellenos-de-queso-crema" },
+      { "name": "Claudia & Julia", "url": "https://claudiaandjulia.com/blogs/general/champinones-rellenos-de-espinacas-a-la-crema" }
+    ]
+  },
+  {
+    "id": "croquetas-de-espinaca-y-pinones",
+    "title": "Croquetas de espinaca y piñones",
+    "description": "Croquetas españolas de bechamel cremosa con espinaca y piñones tostados, apanadas y fritas hasta quedar doradas y crujientes por fuera.",
+    "visual": "falafel",
+    "diet": "vegetariana",
+    "category": "entrada",
+    "cuisine": "Española",
+    "difficulty": "difícil",
+    "prepTimeMinutes": 30,
+    "cookTimeMinutes": 30,
+    "servings": 6,
+    "ingredients": [
+      { "name": "espinaca congelada", "quantity": 250, "unit": "g" },
+      { "name": "cebolla cabezona blanca", "quantity": 1, "unit": "unidad", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "mantequilla", "quantity": 60, "unit": "g" },
+      { "name": "harina de trigo", "quantity": 70, "unit": "g", "note": "para la bechamel" },
+      { "name": "leche entera", "quantity": 500, "unit": "ml" },
+      { "name": "piñones", "quantity": 40, "unit": "g", "note": "en tiendas de frutos secos; puedes reemplazarlos por almendras fileteadas" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": 1, "unit": "pizca" },
+      { "name": "huevo", "quantity": 2, "unit": "unidad" },
+      { "name": "miga de pan", "quantity": 150, "unit": "g", "aliases": ["pan rallado", "pan molido"] },
+      { "name": "harina de trigo", "quantity": 60, "unit": "g", "note": "para apanar" },
+      { "name": "aceite de girasol", "quantity": 500, "unit": "ml", "note": "para fritar" }
+    ],
+    "steps": [
+      "Descongela la espinaca, escúrrela en un colador apretándola con las manos hasta que quede seca y pícala.",
+      "Tuesta los piñones en una sartén seca 3 minutos a fuego medio y resérvalos.",
+      "Sofríe la cebolla picada muy fina con la mantequilla a fuego medio 6-7 minutos hasta que esté transparente.",
+      "Añade los 70 g de harina y cocínala 2 minutos sin dejar de revolver para quitarle el sabor a crudo.",
+      "Vierte la leche caliente poco a poco, batiendo con un batidor de globo para evitar grumos. Cocina a fuego medio-bajo 10 minutos hasta obtener una masa espesa que se despegue de las paredes.",
+      "Agrega la espinaca, los piñones, la nuez moscada, sal y pimienta; cocina 3 minutos más. Extiende la masa en una bandeja, cúbrela con papel vinipel pegado a la superficie y llévala a la nevera al menos 4 horas.",
+      "Forma cilindros de unos 40 g con las manos ligeramente aceitadas. Pásalos por harina, huevo batido y miga de pan.",
+      "Calienta el aceite a 180 °C y frita las croquetas en tandas de 5-6 durante 2-3 minutos, hasta que estén doradas. Escúrrelas sobre papel absorbente.",
+      "Sirve calientes, solas o con un poco de limón."
+    ],
+    "tags": ["tradicional", "para fiestas", "sin soya", "reconfortante"],
+    "tips": [
+      "La masa debe quedar bastante espesa; una bechamel líquida hace que las croquetas se abran al fritar.",
+      "No llenes la sartén: si baja la temperatura del aceite, absorben grasa y se deshacen.",
+      "Congélalas ya apanadas sobre una bandeja y frítalas directamente sin descongelar, un minuto más.",
+      "Puedes reposar la masa toda la noche; cuanto más fría, más fácil de manejar."
+    ],
+    "nutrition": { "calories": 330, "protein": 10, "carbs": 30, "fat": 19, "fiber": 3 },
+    "veganAlternative": "Sustituye la mantequilla por 50 ml de aceite de oliva, la leche por leche de soya o de avena sin azúcar, y el huevo del apanado por una mezcla de 3 cucharadas de harina de garbanzo con 6 cucharadas de agua.",
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-aperitivos/croquetas-espinacas-caseras-receta-cremosa-ligera" },
+      { "name": "Recetas de Escándalo", "url": "https://www.recetasdeescandalo.com/croquetas-espinacas-pinones-receta-prepararlas-100-caseras/" }
+    ]
+  },
+  {
+    "id": "empanadas-de-champinones-al-horno",
+    "title": "Empanadas de champiñones al horno",
+    "description": "Empanadas de horno con masa casera de aceite y un relleno jugoso de champiñones, cebolla, pimentón y aceituna al estilo del pino chileno, sin carne ni manteca.",
+    "visual": "empanada",
+    "diet": "vegana",
+    "category": "entrada",
+    "cuisine": "Chilena",
+    "difficulty": "media",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 450, "unit": "g" },
+      { "name": "aceite de oliva", "quantity": 60, "unit": "ml", "note": "para la masa" },
+      { "name": "agua tibia", "quantity": 200, "unit": "ml" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" },
+      { "name": "champiñones", "quantity": 500, "unit": "g", "aliases": ["hongos", "setas"] },
+      { "name": "cebolla cabezona blanca", "quantity": 2, "unit": "unidad", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "aliases": ["pimiento rojo", "morrón rojo", "chile dulce rojo"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "paprika dulce", "quantity": 1, "unit": "cucharadita", "aliases": ["pimentón dulce", "pimentón en polvo", "paprika"] },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "aceitunas verdes", "quantity": 12, "unit": "unidad", "note": "sin pepa" },
+      { "name": "leche vegetal", "quantity": 3, "unit": "cucharada", "note": "de almendras, avena o soya; para pincelar", "aliases": ["bebida vegetal", "leche de almendras", "leche de avena"] },
+      { "name": "cúrcuma", "quantity": 1, "unit": "pizca" }
+    ],
+    "steps": [
+      "Mezcla la harina y la sal en un bol, añade el aceite y el agua tibia, e integra hasta formar una masa lisa. Amasa 5 minutos, cúbrela y déjala reposar 30 minutos.",
+      "Pica la cebolla, el pimentón y el ajo. Corta los champiñones en cubos pequeños.",
+      "Sofríe la cebolla y el pimentón con 2 cucharadas de aceite a fuego medio 8 minutos. Agrega el ajo y cocina 1 minuto.",
+      "Sube el fuego, añade los champiñones y cocínalos 8-10 minutos hasta que suelten el agua y esta se evapore. Condimenta con comino, paprika, orégano, sal y pimienta y deja enfriar por completo.",
+      "Precalienta el horno a 200 °C. Divide la masa en 12 bolas y estira cada una en un disco de unos 14 cm y 2 mm de grosor.",
+      "Coloca 2 cucharadas de relleno y una aceituna en el centro de cada disco. Humedece el borde con agua, dobla en media luna y sella presionando.",
+      "Haz el repulgue plegando el borde sobre sí mismo en pequeños dobleces, o márcalo con un tenedor.",
+      "Acomoda las empanadas en una bandeja con papel parafinado, pincélalas con la leche vegetal mezclada con la cúrcuma y pínchalas una vez con un tenedor.",
+      "Hornea 25 minutos hasta que estén doradas. Sirve tibias."
+    ],
+    "tags": ["al horno", "para fiestas", "tradicional", "meal prep", "económico"],
+    "tips": [
+      "El relleno debe estar frío y seco; si está caliente, ablanda la masa y la empanada se abre.",
+      "Un chorrito de vino blanco con los champiñones aporta el fondo de sabor que suele dar la carne.",
+      "Congélalas crudas y hornéalas sin descongelar, sumando 8-10 minutos al tiempo.",
+      "Añade pasas y un huevo duro picado si quieres acercarte más al pino tradicional (en ese caso dejan de ser veganas)."
+    ],
+    "nutrition": { "calories": 380, "protein": 10, "carbs": 62, "fat": 11, "fiber": 5 },
+    "sources": [
+      { "name": "Veganuary", "url": "https://veganuary.com/es/recetas/empanadas-de-horno/" },
+      { "name": "Comidas Chilenas", "url": "https://comidaschilenas.com/receta-de-empanada-vegetariana-de-champinones/" }
+    ]
+  },
+  {
+    "id": "tempura-de-verduras-con-salsa-tentsuyu",
+    "title": "Tempura de verduras con salsa tentsuyu",
+    "description": "Verduras envueltas en una masa ligera de harina y agua con gas helada, fritas hasta quedar crujientes y servidas con la salsa japonesa de soya, mirin y jengibre.",
+    "visual": "tempura",
+    "diet": "vegana",
+    "category": "entrada",
+    "cuisine": "Japonesa",
+    "difficulty": "media",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 120, "unit": "g" },
+      { "name": "maicena", "quantity": 30, "unit": "g", "aliases": ["fécula de maíz", "almidón de maíz"] },
+      { "name": "polvo de hornear", "quantity": 1, "unit": "cucharadita", "aliases": ["polvo para hornear", "levadura química", "royal"] },
+      { "name": "sal", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "agua con gas", "quantity": 250, "unit": "ml", "note": "muy fría", "aliases": ["soda", "agua mineral con gas"] },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad" },
+      { "name": "calabacín", "quantity": 1, "unit": "unidad", "aliases": ["zucchini", "calabacita"] },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "aliases": ["pimiento rojo", "morrón rojo", "chile dulce rojo"] },
+      { "name": "brócoli", "quantity": 200, "unit": "g" },
+      { "name": "batata", "quantity": 1, "unit": "unidad", "note": "pequeña", "aliases": ["camote", "boniato", "papa dulce"] },
+      { "name": "aceite vegetal", "quantity": 750, "unit": "ml", "note": "para fritar" },
+      { "name": "caldo de verduras", "quantity": 200, "unit": "ml" },
+      { "name": "salsa de soya", "quantity": 50, "unit": "ml", "aliases": ["salsa de soja", "salsa china", "soya"] },
+      { "name": "mirin", "quantity": 50, "unit": "ml", "note": "vino de arroz dulce japonés; en tiendas asiáticas", "aliases": ["vino de arroz dulce"] },
+      { "name": "jengibre fresco rallado", "quantity": 1, "unit": "cucharadita", "aliases": ["kion"] }
+    ],
+    "steps": [
+      "Prepara la salsa: hierve el caldo con la salsa de soya y el mirin 2 minutos, retira del fuego y añade el jengibre. Reserva.",
+      "Corta la zanahoria y la batata en láminas de 3 mm, el calabacín y el pimentón en bastones y el brócoli en floretes pequeños. Sécalos muy bien con un paño.",
+      "Calienta el aceite en una olla profunda hasta los 175-180 °C.",
+      "Justo antes de fritar, mezcla la harina, la maicena, el polvo de hornear y la sal. Vierte el agua con gas helada y mezcla con palillos apenas 10 segundos; deben quedar grumos.",
+      "Pasa las verduras por un poco de harina, sumérgelas en la masa y déjalas escurrir un instante.",
+      "Frita 4-5 piezas a la vez durante 2-3 minutos, volteando a la mitad, hasta que estén apenas doradas y crujientes.",
+      "Escurre sobre una rejilla y sala ligeramente. Retira los restos de masa del aceite entre tandas.",
+      "Sirve de inmediato con la salsa tentsuyu para mojar."
+    ],
+    "tags": ["tradicional", "para fiestas", "sin frutos secos", "económico"],
+    "tips": [
+      "El contraste entre masa helada y aceite caliente es lo que crea la corteza ligera; mantén el bol de masa sobre hielo.",
+      "Mezclar poco es mejor que mezclar mucho: una masa lisa desarrolla gluten y queda pesada.",
+      "Si no tienes termómetro, deja caer una gota de masa: debe hundirse y subir enseguida burbujeando.",
+      "Recalienta las sobras en horno a 220 °C durante 3 minutos por lado para que recuperen el crujiente."
+    ],
+    "nutrition": { "calories": 350, "protein": 7, "carbs": 48, "fat": 14, "fiber": 5 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/tempura-de-verduras/" },
+      { "name": "Harina Yolanda", "url": "https://www.yolanda.es/recetas/tempura-de-verduras/" }
+    ]
+  },
+  {
+    "id": "tequenos-venezolanos-de-queso",
+    "title": "Tequeños venezolanos de queso",
+    "description": "Bastones de queso blanco envueltos en espiral con una masa fina de harina y mantequilla, fritos hasta dorar. El pasapalo más querido de Venezuela.",
+    "visual": "empanada",
+    "diet": "vegetariana",
+    "category": "entrada",
+    "cuisine": "Venezolana",
+    "difficulty": "media",
+    "prepTimeMinutes": 45,
+    "cookTimeMinutes": 15,
+    "servings": 6,
+    "ingredients": [
+      { "name": "harina de trigo", "quantity": 375, "unit": "g" },
+      { "name": "mantequilla", "quantity": 100, "unit": "g", "note": "a temperatura ambiente" },
+      { "name": "huevo", "quantity": 1, "unit": "unidad" },
+      { "name": "azúcar", "quantity": 1, "unit": "cucharadita" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" },
+      { "name": "agua tibia", "quantity": 100, "unit": "ml" },
+      { "name": "queso blanco duro", "quantity": 350, "unit": "g", "note": "tipo queso costeño duro o queso llanero; firme y poco fundente", "aliases": ["queso llanero", "queso costeño", "queso blanco"] },
+      { "name": "aceite vegetal", "quantity": 750, "unit": "ml", "note": "para fritar" }
+    ],
+    "steps": [
+      "Corta el queso en bastones de unos 6 cm de largo por 1,5 cm de grosor y llévalos a la nevera.",
+      "Mezcla la harina, el azúcar y la sal. Agrega la mantequilla en cubos y el huevo, e integra con las manos hasta obtener migas.",
+      "Añade el agua tibia poco a poco y amasa 8-10 minutos hasta lograr una masa lisa y elástica que no se pegue. Cúbrela y deja reposar 30 minutos.",
+      "Estira la masa sobre una superficie enharinada hasta 2-3 mm de grosor y córtala en tiras de 2 cm de ancho.",
+      "Envuelve cada bastón de queso con una tira en espiral, superponiendo ligeramente cada vuelta y sellando bien los extremos para que el queso no escape.",
+      "Lleva los tequeños armados a la nevera 20 minutos, o congélalos si los vas a fritar otro día.",
+      "Calienta el aceite a 170-175 °C y frita en tandas 3-4 minutos, girándolos hasta que estén dorados y crujientes.",
+      "Escurre sobre papel absorbente y sirve calientes con guasacaca o salsa rosada."
+    ],
+    "tags": ["tradicional", "para fiestas", "para niños", "sin soya", "sin frutos secos"],
+    "tips": [
+      "El queso debe ser firme y poco fundente; una mozzarella normal se derrite y se sale por la masa.",
+      "Fritar los tequeños bien fríos, incluso congelados, evita que el queso escape antes de que la masa dore.",
+      "No superes los 175 °C: con el aceite demasiado caliente la masa dora antes de que el interior se caliente.",
+      "También funcionan en airfryer a 190 °C durante 8-10 minutos, pincelados con un poco de aceite."
+    ],
+    "nutrition": { "calories": 420, "protein": 16, "carbs": 42, "fat": 22, "fiber": 2 },
+    "veganAlternative": "Usa margarina vegetal en lugar de mantequilla, omite el huevo añadiendo 2 cucharadas más de agua, y rellena con queso vegano firme en bloque (tipo mozzarella de marañón o tapioca) muy frío.",
+    "sources": [
+      { "name": "Laylita", "url": "https://www.laylita.com/recetas/tequenos/" },
+      { "name": "Paulina Cocina", "url": "https://www.paulinacocina.net/tequenos-venezolanos-de-queso/24759" }
+    ]
+  }
+]

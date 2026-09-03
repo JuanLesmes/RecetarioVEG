@@ -1,0 +1,696 @@
+[
+  {
+    "id": "crema-de-calabaza-asada",
+    "title": "Crema de ahuyama asada con jengibre",
+    "description": "Una crema sedosa y naturalmente dulce: la ahuyama, la zanahoria y el ajo se asan hasta caramelizar y luego se licúan con caldo y un toque de leche de coco.",
+    "visual": "soup",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Internacional",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "ahuyama", "quantity": 1, "unit": "kg", "note": "pelada y sin semillas", "aliases": ["calabaza", "zapallo", "auyama"] },
+      { "name": "zanahoria", "quantity": 2, "unit": "unidad" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "enteros y con piel" },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "jengibre fresco", "quantity": 1, "unit": "cucharadita", "note": "rallado" },
+      { "name": "caldo de verduras", "quantity": 600, "unit": "ml", "note": "caliente" },
+      { "name": "leche de coco", "quantity": 100, "unit": "ml" },
+      { "name": "semillas de ahuyama", "quantity": 2, "unit": "cucharada", "note": "peladas y tostadas, para servir", "aliases": ["pepitas", "semillas de calabaza", "pepitas de calabaza", "pipas de calabaza"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Precalienta el horno a 200 °C. Corta la ahuyama en cubos de unos 3 cm, las zanahorias en rodajas gruesas y la cebolla en cuartos.",
+      "Extiende las verduras en una bandeja junto con los dientes de ajo sin pelar. Rocía con el aceite, salpimienta y mezcla con las manos para cubrirlo todo.",
+      "Hornea durante 30 a 35 minutos, revolviendo a mitad de cocción, hasta que la ahuyama esté tierna y con los bordes dorados.",
+      "Pela los ajos asados y pasa todas las verduras a una olla grande. Añade el jengibre rallado y el caldo caliente.",
+      "Licúa con una licuadora de inmersión hasta obtener una crema completamente lisa. Incorpora la leche de coco y, si la prefieres más ligera, agrega un poco más de caldo.",
+      "Calienta a fuego medio unos 5 minutos sin que llegue a hervir con fuerza. Rectifica de sal y sirve con las semillas tostadas y un chorrito de aceite de oliva."
+    ],
+    "tags": ["al horno", "sin gluten", "sin soya", "reconfortante", "invierno"],
+    "tips": [
+      "Asar en lugar de hervir concentra el sabor de las verduras y da una crema mucho más profunda con los mismos ingredientes.",
+      "Si tu licuadora es de vaso, licúa en dos tandas y no la llenes más de la mitad: el líquido caliente puede salpicar.",
+      "Se conserva 4 días en la nevera y se congela bien; al recalentarla añade un chorrito de agua porque espesa al enfriarse."
+    ],
+    "nutrition": { "calories": 190, "protein": 4, "carbs": 26, "fat": 9, "fiber": 5 },
+    "sources": [
+      { "name": "Hoy Comemos Sano", "url": "https://hoycomemossano.com/2017/09/crema-calabaza-asada.html" },
+      { "name": "Recetas Gratis", "url": "https://www.recetasgratis.net/receta-de-crema-de-calabaza-vegana-56605.html" }
+    ]
+  },
+  {
+    "id": "sopa-de-lentejas-rojas-al-limon",
+    "title": "Sopa de lentejas rojas al limón y comino",
+    "description": "Sopa dorada de estilo egipcio en la que las lentejas rojas se deshacen en una textura cremosa, perfumada con comino y cúrcuma y rematada con jugo de limón.",
+    "visual": "soup",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Medio Oriente",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "lentejas rojas", "quantity": 250, "unit": "g", "note": "lavadas y escurridas", "aliases": ["lentejas naranjas", "lentejas coral"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad", "note": "en cubos pequeños" },
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "comino molido", "quantity": 1.5, "unit": "cucharadita" },
+      { "name": "cúrcuma molida", "quantity": 1, "unit": "cucharadita" },
+      { "name": "paprika dulce", "quantity": 0.5, "unit": "cucharadita", "aliases": ["pimentón dulce", "pimentón molido", "páprika"] },
+      { "name": "caldo de verduras", "quantity": 1.2, "unit": "l" },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "note": "su jugo", "aliases": ["lima"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "picado" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta el aceite en una olla a fuego medio y sofríe la cebolla con una pizca de sal durante 5 minutos, hasta que esté transparente.",
+      "Agrega el ajo y la zanahoria y cocina 3 minutos más. Añade el comino, la cúrcuma y la paprika y revuelve 30 segundos para que las especias suelten su aroma.",
+      "Incorpora las lentejas y el caldo. Lleva a ebullición, baja el fuego y cocina con la olla semitapada durante 20 minutos, revolviendo de vez en cuando.",
+      "Retira la espuma que se forme en la superficie. Las lentejas deben quedar totalmente deshechas y la sopa espesa.",
+      "Licúa brevemente con la licuadora de inmersión si quieres una textura de crema, o déjala rústica si prefieres notar la zanahoria.",
+      "Apaga el fuego, añade el jugo de limón y salpimienta. Sirve con cilantro picado y, si gustas, un poco más de comino espolvoreado."
+    ],
+    "tags": ["económico", "alto en proteína", "sin gluten", "una olla", "sin soya"],
+    "tips": [
+      "Las lentejas rojas no necesitan remojo y se cocinan en menos de 25 minutos, por eso esta sopa es ideal para días de semana.",
+      "Agrega el limón siempre fuera del fuego: el ácido en crudo realza las especias y evita que la sopa sepa plana.",
+      "Espesa mucho al reposar; para recalentarla, añade un poco de agua y vuelve a rectificar la sal.",
+      "Acompáñala con pan pita tostado o con arroz para convertirla en un plato completo."
+    ],
+    "nutrition": { "calories": 280, "protein": 16, "carbs": 42, "fat": 7, "fiber": 10 },
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-legumbres-y-verduras/sopa-egipcia-lentejas-rojas-receta-vegana-reconfortante-deliciosa-tambien-para-convertir-crema" },
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/sopa-de-lentejas/" }
+    ]
+  },
+  {
+    "id": "gazpacho-andaluz",
+    "title": "Gazpacho andaluz",
+    "description": "La sopa fría por excelencia del verano español: tomate maduro, pepino cohombro, pimentón y ajo licuados con buen aceite de oliva y un toque de vinagre de jerez.",
+    "visual": "soup",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Española",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 0,
+    "servings": 6,
+    "ingredients": [
+      { "name": "tomate chonto", "quantity": 1, "unit": "kg", "note": "bien maduros y rojos", "aliases": ["tomate", "tomate pera", "tomate roma", "jitomate"] },
+      { "name": "pepino cohombro", "quantity": 1, "unit": "unidad", "note": "pelado", "aliases": ["pepino"] },
+      { "name": "pimentón verde", "quantity": 1, "unit": "unidad", "note": "sin semillas", "aliases": ["pimiento verde", "morrón verde", "chile dulce"] },
+      { "name": "ajo", "quantity": 1, "unit": "diente", "note": "sin el germen" },
+      { "name": "pan del día anterior", "quantity": 50, "unit": "g", "note": "sin corteza" },
+      { "name": "aceite de oliva extra virgen", "quantity": 80, "unit": "ml" },
+      { "name": "vinagre de jerez", "quantity": 2, "unit": "cucharada", "note": "se consigue en tiendas de productos importados; puede ser vinagre de vino tinto" },
+      { "name": "agua fría", "quantity": 150, "unit": "ml" },
+      { "name": "sal", "quantity": 1, "unit": "cucharadita" }
+    ],
+    "steps": [
+      "Remoja el pan en el agua fría mientras preparas las verduras. Lava y parte los tomates, el pepino y el pimentón en trozos grandes.",
+      "Coloca en la licuadora los tomates, el pepino, el pimentón, el ajo, el pan remojado con su agua, el vinagre y la sal.",
+      "Licúa a máxima potencia durante 2 o 3 minutos hasta obtener una mezcla fina y sin grumos.",
+      "Con la licuadora en marcha, vierte el aceite en un hilo fino para que emulsione y el gazpacho quede cremoso y de color anaranjado.",
+      "Prueba y ajusta de sal y vinagre. Si quieres una textura muy fina, pásalo por un colador presionando con un cucharón.",
+      "Deja en la nevera al menos 2 horas y sirve muy frío, con cubitos de pepino, pimentón y pan tostado por encima."
+    ],
+    "tags": ["rápido", "verano", "crudo", "sin horno", "tradicional"],
+    "tips": [
+      "El sabor depende casi por completo del tomate: úsalos maduros y de temporada, nunca de nevera.",
+      "Agregar el aceite al final y en hilo cambia por completo la textura; si lo echas todo junto el gazpacho queda menos cremoso.",
+      "Se conserva 2 o 3 días en un recipiente cerrado en la nevera; revuélvelo antes de servir porque es normal que se separe un poco.",
+      "Para una versión sin gluten, sustituye el pan por medio aguacate o simplemente omítelo."
+    ],
+    "nutrition": { "calories": 165, "protein": 3, "carbs": 14, "fat": 12, "fiber": 3 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/gazpacho/" },
+      { "name": "Bon Viveur", "url": "https://www.bonviveur.es/recetas/gazpacho-andaluz-casero" }
+    ]
+  },
+  {
+    "id": "sopa-miso-con-tofu-y-wakame",
+    "title": "Sopa miso con tofu y wakame",
+    "description": "La sopa japonesa de todos los días, preparada con un caldo dashi vegetal de kombu y shiitake, tofu suave, alga wakame y cebolla larga fresca.",
+    "visual": "soup",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Japonesa",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 10,
+    "cookTimeMinutes": 15,
+    "servings": 3,
+    "ingredients": [
+      { "name": "agua", "quantity": 900, "unit": "ml" },
+      { "name": "alga kombu", "quantity": 1, "unit": "unidad", "note": "trozo de unos 5 cm; se consigue en tiendas asiáticas o naturistas" },
+      { "name": "hongos shiitake secos", "quantity": 3, "unit": "unidad", "aliases": ["setas shiitake", "champiñones shiitake"] },
+      { "name": "pasta de miso blanco", "quantity": 3, "unit": "cucharada", "note": "shiro miso; se consigue en tiendas asiáticas, naturistas o de productos importados", "aliases": ["shiro miso", "miso"] },
+      { "name": "tofu suave", "quantity": 150, "unit": "g", "note": "en cubos de 1,5 cm", "aliases": ["tofu sedoso", "tofu silken"] },
+      { "name": "alga wakame seca", "quantity": 1, "unit": "cucharada", "note": "se consigue en tiendas asiáticas o naturistas" },
+      { "name": "cebolla larga", "quantity": 2, "unit": "unidad", "note": "en rodajas finas", "aliases": ["cebollín", "cebolleta", "cebolla de verdeo", "cebolla china", "cebolla junca"] },
+      { "name": "salsa de soya", "quantity": 1, "unit": "cucharadita", "note": "opcional", "aliases": ["salsa de soja"] }
+    ],
+    "steps": [
+      "Pon el agua en una olla con el kombu y los shiitake secos. Calienta a fuego bajo unos 10 minutos y retira el kombu justo antes de que rompa el hervor para que no amargue.",
+      "Mientras tanto, hidrata el wakame en un tazón con agua tibia durante 5 minutos, escúrrelo y pícalo si los trozos son grandes.",
+      "Saca los shiitake del caldo, quítales el tallo, córtalos en láminas y devuélvelos a la olla.",
+      "Añade el tofu y el wakame al caldo y cocina a fuego suave 2 minutos, solo para que se calienten.",
+      "Apaga el fuego. Disuelve el miso en un cucharón con un poco del caldo caliente y viértelo en la olla revolviendo con suavidad.",
+      "Prueba y, si hace falta, añade la salsa de soya. Sirve de inmediato en tazones con la cebolla larga por encima."
+    ],
+    "tags": ["rápido", "bajo en calorías", "reconfortante", "tradicional"],
+    "tips": [
+      "Nunca dejes hervir el miso: pierde aroma y sus fermentos vivos. Añádelo siempre con el fuego apagado.",
+      "El miso blanco es suave y dulce; si prefieres un sabor más intenso usa miso rojo o mezcla ambos.",
+      "El caldo de kombu y shiitake se puede preparar con antelación y guardar 3 días en la nevera.",
+      "Para una sopa más contundente agrega fideos udon o soba cocinados aparte."
+    ],
+    "nutrition": { "calories": 90, "protein": 7, "carbs": 7, "fat": 4, "fiber": 2 },
+    "sources": [
+      { "name": "Danza de Fogones", "url": "https://danzadefogones.com/sopa-miso-vegana/" },
+      { "name": "Bueno y Vegano", "url": "https://www.buenoyvegano.com/2026/03/20/receta-sopa-de-miso-clasica-con-tofu-sedoso/" }
+    ]
+  },
+  {
+    "id": "chili-vegano-de-tres-frijoles",
+    "title": "Chili vegano de tres fríjoles",
+    "description": "Un chili espeso y especiado con fríjoles negros, rojos y pintos, tomate y un secreto de cacao que aporta profundidad sin saber a chocolate.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 35,
+    "servings": 6,
+    "ingredients": [
+      { "name": "aceite de oliva", "quantity": 1, "unit": "cucharada" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "grande, picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 3, "unit": "diente", "note": "picados" },
+      { "name": "pimentón rojo", "quantity": 1, "unit": "unidad", "note": "en cubos", "aliases": ["pimiento rojo", "morrón rojo", "chile dulce"] },
+      { "name": "chile jalapeño", "quantity": 1, "unit": "unidad", "note": "sin semillas, picado; chile fresco mexicano, se consigue en tiendas de productos importados o se reemplaza por un ají picante fresco", "aliases": ["jalapeño", "ají jalapeño"] },
+      { "name": "fríjoles negros cocidos", "quantity": 1, "unit": "lata", "note": "400 g, escurridos", "aliases": ["frijoles negros", "caraotas negras", "porotos negros", "alubias negras"] },
+      { "name": "fríjoles rojos cocidos", "quantity": 1, "unit": "lata", "note": "400 g, escurridos", "aliases": ["frijoles rojos", "alubias rojas", "porotos rojos", "habichuelas rojas"] },
+      { "name": "fríjoles pintos cocidos", "quantity": 1, "unit": "lata", "note": "400 g, escurridos; si no los consigues usa fríjol cargamanto", "aliases": ["frijoles pintos", "porotos pintos", "alubias pintas"] },
+      { "name": "tomate triturado", "quantity": 800, "unit": "g", "aliases": ["passata", "puré de tomate", "tomate en trozos"] },
+      { "name": "caldo de verduras", "quantity": 300, "unit": "ml" },
+      { "name": "ají en polvo", "quantity": 2, "unit": "cucharada", "note": "mezcla tipo chili powder; puede ser ají molido con un poco de comino y orégano", "aliases": ["chile en polvo", "chili powder", "ají molido"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "paprika ahumada", "quantity": 1, "unit": "cucharadita", "aliases": ["pimentón ahumado", "pimentón de la Vera", "páprika ahumada"] },
+      { "name": "cacao en polvo sin azúcar", "quantity": 1, "unit": "cucharada" },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "note": "su jugo", "aliases": ["lima"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta el aceite en una olla grande a fuego medio y sofríe la cebolla 6 o 7 minutos hasta que esté blanda y transparente.",
+      "Añade el ajo, el pimentón y el jalapeño y cocina 3 minutos más, revolviendo.",
+      "Agrega el ají en polvo, el comino y la paprika ahumada y tuesta las especias 1 minuto sin dejar de revolver para que no se quemen.",
+      "Incorpora los tres tipos de fríjoles, el tomate triturado, el caldo y el cacao. Mezcla bien y lleva a ebullición.",
+      "Baja el fuego, tapa parcialmente y cocina a fuego lento 20 minutos, revolviendo de vez en cuando, hasta que espese.",
+      "Aplasta algunos fríjoles contra la pared de la olla con la cuchara para dar cuerpo al chili.",
+      "Apaga el fuego, añade el jugo de limón y sal al gusto. Sirve con aguacate, cilantro o cebolla morada picada."
+    ],
+    "tags": ["alto en proteína", "meal prep", "picante", "una olla", "económico"],
+    "tips": [
+      "El cacao sin azúcar aporta un fondo terroso y redondea la acidez del tomate; no lo omitas aunque suene extraño.",
+      "Queda mejor al día siguiente: prepáralo con antelación y guárdalo hasta 5 días en la nevera o 3 meses congelado.",
+      "Para un chili menos picante deja el jalapeño fuera y reduce el ají en polvo a la mitad.",
+      "Sírvelo también sobre arroz, con nachos o como relleno de papas asadas."
+    ],
+    "nutrition": { "calories": 290, "protein": 15, "carbs": 48, "fat": 4, "fiber": 15 },
+    "sources": [
+      { "name": "Simple Veganista", "url": "https://simple-veganista.com/texas-three-bean-chili-sweet-chia/" },
+      { "name": "The Garden Grazer", "url": "https://www.thegardengrazer.com/three-bean-fiesta-chili/" }
+    ]
+  },
+  {
+    "id": "sancocho-vegano-de-verduras",
+    "title": "Sancocho vegano de verduras",
+    "description": "Versión sin carne del clásico colombiano: un caldo espeso con yuca, plátano verde, mazorca, papa y ahuyama, perfumado con cilantro y un guiso de cebolla larga y tomate.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Colombiana",
+    "difficulty": "media",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 50,
+    "servings": 6,
+    "ingredients": [
+      { "name": "aceite vegetal", "quantity": 2, "unit": "cucharada" },
+      { "name": "cebolla larga", "quantity": 2, "unit": "rama", "note": "picadas finas", "aliases": ["cebollín", "cebolleta", "cebolla de verdeo", "cebolla junca"] },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente", "note": "machacados" },
+      { "name": "tomate chonto", "quantity": 2, "unit": "unidad", "note": "rallados", "aliases": ["tomate", "tomate pera", "jitomate"] },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "achiote en polvo", "quantity": 1, "unit": "cucharadita", "note": "o color", "aliases": ["color", "onoto", "bija", "annatto"] },
+      { "name": "caldo de verduras", "quantity": 2, "unit": "l" },
+      { "name": "yuca", "quantity": 400, "unit": "g", "note": "pelada, en trozos grandes", "aliases": ["mandioca", "cassava"] },
+      { "name": "plátano verde", "quantity": 1, "unit": "unidad", "note": "en trozos partidos a mano", "aliases": ["plátano macho", "plátano hartón"] },
+      { "name": "mazorca", "quantity": 2, "unit": "unidad", "note": "en rodajas de 3 cm", "aliases": ["elote", "choclo", "maíz tierno", "mazorca de maíz"] },
+      { "name": "papa sabanera", "quantity": 3, "unit": "unidad", "note": "o pastusa; peladas y en mitades", "aliases": ["papa", "patata", "papa pastusa"] },
+      { "name": "ahuyama", "quantity": 300, "unit": "g", "note": "en cubos grandes", "aliases": ["calabaza", "zapallo", "auyama"] },
+      { "name": "garbanzos cocidos", "quantity": 200, "unit": "g" },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "manojo" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Prepara el guiso: calienta el aceite en una olla grande y sofríe la cebolla larga, la cebolla cabezona y el ajo a fuego medio 5 minutos.",
+      "Añade el tomate rallado, el comino y el achiote y cocina 5 minutos más hasta que el guiso espese y tome color.",
+      "Vierte el caldo, agrega la yuca, el plátano y las rodajas de mazorca junto con la mitad del cilantro atado en un ramillete. Lleva a ebullición y cocina a fuego medio 25 minutos.",
+      "Incorpora las papas y la ahuyama y cocina otros 15 minutos, hasta que todos los tubérculos estén tiernos al pincharlos con un tenedor.",
+      "Añade los garbanzos y deja 5 minutos para que se calienten. Retira el ramillete de cilantro.",
+      "Aplasta un par de trozos de ahuyama y papa contra la olla para que el caldo espese ligeramente.",
+      "Rectifica de sal, espolvorea el resto del cilantro picado y sirve caliente con arroz blanco y aguacate al lado."
+    ],
+    "tags": ["tradicional", "sin gluten", "reconfortante", "una olla", "económico"],
+    "tips": [
+      "Parte el plátano verde con las manos en lugar de cortarlo con cuchillo: así suelta más almidón y espesa el caldo.",
+      "Un caldo casero de verduras con champiñones y puerro marca una gran diferencia frente a uno de cubito.",
+      "Agrega la ahuyama al final; si la cocinas desde el inicio se deshace por completo.",
+      "Sírvelo con ají de cilantro y limón para dar frescura y un toque picante."
+    ],
+    "nutrition": { "calories": 320, "protein": 9, "carbs": 66, "fat": 5, "fiber": 9 },
+    "sources": [
+      { "name": "Vecina Vegetariana", "url": "https://vecinavegetariana.com/vegan-colombian-sancocho/" },
+      { "name": "Connoisseurus Veg", "url": "https://www.connoisseurusveg.com/vegan-sancocho/" }
+    ]
+  },
+  {
+    "id": "harira-vegana",
+    "title": "Harira vegana de garbanzos y lentejas",
+    "description": "La sopa marroquí del Ramadán en versión vegetal: tomate, garbanzos, lentejas y fideos finos en un caldo especiado con jengibre, cúrcuma, comino y canela.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Marroquí",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "aceite de oliva", "quantity": 2, "unit": "cucharada" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "apio", "quantity": 2, "unit": "rama", "note": "picadas" },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "jengibre fresco", "quantity": 1, "unit": "cucharadita", "note": "rallado" },
+      { "name": "cúrcuma molida", "quantity": 1, "unit": "cucharadita" },
+      { "name": "comino molido", "quantity": 1, "unit": "cucharadita" },
+      { "name": "canela molida", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "tomate triturado", "quantity": 400, "unit": "g", "aliases": ["passata", "puré de tomate", "tomate en trozos"] },
+      { "name": "pasta de tomate", "quantity": 1, "unit": "cucharada", "aliases": ["concentrado de tomate", "extracto de tomate"] },
+      { "name": "lentejas", "quantity": 150, "unit": "g", "note": "pardas, secas y lavadas" },
+      { "name": "garbanzos cocidos", "quantity": 250, "unit": "g" },
+      { "name": "caldo de verduras", "quantity": 1.5, "unit": "l" },
+      { "name": "fideos finos", "quantity": 60, "unit": "g", "note": "tipo cabello de ángel", "aliases": ["cabello de ángel", "fideo delgado"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "manojo", "note": "picado" },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "note": "en gajos, para servir", "aliases": ["lima"] }
+    ],
+    "steps": [
+      "Calienta el aceite en una olla grande y sofríe la cebolla y el apio a fuego medio-bajo durante 8 minutos, hasta que estén muy blandos.",
+      "Añade el ajo, el jengibre, la cúrcuma, el comino y la canela y revuelve 1 minuto para despertar las especias.",
+      "Incorpora el tomate triturado y la pasta de tomate y cocina 5 minutos, hasta que la mezcla espese y pierda el sabor a crudo.",
+      "Agrega las lentejas y el caldo. Lleva a ebullición, baja el fuego y cocina tapado 25 minutos, hasta que las lentejas estén tiernas.",
+      "Añade los garbanzos y los fideos y cocina 5 minutos más, revolviendo para que la pasta no se pegue al fondo.",
+      "Si quieres la textura tradicional, más ligada, disuelve 1 cucharada de harina de trigo en medio vaso de agua fría y viértela en hilo mientras revuelves; deja hervir 2 minutos.",
+      "Apaga el fuego, añade la mitad del cilantro y ajusta de sal. Sirve con el resto del cilantro y gajos de limón para exprimir en el plato."
+    ],
+    "tags": ["alto en proteína", "reconfortante", "invierno", "tradicional", "una olla"],
+    "tips": [
+      "La harira tradicional se liga con una mezcla de harina y agua llamada tadouira; puedes omitirla si buscas una sopa sin gluten y usar fideos de arroz.",
+      "Añade los fideos justo al final: si la sopa reposa mucho absorben caldo y se pasan.",
+      "En Marruecos se acompaña con dátiles y pan; el contraste dulce funciona sorprendentemente bien.",
+      "Se congela sin problema, pero mejor sin los fideos; agrégalos al recalentar."
+    ],
+    "nutrition": { "calories": 260, "protein": 13, "carbs": 42, "fat": 6, "fiber": 10 },
+    "sources": [
+      { "name": "Sin Huevo ni Leche", "url": "https://www.sinhuevonileche.es/la-mejor-harira-vegana-sopa-marroqui-de-garbanzos-y-lentejas/" },
+      { "name": "Balansiya", "url": "https://balansiya.com/recetas-harira-vegana-ideal-para-veganos-y-vegetarianos/" }
+    ]
+  },
+  {
+    "id": "tom-kha-de-champinones",
+    "title": "Tom kha de champiñones y tofu",
+    "description": "Sopa tailandesa de leche de coco perfumada con limonaria, galanga y hojas de limón kaffir, con champiñones, tofu y un final ácido y picante de limón y ají.",
+    "visual": "soup",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Tailandesa",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 20,
+    "servings": 4,
+    "ingredients": [
+      { "name": "caldo de verduras", "quantity": 500, "unit": "ml" },
+      { "name": "leche de coco", "quantity": 1, "unit": "lata", "note": "400 ml, entera" },
+      { "name": "limonaria", "quantity": 2, "unit": "rama", "note": "solo la parte blanca, machacada", "aliases": ["hierba de limón", "hierba limón", "lemongrass", "citronela", "limoncillo"] },
+      { "name": "galanga", "quantity": 30, "unit": "g", "note": "en láminas; se consigue en tiendas asiáticas o se reemplaza por jengibre", "aliases": ["galangal"] },
+      { "name": "hojas de limón kaffir", "quantity": 4, "unit": "hoja", "note": "rasgadas; en tiendas asiáticas o de productos importados", "aliases": ["hojas de lima kaffir", "hojas de makrut"] },
+      { "name": "ají tailandés", "quantity": 2, "unit": "unidad", "note": "abiertos a lo largo; puede ser cualquier ají picante fresco", "aliases": ["chile tailandés", "ají ojo de pájaro", "chile ojo de pájaro"] },
+      { "name": "champiñones", "quantity": 250, "unit": "g", "note": "en láminas", "aliases": ["hongos", "setas"] },
+      { "name": "tofu firme", "quantity": 300, "unit": "g", "note": "en cubos" },
+      { "name": "tomate cherry", "quantity": 8, "unit": "unidad", "note": "en mitades", "aliases": ["tomate cereza"] },
+      { "name": "salsa de soya o tamari", "quantity": 2, "unit": "cucharada", "aliases": ["salsa de soja", "tamari"] },
+      { "name": "azúcar de coco", "quantity": 1, "unit": "cucharadita", "note": "o panela rallada" },
+      { "name": "jugo de limón", "quantity": 3, "unit": "cucharada", "aliases": ["jugo de lima", "zumo de lima", "zumo de limón"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "puñado", "note": "para servir" }
+    ],
+    "steps": [
+      "Golpea los tallos de limonaria con el lomo del cuchillo para que suelten aroma y córtalos en trozos de 5 cm.",
+      "Pon el caldo en una olla con la limonaria, la galanga, las hojas de limón kaffir y los ajíes. Lleva a ebullición y cocina a fuego medio 5 minutos para infusionar.",
+      "Añade la leche de coco y baja el fuego al mínimo: a partir de ahora la sopa no debe hervir a borbotones o el coco se cortará.",
+      "Incorpora los champiñones, el tofu, los tomates cherry, la salsa de soya y el azúcar. Cocina a fuego suave 10 minutos.",
+      "Apaga el fuego, retira los trozos de limonaria y galanga y añade el jugo de limón.",
+      "Prueba y equilibra: más limón si falta acidez, más soya si falta sal. Sirve caliente con cilantro por encima."
+    ],
+    "tags": ["sin gluten", "picante", "reconfortante", "sin frutos secos"],
+    "tips": [
+      "La galanga tiene un aroma cítrico y a pino que el jengibre no imita del todo, pero el jengibre fresco es un sustituto aceptable.",
+      "Usa leche de coco entera de lata, no la leche vegetal en cartón: la sopa necesita esa grasa para ser cremosa.",
+      "Para la etiqueta sin gluten usa tamari en lugar de salsa de soya común.",
+      "Sírvela con arroz jazmín para absorber el caldo o con fideos de arroz cocinados aparte."
+    ],
+    "nutrition": { "calories": 300, "protein": 13, "carbs": 14, "fat": 23, "fiber": 3 },
+    "sources": [
+      { "name": "Simple Vegan Blog", "url": "https://simpleveganblog.com/vegan-tom-kha-soup/" },
+      { "name": "Hungry in Thailand", "url": "https://hungryinthailand.com/thai-mushroom-soup/" }
+    ]
+  },
+  {
+    "id": "pozole-verde-vegano",
+    "title": "Pozole verde vegano con hongos",
+    "description": "Pozole de maíz cacahuazintle en una salsa verde de tomatillo, chile poblano y semillas de ahuyama tostadas, con orellanas doradas que aportan textura carnosa.",
+    "visual": "stew",
+    "diet": "vegana",
+    "category": "sopa",
+    "cuisine": "Mexicana",
+    "difficulty": "media",
+    "prepTimeMinutes": 25,
+    "cookTimeMinutes": 45,
+    "servings": 6,
+    "ingredients": [
+      { "name": "orellanas", "quantity": 500, "unit": "g", "note": "desmenuzadas a mano", "aliases": ["hongos ostra", "setas ostra", "champiñones ostra", "pleurotus", "gírgolas"] },
+      { "name": "maíz pozolero cocido", "quantity": 800, "unit": "g", "note": "escurrido y enjuagado; viene en lata en tiendas de productos importados, o cocina maíz peto hasta que reviente", "aliases": ["maíz cacahuazintle", "maíz peto", "mote", "maíz para pozole"] },
+      { "name": "tomatillo", "quantity": 400, "unit": "g", "note": "sin cáscara; se consigue en lata en tiendas de productos importados o se reemplaza por tomate verde sin madurar con un chorrito de limón", "aliases": ["tomate verde", "tomate de cáscara", "miltomate"] },
+      { "name": "chile poblano", "quantity": 2, "unit": "unidad", "note": "chile fresco mexicano; en tiendas de productos importados o reemplázalo por pimentón verde", "aliases": ["poblano"] },
+      { "name": "chile serrano", "quantity": 2, "unit": "unidad", "note": "chile fresco mexicano; en tiendas de productos importados o reemplázalo por ají picante fresco", "aliases": ["serrano"] },
+      { "name": "cebolla cabezona blanca", "quantity": 1, "unit": "unidad", "note": "en mitades", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 4, "unit": "diente" },
+      { "name": "semillas de ahuyama", "quantity": 80, "unit": "g", "note": "peladas, sin cáscara", "aliases": ["pepitas", "pepitas de calabaza", "semillas de calabaza", "pipas de calabaza"] },
+      { "name": "cilantro fresco", "quantity": 1, "unit": "manojo" },
+      { "name": "espinaca", "quantity": 1, "unit": "puñado" },
+      { "name": "orégano seco", "quantity": 1, "unit": "cucharadita" },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "caldo de verduras", "quantity": 1.5, "unit": "l" },
+      { "name": "aceite vegetal", "quantity": 2, "unit": "cucharada" },
+      { "name": "rábano", "quantity": 4, "unit": "unidad", "note": "en rodajas, para servir", "aliases": ["rabanito"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Asa los tomatillos, los poblanos, los serranos, la cebolla y los ajos en un comal, una plancha o bajo el grill (gratinador) del horno a 220 °C unos 10 minutos, girándolos hasta que se ampollen.",
+      "Encierra los poblanos en una bolsa 10 minutos, pélalos, quítales semillas y venas. Pela los ajos.",
+      "Tuesta las semillas de ahuyama en una sartén seca a fuego medio 3 minutos, moviéndolas sin parar hasta que empiecen a saltar y doren ligeramente.",
+      "Licúa los vegetales asados con las semillas, la mitad del cilantro, la espinaca, el orégano, el comino y 250 ml de caldo hasta obtener una salsa lisa.",
+      "Calienta 1 cucharada de aceite en una olla grande y dora las orellanas a fuego alto 6 u 8 minutos sin moverlas demasiado. Resérvalas.",
+      "En la misma olla, calienta el aceite restante y vierte la salsa verde. Fríela 5 minutos revolviendo hasta que oscurezca y espese.",
+      "Agrega el resto del caldo, el maíz pozolero y las orellanas. Cocina a fuego medio-bajo 20 minutos para que los sabores se integren.",
+      "Rectifica de sal y sirve con el cilantro restante, rábanos, lechuga picada, orégano y tostadas de maíz al lado."
+    ],
+    "tags": ["tradicional", "sin gluten", "para fiestas", "picante"],
+    "tips": [
+      "Freír la salsa antes de añadir el caldo es el paso que le da al pozole su sabor profundo; no lo saltes.",
+      "Si no encuentras orellanas, funcionan hongos shiitake frescos o yaca (jackfruit) en conserva desmenuzada.",
+      "Controla el picante con los serranos: usa uno para una versión suave o tres para una bien brava.",
+      "Sabe aún mejor recalentado al día siguiente y se congela hasta 3 meses."
+    ],
+    "nutrition": { "calories": 330, "protein": 12, "carbs": 45, "fat": 12, "fiber": 9 },
+    "sources": [
+      { "name": "Dora's Table", "url": "https://dorastable.com/vegan-pozole-verde/" },
+      { "name": "Larousse Cocina", "url": "https://laroussecocina.mx/receta/pozole-verde-vegetariano/" },
+      { "name": "Love Veg", "url": "https://loveveg.mx/receta/pozole-verde-vegano/" }
+    ]
+  },
+  {
+    "id": "sopa-de-cebolla-gratinada",
+    "title": "Sopa de cebolla gratinada",
+    "description": "Clásico francés de cebolla caramelizada muy despacio en mantequilla, vino blanco y caldo, servido con pan tostado y una costra dorada de queso gruyère.",
+    "visual": "soup",
+    "diet": "vegetariana",
+    "category": "sopa",
+    "cuisine": "Francesa",
+    "difficulty": "media",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 90,
+    "servings": 4,
+    "ingredients": [
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "kg", "note": "en juliana fina", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "mantequilla", "quantity": 50, "unit": "g" },
+      { "name": "aceite de oliva", "quantity": 1, "unit": "cucharada" },
+      { "name": "harina de trigo", "quantity": 1, "unit": "cucharada" },
+      { "name": "vino blanco seco", "quantity": 100, "unit": "ml" },
+      { "name": "caldo de verduras", "quantity": 1.2, "unit": "l" },
+      { "name": "tomillo fresco", "quantity": 2, "unit": "rama" },
+      { "name": "laurel", "quantity": 1, "unit": "hoja" },
+      { "name": "pan rústico", "quantity": 4, "unit": "rebanada", "note": "del día anterior; puede ser pan campesino o baguette" },
+      { "name": "queso gruyère", "quantity": 120, "unit": "g", "note": "rallado; puede ser emmental o un queso maduro que funda bien", "aliases": ["gruyer", "gruyere"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Derrite la mantequilla con el aceite en una olla ancha a fuego medio-bajo. Añade la cebolla con una pizca de sal y revuelve para cubrirla de grasa.",
+      "Cocina destapado durante 45 a 50 minutos, revolviendo cada pocos minutos, hasta que la cebolla esté muy blanda y de color caramelo oscuro. Si se pega, añade una cucharada de agua y raspa el fondo.",
+      "Espolvorea la harina y revuelve 1 minuto para tostarla. Vierte el vino y deja que evapore el alcohol raspando el fondo de la olla.",
+      "Agrega el caldo, el tomillo y el laurel. Lleva a ebullición, baja el fuego y cocina tapado 30 minutos. Salpimienta.",
+      "Mientras tanto, tuesta las tajadas de pan en el horno a 180 °C unos 8 minutos hasta que estén secas y doradas.",
+      "Retira las hierbas y reparte la sopa en cuatro tazones aptos para horno. Coloca una tajada de pan sobre cada uno y cubre con el queso rallado.",
+      "Gratina bajo el grill del horno 3 o 4 minutos, hasta que el queso burbujee y se dore. Sirve de inmediato con cuidado, los tazones queman."
+    ],
+    "tags": ["tradicional", "reconfortante", "invierno", "al horno"],
+    "tips": [
+      "La paciencia es el ingrediente principal: la cebolla debe caramelizar a fuego bajo, nunca freírse a fuego alto.",
+      "Un caldo de verduras oscuro, hecho con cebolla y champiñones tostados, imita muy bien el fondo tradicional de carne.",
+      "Puedes hacer la sopa 2 días antes y gratinarla justo al servir.",
+      "Si no tienes tazones aptos para horno, gratina el pan con queso aparte y colócalo encima al servir."
+    ],
+    "nutrition": { "calories": 390, "protein": 14, "carbs": 42, "fat": 18, "fiber": 5 },
+    "veganAlternative": "Sustituye la mantequilla por 50 g de mantequilla vegana o margarina y el gruyère por un queso vegano que funda bien; también puedes mezclar 3 cucharadas de levadura nutricional con un poco de crema de marañones y extenderla sobre el pan antes de gratinar.",
+    "sources": [
+      { "name": "El Invitado de Invierno", "url": "https://invitadoinvierno.com/sopa-de-cebolla-gratinada/" },
+      { "name": "Piloncillo y Vainilla", "url": "https://www.piloncilloyvainilla.com/sopa-de-cebolla-vegana/" }
+    ]
+  },
+  {
+    "id": "crema-de-brocoli-con-cheddar",
+    "title": "Crema de brócoli con cheddar",
+    "description": "Crema espesa y reconfortante de brócoli y zanahoria ligada con un roux de mantequilla, leche y queso cheddar madurado fundido al final.",
+    "visual": "soup",
+    "diet": "vegetariana",
+    "category": "sopa",
+    "cuisine": "Estadounidense",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 15,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "mantequilla", "quantity": 40, "unit": "g" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "harina de trigo", "quantity": 3, "unit": "cucharada" },
+      { "name": "leche entera", "quantity": 500, "unit": "ml" },
+      { "name": "caldo de verduras", "quantity": 500, "unit": "ml" },
+      { "name": "brócoli", "quantity": 500, "unit": "g", "note": "en floretes pequeños, tallo pelado y picado" },
+      { "name": "zanahoria", "quantity": 1, "unit": "unidad", "note": "rallada" },
+      { "name": "mostaza dijon", "quantity": 1, "unit": "cucharadita" },
+      { "name": "queso cheddar", "quantity": 200, "unit": "g", "note": "madurado, rallado en casa" },
+      { "name": "nuez moscada", "quantity": 1, "unit": "pizca" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Derrite la mantequilla en una olla a fuego medio y sofríe la cebolla con una pizca de sal 5 minutos, hasta que esté blanda. Añade el ajo y cocina 1 minuto más.",
+      "Espolvorea la harina y revuelve con un batidor de mano durante 2 minutos para cocinarla sin que tome color.",
+      "Vierte la leche poco a poco sin dejar de batir para que no se formen grumos. Cuando espese ligeramente, añade el caldo.",
+      "Agrega el brócoli, la zanahoria y la mostaza. Lleva a ebullición suave y cocina 15 minutos, hasta que el brócoli esté muy tierno.",
+      "Licúa la mitad de la sopa con la licuadora de inmersión para que quede cremosa pero con trozos de brócoli visibles.",
+      "Baja el fuego al mínimo y añade el queso en tres tandas, revolviendo hasta que cada una se funda antes de añadir la siguiente.",
+      "Sazona con nuez moscada, sal y pimienta. Sirve caliente con pan tostado o crutones."
+    ],
+    "tags": ["reconfortante", "para niños", "invierno", "sin soya"],
+    "tips": [
+      "Ralla el queso tú mismo: el cheddar rallado de paquete lleva antiaglomerantes que impiden que funda liso.",
+      "Nunca dejes hervir la sopa después de añadir el queso o se cortará y quedará granulosa.",
+      "Los tallos del brócoli tienen mucho sabor; pélalos y úsalos en lugar de botarlos.",
+      "Recaliéntala a fuego bajo en la olla en lugar del microondas para conservar la textura cremosa."
+    ],
+    "nutrition": { "calories": 410, "protein": 20, "carbs": 24, "fat": 27, "fiber": 5 },
+    "veganAlternative": "Usa mantequilla vegana, leche de avena sin azúcar y, en lugar del cheddar, licúa 80 g de marañones remojados con 4 cucharadas de levadura nutricional, 1 cucharadita de paprika ahumada y un poco de caldo; añade esa crema al final junto con 100 g de queso vegano rallado si quieres más cuerpo.",
+    "sources": [
+      { "name": "Love and Lemons", "url": "https://www.loveandlemons.com/broccoli-cheddar-soup/" },
+      { "name": "Alexandra Cooks", "url": "https://alexandracooks.com/2020/02/07/lighter-better-broccoli-cheddar-soup/" }
+    ]
+  },
+  {
+    "id": "locro-de-zapallo",
+    "title": "Locro de zapallo peruano",
+    "description": "Guiso cremoso de la cocina casera peruana con ahuyama, papa criolla, mazorca desgranada, habas y arvejas, sazonado con ají amarillo y terminado con queso campesino.",
+    "visual": "stew",
+    "diet": "vegetariana",
+    "category": "sopa",
+    "cuisine": "Peruana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "servings": 4,
+    "ingredients": [
+      { "name": "ahuyama", "quantity": 1, "unit": "kg", "note": "en cubos; en Perú se usa zapallo macre", "aliases": ["zapallo", "calabaza", "auyama", "zapallo macre"] },
+      { "name": "papa criolla", "quantity": 3, "unit": "unidad", "note": "peladas y en cubos; en Perú se usa papa amarilla", "aliases": ["papa amarilla", "papa criolla amarilla"] },
+      { "name": "mazorca desgranada", "quantity": 1, "unit": "taza", "note": "granos de maíz tierno", "aliases": ["choclo desgranado", "choclo", "elote", "maíz tierno", "granos de mazorca"] },
+      { "name": "habas peladas", "quantity": 0.5, "unit": "taza" },
+      { "name": "arvejas", "quantity": 0.5, "unit": "taza", "aliases": ["guisantes", "chícharos", "arvejas verdes"] },
+      { "name": "aceite vegetal", "quantity": 2, "unit": "cucharada" },
+      { "name": "cebolla cabezona roja", "quantity": 1, "unit": "unidad", "note": "picada fina", "aliases": ["cebolla roja", "cebolla morada"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "pasta de ají amarillo", "quantity": 2, "unit": "cucharada", "note": "ají amarillo peruano en pasta; en tiendas de productos importados, o licúa ají amarillo fresco sin semillas", "aliases": ["ají amarillo", "ají amarillo en pasta"] },
+      { "name": "comino molido", "quantity": 0.5, "unit": "cucharadita" },
+      { "name": "caldo de verduras", "quantity": 500, "unit": "ml" },
+      { "name": "leche evaporada", "quantity": 120, "unit": "ml" },
+      { "name": "queso campesino", "quantity": 150, "unit": "g", "note": "en cubos", "aliases": ["queso fresco", "queso blanco"] },
+      { "name": "huacatay", "quantity": 3, "unit": "rama", "note": "opcional, o hierbabuena; hierba peruana, en tiendas de productos importados", "aliases": ["menta negra", "chinchilla"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta el aceite en una olla mediana y sofríe la cebolla a fuego medio 5 minutos. Añade el ajo, la pasta de ají amarillo y el comino y cocina 2 minutos más.",
+      "Agrega la ahuyama en cubos, revuelve para cubrirla con el guiso y vierte el caldo. Cocina tapado 10 minutos.",
+      "Incorpora las papas, la mazorca desgranada y el huacatay. Tapa y cocina 15 minutos a fuego medio-bajo, hasta que las papas estén tiernas.",
+      "Aplasta parte de la ahuyama con el dorso de una cuchara para espesar el guiso, dejando trozos enteros para que tenga textura.",
+      "Añade las habas y las arvejas y cocina 5 minutos más.",
+      "Vierte la leche evaporada, salpimienta y deja 2 minutos a fuego bajo sin que hierva.",
+      "Apaga el fuego, retira el huacatay e incorpora los cubos de queso campesino. Sirve enseguida acompañado de arroz blanco."
+    ],
+    "tags": ["tradicional", "sin gluten", "reconfortante", "económico"],
+    "tips": [
+      "No añadas demasiado caldo al principio: la ahuyama suelta mucha agua durante la cocción.",
+      "Añade el queso campesino con el fuego apagado para que se ablande sin deshacerse por completo.",
+      "El huacatay aporta el aroma típico del locro limeño; si no lo consigues, un poco de hierbabuena da un resultado parecido.",
+      "Un huevo frito encima convierte este locro en el almuerzo clásico de muchas casas peruanas."
+    ],
+    "nutrition": { "calories": 380, "protein": 15, "carbs": 58, "fat": 11, "fiber": 8 },
+    "veganAlternative": "Reemplaza la leche evaporada por 120 ml de leche de coco o de crema de avena sin azúcar, y el queso campesino por tofu firme en cubos salteado con sal y un chorrito de limón, o por un queso vegano tipo feta.",
+    "sources": [
+      { "name": "Infobae Perú", "url": "https://www.infobae.com/peru/2024/07/02/receta-tradicional-y-sencilla-del-locro-de-zapallo-por-el-chef-peruano-gaston-acurio/" },
+      { "name": "A Comer", "url": "https://acomer.pe/locro-de-zapallo/" }
+    ]
+  },
+  {
+    "id": "minestrone-con-parmesano",
+    "title": "Minestrone de verduras con parmesano",
+    "description": "La sopa italiana de la abuela: un sofrito de cebolla, zanahoria y apio, verduras de temporada, fríjoles blancos y pasta corta, coronada con albahaca y parmesano rallado.",
+    "visual": "soup",
+    "diet": "vegetariana",
+    "category": "sopa",
+    "cuisine": "Italiana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 40,
+    "servings": 6,
+    "ingredients": [
+      { "name": "aceite de oliva", "quantity": 3, "unit": "cucharada" },
+      { "name": "cebolla cabezona", "quantity": 1, "unit": "unidad", "note": "picada", "aliases": ["cebolla", "cebolla blanca"] },
+      { "name": "zanahoria", "quantity": 2, "unit": "unidad", "note": "en cubos" },
+      { "name": "apio", "quantity": 2, "unit": "rama", "note": "en cubos" },
+      { "name": "ajo", "quantity": 2, "unit": "diente", "note": "picados" },
+      { "name": "papa", "quantity": 1, "unit": "unidad", "note": "en cubos", "aliases": ["patata"] },
+      { "name": "calabacín", "quantity": 1, "unit": "unidad", "note": "en cubos", "aliases": ["zucchini", "calabacita"] },
+      { "name": "habichuela", "quantity": 100, "unit": "g", "note": "en trozos", "aliases": ["ejotes", "judías verdes", "vainitas", "chauchas", "porotos verdes"] },
+      { "name": "tomate triturado", "quantity": 400, "unit": "g", "aliases": ["passata", "puré de tomate", "tomate en trozos"] },
+      { "name": "caldo de verduras", "quantity": 1.5, "unit": "l" },
+      { "name": "fríjoles blancos cocidos", "quantity": 400, "unit": "g", "note": "escurridos", "aliases": ["frijoles blancos", "alubias blancas", "cannellini", "porotos blancos"] },
+      { "name": "pasta corta", "quantity": 120, "unit": "g", "note": "ditalini, coditos o macarrones pequeños" },
+      { "name": "albahaca fresca", "quantity": 1, "unit": "puñado" },
+      { "name": "queso parmesano", "quantity": 60, "unit": "g", "note": "rallado" },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" },
+      { "name": "pimienta negra", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Calienta el aceite en una olla grande y sofríe la cebolla, la zanahoria y el apio a fuego medio durante 8 minutos, hasta que empiecen a ablandarse.",
+      "Añade el ajo, la papa, el calabacín y las habichuelas y cocina 3 minutos más, revolviendo.",
+      "Incorpora el tomate triturado y el caldo. Lleva a ebullición, baja el fuego y cocina tapado 15 minutos.",
+      "Agrega los fríjoles blancos y la pasta y cocina destapado 10 minutos, revolviendo de vez en cuando, hasta que la pasta esté al dente.",
+      "Aplasta un puñado de fríjoles contra la pared de la olla para que el caldo espese un poco.",
+      "Apaga el fuego, salpimienta y añade la albahaca partida con las manos.",
+      "Sirve en platos hondos con parmesano rallado y un chorrito de aceite de oliva crudo por encima."
+    ],
+    "tags": ["económico", "meal prep", "reconfortante", "una olla", "tradicional"],
+    "tips": [
+      "El minestrone admite cualquier verdura que tengas: repollo, espinaca, puerro o ahuyama funcionan igual de bien.",
+      "Si vas a guardarlo, cocina la pasta aparte y añádela al servir; dentro de la sopa absorbe todo el caldo y se pasa.",
+      "Una corteza de parmesano añadida al caldo durante la cocción aporta un sabor increíble; retírala antes de servir.",
+      "Queda mejor con un buen aceite de oliva en crudo al final, como hacen en Italia."
+    ],
+    "nutrition": { "calories": 310, "protein": 13, "carbs": 46, "fat": 9, "fiber": 9 },
+    "veganAlternative": "Omite el parmesano y espolvorea 2 cucharadas de levadura nutricional o un parmesano vegano de marañones procesados con ajo en polvo y sal; el resto de la receta ya es vegetal.",
+    "sources": [
+      { "name": "Directo al Paladar", "url": "https://www.directoalpaladar.com/recetas-de-sopas-y-cremas/como-hacer-sopa-minestrone-receta" },
+      { "name": "El Invitado de Invierno", "url": "https://invitadoinvierno.com/receta-sopa-minestrone/" }
+    ]
+  },
+  {
+    "id": "sopa-de-tortilla-vegetariana",
+    "title": "Sopa de tortilla vegetariana",
+    "description": "La sopa azteca de siempre: caldo de tomate frito con chile pasilla, servido con tiras de tortilla crocantes, queso campesino, crema agria, aguacate y limón.",
+    "visual": "soup",
+    "diet": "vegetariana",
+    "category": "sopa",
+    "cuisine": "Mexicana",
+    "difficulty": "fácil",
+    "prepTimeMinutes": 20,
+    "cookTimeMinutes": 30,
+    "servings": 4,
+    "ingredients": [
+      { "name": "tomate chonto", "quantity": 600, "unit": "g", "note": "maduros", "aliases": ["tomate", "jitomate", "tomate pera"] },
+      { "name": "cebolla cabezona blanca", "quantity": 0.5, "unit": "unidad", "aliases": ["cebolla blanca", "cebolla"] },
+      { "name": "ajo", "quantity": 2, "unit": "diente" },
+      { "name": "chile pasilla", "quantity": 3, "unit": "unidad", "note": "secos, sin semillas; chile seco mexicano, se consigue en tiendas de productos importados o se reemplaza por ají seco", "aliases": ["chile negro", "pasilla"] },
+      { "name": "aceite vegetal", "quantity": 4, "unit": "cucharada" },
+      { "name": "caldo de verduras", "quantity": 1, "unit": "l" },
+      { "name": "epazote", "quantity": 2, "unit": "rama", "note": "opcional; en Colombia se conoce como paico", "aliases": ["paico"] },
+      { "name": "tortillas de maíz", "quantity": 8, "unit": "unidad", "note": "del día anterior" },
+      { "name": "queso campesino", "quantity": 150, "unit": "g", "note": "desmenuzado", "aliases": ["queso fresco", "queso panela", "queso blanco"] },
+      { "name": "crema agria", "quantity": 4, "unit": "cucharada", "note": "o crema de leche con unas gotas de limón", "aliases": ["crema ácida", "sour cream", "nata agria"] },
+      { "name": "aguacate", "quantity": 1, "unit": "unidad", "note": "en cubos", "aliases": ["palta"] },
+      { "name": "limón", "quantity": 1, "unit": "unidad", "note": "en gajos", "aliases": ["lima"] },
+      { "name": "sal", "quantity": null, "unit": null, "note": "al gusto" }
+    ],
+    "steps": [
+      "Corta las tortillas en tiras de 1 cm y déjalas orear mientras preparas el resto para que queden más crocantes.",
+      "Abre los chiles pasilla, retira semillas y venas y tuéstalos en una sartén seca 30 segundos por lado. Corta dos en aros finos para decorar y remoja el tercero en agua caliente 10 minutos.",
+      "Asa los tomates, la cebolla y los ajos en un comal, una plancha o una sartén a fuego alto unos 8 minutos, hasta que la piel se tueste. Licúalos con el chile remojado y 250 ml de caldo.",
+      "Calienta 1 cucharada de aceite en una olla y vierte la salsa colada. Fríela a fuego medio 5 minutos revolviendo, hasta que oscurezca y espese.",
+      "Añade el resto del caldo y el epazote, lleva a ebullición y cocina a fuego bajo 15 minutos. Sazona con sal.",
+      "Mientras tanto, fríe las tiras de tortilla en el aceite restante a fuego medio-alto en tandas, 2 o 3 minutos hasta que estén doradas. Escúrrelas sobre papel absorbente y sálalas.",
+      "Fríe los aros de pasilla apenas 10 segundos en el mismo aceite y retíralos antes de que se quemen.",
+      "Sirve el caldo bien caliente y corona cada plato con tiras de tortilla, queso campesino, una cucharada de crema agria, aguacate, aros de pasilla y un gajo de limón."
+    ],
+    "tags": ["tradicional", "sin gluten", "reconfortante", "para fiestas"],
+    "tips": [
+      "Las tortillas de un día son mejores que las frescas: tienen menos humedad y fríen más crocantes con menos aceite.",
+      "Puedes hornear las tiras a 200 °C durante 12 minutos con una cucharadita de aceite para una versión más ligera.",
+      "Añade las tortillas justo antes de comer; si reposan en el caldo se ablandan.",
+      "El chile pasilla no pica casi nada, solo aporta un sabor ahumado y ligeramente dulce; para más picante suma un chile de árbol o un ají seco."
+    ],
+    "nutrition": { "calories": 420, "protein": 13, "carbs": 45, "fat": 22, "fiber": 8 },
+    "veganAlternative": "Cambia el queso campesino por tofu firme desmenuzado y sazonado con sal y limón, o por un queso vegano tipo feta, y la crema agria por crema de marañones o yogur de soya natural sin azúcar con unas gotas de limón.",
+    "sources": [
+      { "name": "Love Veg", "url": "https://loveveg.mx/receta/sopa-de-tortilla/" },
+      { "name": "Vecina Vegetariana", "url": "https://vecinavegetariana.com/vegetarian-tortilla-soup/" }
+    ]
+  }
+]
