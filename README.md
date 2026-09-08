@@ -42,16 +42,50 @@ Antes de la primera ejecución de e2e instala el navegador: `npx playwright inst
 - **Favoritos**, **lista de mercado** (combina ingredientes repetidos y suma cantidades; vista por receta; copia como texto; impresión) y **planificador semanal** (7 días × 3 comidas, completar al azar, generar lista de mercado).
 - **Móvil primero**: navegación inferior de 5 destinos, hoja de filtros inferior, barra de acciones fija en la receta, planificador por día, objetivos táctiles de 44 px, áreas seguras (safe-area) y sin scroll horizontal. Tema claro/oscuro, accesibilidad (roles, etiquetas, foco visible, skip link) e impresión limpia.
 
+## Cuentas, sincronización y recetas de la comunidad
+
+La app funciona en dos modos, sin cambiar el código:
+
+- **Modo local** (por defecto): no hay cuentas; favoritos, despensa, lista de mercado, plan y las recetas que subes se guardan en el navegador. Ideal para probar o para una instalación personal.
+- **Modo nube**: con un proyecto de [Supabase](https://supabase.com) (gratis) las personas se registran con correo y contraseña, sus datos se sincronizan entre dispositivos y pueden publicar recetas en la comunidad.
+
+Para activar el modo nube:
+
+1. Crea un proyecto en Supabase y abre el *SQL Editor*. Pega y ejecuta [`supabase/migrations/0001_cuentas_y_recetas.sql`](supabase/migrations/0001_cuentas_y_recetas.sql): crea las tablas `profiles`, `user_state` y `user_recipes` con políticas de seguridad por fila (cada persona solo ve y edita lo suyo; las recetas publicadas son públicas).
+2. En *Authentication → Providers* deja activo *Email*. Si quieres registro sin confirmación por correo, desactiva *Confirm email* (recomendado solo para pruebas).
+3. Copia `.env.example` como `.env.local` y pega la *Project URL* y la clave pública del proyecto (botón *Connect → App Frameworks → React + Vite* te muestra ambas). La clave puede ir en `VITE_SUPABASE_ANON_KEY` (clave *anon* clásica, `eyJ...`) o en `VITE_SUPABASE_PUBLISHABLE_KEY` (clave *publishable* nueva, `sb_publishable_...`); la app acepta cualquiera. En Vercel o Netlify define las mismas variables en la configuración del proyecto; en GitHub Pages créalas como *Variables* del repositorio (*Settings → Secrets and variables → Actions → Variables*), que el flujo de despliegue ya lee.
+4. Reinicia `npm run dev` (o vuelve a desplegar). El icono de cuenta en la cabecera pasa a ofrecer "Entrar / Crear cuenta".
+
+Cómo funciona por dentro:
+
+- Toda la app habla con la nube a través de la interfaz `CloudAdapter` (`src/services/cloud.ts`); `supabaseAdapter.ts` es la implementación y `src/test/fakeCloud.ts` la versión en memoria para pruebas. Cambiar de proveedor no toca componentes.
+- Al iniciar sesión, el estado local se **fusiona** con el de la cuenta (nada se pierde: favoritos y despensa se unen, la lista de mercado se une por ítem, el plan conserva lo que solo existía en el dispositivo). Después, cada cambio se sube con un pequeño retraso.
+- Las recetas de usuario usan **exactamente el mismo esquema** del catálogo (`userRecipeDataSchema` extiende `recipeBaseSchema`); solo las referencias son opcionales. Se guardan como `privada` o `publicada`.
+
+### Subir recetas con asistente
+
+`/mis-recetas/nueva` es un formulario en 5 pasos con vocabularios cerrados (categoría, cocina, dieta, dificultad, unidades, etiquetas e ilustración) y límites idénticos al catálogo. El asistente (`src/domain/recipeAssistant.ts`) revisa el borrador en vivo:
+
+- detecta si la receta es vegetariana por huevo, lácteos o miel y pide la versión vegana;
+- sugiere el nombre colombiano de los ingredientes a partir de los alias del catálogo ("calabaza" → "ahuyama");
+- propone etiquetas (rápido, sin gluten, alto en proteína, picante, sin soya, sin frutos secos, al horno), ilustración y dificultad;
+- **estima la nutrición por porción** a partir de los ingredientes con una tabla de composición de más de 150 alimentos (`src/domain/nutritionTable.ts`) y conversiones de unidades caseras a gramos;
+- muestra las cantidades por porción, detecta tiempos en los pasos para los temporizadores y avisa de títulos repetidos o pasos demasiado cortos.
+
+El borrador se autoguarda en el dispositivo hasta que se guarda o se descarta.
+
 ## Arquitectura
 
 ```
 src/
-├── domain/        Lógica pura sin React: búsqueda, escalado, compras, planificador, despensa, esquema Zod
+├── domain/        Lógica pura sin React: búsqueda, escalado, compras, planificador, despensa, nutrición, asistente, esquemas Zod
 ├── data/          Recetas JSON (una por categoría), índice validado al arrancar, estadísticas, glosario
-├── store/         Estado global (favoritos, compras, plan, despensa, tema, toasts) persistido en localStorage
+├── services/      Contrato CloudAdapter y su implementación con Supabase
+├── store/         AuthProvider, AppProvider (estado personal), RecipesProvider (catálogo + mías + comunidad), CloudSync
 ├── hooks/         useLocalStorage, useDebouncedValue, useMediaQuery, useDocumentTitle
-├── components/    UI reutilizable: ui/, recipe/, search/, layout/, planner/, illustrations/
-├── pages/         Una página por ruta (Home, Explorar, Receta, Modo cocina, Despensa, Favoritos, Mercado, Planificador, Acerca, 404)
+├── components/    UI reutilizable: ui/, recipe/, search/, layout/, planner/, illustrations/, editor/
+├── pages/         Una página por ruta (Home, Explorar, Receta, Modo cocina, Despensa, Favoritos, Mercado, Planificador, Cuenta, Mis recetas, Editor, Comunidad, Acerca, 404)
+supabase/migrations/          Esquema SQL con políticas RLS para el modo nube
 ├── styles/        Design tokens (CSS custom properties), base, componentes y layout (mobile-first)
 └── test/          Configuración de Vitest y utilidades de render
 scripts/validate-recipes.ts   Validación del catálogo (esquema + reglas de producto; --file para un solo archivo)

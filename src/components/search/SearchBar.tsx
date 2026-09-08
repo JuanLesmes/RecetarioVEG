@@ -1,6 +1,6 @@
 import { useEffect, useId, useRef, useState, type FormEvent, type KeyboardEvent } from 'react';
 import { Icon } from '@/components/ui/Icon';
-import { recipes } from '@/data';
+import { useRecipes } from '@/store/RecipesContext';
 import { suggest } from '@/domain/search';
 
 interface SearchBarProps {
@@ -29,6 +29,7 @@ export function SearchBar({
   const inputRef = useRef<HTMLInputElement>(null);
   const wrapperRef = useRef<HTMLFormElement>(null);
   const listId = useId();
+  const { all: recipes } = useRecipes();
   const suggestions = withSuggestions && open ? suggest(recipes, value, 6) : [];
 
   useEffect(() => {

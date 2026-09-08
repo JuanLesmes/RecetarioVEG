@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { getRecipeById } from '@/data';
+import { useRecipes } from '@/store/RecipesContext';
 import { scaleIngredients } from '@/domain/scaling';
 import { extractMinutes } from '@/domain/text';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
@@ -43,7 +43,8 @@ function useWakeLock(active: boolean) {
 export function CookModePage() {
   const { id = '' } = useParams();
   const navigate = useNavigate();
-  const recipe = getRecipeById(id);
+  const { byId } = useRecipes();
+  const recipe = byId(id);
   const [index, setIndex] = useState(0);
   const [timerMinutes, setTimerMinutes] = useState<number | null>(null);
 

@@ -211,14 +211,30 @@ export function HomePage() {
       </section>
 
       <section className="section">
-        <div className="callout callout--cta">
-          <div>
-            <h3>Planifica tu semana</h3>
-            <p className="muted">Asigna recetas a cada comida y genera la lista de mercado automáticamente.</p>
+        <div className="cta-grid">
+          <div className="callout callout--cta">
+            <div>
+              <h3>Planifica tu semana</h3>
+              <p className="muted">Asigna recetas a cada comida y genera la lista de mercado automáticamente.</p>
+            </div>
+            <Button to="/planificador" variant="primary" icon="calendar">
+              Abrir planificador
+            </Button>
           </div>
-          <Button to="/planificador" variant="primary" icon="calendar">
-            Abrir planificador
-          </Button>
+          <div className="callout callout--accent callout--cta">
+            <div>
+              <h3>Comparte tu receta</h3>
+              <p className="muted">Súbela con el mismo formato del catálogo; el asistente te ayuda con porciones, etiquetas y nutrición.</p>
+            </div>
+            <div className="planner__actions">
+              <Button to="/mis-recetas/nueva" variant="accent" icon="plus-circle">
+                Subir receta
+              </Button>
+              <Button to="/comunidad" variant="secondary" icon="globe">
+                Ver comunidad
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
     </div>

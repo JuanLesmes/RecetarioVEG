@@ -278,11 +278,25 @@ export const sourceSchema = z.object({
     .refine((u) => /^https?:\/\//.test(u), 'Debe ser http(s)'),
 });
 
-export const recipeSchema = z
+/** Límites compartidos por el catálogo y por las recetas que suben las personas. */
+export const RECIPE_LIMITS = {
+  title: { min: 3, max: 90 },
+  description: { min: 20, max: 400 },
+  ingredients: { min: 3, max: 20 },
+  steps: { min: 3, max: 14 },
+  stepText: { min: 10, max: 600 },
+  tags: { min: 1, max: 6 },
+  tips: { min: 1, max: 6 },
+  servings: { min: 1, max: 12 },
+  sources: { max: 4 },
+} as const;
+
+/** Objeto base sin reglas cruzadas; `recipeSchema` y `userRecipeDataSchema` lo extienden. */
+export const recipeBaseSchema = z
   .object({
     id: z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'id debe ser kebab-case ASCII'),
-    title: z.string().trim().min(3).max(90),
-    description: z.string().trim().min(20).max(400),
+    title: z.string().trim().min(RECIPE_LIMITS.title.min).max(RECIPE_LIMITS.title.max),
+    description: z.string().trim().min(RECIPE_LIMITS.description.min).max(RECIPE_LIMITS.description.max),
     visual: z.enum(VISUALS).optional(),
     diet: z.enum(DIETS),
     category: z.enum(CATEGORIES),
@@ -290,40 +304,44 @@ export const recipeSchema = z
     difficulty: z.enum(DIFFICULTIES),
     prepTimeMinutes: z.number().int().positive(),
     cookTimeMinutes: z.number().int().nonnegative(),
-    servings: z.number().int().min(1).max(12),
-    ingredients: z.array(ingredientSchema).min(3).max(20),
-    steps: z.array(z.string().trim().min(10)).min(3).max(14),
-    tags: z.array(z.enum(TAGS)).min(1).max(6),
-    tips: z.array(z.string().trim().min(5)).min(1).max(6),
+    servings: z.number().int().min(RECIPE_LIMITS.servings.min).max(RECIPE_LIMITS.servings.max),
+    ingredients: z.array(ingredientSchema).min(RECIPE_LIMITS.ingredients.min).max(RECIPE_LIMITS.ingredients.max),
+    steps: z.array(z.string().trim().min(RECIPE_LIMITS.stepText.min).max(RECIPE_LIMITS.stepText.max)).min(RECIPE_LIMITS.steps.min).max(RECIPE_LIMITS.steps.max),
+    tags: z.array(z.enum(TAGS)).min(RECIPE_LIMITS.tags.min).max(RECIPE_LIMITS.tags.max),
+    tips: z.array(z.string().trim().min(5)).min(RECIPE_LIMITS.tips.min).max(RECIPE_LIMITS.tips.max),
     nutrition: nutritionSchema,
     veganAlternative: z.string().trim().min(10).optional(),
-    sources: z.array(sourceSchema).min(1).max(4),
+    sources: z.array(sourceSchema).min(1).max(RECIPE_LIMITS.sources.max),
   })
-  .strict()
-  .superRefine((r, ctx) => {
-    if (r.diet === 'vegetariana' && !r.veganAlternative) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        path: ['veganAlternative'],
-        message: 'Las recetas vegetarianas deben indicar cómo veganizarlas',
-      });
-    }
-    if (r.diet === 'vegana' && r.veganAlternative) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        path: ['veganAlternative'],
-        message: 'Las recetas veganas no llevan veganAlternative',
-      });
-    }
-    const total = r.prepTimeMinutes + r.cookTimeMinutes;
-    if (r.tags.includes('rápido') && total > 30) {
-      ctx.addIssue({
-        code: z.ZodIssueCode.custom,
-        path: ['tags'],
-        message: `"rápido" requiere ≤ 30 min en total (tiene ${total})`,
-      });
-    }
-  });
+  .strict();
+
+/** Reglas cruzadas comunes: coherencia de dieta y de la etiqueta "rápido". */
+export function refineRecipeRules(r: z.infer<typeof recipeBaseSchema>, ctx: z.RefinementCtx) {
+  if (r.diet === 'vegetariana' && !r.veganAlternative) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['veganAlternative'],
+      message: 'Las recetas vegetarianas deben indicar cómo veganizarlas',
+    });
+  }
+  if (r.diet === 'vegana' && r.veganAlternative) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['veganAlternative'],
+      message: 'Las recetas veganas no llevan veganAlternative',
+    });
+  }
+  const total = r.prepTimeMinutes + r.cookTimeMinutes;
+  if (r.tags.includes('rápido') && total > 30) {
+    ctx.addIssue({
+      code: z.ZodIssueCode.custom,
+      path: ['tags'],
+      message: `"rápido" requiere ≤ 30 min en total (tiene ${total})`,
+    });
+  }
+}
+
+export const recipeSchema = recipeBaseSchema.superRefine(refineRecipeRules);
 
 export const recipeCollectionSchema = z.array(recipeSchema);
 

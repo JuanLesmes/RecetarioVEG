@@ -3,6 +3,7 @@ import { useLocalStorage } from '@/hooks/useLocalStorage';
 import { itemsFromRecipe, type ShoppingItem } from '@/domain/shopping';
 import { assignMeal, clearMeal as clearMealInPlan, type MealSlot, type WeekDay, type WeekPlan } from '@/domain/planner';
 import type { Recipe } from '@/domain/recipe';
+import type { UserState } from '@/domain/sync';
 
 export type Theme = 'light' | 'dark';
 
@@ -38,6 +39,10 @@ export interface AppState {
   addPantryItem: (name: string) => void;
   removePantryItem: (name: string) => void;
   clearPantry: () => void;
+
+  /** Estado sincronizable (favoritos, despensa, lista y plan) y su reemplazo tras fusionar con la nube. */
+  userState: UserState;
+  replaceUserState: (state: UserState) => void;
 
   theme: Theme;
   toggleTheme: () => void;
@@ -152,6 +157,17 @@ export function AppProvider({ children }: { children: ReactNode }) {
   );
   const clearPantry = useCallback(() => setPantry([]), [setPantry]);
 
+  const userState = useMemo<UserState>(() => ({ favorites, pantry, shopping, plan }), [favorites, pantry, shopping, plan]);
+  const replaceUserState = useCallback(
+    (state: UserState) => {
+      setFavorites(state.favorites);
+      setPantry(state.pantry);
+      setShopping(state.shopping);
+      setPlan(state.plan);
+    },
+    [setFavorites, setPantry, setShopping, setPlan],
+  );
+
   const toggleTheme = useCallback(() => setTheme((t) => (t === 'dark' ? 'light' : 'dark')), [setTheme]);
 
   const dismissToast = useCallback((id: number) => setToasts((prev) => prev.filter((t) => t.id !== id)), []);
@@ -186,6 +202,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
       addPantryItem,
       removePantryItem,
       clearPantry,
+      userState,
+      replaceUserState,
       theme,
       toggleTheme,
       toasts,
@@ -213,6 +231,8 @@ export function AppProvider({ children }: { children: ReactNode }) {
       addPantryItem,
       removePantryItem,
       clearPantry,
+      userState,
+      replaceUserState,
       theme,
       toggleTheme,
       toasts,

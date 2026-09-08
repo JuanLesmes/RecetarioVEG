@@ -11,3 +11,5 @@ playwright/.cache
 .claude/
 .vercel/
 .netlify/
+.env.local
+.env.*.local

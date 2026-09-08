@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
-import { getRecipeById, recipes } from '@/data';
 import { CATEGORY_LABELS, DIFFICULTY_LABELS, formatMinutes, recipeVisual, totalTime } from '@/domain/recipe';
 import { scaleIngredients } from '@/domain/scaling';
 import { relatedRecipes } from '@/domain/search';
 import { useApp } from '@/store/AppContext';
+import { useAuth } from '@/store/AuthContext';
+import { useRecipes } from '@/store/RecipesContext';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { Button } from '@/components/ui/Button';
 import { Icon } from '@/components/ui/Icon';
@@ -20,7 +21,11 @@ import { NotFoundPage } from './NotFoundPage';
 export function RecipePage() {
   const { id = '' } = useParams();
   const navigate = useNavigate();
-  const recipe = getRecipeById(id);
+  const { all, byId, originOf, userRecipeById } = useRecipes();
+  const { user } = useAuth();
+  const recipe = byId(id);
+  const origin = originOf(id);
+  const userRecipe = userRecipeById(id);
   const { isFavorite, toggleFavorite, addRecipeToShopping, notify, markViewed } = useApp();
   const [servings, setServings] = useState(recipe?.servings ?? 4);
 
@@ -34,11 +39,12 @@ export function RecipePage() {
   }, [recipe, markViewed]);
 
   const scaled = useMemo(() => (recipe ? scaleIngredients(recipe.ingredients, recipe.servings, servings) : []), [recipe, servings]);
-  const related = useMemo(() => (recipe ? relatedRecipes(recipes, recipe, 4) : []), [recipe]);
+  const related = useMemo(() => (recipe ? relatedRecipes(all, recipe, 4) : []), [all, recipe]);
 
   if (!recipe) return <NotFoundPage message="No encontramos esa receta." />;
 
   const fav = isFavorite(recipe.id);
+  const isMine = origin === 'mia';
 
   const share = async () => {
     const url = window.location.href;
@@ -70,7 +76,7 @@ export function RecipePage() {
       <nav className="breadcrumb no-print" aria-label="Migas de pan">
         <Link to="/">Inicio</Link>
         <span aria-hidden="true">›</span>
-        <Link to="/recetas">Recetas</Link>
+        {origin === 'catalogo' ? <Link to="/recetas">Recetas</Link> : origin === 'mia' ? <Link to="/mis-recetas">Mis recetas</Link> : <Link to="/comunidad">Comunidad</Link>}
         <span aria-hidden="true">›</span>
         <Link to={`/recetas?cat=${recipe.category}`}>{CATEGORY_LABELS[recipe.category]}</Link>
         <span aria-hidden="true" className="breadcrumb__last">
@@ -90,6 +96,16 @@ export function RecipePage() {
             <DietBadge diet={recipe.diet} />
             <span className="badge badge--neutral">{recipe.cuisine}</span>
             <span className="badge badge--neutral">{CATEGORY_LABELS[recipe.category]}</span>
+            {origin === 'comunidad' && userRecipe ? (
+              <span className="badge badge--community" data-testid="origin-badge">
+                <Icon name="globe" /> Comunidad · {userRecipe.authorName || 'Anónimo'}
+              </span>
+            ) : null}
+            {isMine ? (
+              <span className="badge badge--community" data-testid="origin-badge">
+                <Icon name={userRecipe?.status === 'publicada' ? 'globe' : 'lock'} /> {userRecipe?.status === 'publicada' ? 'Tu receta · publicada' : 'Tu receta · privada'}
+              </span>
+            ) : null}
           </div>
           <h1 className="recipe-hero__title">{recipe.title}</h1>
           <p className="recipe-hero__desc">{recipe.description}</p>
@@ -142,6 +158,11 @@ export function RecipePage() {
             <Button variant="secondary" icon="cart" onClick={addToList} data-testid="add-to-shopping">
               Agregar a la lista
             </Button>
+            {isMine ? (
+              <Button variant="secondary" icon="edit" to={`/mis-recetas/${recipe.id}/editar`} data-testid="edit-recipe">
+                Editar
+              </Button>
+            ) : null}
             <Button variant="ghost" icon="share" onClick={share}>
               Compartir
             </Button>
@@ -206,23 +227,31 @@ export function RecipePage() {
             </ul>
           </section>
 
-          <section aria-labelledby="fuentes" className="panel">
-            <h2 id="fuentes" className="panel__title">
-              Referencias consultadas
-            </h2>
-            <p className="muted" style={{ fontSize: '0.9rem' }}>
-              Esta receta fue redactada de forma original a partir de la investigación en estas páginas.
+          {recipe.sources.length > 0 ? (
+            <section aria-labelledby="fuentes" className="panel">
+              <h2 id="fuentes" className="panel__title">
+                Referencias consultadas
+              </h2>
+              <p className="muted" style={{ fontSize: '0.9rem' }}>
+                {origin === 'catalogo' ? 'Esta receta fue redactada de forma original a partir de la investigación en estas páginas.' : 'Referencias citadas por quien compartió la receta.'}
+              </p>
+              <ul className="sources">
+                {recipe.sources.map((s) => (
+                  <li key={s.url}>
+                    <a href={s.url} target="_blank" rel="noopener noreferrer">
+                      <Icon name="external" /> {s.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ) : null}
+
+          {origin !== 'catalogo' ? (
+            <p className="muted" style={{ fontSize: '0.85rem' }}>
+              {isMine ? 'Esta receta la creaste tú.' : `Receta compartida por ${userRecipe?.authorName || 'una persona de la comunidad'}${user && userRecipe?.authorId === user.id ? ' (tú)' : ''}.`} Los valores nutricionales son estimados.
             </p>
-            <ul className="sources">
-              {recipe.sources.map((s) => (
-                <li key={s.url}>
-                  <a href={s.url} target="_blank" rel="noopener noreferrer">
-                    <Icon name="external" /> {s.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </section>
+          ) : null}
         </div>
       </div>
 

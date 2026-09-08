@@ -47,7 +47,23 @@ export type IconName =
   | 'party'
   | 'bell'
   | 'carrot'
-  | 'chevron-up';
+  | 'chevron-up'
+  | 'user'
+  | 'edit'
+  | 'upload'
+  | 'lock'
+  | 'unlock'
+  | 'log-out'
+  | 'log-in'
+  | 'save'
+  | 'arrow-up'
+  | 'arrow-down'
+  | 'alert'
+  | 'check-circle'
+  | 'mail'
+  | 'cloud'
+  | 'cloud-off'
+  | 'plus-circle';
 
 const PATHS: Record<IconName, ReactElement> = {
   search: (
@@ -323,6 +339,104 @@ const PATHS: Record<IconName, ReactElement> = {
     </>
   ),
   'chevron-up': <path d="m18 15-6-6-6 6" />,
+  user: (
+    <>
+      <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+      <circle cx="12" cy="7" r="4" />
+    </>
+  ),
+  edit: (
+    <>
+      <path d="M12 20h9" />
+      <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
+    </>
+  ),
+  upload: (
+    <>
+      <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+      <polyline points="17 8 12 3 7 8" />
+      <line x1="12" x2="12" y1="3" y2="15" />
+    </>
+  ),
+  lock: (
+    <>
+      <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+    </>
+  ),
+  unlock: (
+    <>
+      <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+      <path d="M7 11V7a5 5 0 0 1 9.9-1" />
+    </>
+  ),
+  'log-out': (
+    <>
+      <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+      <polyline points="16 17 21 12 16 7" />
+      <line x1="21" x2="9" y1="12" y2="12" />
+    </>
+  ),
+  'log-in': (
+    <>
+      <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+      <polyline points="10 17 15 12 10 7" />
+      <line x1="15" x2="3" y1="12" y2="12" />
+    </>
+  ),
+  save: (
+    <>
+      <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z" />
+      <polyline points="17 21 17 13 7 13 7 21" />
+      <polyline points="7 3 7 8 15 8" />
+    </>
+  ),
+  'arrow-up': (
+    <>
+      <path d="m5 12 7-7 7 7" />
+      <path d="M12 19V5" />
+    </>
+  ),
+  'arrow-down': (
+    <>
+      <path d="M12 5v14" />
+      <path d="m19 12-7 7-7-7" />
+    </>
+  ),
+  alert: (
+    <>
+      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
+      <path d="M12 9v4" />
+      <path d="M12 17h.01" />
+    </>
+  ),
+  'check-circle': (
+    <>
+      <circle cx="12" cy="12" r="10" />
+      <path d="m9 12 2 2 4-4" />
+    </>
+  ),
+  mail: (
+    <>
+      <rect width="20" height="16" x="2" y="4" rx="2" />
+      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+    </>
+  ),
+  cloud: <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />,
+  'cloud-off': (
+    <>
+      <path d="m2 2 20 20" />
+      <path d="M5.782 5.782A7 7 0 0 0 9 19h8.5a4.5 4.5 0 0 0 1.307-.193" />
+      <path d="M21.532 16.5A4.5 4.5 0 0 0 17.5 10h-1.79A7.008 7.008 0 0 0 10 5.07" />
+    </>
+  ),
+  'plus-circle': (
+    <>
+      <circle cx="12" cy="12" r="10" />
+      <path d="M8 12h8" />
+      <path d="M12 8v8" />
+    </>
+  ),
 };
 
 interface IconProps extends SVGProps<SVGSVGElement> {
