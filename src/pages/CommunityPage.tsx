@@ -12,7 +12,7 @@ import { SearchBar } from '@/components/search/SearchBar';
 
 export function CommunityPage() {
   useDocumentTitle('Comunidad');
-  const { community, mine, refreshCommunity } = useRecipes();
+  const { community, mine, refreshCommunity, cloudError } = useRecipes();
   const { cloudEnabled, user } = useAuth();
   const [query, setQuery] = useState('');
 
@@ -38,6 +38,14 @@ export function CommunityPage() {
             <Icon name="cloud-off" /> Modo local
           </h4>
           <p>La comunidad necesita un servidor (Supabase) para compartir recetas entre personas. En este modo solo ves tus propias recetas publicadas.</p>
+        </div>
+      ) : null}
+      {cloudEnabled && cloudError ? (
+        <div className="callout callout--accent" role="alert" data-testid="community-error">
+          <h4 className="callout__title">
+            <Icon name="alert" /> No se pudo cargar la comunidad
+          </h4>
+          <p>{cloudError}</p>
         </div>
       ) : null}
 

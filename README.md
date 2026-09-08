@@ -53,7 +53,7 @@ Para activar el modo nube:
 
 1. Crea un proyecto en Supabase y abre el *SQL Editor*. Pega y ejecuta [`supabase/migrations/0001_cuentas_y_recetas.sql`](supabase/migrations/0001_cuentas_y_recetas.sql): crea las tablas `profiles`, `user_state` y `user_recipes` con políticas de seguridad por fila (cada persona solo ve y edita lo suyo; las recetas publicadas son públicas).
 2. En *Authentication → Providers* deja activo *Email*. Si quieres registro sin confirmación por correo, desactiva *Confirm email* (recomendado solo para pruebas).
-3. Copia `.env.example` como `.env.local` y pega la *Project URL* y la *anon public key* (*Project Settings → API*). En Vercel, Netlify o GitHub Actions define las mismas variables `VITE_SUPABASE_URL` y `VITE_SUPABASE_ANON_KEY` en la configuración del proyecto.
+3. Copia `.env.example` como `.env.local` y pega la *Project URL* y la clave pública del proyecto (botón *Connect → App Frameworks → React + Vite* te muestra ambas). La clave puede ir en `VITE_SUPABASE_ANON_KEY` (clave *anon* clásica, `eyJ...`) o en `VITE_SUPABASE_PUBLISHABLE_KEY` (clave *publishable* nueva, `sb_publishable_...`); la app acepta cualquiera. En Vercel o Netlify define las mismas variables en la configuración del proyecto; en GitHub Pages créalas como *Variables* del repositorio (*Settings → Secrets and variables → Actions → Variables*), que el flujo de despliegue ya lee.
 4. Reinicia `npm run dev` (o vuelve a desplegar). El icono de cuenta en la cabecera pasa a ofrecer "Entrar / Crear cuenta".
 
 Cómo funciona por dentro:

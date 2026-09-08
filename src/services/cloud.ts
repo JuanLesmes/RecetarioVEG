@@ -54,5 +54,9 @@ export function translateAuthError(message: string): string {
   if (m.includes('unable to validate email') || m.includes('invalid email')) return 'Escribe un correo válido.';
   if (m.includes('rate limit') || m.includes('too many requests')) return 'Demasiados intentos. Espera un momento y vuelve a probar.';
   if (m.includes('network') || m.includes('fetch')) return 'No hay conexión con el servidor. Revisa tu internet.';
+  if (m.includes('could not find the table') || m.includes('does not exist') || m.includes('schema cache')) {
+    return 'Faltan las tablas en Supabase: ejecuta supabase/migrations/0001_cuentas_y_recetas.sql en el SQL Editor del proyecto.';
+  }
+  if (m.includes('row-level security') || m.includes('permission denied')) return 'Sin permiso para esa operación. Revisa que el SQL con las políticas de seguridad se haya ejecutado completo.';
   return message;
 }

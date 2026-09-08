@@ -136,10 +136,14 @@ export function createSupabaseAdapter(client: SupabaseClient): CloudAdapter {
   };
 }
 
-/** Crea el adaptador solo si las variables de entorno están configuradas; si no, la app funciona en modo local. */
+/**
+ * Crea el adaptador solo si las variables de entorno están configuradas; si no, la app funciona en modo local.
+ * Acepta tanto la clave "anon" clásica como la "publishable" nueva que muestra el panel de Supabase.
+ */
 export function createCloudAdapterFromEnv(): CloudAdapter | null {
-  const url = import.meta.env.VITE_SUPABASE_URL as string | undefined;
-  const key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
+  const env = import.meta.env as Record<string, string | undefined>;
+  const url = env.VITE_SUPABASE_URL?.trim();
+  const key = (env.VITE_SUPABASE_ANON_KEY || env.VITE_SUPABASE_PUBLISHABLE_KEY)?.trim();
   if (!url || !key) return null;
   try {
     return createSupabaseAdapter(createClient(url, key));
