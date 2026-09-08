@@ -10,8 +10,8 @@ jobs:
     name: Tipos, lint, catálogo y pruebas
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: npm
@@ -24,8 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: check
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: npm
@@ -34,7 +34,7 @@ jobs:
       - run: npm run test:e2e
         env:
           CI: true
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         if: failure()
         with:
           name: playwright-report

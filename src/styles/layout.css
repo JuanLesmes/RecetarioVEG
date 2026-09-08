@@ -937,10 +937,22 @@
 .shopping__actions {
   display: grid;
   gap: 0.5rem;
+  min-width: 0;
+}
+/* Las columnas no pueden crecer más que el contenedor aunque la fuente de respaldo sea ancha. */
+.shopping__actions .btn {
+  min-width: 0;
+  white-space: normal;
+  text-align: center;
 }
 @media (max-width: 900px) {
   .shopping__actions {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 360px) {
+  .shopping__actions {
+    grid-template-columns: minmax(0, 1fr);
   }
 }
 
@@ -1029,6 +1041,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  min-width: 0;
 }
 @media (max-width: 600px) {
   .planner__actions {
@@ -1036,6 +1049,8 @@
   }
   .planner__actions .btn:not(.btn--icon) {
     flex: 1;
+    min-width: 0;
+    white-space: normal;
   }
 }
 

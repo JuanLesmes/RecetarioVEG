@@ -197,8 +197,20 @@ test.describe('Recetario VEG', () => {
     test.skip(testInfo.project.name !== 'mobile', 'solo aplica al viewport móvil');
     for (const path of ['/', '/recetas', '/despensa', '/planificador', '/lista-de-compras', '/mis-recetas/nueva', '/cuenta', '/comunidad']) {
       await page.goto(path);
-      const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
-      expect(overflow, `scroll horizontal en ${path}`).toBeLessThanOrEqual(1);
+      await page.waitForLoadState('networkidle');
+      const result = await page.evaluate(() => {
+        const cw = document.documentElement.clientWidth;
+        const offenders: string[] = [];
+        document.querySelectorAll('body *').forEach((el) => {
+          const r = el.getBoundingClientRect();
+          if (r.right > cw + 0.5 && r.width > 0 && !el.closest('[class*="chips"], .wizard, .day-tabs, .active-filters, .pantry-cta__hints')) {
+            const cls = typeof el.className === 'string' ? el.className.split(' ').slice(0, 2).join('.') : '';
+            offenders.push(`${el.tagName.toLowerCase()}.${cls} (${Math.round(r.right - cw)}px)`);
+          }
+        });
+        return { overflow: document.documentElement.scrollWidth - cw, offenders: offenders.slice(0, 5) };
+      });
+      expect(result.overflow, `scroll horizontal en ${path}: ${result.offenders.join(' | ') || 'sin elementos detectados'}`).toBeLessThanOrEqual(1);
     }
   });
 });

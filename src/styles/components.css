@@ -92,6 +92,8 @@
 }
 .btn--block {
   width: 100%;
+  min-width: 0;
+  white-space: normal;
 }
 .btn.is-active {
   background: var(--primary-soft);
